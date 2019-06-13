@@ -2,14 +2,14 @@
 
 permalink: /02/
 title: 重要概念
-next: 03
+description: 在这里，你一定得明白的概念
+next: /03
 author:
     - 学生手册
     - 刘语辰
 
 ---
 
-# 重要概念
 
 大泥湾魔法学校：北大附中（戏称而已不要当真）
 

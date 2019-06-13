@@ -11,7 +11,7 @@ author:
 
 一张图即可：
 
-<img src="pkuschoolmap.png" style="width: 70%">
+<img src="../pkuschoolmap.png" style="width: 70%">
 
 - 西楼：高中部上课地点，你大多数时间会在的地方
 - 东楼：目前部分初中部的上课地点

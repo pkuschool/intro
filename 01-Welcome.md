@@ -1,6 +1,6 @@
 ---
 
-permalink: /01/
+permalink: /
 title: 欢迎
 last: none
 next: /02

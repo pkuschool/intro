@@ -72,3 +72,7 @@ author:
 [我是链接显示文字，右边那个是链接指向](#)
 ```
 编辑完之后，不要忘记点下方的 Commit Changes 哦！
+
+## 想改layout？
+
+请围观```_layouts/default.html```，需要有一定的基础。

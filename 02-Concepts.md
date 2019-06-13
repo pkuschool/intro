@@ -3,7 +3,7 @@
 permalink: /02/
 title: 重要概念
 description: 在这里，你一定得明白的概念
-next: /03
+next: ../03
 author:
     - 学生手册
     - 刘语辰

@@ -2,7 +2,7 @@
 
 title: 网络与电子设备
 description: 要用到的重要的东西...
-permalink: /04
+permalink: /04/
 next: ../04
 author:
   - 刘语辰

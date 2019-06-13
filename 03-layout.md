@@ -1,6 +1,6 @@
 ---
 
-permalink: /03
+permalink: /03/
 title: 校内简图
 description: 去哪里？
 next: ../04

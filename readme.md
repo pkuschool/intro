@@ -63,7 +63,11 @@ author:
 改文件就像记事本一样简单，简单介绍下 Markdown 最基础的格式：
 
 ```markdown
-段落之间要有空格
+
+## 我是二号标题！其他的，请类推。
+
+注意不建议使用一号标题
+段落之间要有空格，不然不会换行
 
 - 我是列表
 
@@ -73,6 +77,6 @@ author:
 ```
 编辑完之后，不要忘记点下方的 Commit Changes 哦！
 
-## 想改layout？
+## 想改页面的外观？
 
-请围观```_layouts/default.html```，需要有一定的基础。
+请围观```_layouts/default.html```，需要有一定的HTML/CSS/Materialize/Jekyll基础。

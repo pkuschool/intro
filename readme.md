@@ -30,6 +30,10 @@ next: ../
 
 ```
 ![图片](../[图片名称])
+
+当然有图床的话，可以直接：
+
+![图片描述](图片链接)
 ```
 
 上传在[仓库首页](https://github.com/pkuschool/intro)点击 Upload File，拖进去就行

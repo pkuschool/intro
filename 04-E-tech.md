@@ -27,7 +27,7 @@ author:
 *（当然，要学会自控哦！*
 
 
-  <details><summary><h3>购买电脑相关的一些提示</h3></summary>
+  <details><summary><span style="font-size: 25px">购买电脑相关的一些提示</span></summary>
     <p>电脑之间的参数比较多，且其细节也是非常多。在这里简单说一下各参数的意义（以及重点的不能买参数，以“黑名单”标记</p>
     <ul>
         <li>

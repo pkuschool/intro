@@ -51,6 +51,75 @@ author:
 
 北大附中采取选课制，每学期自己选课（满足必修学分即可），且每节课教室不同。
 
+课程均按课位选择，每个课位一般在每周的两到三个时间，基本固定。
+
+课表安排如下：
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">时间</th>
+<th style="text-align:center">一</th>
+<th style="text-align:center">二</th>
+<th style="text-align:center">三</th>
+<th style="text-align:center">四</th>
+<th style="text-align:center">五</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">8：00-9：00</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">6</td>
+<td style="text-align:center">3</td>
+</tr>
+<tr>
+<td style="text-align:center">9：10-10：10</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">6</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">4</td>
+</tr>
+<tr>
+<td style="text-align:center">10：20-11：20/50</td>
+<td style="text-align:center">⑥</td>
+<td style="text-align:center">④</td>
+<td style="text-align:center">⑤</td>
+<td style="text-align:center">③</td>
+<td style="text-align:center">Ⓐ</td>
+</tr>
+<tr>
+<td style="text-align:center">13：30-14：30</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:center">14：40-15：40</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">6</td>
+</tr>
+<tr>
+<td style="text-align:center">15：50-16：50/17:20</td>
+<td style="text-align:center">⑤</td>
+<td style="text-align:center">③</td>
+<td style="text-align:center">⑥</td>
+<td style="text-align:center">④</td>
+<td style="text-align:center">Ⓑ</td>
+</tr>
+</tbody>
+</table>
+
+而周三下午一般作为自习、议事会与校会，不会安排课程。
+
 ### 章测
 
 =单元测，一般看课程安排。

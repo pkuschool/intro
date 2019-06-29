@@ -3,7 +3,8 @@
 permalink: /11/
 title: 首次登录
 description: 万事之前，皆需登录
-next: ../12
+next: ../12/
+last: ../10/
 
 ---
 

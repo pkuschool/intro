@@ -49,9 +49,9 @@
                 <a href="{{ site.url }}/intro" class="btn white black-text navbtn"><i class="material-icons"
                         style="line-height: inherit !important">home</i></a>
                 <a href="./{{ page.last }}" class="btn white black-text navbtn"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_back</i></a>
+                        style="line-height: inherit !important" id="last">arrow_back</i></a>
                 <a href="./{{ page.next }}" class="btn white black-text navbtn"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_forward</i></a>
+                        style="line-height: inherit !important" id="next">arrow_forward</i></a>
 
             </div>
         </nav>
@@ -66,5 +66,14 @@
         <p>本项目在 <a href="https://github.com/pkuschool/intro/">GitHub</a> 上开源运营，一起来做贡献吧！</p>
     </footer>
 </body>
-
+{% if !page.last %}
+<script>
+    document.getElementById('last').classList.add('disabled')
+</script>
+{% endif %}
+{% if !page.next %}
+<script>
+    document.getElementById('next').classList.add('disabled')
+</script>
+{% endif %}
 </html>

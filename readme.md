@@ -4,6 +4,8 @@ permalink: /about-project
 title: 关于此项目
 description: 对这个项目的介绍
 next: ../
+start: true
+end: true
 
 ---
 

@@ -20,10 +20,13 @@
             padding-left: 5px;
             padding-right: 5px;
             border-radius: 3px;
-            border-color: black;
-            border-bottom: groove;
+            /* border-color: black; */
+            /* border-bottom: groove; */
         }
-
+        pre.highlight{
+            background-color: #e6e5e5;
+            border-radius: 5px;
+        }
         li {
             list-style-type: circle !important;
             margin-left: 20px !important;
@@ -48,11 +51,20 @@
             <div class="right hide-on-small-and-down" style="margin-right: 13px">
                 <a href="{{ site.url }}/intro" class="btn white black-text navbtn"><i class="material-icons"
                         style="line-height: inherit !important">home</i></a>
-                <a href="./{{ page.last }}" class="btn white black-text navbtn"><i class="material-icons"
-                        style="line-height: inherit !important" id="last">arrow_back</i></a>
-                <a href="./{{ page.next }}" class="btn white black-text navbtn"><i class="material-icons"
-                        style="line-height: inherit !important" id="next">arrow_forward</i></a>
-
+                {% if !start %}
+                <a href="./{{ page.last }}" class="btn white black-text navbtn" id="last"><i class="material-icons"
+                        style="line-height: inherit !important" >arrow_back</i></a>
+                {% else %}
+                <a href="./{{ page.last }}" class="btn white black-text navbtn disabled" id="last"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_back</i></a>
+                {% endif %}
+                {% if !end %}
+                <a href="./{{ page.next }}" class="btn white black-text navbtn" id="next"><i class="material-icons"
+                        style="line-height: inherit !important" >arrow_forward</i></a>
+                {% else %}
+                <a href="./{{ page.next }}" class="btn white black-text navbtn disabled" id="next"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_forward</i></a>
+                {% endif %}
             </div>
         </nav>
     </div>
@@ -66,14 +78,6 @@
         <p>本项目在 <a href="https://github.com/pkuschool/intro/">GitHub</a> 上开源运营，一起来做贡献吧！</p>
     </footer>
 </body>
-{% if !page.last %}
-<script>
-    document.getElementById('last').classList.add('disabled')
-</script>
-{% endif %}
-{% if !page.next %}
-<script>
-    document.getElementById('next').classList.add('disabled')
-</script>
-{% endif %}
+
+
 </html>

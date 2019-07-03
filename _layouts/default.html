@@ -52,14 +52,14 @@
             <div class="right hide-on-small-and-down" style="margin-right: 13px">
                 <a href="{{ site.url }}" class="btn white black-text navbtn"><i class="material-icons"
                         style="line-height: inherit !important">home</i></a>
-                {% if page.last == none %}
+                {% if page.last == "none" %}
                 <a href="./{{ page.last }}" class="btn white black-text navbtn disabled" id="last"><i class="material-icons"
                         style="line-height: inherit !important" >arrow_back</i></a>
                 {% else %}
                 <a href="./{{ page.last }}" class="btn white black-text navbtn" id="last"><i class="material-icons"
                         style="line-height: inherit !important">arrow_back</i></a>
                 {% endif %}
-                {% if page.next == none %}
+                {% if page.next == "none" %}
                 <a href="./{{ page.next }}" class="btn white black-text navbtn disabled" id="next"><i class="material-icons"
                         style="line-height: inherit !important" >arrow_forward</i></a>
                 {% else %}

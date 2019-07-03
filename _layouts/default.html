@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ page.title | default: site.title | default: site.github.repository_name }}</title>
+    <title>{{ page.title | default: site.deftitle | default: site.github.repository_name }} | {{site.title}}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
@@ -50,7 +50,7 @@
             <span class="flow-text hide-on-small-and-down"
                 style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
             <div class="right hide-on-small-and-down" style="margin-right: 13px">
-                <a href="{{ site.url }}/intro" class="btn white black-text navbtn"><i class="material-icons"
+                <a href="{{ site.url }}" class="btn white black-text navbtn"><i class="material-icons"
                         style="line-height: inherit !important">home</i></a>
                 {% if page.last == none %}
                 <a href="./{{ page.last }}" class="btn white black-text navbtn disabled" id="last"><i class="material-icons"
@@ -80,7 +80,7 @@
         <a href="./{{page.next}}" class="btn  red darken-3">
             <i class="material-icons right">arrow_forward</i>下一页</a>
         {% endif %}
-        <p>本项目在 <a href="https://github.com/pkuschool/intro/">GitHub</a> 上开源运营，一起来做贡献吧！</p>
+        <p>本项目在 <a href="{{ site.url }}">GitHub</a> 上开源运营，一起来做贡献吧！</p>
     </footer>
 </body>
 

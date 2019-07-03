@@ -4,7 +4,7 @@ permalink: /02/
 title: 重要概念
 description: 较为简练，不很完全
 next: ../03/
-last: ../
+last: none
 author:
     - 学生手册
     - 刘语辰

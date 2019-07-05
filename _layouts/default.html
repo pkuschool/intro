@@ -41,6 +41,11 @@
         navbtn {
             margin-left: 5px;
         }
+
+        a:not(.btn)::after{
+            content: "<i class='material-icons right'>open_in_new</i>";
+            font-size: inherit;
+        }
     </style>
 </head>
 
@@ -82,7 +87,7 @@
         <a href="./{{page.next}}" class="btn  red darken-3">
             <i class="material-icons right">arrow_forward</i>下一页</a>
         {% endif %}
-        <p>本项目在 <a href="{{ site.url }}">GitHub</a> 上开源运营，一起来做贡献吧！</p>
+        <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
     </footer>
 </body>
 

@@ -30,18 +30,18 @@ last: "none"
 图片引用形式：按这里的特点，应该是：
 
 ```
-![图片](../[图片名称])
+![图片描述](../img/[你强行传到img文件夹的图片文件名])
 
 当然有图床的话，可以直接：
 
-![图片描述](图片链接)
+![图片描述（建议填写）](图片链接)
 ```
 
 上传在[仓库首页](https://github.com/pkuschool/intro)点击 Upload File，拖进去就行
 
 ### 贡献规章
 
-要编辑，点击任何一篇的右上角的铅笔按钮即可编辑，在[仓库首页](https://github.com/pkuschool/intro)点击 Create New File 即可新建
+要编辑，点击任何一篇的右上角的铅笔按钮即可编辑，在[仓库首页](https://github.com/pkuschool/intro)点击 ```Create New File``` 即可新建
 
 新增文件时，文件名应为：
 

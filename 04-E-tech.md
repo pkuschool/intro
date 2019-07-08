@@ -3,8 +3,8 @@
 title: 网络与电子设备
 description: 要用到的重要的东西...
 permalink: /04/
-next: ../10
-last: ../03
+next: ../05/
+last: ../03/
 author:
   - 刘语辰
 

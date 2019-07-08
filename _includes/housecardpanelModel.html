@@ -1,0 +1,83 @@
+<div class="row">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems);
+        });
+    </script>
+
+    <div id="houses">
+        <div class="col s12 m6 l4" v-for="(item,index) in house">
+            <div class="card z-depth-2" v-bind:class="item.colorClass">
+                <div class="card-content white-text">
+                    <img v-bind:src="item.logo" v-bind:alt="item.name" style="height: 50px" class="left">
+                    <span class="card-title" style="margin-top: 20px">{{item.name}}</span>
+                    <div class="divider white" style="margin: 5px 0 10px 0"></div>
+                    <p style="height: 7em" v-html="item.introduction">书院简介</p>
+                </div>
+                <div class="card-action grey lighten-2 left-align row" style="margin-left: 0;margin-right: 0">
+                    <div class="col">
+                        <ul style="line-height: 2em;font-size: 16px;margin: 0 0">
+                            <li v-for="post in item.link" class='black-text'><a v-bind:href="post.url"
+                                    class="blue-text text-darken-2">{{post.name}}</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col right">
+                        <img v-bind:src="item.qrcode" v-bind:alt="item.name+'招新群二维码'"
+                            class="materialboxed z-depth-1 qrc hoverable" style="width: 100px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+    <script>
+        var houses = new Vue({
+            el: '#houses',
+            data: {
+                house: [
+                    /*
+                    {
+                        name: "书院名称",
+                        introduction: '书院简介，可使用基础HTML',
+                        logo: '书院LOGO网址',//建议使用图床；比例应为1:1，足够清晰
+                        qrcode: '招新二维码网址',//建议使用图床；比例应为1:1，足够清晰
+                        colorClass: ['green', 'white-text'],//颜色标记，请看https://materializecss.com/color.html。注意英文逗号。
+                        link: [{
+                                name: '招新帖1名称',
+                                url: '招新贴1url'
+                            }, // 注意英文逗号！
+                            {
+                                name: '招新帖2名称',
+                                url: '招新贴2url'
+                            },
+                            {
+                                name: '招新帖2名称',
+                                url: '招新贴2url'
+                            },
+                        ]
+
+                    },
+                    */
+                    {
+                        name: "平治书院",
+                        introduction: '用于演示效果，实际<strong>不存在</strong>',
+                        logo: './img/houseTemp.png',
+                        qrcode: './img/codeTemp.png',
+                        colorClass: ['red', 'darken-2', 'white-text'],
+                        link: [{
+                            name: '不存在的',
+                            url: '#fakelink'
+                        }]
+
+                    }
+                ]
+            }
+        })
+        let a = document.querySelectorAll('.qrc')
+        a.forEach((item, index) => {
+            item.style.height = item.style.width
+        });
+    </script>
+</div>

@@ -7,7 +7,7 @@
     </script>
 
     <div id="houses">
-        <div class="col s12 m6 l4" v-for="(item,index) in house">
+        <div class="col s12 m6" v-for="(item,index) in house">
             <div class="card z-depth-2" v-bind:class="item.colorClass">
                 <div class="card-content white-text">
                     <img v-bind:src="item.logo" v-bind:alt="item.name" style="height: 50px" class="left">

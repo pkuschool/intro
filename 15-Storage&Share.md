@@ -23,9 +23,16 @@ next: ../16/
 
 ## Android 版应用分流
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+  });
+</script>
+
 <a href="https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU" class=" btn red darken-3 white-text" target="_blank">OneDrive 分流</a>
 
-<img src="../img/andApps.png" width="350" class=" materialboxed">
+<img src="../img/andApps.png" width="250" class=" materialboxed">
 
 包含：SharePoint, OneDrive, Word, PowerPoint, Excel, Outlook
 

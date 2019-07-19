@@ -28,9 +28,7 @@ last: ../13/
 
 ## 开始吧！
 
-从头开始，先在报到帖下面回个复吧；不妨介绍一下自己！
-
-<!--https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=6497935360&view=all-->
+从头开始，先在[报到帖](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304)下面回个复吧；不妨介绍一下自己！
 
 这些是几个比较常用的组：
 
@@ -42,4 +40,4 @@ last: ../13/
 - [脑子有坑](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=13288384)：如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。
 - [吃可爱多长大的老师们💗](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=16802124)：大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～
 
-除此之外，你也可以向某人发送私信、建立更多的组，这个入教培训的时候再论。
+除此之外，你也可以向某人发送私信、建立更多的组，这个入教培训的时候再论。不过，请先加入[2022届练习组](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=6497935360&view=all)，等待后续安排。

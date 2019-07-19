@@ -23,12 +23,14 @@
             /* border-color: black; */
             /* border-bottom: groove; */
         }
-        pre.highlight{
+
+        pre.highlight {
             background-color: #e6e5e5;
             border-radius: 5px;
             padding: 5px 5px;
             border-bottom: outset;
         }
+
         li {
             list-style-type: circle !important;
             margin-left: 20px !important;
@@ -41,16 +43,20 @@
         navbtn {
             margin-left: 5px;
         }
-        h1{
+
+        h1 {
             font-size: 2em !important
         }
-        h2{
+
+        h2 {
             font-size: 1.5em !important
         }
-        h3{
+
+        h3 {
             font-size: 1.17em !important
         }
-        h4{
+
+        h4 {
             font-size: 1.0em !important
         }
     </style>
@@ -67,15 +73,15 @@
                 <a href="{{ site.url }}" class="btn white black-text navbtn"><i class="material-icons"
                         style="line-height: inherit !important">home</i></a>
                 {% if page.last == "none" %}
-                <a href="./{{ page.last }}" class="btn white black-text navbtn disabled" id="last"><i class="material-icons"
-                        style="line-height: inherit !important" >arrow_back</i></a>
+                <a href="./{{ page.last }}" class="btn white black-text navbtn disabled" id="last"><i
+                        class="material-icons" style="line-height: inherit !important">arrow_back</i></a>
                 {% else %}
                 <a href="./{{ page.last }}" class="btn white black-text navbtn" id="last"><i class="material-icons"
                         style="line-height: inherit !important">arrow_back</i></a>
                 {% endif %}
                 {% if page.next == "none" %}
-                <a href="./{{ page.next }}" class="btn white black-text navbtn disabled" id="next"><i class="material-icons"
-                        style="line-height: inherit !important" >arrow_forward</i></a>
+                <a href="./{{ page.next }}" class="btn white black-text navbtn disabled" id="next"><i
+                        class="material-icons" style="line-height: inherit !important">arrow_forward</i></a>
                 {% else %}
                 <a href="./{{ page.next }}" class="btn white black-text navbtn" id="next"><i class="material-icons"
                         style="line-height: inherit !important">arrow_forward</i></a>
@@ -91,13 +97,20 @@
     <footer class="container">
         <div class="divider"></div><br><br>
         {% if page.notitle != true %}
-            {% if page.next == "none" %}
-            <a href="./{{page.next}}" class="btn  red darken-3 disabled">
-                <i class="material-icons right">arrow_forward</i>下一页</a>
-            {% else %}
-            <a href="./{{page.next}}" class="btn  red darken-3">
-                <i class="material-icons right">arrow_forward</i>下一页</a>
-            {% endif %}
+        {% if page.next == "none" %}
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.tooltipped');
+                var instances = M.Tooltip.init(elems);
+            });
+        </script>
+        <a href="./{{page.next}}" class="btn  red darken-3 disabled tooltipped" data-position="bottom"
+            data-tooltip="暂时没有下一页了，敬请期待！">
+            <i class="material-icons right">arrow_forward</i>下一页</a>
+        {% else %}
+        <a href="./{{page.next}}" class="btn  red darken-3 ">
+            <i class="material-icons right">arrow_forward</i>下一页</a>
+        {% endif %}
         {% endif %}
         <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
     </footer>

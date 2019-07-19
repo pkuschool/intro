@@ -26,6 +26,8 @@ last: ../13/
 
 **只要不触犯这些禁令，在这里做任何其他的事情都没有问题。**
 
+<!-- 啊对不起这里言辞有些激烈，不过...syl老师强调，不得不加啊-->
+
 ## 开始吧！
 
 从头开始，先在[报到帖](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304)下面回个复吧；不妨介绍一下自己！
@@ -41,3 +43,15 @@ last: ../13/
 - [吃可爱多长大的老师们💗](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=16802124)：大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～
 
 除此之外，你也可以向某人发送私信、建立更多的组，这个入教培训的时候再论。不过，请先加入[2022届练习组](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=6497935360&view=all)，等待后续安排。
+
+
+## 关一下通知
+
+有时候，Yammer 发来的电子邮件还是很烦（*并且有时候甚至能让你忽略重要通知*）的。只要您确保您能及时查看相关信息，就可以前往 Yammer 设置（近左上角那个齿轮 > 编辑设置） > [通知](https://www.yammer.com/i.pkuschool.edu.cn/account/notifications?from=profile_settings_nav#) 关掉电子邮件通知。
+
+
+## 随时随地收发消息
+
+Yammer 也有移动版应用！
+
+iOS版可以直接去 App Store 搜索下载；安卓版国内软件平台一般不提供，可以前往应用汇[下载](http://share.appchina.com/app/com.yammer.v1)。

@@ -12,5 +12,5 @@ author:
 
 一张图：
 
-<img src="http://www.pkuschool.edu.cn/shouce/images/contain_half.jpg" style="width: 100%">
+<img src="http://www.pkuschool.edu.cn/shouce/images/contain_half.jpg" style="width: 100%" class=" materialboxed">
 

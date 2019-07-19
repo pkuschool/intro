@@ -15,10 +15,19 @@ next: ../16/
 - 确保 OneDrive 客户端可用
   - Windows 10 已经预装 OneDrive，可以直接打开使用。
   - 如果之前被您卸载了，您可以用以下方式下载：
-    - [官网下载](https://onedrive.live.com/about/zh-cn/download/)
+    - [官网下载（需要梯子）](https://onedrive.live.com/about/zh-cn/download/)
     - [太平洋电脑网分流](https://dl.pconline.com.cn/download/355248-1.html)
   - macOS 可以在 App Store 中搜索 "OneDrive" 下载
 - **强烈建议**：在手机上的各大应用商店搜索安装 “OneDrive”、“SharePoint”
+  - SharePoint 安卓版也是不太可能搜到，所以：
+
+## Android 版应用分流
+
+[就是这里](https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU)
+
+包含：SharePoint, OneDrive, Word, PowerPoint, Excel, Outlook
+
+我们不会保证这之中的应用安装包最新，请自行选择更新方法。
 
 ## 那...里面的数据在我毕业之后会怎么样呢？
 

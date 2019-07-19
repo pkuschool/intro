@@ -91,8 +91,13 @@
     <footer class="container">
         <div class="divider"></div><br><br>
         {% if page.notitle != true %}
-        <a href="./{{page.next}}" class="btn  red darken-3">
-            <i class="material-icons right">arrow_forward</i>下一页</a>
+            {% if page.next == "none" %}
+            <a href="./{{page.next}}" class="btn  red darken-3 disabled">
+                <i class="material-icons right">arrow_forward</i>下一页</a>
+            {% else %}
+            <a href="./{{page.next}}" class="btn  red darken-3">
+                <i class="material-icons right">arrow_forward</i>下一页</a>
+            {% endif %}
         {% endif %}
         <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
     </footer>

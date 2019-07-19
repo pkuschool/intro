@@ -23,7 +23,9 @@ next: ../16/
 
 ## Android 版应用分流
 
-[就是这里](https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU)
+<a href="https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU" class=" btn red darken-3 white-text" target="_blank">OneDrive 分流</a>
+
+<img src="../img/andApps.png" width="350" class=" materialboxed">
 
 包含：SharePoint, OneDrive, Word, PowerPoint, Excel, Outlook
 

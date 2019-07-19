@@ -18,4 +18,4 @@ next: ../18/
 
 相关软件版本为 CC 2018。
 
-有任何疑问请联系 <YCL03@i.pkuschool.edu.cn>。前端大佬也欢迎来相关 [GitHub 仓库](https://github.com/pkuschool/adobedl)完善这个 Adobe 下载页面！
+有任何疑问请联系 <YCL03@i.pkuschool.edu.cn>。前端大佬也欢迎来相关 [GitHub 仓库](https://github.com/pkuschool/adobedl) 完善这个 Adobe 下载页面！

@@ -1,3 +1,12 @@
+---
+
+permalink: /
+title: 目录
+description:
+last: "none"
+next: "none"
+
+---
 
 # 目录
 

@@ -1,6 +1,6 @@
 ---
 
-permalink: /index.html
+permalink: /
 title: 欢迎来到北大附中
 last: "none"
 next: ./02

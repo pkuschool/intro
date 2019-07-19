@@ -104,9 +104,9 @@
                 var instances = M.Tooltip.init(elems);
             });
         </script>
-        <a href="./{{page.next}}" class="btn  red darken-3 disabled tooltipped" data-position="bottom"
-            data-tooltip="暂时没有下一页了，敬请期待！">
-            <i class="material-icons right">arrow_forward</i>下一页</a>
+        <a href="./" class="btn grey darken-3 tooltipped" data-position="bottom"
+            data-tooltip="暂时没有下一页了，敬请期待！" onclick="return false;">
+            <i class="material-icons right">clear</i>没有下一页</a>
         {% else %}
         <a href="./{{page.next}}" class="btn  red darken-3 ">
             <i class="material-icons right">arrow_forward</i>下一页</a>

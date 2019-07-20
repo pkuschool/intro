@@ -1,6 +1,6 @@
 ---
 
-permalink: /
+permalink: /index/
 title: 目录
 description:
 last: "none"

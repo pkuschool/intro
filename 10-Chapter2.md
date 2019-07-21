@@ -5,7 +5,8 @@ title: 第二章
 description: Office 365 使用
 next: ../11/
 last: ../04/
-
+layout: default
+categories: ["2"]
 ---
 
 感谢你看完了前一章，我们从这里开始，要学习一下学校使用的 Office 365 的基础啦！

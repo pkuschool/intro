@@ -5,7 +5,8 @@ title: Adobe
 description: 简单插一句，正经教程马上回来
 last: ../16/
 next: ../18/
-
+layout: default
+categories: ["2"]
 ---
 
 北大附中有正版 Adobe 软件下载渠道，只需在学校网络环境下激活即可在此机器上**永久**使用。下载没有位置限制，在校外也可下载。这下无需盗版了。

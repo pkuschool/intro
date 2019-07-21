@@ -5,13 +5,14 @@ title: 传统三件套
 description: Word, PowerPoint, Excel
 last: ../15/
 next: ../17/
-
+layout: default
+categories: ["2"]
 ---
 <!-- 本文主要讨论 PowerPoint, Excel, Word 在新环境下的适配问题。文件名有点难懂，抱歉。 -->
 
 ## 准备工作
 
-请返回 OneDrive 网页版，**从网页版**尝试打开你在上一个教程之中上传/新建的文档（Word, PowerPoint, Excel均可。如果还没有进行，请在首页点击加号新建一个。）
+请返回 OneDrive 网页版，**从网页版**尝试打开你在上一个教程之中上传/新建的文档（Word, PowerPoint, Excel均可）。如果还没有进行，也可以在 Office 365 首页点击加号新建一个。）
 
 ## 哇！
 
@@ -34,7 +35,7 @@ next: ../17/
 
 ## 等等，这样我就能免费获得正版桌面版 Office 了？
 
-答案是——否定的。
+答案是 —— 否定的。
 
 学校的许可证并没有包含桌面版客户端。如果计算机上没有出厂预装的 Office 应用，建议购买 Office 365 （家庭版一年498￥）来解决，而非购买 Office 2019。正版是一种习惯。
 
@@ -43,4 +44,5 @@ next: ../17/
 - 无需梯子就能上 OneDrive 网页版
 - 全新的网页版应用
 - 更好的分享链接与在线多人协作
+- 新增：Teams, Yammer, SharePoint...
 

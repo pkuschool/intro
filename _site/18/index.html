@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ page.title | default: site.deftitle | default: site.github.repository_name }} | {{site.title}}</title>
+    <title>更多的提示 | 新手指南</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
@@ -74,61 +74,70 @@
 </head>
 
 <body>
-    {% if page.notitle != true %}
+    
     <div class=" red darken-4 white-text z-depth-2" style="position: sticky; top:0px;z-index: 9">
         <nav class=" container  red darken-4 z-depth-0" style="width: 100%;height: 75px;padding-top: 5px">
-            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">{{ page.title }}</span>
+            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">更多的提示</span>
             <span class="flow-text hide-on-small-and-down"
-                style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
+                style="font-size: 16px;margin-left: 5px;">嗯...你在暑假可能需要做的事情</span>
             <div class="right hide-on-small-and-down" style="margin-right: 13px">
-                <a href="{{ site.url }}" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                <a href="http://localhost:4000" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
-                <a href="{{ site.url }}/index/" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                <a href="http://localhost:4000/index/" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
-                {% if page.last == "none" %}
-                <a href="./{{ page.last }}" class="btn white black-text navbtn disabled tooltipped" id="last"
+                
+                <a href="./../17/" class="btn white black-text navbtn tooltipped" id="last"
                     data-position="bottom" data-tooltip="上一页"><i class="material-icons"
                         style="line-height: inherit !important">arrow_back</i></a>
-                {% else %}
-                <a href="./{{ page.last }}" class="btn white black-text navbtn tooltipped" id="last"
-                    data-position="bottom" data-tooltip="上一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_back</i></a>
-                {% endif %}
-                {% if page.next == "none" %}
-                <a href="./{{ page.next }}" class="btn white black-text navbtn disabled tooltipped" id="next"
+                
+                
+                <a href="./../20/" class="btn white black-text navbtn tooltipped" id="next"
                     data-position="bottom" data-tooltip="下一页"><i class="material-icons"
                         style="line-height: inherit !important">arrow_forward</i></a>
-                {% else %}
-                <a href="./{{ page.next }}" class="btn white black-text navbtn tooltipped" id="next"
-                    data-position="bottom" data-tooltip="下一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_forward</i></a>
-                {% endif %}
+                
             </div>
         </nav>
     </div>
-    {% endif %}
+    
     <div class="container" style="margin-top: 50px;margin-bottom: 50px">
-        {{ content }}
+        <ul>
+  <li>建议在暑假摸索一下 Office 365 的整体使用、多平台 与 共享协作机制，这个系统开学是要用的。有什么疑问/不会的操作请发邮件问 SubIT 。</li>
+  <li>请设置好 Outlook，教务后续会发通知。</li>
+  <li>关于 Teams：
+    <ul>
+      <li>请前往网页版 Teams 下载客户端。</li>
+      <li>手机客户端可以前往<a href="https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU">分流</a>下载。</li>
+      <li>这件事情，我们入教再说。</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="subit">SubIT</h2>
+
+<p>对，还要<em>强行</em>宣传一下 SubIT 社团！</p>
+
+<p>我们是2018年12月建立的技术支持社团，下属于博雅学院。我们的邮箱是 <a href="mailto:subit@i.pkuschool.edu.cn">subit@i.pkuschool.edu.cn</a>，官网是 <a href="https://pkuschool.github.io/SubIT">pkuschool.github.io/SubIT</a>。</p>
+
+<p>有什么 Office 365 方面的疑问可以随时发邮件 / Yammer 抄送寻问我们。</p>
+
+<p>我们也提供线下技术支持服务。您可以在下方位置（需要登录 Office 365账号）预约时间后，在指定时间前往西楼 地下一层 B024 接受答疑，我们将竭诚为您服务。</p>
+
+<p><a href="https://web.powerapps.com/apps/9f112f17-961d-44ec-b426-8915de0ae46a" class="btn black">线下预约</a></p>
+
+<p>如果对路途不太熟悉，可以参考这张手绘图：</p>
+
+<p><img src="../img/B024.png" width="80%" class="materialboxed" /></p>
+
     </div>
 
     <footer class="container">
         <div class="divider"></div><br><br>
-        {% if page.notitle != true %}
-        {% if page.next == "none" %}
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.tooltipped');
-                var instances = M.Tooltip.init(elems);
-            });
-        </script>
-        <a href="./" class="btn grey darken-3 tooltipped" data-position="right" data-tooltip="暂时没有下一页了，敬请期待！"
-            onclick="return false;">
-            <i class="material-icons right">clear</i>没有下一页</a>
-        {% else %}
-        <a href="./{{page.next}}" class="btn  red darken-3 ">
+        
+        
+        <a href="./../20/" class="btn  red darken-3 ">
             <i class="material-icons right">arrow_forward</i>下一页</a>
-        {% endif %}
-        {% endif %}
+        
+        
         <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
     </footer>
 </body>

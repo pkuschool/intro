@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ page.title | default: site.deftitle | default: site.github.repository_name }} | {{site.title}}</title>
+    <title>第一章：欢迎来到北大附中 | 新手指南</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
@@ -74,61 +74,74 @@
 </head>
 
 <body>
-    {% if page.notitle != true %}
+    
     <div class=" red darken-4 white-text z-depth-2" style="position: sticky; top:0px;z-index: 9">
         <nav class=" container  red darken-4 z-depth-0" style="width: 100%;height: 75px;padding-top: 5px">
-            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">{{ page.title }}</span>
+            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">第一章：欢迎来到北大附中</span>
             <span class="flow-text hide-on-small-and-down"
-                style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
+                style="font-size: 16px;margin-left: 5px;"></span>
             <div class="right hide-on-small-and-down" style="margin-right: 13px">
-                <a href="{{ site.url }}" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                <a href="http://localhost:4000" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
-                <a href="{{ site.url }}/index/" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                <a href="http://localhost:4000/index/" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
-                {% if page.last == "none" %}
-                <a href="./{{ page.last }}" class="btn white black-text navbtn disabled tooltipped" id="last"
+                
+                <a href="./none" class="btn white black-text navbtn disabled tooltipped" id="last"
                     data-position="bottom" data-tooltip="上一页"><i class="material-icons"
                         style="line-height: inherit !important">arrow_back</i></a>
-                {% else %}
-                <a href="./{{ page.last }}" class="btn white black-text navbtn tooltipped" id="last"
-                    data-position="bottom" data-tooltip="上一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_back</i></a>
-                {% endif %}
-                {% if page.next == "none" %}
-                <a href="./{{ page.next }}" class="btn white black-text navbtn disabled tooltipped" id="next"
+                
+                
+                <a href="././02" class="btn white black-text navbtn tooltipped" id="next"
                     data-position="bottom" data-tooltip="下一页"><i class="material-icons"
                         style="line-height: inherit !important">arrow_forward</i></a>
-                {% else %}
-                <a href="./{{ page.next }}" class="btn white black-text navbtn tooltipped" id="next"
-                    data-position="bottom" data-tooltip="下一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_forward</i></a>
-                {% endif %}
+                
             </div>
         </nav>
     </div>
-    {% endif %}
+    
     <div class="container" style="margin-top: 50px;margin-bottom: 50px">
-        {{ content }}
+        <p><img src="http://bdfz-cas.pkuschool.edu.cn/assets/login-1a72e4feef0ed4ad47183208b8d0a0aa.png" width="200" align="middle" /></p>
+
+<p>首先欢迎各位同学来到北大附中！</p>
+
+<blockquote>
+  <p>北大附中致力于培养：</p>
+</blockquote>
+
+<blockquote>
+  <p>个性鲜明、充满自信、敢于负责，</p>
+</blockquote>
+
+<blockquote>
+  <p>具有思想力、领导力、创新力的杰出公民。</p>
+</blockquote>
+
+<blockquote>
+  <p>他们无论身在何处，都能热忱服务社会，</p>
+</blockquote>
+
+<blockquote>
+  <p>并在其中表现出对自然的尊重和对他人的关爱。</p>
+</blockquote>
+
+<p>这一段校训，会在你接下来三年的高中生活中充分的体现。</p>
+
+<p>我们将在这一个短短的教程中帮你找到接下来该做什么的头绪，也请认真阅读。</p>
+
+<h4 id="在继续前请注意">在继续前，请注意…</h4>
+
+<p>强烈建议使用 PC 端，Chrome 内核的浏览器继续查看此导览。请不要使用手机或iPad。</p>
+
     </div>
 
     <footer class="container">
         <div class="divider"></div><br><br>
-        {% if page.notitle != true %}
-        {% if page.next == "none" %}
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.tooltipped');
-                var instances = M.Tooltip.init(elems);
-            });
-        </script>
-        <a href="./" class="btn grey darken-3 tooltipped" data-position="right" data-tooltip="暂时没有下一页了，敬请期待！"
-            onclick="return false;">
-            <i class="material-icons right">clear</i>没有下一页</a>
-        {% else %}
-        <a href="./{{page.next}}" class="btn  red darken-3 ">
+        
+        
+        <a href="././02" class="btn  red darken-3 ">
             <i class="material-icons right">arrow_forward</i>下一页</a>
-        {% endif %}
-        {% endif %}
+        
+        
         <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
     </footer>
 </body>

@@ -5,7 +5,8 @@ description: 校内属于你的的专属邮箱
 permalink: /13/
 next: ../14/
 last: ../12/
-
+layout: default
+categories: ["2"]
 ---
 
 请准备好：

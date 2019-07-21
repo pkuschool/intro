@@ -5,7 +5,8 @@ permalink: /12/
 next: ../13/
 last: ../11/
 description: 基础设置
-
+layout: default
+categories: ["2"]
 ---
 
 看起来你已经第一次登录完了，目前你看见的应该是 Office 365 系统的主页。

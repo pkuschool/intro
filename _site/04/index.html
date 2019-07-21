@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网络与电子设备 | 新手指南</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        code,
+        kbd,
+        samp {
+            font-family: Fira Code, Consolas,'等距更纱黑体 SC', monospace !important;
+            background-color: #e6e5e5;
+            margin-left: 3px;
+            margin-right: 3px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 3px;
+            /* border-color: black; */
+            /* border-bottom: groove; */
+        }
+
+        pre.highlight {
+            background-color: #e6e5e5;
+            border-radius: 5px;
+            padding: 5px 5px;
+            border-bottom: outset;
+        }
+
+        li {
+            list-style-type: circle !important;
+            margin-left: 20px !important;
+        }
+
+        strong {
+            font-weight: bolder !important;
+        }
+
+        navbtn {
+            margin-left: 5px;
+        }
+
+        h1 {
+            font-size: 2.5em !important
+        }
+
+        h2 {
+            font-size: 2em !important
+        }
+
+        h3 {
+            font-size: 1.67em !important
+        }
+
+        h4 {
+            font-size: 1.4em !important
+        }
+
+        p {
+            line-height: 1.6em;
+            font-size: 16px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.tooltipped');
+            var instances = M.Tooltip.init(elems);
+        });
+    </script>
+</head>
+
+<body>
+    
+    <div class=" red darken-4 white-text z-depth-2" style="position: sticky; top:0px;z-index: 9">
+        <nav class=" container  red darken-4 z-depth-0" style="width: 100%;height: 75px;padding-top: 5px">
+            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">网络与电子设备</span>
+            <span class="flow-text hide-on-small-and-down"
+                style="font-size: 16px;margin-left: 5px;">要用到的重要的东西...</span>
+            <div class="right hide-on-small-and-down" style="margin-right: 13px">
+                <a href="http://localhost:4000" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                    data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
+                <a href="http://localhost:4000/index/" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                    data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
+                
+                <a href="./../03/" class="btn white black-text navbtn tooltipped" id="last"
+                    data-position="bottom" data-tooltip="上一页"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_back</i></a>
+                
+                
+                <a href="./../10/" class="btn white black-text navbtn tooltipped" id="next"
+                    data-position="bottom" data-tooltip="下一页"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_forward</i></a>
+                
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container" style="margin-top: 50px;margin-bottom: 50px">
+        <!-- 暂时把书院那页设成彩蛋。 -->
+
+<h2 id="重要的链接">重要的链接</h2>
+
+<p>北大附中目前在线上教学方面已经耕耘很深，用到了一些解决方案，<strong>记住，这些都很重要</strong>。</p>
+
+<ul>
+  <li><a href="https://bdfz.seiue.com">希悦校园</a>：课程管理系统，负责选课、查课、登成绩等</li>
+  <li><a href="https://office.com">Office 365</a>：在线系统，离开它活不了，绝大多数课程都与其有关（并且非常有关）</li>
+  <li><a href="bdfz-cas.pkuschool.edu.cn">单点登录</a>：拿自己的学号密码登录，可以从此进入悦实践等。一个导航。
+    <ul>
+      <li>悦实践：申报与记录校内活动时长</li>
+    </ul>
+  </li>
+  <li><a href="http://www.pkuschool.edu.cn/shouce/xiaoli_01.html">学生、课程手册</a>：涉及到校内的各种规则，请<strong>务必</strong>仔细阅读，之后 Rookie 系统也要用到。</li>
+</ul>
+
+<h2 id="等等链接电子产品">等等，链接…电子产品？</h2>
+
+<p>对的！我们不禁止带手机、电脑到学校！相反，在北大附中，电脑是一种很重要的东西，<strong>在我们的课程中起到重大的作用</strong>。
+在日常写文案（尤其是写作课）、上课的很多情况、技术课程、访问 O365 等用途下是必需品。</p>
+
+<p>在北大附中，要学会培养 <strong>正确、适度</strong> 使用 手机、电脑 等电子产品的良好习惯，要<strong>加强自律，提升自我管理能力</strong>。</p>
+
+<p>可以这么说：</p>
+
+<blockquote>
+  <p>在北大附中，不带电脑，你活不下去的。<img src="http://pic121.nipic.com/file/20170119/24329660_211553862038_2.jpg" width="40" /></p>
+</blockquote>
+
+<p>有一台好电脑，会对心情有一定的提升，不会为卡顿问题而困扰；当然，这个时候你可能需要入手一台。</p>
+
+<p>强烈建议：至少这次不要吝啬为自己选择一个好用的笔记本电脑。以下是笔记本电脑简略购买指南。</p>
+
+<!-- *（当然，要学会自控哦！* -->
+
+<h3 id="哪种一定该换满足任意一条即可">哪种一定该换（满足任意一条即可）</h3>
+
+<ul>
+  <li>机型距离发布 5 年以上</li>
+  <li>重量超过 2kg 的非游戏本（性能本）</li>
+  <li>内存为 4G 及以下 或 只有机械盘 =&gt; 卡顿严重（此时如预算较少则建议升级电脑配置）</li>
+  <li>轻度工作（如：写文档）时续航不超过3个小时（的轻薄本、“全能本”）</li>
+  <li>键盘手感你无法忍受</li>
+  <li>夏季散热风扇狂转，影响系统正常运行（且伴随着日常使用的卡顿）</li>
+</ul>
+
+<!-- - 游戏本条件：
+  - 散热不要太吵（不然会打扰别人学习的！）
+  - 实际上不建议携带游戏本，除非有频繁的游戏需要 -->
+
+<!-- ### 哪种不建议带到学校
+
+- 重量超过 2kg 的任何笔记本电脑（习武之人可以忽略）
+- 台式机、一体机（当然！） -->
+
+<h3 id="哪种现有电脑完全没问题不用考虑直接带过来">哪种现有电脑完全没问题，不用考虑，直接带过来</h3>
+
+<ul>
+  <li>近两年发布的轻薄本</li>
+  <li>且 运行 Windows 10（请不要安装 Windows 7）或者 macOS 最新大版本</li>
+  <li>且 内存 ≥ 8G</li>
+  <li>且 固态硬盘 且 容量大于等于 256G（太小容易塞满，并且近年来的超极本硬件自定义升级空间不大）</li>
+</ul>
+
+<h3 id="划重点">划重点！</h3>
+
+<ol>
+  <li>轻薄本优先，重量最好 ≤ 1.4kg</li>
+  <li>兼顾性能，i5 及以上 CPU，8GB及以上内存</li>
+  <li>参考机型：微软 Surface 系列 / 联想 Thinkpad X 系列 / 苹果 Macbook Pro / Dell XPS 系列 / 等等</li>
+  <li>如有条件，可以去实体店（而非中关村电脑城）感受一下。</li>
+</ol>
+
+<!--
+看中某个型号之后，请先进行以下步骤再做出决定：
+
+1. 先仔细看一遍官网参数
+2. 再去网上搜相关评测，权衡利弊
+3. 最后，如有条件， -->
+<!--
+### 别考虑只用 iPad
+
+首先，我的观点：iPad **不应该是** 北大附中使用的生产力工具，不能作为主要机使用。
+由于鼠标支持十分的鶸、相关 Office 365 软件功能较弱、扩展性弱等弱点，不建议作为唯一的替代其他的笔记本的电子产品。 -->
+
+<!-- ###
+
+一般来讲，笔记本的价格梯度远高于手机（当然，iPhone 除外）；事实上，约5000元价位的机器只是相对中端的机器；且一般来讲，**价格越高，体验更好**。
+
+虽然价格更高并不能带来更好的硬件性能，但会带来：
+
+- 更好的屏幕
+- 更好的外观设计
+- 更可靠的兼容性
+- 更好的做工
+- （可能也有）同样的硬件，更好的性能发挥 -->
+
+<hr />
+
+<p>下面一段有些长，可能也略难懂，如果感兴趣可以看一看；不感兴趣请直接转到页面底端。</p>
+
+<p><a href="#小结" class=" btn red darken-3 white-text">转到页面底端</a></p>
+
+<h3 id="各参数的意义">各参数的意义</h3>
+
+<p>电脑之间的参数比较多，且其细节也是非常多。在这里简单说一下各参数的意义（以及重点的不能买参数，以“黑名单”标记）</p>
+
+<h4 id="cpu电脑的处理器">CPU：电脑的处理器。</h4>
+
+<p>做电脑能处理的很多事情，并且一般自带核显</p>
+
+<h5 id="黑名单">黑名单</h5>
+
+<ul>
+  <li>Intel 6代及以前的处理器（形如: iX 6XXX）</li>
+  <li>末尾带Y的处理器（<em>除非你根本没还有任何性能要求</em>）</li>
+</ul>
+
+<p>【续航问题】游戏本常用的标压处理器（末尾为H）会带来更差的续航</p>
+
+<h4 id="显卡处理图形内容">显卡：处理图形内容。</h4>
+
+<p>核显（核心显卡）也能满足诸多日常需要，没需求别上独显（独立显卡）</p>
+
+<p>黑名单：940MX, MX110, MX130；这三个都是徒有其名却没性能</p>
+
+<p>各个档次：</p>
+
+<ul>
+  <li>集显：UHD620（英特尔）, Vega 10（AMD）</li>
+  <li>入门级独显（性能说得过去）：MX150, MX250（与前者区别不大）</li>
+  <li>游戏级独显（仅列举Nvidia家的产品）：GTX 10XX, GTX 16XX, RTX20XX</li>
+</ul>
+
+<p>【性能问题】独立显卡可能对电脑的CPU性能发挥产生影响，实际发挥与散热有关</p>
+
+<p>【续航问题】独显会造成续航的一定损失</p>
+
+<h4 id="屏幕显示图形内容">屏幕：显示图形内容。</h4>
+
+<p>一般来讲，可以分为五档：</p>
+
+<ul>
+  <li>差：45%NTSC TN 和 45%NTSC IPS 以下（或者干脆不标</li>
+  <li>中：72%NTSC （≠100%sRGB）</li>
+  <li>良：100%sRGB</li>
+  <li>优：良+分辨率高于1080p+偏色小</li>
+  <li>优+：出厂校色、P3、Adobe RGB…</li>
+</ul>
+
+<p>比较常玩游戏的话，建议使用 144hz 电竞屏幕</p>
+
+<p>加分项：触控、亮度、比例3：2（不包括游戏本）</p>
+
+<h4 id="做工">做工</h4>
+
+<p>这个看个人喜好，一般与价格成正比。建议实际到店体验，<strong>进行比较</strong>。</p>
+
+<h4 id="键盘与触摸板">键盘与触摸板</h4>
+
+<p>没什么好说的，自己试试<strong>击键手感</strong>和<strong>键位</strong>（如果设计有大硬伤可能造成使用上不适）再决定就行了。</p>
+
+<p>【加分项】键盘背光（晚上使用）、功能键</p>
+
+<h4 id="接口">接口</h4>
+
+<p>忌：只有一种接口，即 USB Type C（除非你是转接头爱好者）</p>
+
+<p>【校内加分项】还有 Mini DisplayPort 接口的电脑，可以直接接投影仪</p>
+
+<p>看自己需求决定，不要盲目跟随。</p>
+
+<hr />
+
+<h2 id="小结">小结</h2>
+
+<p>买电脑指南就到这里了。</p>
+
+<p>还有什么问题吗？如需更多机型推荐，请移步<a href="https://zhuanlan.zhihu.com/p/74132830">墨鱼的文章</a>。如有其他问题，请咨询<a href="mailto:subit@i.pkuschool.edu.cn">subit@i.pkuschool.edu.cn</a>。</p>
+
+    </div>
+
+    <footer class="container">
+        <div class="divider"></div><br><br>
+        
+        
+        <a href="./../10/" class="btn  red darken-3 ">
+            <i class="material-icons right">arrow_forward</i>下一页</a>
+        
+        
+        <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
+    </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,23 @@
+---
+
+permalink: /index/
+title: 目录
+description:
+last: "none"
+next: "none"
+layout: default
+ifshow: -1
+categories: ["1"]
+---
+
+{% for page in site.pages %}
+{% if page.ifshow != -1 %}
+<div class="card-panel grey lighten-2 black-text z-depth-1 hoverable waves-ripple waves-effect col s12" style="padding: 12px;width: 100%" onclick="window.open('{{page.url}}', '_self')">
+    <a href="{{page.url}}" class=" black-text">
+        <span style="font-size: 24px;margin-left: 15px;font-weight: lighter">{{ page.title }}</span>
+        <span class="flow-text hide-on-small-and-down"
+            style="font-size: 15px;margin-left: 5px;">{{ page.description }}</span>
+    </a>
+</div>
+{%endif%}
+{%endfor%}

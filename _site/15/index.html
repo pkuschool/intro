@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>云存储与分享 | 新手指南</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        code,
+        kbd,
+        samp {
+            font-family: Fira Code, Consolas,'等距更纱黑体 SC', monospace !important;
+            background-color: #e6e5e5;
+            margin-left: 3px;
+            margin-right: 3px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 3px;
+            /* border-color: black; */
+            /* border-bottom: groove; */
+        }
+
+        pre.highlight {
+            background-color: #e6e5e5;
+            border-radius: 5px;
+            padding: 5px 5px;
+            border-bottom: outset;
+        }
+
+        li {
+            list-style-type: circle !important;
+            margin-left: 20px !important;
+        }
+
+        strong {
+            font-weight: bolder !important;
+        }
+
+        navbtn {
+            margin-left: 5px;
+        }
+
+        h1 {
+            font-size: 2.5em !important
+        }
+
+        h2 {
+            font-size: 2em !important
+        }
+
+        h3 {
+            font-size: 1.67em !important
+        }
+
+        h4 {
+            font-size: 1.4em !important
+        }
+
+        p {
+            line-height: 1.6em;
+            font-size: 16px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.tooltipped');
+            var instances = M.Tooltip.init(elems);
+        });
+    </script>
+</head>
+
+<body>
+    
+    <div class=" red darken-4 white-text z-depth-2" style="position: sticky; top:0px;z-index: 9">
+        <nav class=" container  red darken-4 z-depth-0" style="width: 100%;height: 75px;padding-top: 5px">
+            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">云存储与分享</span>
+            <span class="flow-text hide-on-small-and-down"
+                style="font-size: 16px;margin-left: 5px;">OneDrive & SharePoint</span>
+            <div class="right hide-on-small-and-down" style="margin-right: 13px">
+                <a href="http://localhost:4000" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                    data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
+                <a href="http://localhost:4000/index/" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                    data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
+                
+                <a href="./../14/" class="btn white black-text navbtn tooltipped" id="last"
+                    data-position="bottom" data-tooltip="上一页"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_back</i></a>
+                
+                
+                <a href="./../16/" class="btn white black-text navbtn tooltipped" id="next"
+                    data-position="bottom" data-tooltip="下一页"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_forward</i></a>
+                
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container" style="margin-top: 50px;margin-bottom: 50px">
+        <h2 id="准备工作">准备工作</h2>
+
+<p>虽然并不必要，我们还是强烈建议您做以下准备：</p>
+
+<ul>
+  <li>确保 OneDrive 客户端可用
+    <ul>
+      <li>Windows 10 已经预装 OneDrive，可以直接打开使用。</li>
+      <li>如果之前被您卸载了，您可以用以下方式下载：
+        <ul>
+          <li><a href="https://onedrive.live.com/about/zh-cn/download/">官网下载（需要梯子）</a></li>
+          <li><a href="https://dl.pconline.com.cn/download/355248-1.html">太平洋电脑网分流</a></li>
+        </ul>
+      </li>
+      <li>macOS 可以在 App Store 中搜索 “OneDrive” 下载</li>
+    </ul>
+  </li>
+  <li><strong>强烈建议</strong>：在手机上的各大应用商店搜索安装 “OneDrive”、“SharePoint”
+    <ul>
+      <li>SharePoint 安卓版也是不太可能搜到，所以：</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="android-版应用分流">Android 版应用分流</h2>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+  });
+</script>
+
+<p><a href="https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU" class=" btn red darken-3 white-text" target="_blank">OneDrive 分流</a></p>
+
+<p><img src="../img/andApps.png" width="250" class=" materialboxed" /></p>
+
+<p>包含：SharePoint, OneDrive, Word, PowerPoint, Excel, Outlook</p>
+
+<p>我们不会保证这之中的应用安装包最新，请自行选择更新方法。</p>
+
+<h2 id="那里面的数据在我毕业之后会怎么样呢">那…里面的数据在我毕业之后会怎么样呢？</h2>
+
+<p>北大附中会将账号（及其包含的各种邮件/信息/文件）<strong>长期保留</strong>，除非遇到不可抗力或平台彻底更换。</p>
+
+<h2 id="开始同步">开始同步</h2>
+
+<p>请从 Office 365 首页打开 “OneDrive”。这是属于你的云盘，有5TB（5120GB）的容量，非常安全，不会有类似百度云的审查，也可以随意分享里面的文件。</p>
+
+<p>如果你已经安装好桌面客户端，可以直接点击页面上部的“同步”，唤起 OneDrive，登录即可。设置完成之后，OneDrive将能在资源管理器内轻松的访问，相关文件也会自动同步。</p>
+
+<p>不管你有没有设置同步客户端，您已经可以进行任何网盘都能进行的的常规操作了。比如，上传/新建一个 Word 文档试试？</p>
+
+<h2 id="sharepoint">SharePoint</h2>
+
+<p>让我们再次回到 Office 365 主页，这次进入 SharePoint。</p>
+
+<h3 id="这里有什么用途">这里有什么用途？</h3>
+
+<p>各种课程的课程信息、需要的各种文件都能在这里找到；同时也能从这里进入相关联的 Yammer 组进行讨论。</p>
+
+<h3 id="为什么有些搜不到">为什么有些搜不到？</h3>
+
+<p>这就涉及到权限问题了。这是一个大坑，可能不会做教程。</p>
+
+<p>只需要知道：</p>
+<ul>
+  <li>标记为“公开”的组理论来讲谁都能加入</li>
+  <li>反之，标记为“专用组”则默认无法公开访问，加入需要通过，通过后才可有相关权限。</li>
+</ul>
+
+
+    </div>
+
+    <footer class="container">
+        <div class="divider"></div><br><br>
+        
+        
+        <a href="./../16/" class="btn  red darken-3 ">
+            <i class="material-icons right">arrow_forward</i>下一页</a>
+        
+        
+        <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
+    </footer>
+</body>
+
+
+</html>

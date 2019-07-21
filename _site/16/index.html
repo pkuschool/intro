@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ page.title | default: site.deftitle | default: site.github.repository_name }} | {{site.title}}</title>
+    <title>传统三件套 | 新手指南</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
@@ -74,61 +74,85 @@
 </head>
 
 <body>
-    {% if page.notitle != true %}
+    
     <div class=" red darken-4 white-text z-depth-2" style="position: sticky; top:0px;z-index: 9">
         <nav class=" container  red darken-4 z-depth-0" style="width: 100%;height: 75px;padding-top: 5px">
-            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">{{ page.title }}</span>
+            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">传统三件套</span>
             <span class="flow-text hide-on-small-and-down"
-                style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
+                style="font-size: 16px;margin-left: 5px;">Word, PowerPoint, Excel</span>
             <div class="right hide-on-small-and-down" style="margin-right: 13px">
-                <a href="{{ site.url }}" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                <a href="http://localhost:4000" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
-                <a href="{{ site.url }}/index/" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                <a href="http://localhost:4000/index/" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
-                {% if page.last == "none" %}
-                <a href="./{{ page.last }}" class="btn white black-text navbtn disabled tooltipped" id="last"
+                
+                <a href="./../15/" class="btn white black-text navbtn tooltipped" id="last"
                     data-position="bottom" data-tooltip="上一页"><i class="material-icons"
                         style="line-height: inherit !important">arrow_back</i></a>
-                {% else %}
-                <a href="./{{ page.last }}" class="btn white black-text navbtn tooltipped" id="last"
-                    data-position="bottom" data-tooltip="上一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_back</i></a>
-                {% endif %}
-                {% if page.next == "none" %}
-                <a href="./{{ page.next }}" class="btn white black-text navbtn disabled tooltipped" id="next"
+                
+                
+                <a href="./../17/" class="btn white black-text navbtn tooltipped" id="next"
                     data-position="bottom" data-tooltip="下一页"><i class="material-icons"
                         style="line-height: inherit !important">arrow_forward</i></a>
-                {% else %}
-                <a href="./{{ page.next }}" class="btn white black-text navbtn tooltipped" id="next"
-                    data-position="bottom" data-tooltip="下一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_forward</i></a>
-                {% endif %}
+                
             </div>
         </nav>
     </div>
-    {% endif %}
+    
     <div class="container" style="margin-top: 50px;margin-bottom: 50px">
-        {{ content }}
+        <!-- 本文主要讨论 PowerPoint, Excel, Word 在新环境下的适配问题。文件名有点难懂，抱歉。 -->
+
+<h2 id="准备工作">准备工作</h2>
+
+<p>请返回 OneDrive 网页版，<strong>从网页版</strong>尝试打开你在上一个教程之中上传/新建的文档（Word, PowerPoint, Excel均可）。如果还没有进行，也可以在 Office 365 首页点击加号新建一个。）</p>
+
+<h2 id="哇">哇！</h2>
+
+<p>你没看错：你的 OneDrive 和 SharePoint 上的 Office 文件是可以在线编辑的！</p>
+
+<p>虽然功能有点受限，但是网页版对于基础的操作还是没有问题的。</p>
+
+<p>不过… 有点卡。这样吧，如果你的电脑上安装了 Office 2013 及以上版本（旧版本也可以试一下碰碰运气，但是强烈建议升级），可以在网页端点击“在桌面应用中打开”。您可能需要登录您的学校账户。</p>
+
+<p>除此之外，甚至可以进行在线多人协同编辑（<del>妈妈再也不用担心小组群里互传不同版本使人劳累了</del>），以及从 SharePoint 复制文件。这个入学教育的时候再论。</p>
+
+<h2 id="那么手机平板呢">那么手机平板呢？</h2>
+
+<p>您可以到应用商店搜索下载以下两个选项中的其中一套：</p>
+
+<ul>
+  <li>Office Mobile</li>
+  <li>Word, PowerPoint, Excel（建议使用）</li>
+</ul>
+
+<p>不建议使用 WPS。</p>
+
+<h2 id="等等这样我就能免费获得正版桌面版-office-了">等等，这样我就能免费获得正版桌面版 Office 了？</h2>
+
+<p>答案是 —— 否定的。</p>
+
+<p>学校的许可证并没有包含桌面版客户端。如果计算机上没有出厂预装的 Office 应用，建议购买 Office 365 （家庭版一年498￥）来解决，而非购买 Office 2019。正版是一种习惯。</p>
+
+<h2 id="和我之前的-office-365-家庭版个人版有什么区别">和我之前的 Office 365 家庭版/个人版有什么区别？</h2>
+
+<ul>
+  <li>无需梯子就能上 OneDrive 网页版</li>
+  <li>全新的网页版应用</li>
+  <li>更好的分享链接与在线多人协作</li>
+  <li>新增：Teams, Yammer, SharePoint…</li>
+</ul>
+
+
     </div>
 
     <footer class="container">
         <div class="divider"></div><br><br>
-        {% if page.notitle != true %}
-        {% if page.next == "none" %}
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.tooltipped');
-                var instances = M.Tooltip.init(elems);
-            });
-        </script>
-        <a href="./" class="btn grey darken-3 tooltipped" data-position="right" data-tooltip="暂时没有下一页了，敬请期待！"
-            onclick="return false;">
-            <i class="material-icons right">clear</i>没有下一页</a>
-        {% else %}
-        <a href="./{{page.next}}" class="btn  red darken-3 ">
+        
+        
+        <a href="./../17/" class="btn  red darken-3 ">
             <i class="material-icons right">arrow_forward</i>下一页</a>
-        {% endif %}
-        {% endif %}
+        
+        
         <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
     </footer>
 </body>

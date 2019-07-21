@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>重要概念 | 新手指南</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        code,
+        kbd,
+        samp {
+            font-family: Fira Code, Consolas,'等距更纱黑体 SC', monospace !important;
+            background-color: #e6e5e5;
+            margin-left: 3px;
+            margin-right: 3px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 3px;
+            /* border-color: black; */
+            /* border-bottom: groove; */
+        }
+
+        pre.highlight {
+            background-color: #e6e5e5;
+            border-radius: 5px;
+            padding: 5px 5px;
+            border-bottom: outset;
+        }
+
+        li {
+            list-style-type: circle !important;
+            margin-left: 20px !important;
+        }
+
+        strong {
+            font-weight: bolder !important;
+        }
+
+        navbtn {
+            margin-left: 5px;
+        }
+
+        h1 {
+            font-size: 2.5em !important
+        }
+
+        h2 {
+            font-size: 2em !important
+        }
+
+        h3 {
+            font-size: 1.67em !important
+        }
+
+        h4 {
+            font-size: 1.4em !important
+        }
+
+        p {
+            line-height: 1.6em;
+            font-size: 16px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.tooltipped');
+            var instances = M.Tooltip.init(elems);
+        });
+    </script>
+</head>
+
+<body>
+    
+    <div class=" red darken-4 white-text z-depth-2" style="position: sticky; top:0px;z-index: 9">
+        <nav class=" container  red darken-4 z-depth-0" style="width: 100%;height: 75px;padding-top: 5px">
+            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">重要概念</span>
+            <span class="flow-text hide-on-small-and-down"
+                style="font-size: 16px;margin-left: 5px;">较为简练，不很完全</span>
+            <div class="right hide-on-small-and-down" style="margin-right: 13px">
+                <a href="http://localhost:4000" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                    data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
+                <a href="http://localhost:4000/index/" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                    data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
+                
+                <a href="./../" class="btn white black-text navbtn tooltipped" id="last"
+                    data-position="bottom" data-tooltip="上一页"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_back</i></a>
+                
+                
+                <a href="./../03/" class="btn white black-text navbtn tooltipped" id="next"
+                    data-position="bottom" data-tooltip="下一页"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_forward</i></a>
+                
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container" style="margin-top: 50px;margin-bottom: 50px">
+        <h2 id="学院与书院">学院与书院</h2>
+
+<p>学院：提供不同种类课程的实体（如：博雅学院、行知学院、道尔顿学院）</p>
+
+<p>书院：（直接摘录学生手册的描述）</p>
+
+<blockquote>
+  <p>学生社区、行政实体、自治组织，公共生活群体、传统赛事主体、文化传承载体</p>
+</blockquote>
+
+<h2 id="社团与俱乐部">社团与俱乐部</h2>
+
+<p>社团：（一张图解决，来自学生手册）</p>
+
+<p><img src="http://www.pkuschool.edu.cn/shouce/images/shetuan.jpg" width="100%" /></p>
+
+<p>俱乐部：以课程形式存在，提供专业系统的课程，一般以学期为单位开课。</p>
+
+<h2 id="学期与学段">学期与学段</h2>
+
+<h3 id="学期">学期</h3>
+
+<p>标准的学期，与其他学校没区别。</p>
+
+<h3 id="学段">学段</h3>
+
+<p>在北大附中，每个学期被分为两个学段，每个学段持续10周，其中九周为课程时间，最后一周一般为“段考”。</p>
+
+<p>在这里，没有期中期末考。课程大多按学段开课。</p>
+
+<p>同时，不同学段有不同的赛事活动：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">学段</th>
+      <th style="text-align: center">活动</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">第一学段</td>
+      <td style="text-align: center">篮球杯</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">第二学段</td>
+      <td style="text-align: center">戏剧节</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">第三学段</td>
+      <td style="text-align: center">足球杯</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">第四学段</td>
+      <td style="text-align: center">舞蹈节</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>同时，这些活动的团队都以课程的形式存在。</p>
+
+<h2 id="课程相关">课程相关</h2>
+
+<h3 id="走班">走班</h3>
+
+<p>北大附中采取选课制，每学期自己选课（满足必修学分即可），且每节课教室不同。</p>
+
+<p>课程均按课位选择，每个课位一般在每周的两到三个时间，基本固定。</p>
+
+<p>课表安排如下：</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">时间</th>
+<th style="text-align:center">一</th>
+<th style="text-align:center">二</th>
+<th style="text-align:center">三</th>
+<th style="text-align:center">四</th>
+<th style="text-align:center">五</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">8：00-9：00</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">6</td>
+<td style="text-align:center">3</td>
+</tr>
+<tr>
+<td style="text-align:center">9：10-10：10</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">6</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">4</td>
+</tr>
+<tr>
+<td style="text-align:center">10：20-11：20/50</td>
+<td style="text-align:center">⑥</td>
+<td style="text-align:center">④</td>
+<td style="text-align:center">⑤</td>
+<td style="text-align:center">③</td>
+<td style="text-align:center">Ⓐ</td>
+</tr>
+<tr>
+<td style="text-align:center">13：30-14：30</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:center">14：40-15：40</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">6</td>
+</tr>
+<tr>
+<td style="text-align:center">15：50-16：50/17:20</td>
+<td style="text-align:center">⑤</td>
+<td style="text-align:center">③</td>
+<td style="text-align:center">⑥</td>
+<td style="text-align:center">④</td>
+<td style="text-align:center">Ⓑ</td>
+</tr>
+</tbody>
+</table>
+
+<p>周三下午一般作为自习、议事会与校会，不会安排课程。</p>
+
+<p>带圈的课程，如果为60分钟则是文化课程，90分钟则为艺体技。主要为艺体技。</p>
+
+<h3 id="章测">章测</h3>
+
+<p>单元测，一般看课程安排。</p>
+
+<h3 id="段考">段考</h3>
+
+<p>等于其他学校的期末考试。</p>
+
+<p>万人坑：体育馆综合馆，段考的主要举办地点</p>
+
+<h2 id="毕业相关">毕业相关</h2>
+
+<p>本部高考方向的学生将经历两年的<strong>高中部</strong>生活，修够学分后进入<strong>预科部</strong>，向高考冲刺；而本部出国方向的学生则在高中部学习三年。</p>
+
+<p>两年（或者三年）说长不长，说短不短，希望各位同学能度过一个圆满的学习生活。</p>
+
+<hr />
+
+<p>这些概念都很重要，如果需要进一步的解释，建议询问书院招新的学长学姐们。</p>
+
+    </div>
+
+    <footer class="container">
+        <div class="divider"></div><br><br>
+        
+        
+        <a href="./../03/" class="btn  red darken-3 ">
+            <i class="material-icons right">arrow_forward</i>下一页</a>
+        
+        
+        <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
+    </footer>
+</body>
+
+
+</html>

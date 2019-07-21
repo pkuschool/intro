@@ -5,7 +5,8 @@ title: 更多的提示
 description: 嗯...你在暑假可能需要做的事情
 last: ../17/
 next: ../20/
-
+layout: default
+categories: ["2"]
 ---
 
 - 建议在暑假摸索一下 Office 365 的整体使用、多平台 与 共享协作机制，这个系统开学是要用的。有什么疑问/不会的操作请发邮件问 SubIT 。
@@ -17,9 +18,11 @@ next: ../20/
 
 ## SubIT
 
-对，然后我们还要*强行*宣传一下 SubIT 社团！
+对，还要*强行*宣传一下 SubIT 社团！
 
-我们是2018年12月建立的技术支持社团，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，有什么 Office 365 方面的疑问可以随时发邮件 / Yammer 抄送问。
+我们是2018年12月建立的技术支持社团，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，官网是 [pkuschool.github.io/SubIT](https://pkuschool.github.io/SubIT)。
+
+有什么 Office 365 方面的疑问可以随时发邮件 / Yammer 抄送寻问我们。
 
 我们也提供线下技术支持服务。您可以在下方位置（需要登录 Office 365账号）预约时间后，在指定时间前往西楼 地下一层 B024 接受答疑，我们将竭诚为您服务。
 

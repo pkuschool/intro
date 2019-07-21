@@ -5,10 +5,11 @@ description: 要用到的重要的东西...
 permalink: /04/
 next: ../10/
 last: ../03/
+layout: default
 author:
   - 刘语辰
   - lxh
-
+categories: ["1"]
 ---
 <!-- 暂时把书院那页设成彩蛋。 -->
 

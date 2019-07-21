@@ -3,7 +3,7 @@
 title: 书院制
 description: BDFZer 不可或缺的一部分
 permalink: /21/
-next: ../22/
+next: ../99/
 last: ../20/
 layout: default
 author:
@@ -30,8 +30,8 @@ categories: ["3"]
 
 看对眼，觉得合适，选了，就是了。
 
-## 各书院的信息、简介、招新群与招新帖
+<!-- ## 各书院的信息、简介、招新群与招新帖
 
-<!-- 这里写了一个简单的卡片系统，模板写好了，请前往 https://pkuschool.github.io/intro/21/ 查看效果-->
+!-- 这里写了一个简单的卡片系统，模板写好了，请前往 https://pkuschool.github.io/intro/21/ 查看效果--
 
-{% include housecardpanelModel.html %}
+{ include housecardpanelModel.html } -->

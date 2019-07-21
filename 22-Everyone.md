@@ -7,6 +7,7 @@ next: ../99/
 last: ../21/
 layout: default
 categories: ["3"]
+ifshow: -1
 ---
 
 学长/学姐们说
@@ -15,7 +16,7 @@ categories: ["3"]
 <!--
 具体格式为：
 
-XXX：
+## XXX
 
 > 要说的话
 

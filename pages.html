@@ -1,7 +1,7 @@
 ---
 
 permalink: /index/
-title: 目录
+title: 章节选择
 description:
 last: "none"
 next: "none"
@@ -10,14 +10,13 @@ ifshow: -1
 categories: ["1"]
 ---
 
-{% for page in site.pages %}
-{% if page.ifshow != -1 %}
-<div class="card-panel grey lighten-2 black-text z-depth-1 hoverable waves-ripple waves-effect col s12" style="padding: 12px;width: 100%" onclick="window.open('{{page.url}}', '_self')">
-    <a href="{{page.url}}" class=" black-text">
-        <span style="font-size: 24px;margin-left: 15px;font-weight: lighter">{{ page.title }}</span>
+<h2>请选择章节</h2>
+{% for chapter in site.data.chapters %}
+<div class="card-panel grey lighten-2 black-text z-depth-1 hoverable waves-ripple waves-effect col s12" style="padding: 12px;width: 100%" onclick="window.open('../{{chapter.url}}', '_self')">
+    <a href="../{{chapter.url}}" class=" black-text">
+        <span style="font-size: 24px;margin-left: 15px;font-weight: lighter">{{ chapter.name }}</span>
         <span class="flow-text hide-on-small-and-down"
-            style="font-size: 15px;margin-left: 5px;">{{ page.description }}</span>
+            style="font-size: 15px;margin-left: 5px;">{{ chapter.description }}</span>
     </a>
 </div>
-{%endif%}
 {%endfor%}

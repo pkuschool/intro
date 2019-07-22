@@ -22,7 +22,7 @@ categories: ["2"]
 
 不过... 有点卡。这样吧，如果你的电脑上安装了 Office 2013 及以上版本（旧版本也可以试一下碰碰运气，但是强烈建议升级），可以在网页端点击“在桌面应用中打开”。您可能需要登录您的学校账户。
 
-除此之外，甚至可以进行在线多人协同编辑（~~妈妈再也不用担心小组群里互传不同版本使人劳累了~~），以及从 SharePoint 复制文件。这个入学教育的时候再论。
+除此之外，甚至可以进行[共享以及在线多人协同编辑](https://mp.weixin.qq.com/s/j9dvph-Jw_KYpdKWjkYKQg)（~~妈妈再也不用担心小组群里互传不同版本使人劳累了~~），以及从 SharePoint 复制文件。这个入学教育的时候再论。
 
 ## 那么手机平板呢？
 
@@ -46,3 +46,8 @@ categories: ["2"]
 - 更好的分享链接与在线多人协作
 - 新增：Teams, Yammer, SharePoint...
 
+## 和之前的 Office 传统版本 有什么区别？
+
+- 云服务（云盘、共享、协作）
+- 更多的功能（[设计灵感](https://mp.weixin.qq.com/s/eTvLdC4l0ZrOveBg8CtIkw)、[缩放定位](https://mp.weixin.qq.com/s/3A_oEF3QAAw9P_ZLORAnGA)、新UI、[“平滑”切换](https://mp.weixin.qq.com/s/3IFhQccuNN89at2r7TpJOQ)等等，都需要订阅 Office 365 才可获得，桌面版应用需要登陆相应账户并激活）
+- 拿着手机、iPad等设备也能随处编辑文档并同步更改

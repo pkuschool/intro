@@ -32,3 +32,7 @@ categories: ["2"]
 - Outlook （移动端, Windows, macOS）
 
 如需选择账户类型，应选择 Exchange。
+
+如搜不到或看到了去年的指南下载了豌豆荚上的版本，请：
+
+<a href="../Android/" class=" btn-large red darken-2" target="_android">前往 Android 版应用分流</a>

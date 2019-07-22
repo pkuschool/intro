@@ -31,6 +31,8 @@ categories: ["2"]
 - Office Mobile
 - Word, PowerPoint, Excel（建议使用）
 
+<a href="../Android/" class=" btn-large red darken-2" target="_android">前往 Android 版应用分流</a>
+
 不建议使用 WPS。
 
 ## 等等，这样我就能免费获得正版桌面版 Office 了？

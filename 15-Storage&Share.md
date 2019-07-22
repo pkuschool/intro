@@ -22,22 +22,7 @@ categories: ["2"]
 - **强烈建议**：在手机上的各大应用商店搜索安装 “OneDrive”、“SharePoint”
   - SharePoint 安卓版也是不太可能搜到，所以：
 
-## Android 版应用分流
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.materialboxed');
-    var instances = M.Materialbox.init(elems);
-  });
-</script>
-
-<a href="https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU" class=" btn red darken-3 white-text" target="_blank">OneDrive 分流</a>
-
-<img src="../img/andApps.png" width="250" class=" materialboxed">
-
-包含：SharePoint, OneDrive, Word, PowerPoint, Excel, Outlook
-
-我们不会保证这之中的应用安装包最新，请自行选择更新方法。
+<a href="../Android/" class=" btn-large red darken-2" target="_android">请前往 Android 版应用分流</a>
 
 ## 那...里面的数据在我毕业之后会怎么样呢？
 

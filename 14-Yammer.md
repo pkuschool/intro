@@ -33,7 +33,7 @@ categories: ["2"]
 
 从头开始，先在[ > 全公司里写着2022届的报到帖 <](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304)下面回个复吧；不妨介绍一下自己！
 
-<a href="https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304" class=" btn-large red darken-2 white-text">不要走错，报道帖戳这里！！！</a>
+<a href="https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304" class=" btn-large red darken-2 white-text">不要走错，报到帖戳这里！！！</a>
 
 这些是几个比较常用的组：
 

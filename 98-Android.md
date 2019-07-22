@@ -29,4 +29,4 @@ categories: ["Android"]
 
 除此之外您可以前往[应用汇](http://www.appchina.com/)搜索并下载相关应用。请注意其中的 SharePoint 不是最新的。
 
-<img src="../img/appchina.png" width="250" class=" materialboxed">
+<img src="../img/appchina..png" width="250" class=" materialboxed">

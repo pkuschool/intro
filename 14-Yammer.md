@@ -54,9 +54,27 @@ categories: ["2"]
 
 有时候，Yammer 发来的电子邮件还是很烦（*并且有时候甚至能让你忽略重要通知*）的。只要您确保您能及时查看相关信息，就可以前往 Yammer 设置（近左上角那个齿轮 > 编辑设置） > [通知](https://www.yammer.com/i.pkuschool.edu.cn/account/notifications?from=profile_settings_nav#) 关掉电子邮件通知。
 
+您其实可以直接通过电子邮件回复相关信息，但是不建议这么做（主要原因是发完之后大家都能看见你的邮件签名，并且可能回复错...）
+
 
 ## 随时随地收发消息
 
 Yammer 也有移动版应用！
 
 iOS版可以直接去 App Store 搜索下载；安卓版国内软件平台一般不提供，可以前往应用汇[下载](http://share.appchina.com/app/com.yammer.v1)。
+
+
+## 桌面客户端
+
+体验与网页版相似，可下可不下。
+
+### Windows 7 及以上
+
+- [64位系统](https://go.microsoft.com/fwlink/p/?linkid=868988)
+- [32位系统](https://go.microsoft.com/fwlink/p/?linkid=858591)
+
+若不知道系统的位数，建议优先下载64位版本。如打不开则选择32位版本。
+
+### macOS 10.9+
+
+[下载](https://go.microsoft.com/fwlink/p/?linkid=858590)

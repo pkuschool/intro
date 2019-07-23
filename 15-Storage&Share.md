@@ -52,3 +52,14 @@ categories: ["2"]
 - 标记为“公开”的组理论来讲谁都能加入
 - 反之，标记为“专用组”则默认无法公开访问，加入需要通过，通过后才可有相关权限。
 
+### 一些重要的课程平台
+
+- [行知学院](https://bdfz.sharepoint.com/sites/xn--48sz67d5hlgjn)
+- [元培学院](https://bdfz.sharepoint.com/sites/xn--2017-un8fn96ao4fpt6k)
+- [博雅学院](https://bdfz.sharepoint.com/sites/boya2015)
+
+这些平台未来也可从 SharePoint 首页访问。
+
+### 客户端
+
+SharePoint 有移动版客户端，但没有桌面客户端。

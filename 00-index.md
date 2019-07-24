@@ -1,7 +1,7 @@
 ---
 
 permalink: /
-title: 第一章：欢迎来到北大附中
+title: 欢迎来到北大附中
 last: "none"
 next: ./02
 author:

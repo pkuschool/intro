@@ -23,27 +23,18 @@ layout: default
 - 第三章 后续安排
 
 
-## 贡献指南
+## 加入编辑
+
+首先你需要（注册）一个 GitHub 账号，然后访问 [https://github.com/orgs/pkuschool/sso](https://github.com/orgs/pkuschool/sso) 进入 pkuschool 组织，最后回到此库。
 
 凡是在此组织内的人，均可编辑。
 
-需要编辑什么文档，直接编辑即可。
+需要编辑什么文档，直接网页版进入文件编辑即可。
 
-图片引用形式：按这里的特点，应该是：
 
-```
-![图片描述](../img/[你强行传到img文件夹的图片文件名])
+### 编辑指南
 
-当然有图床的话，可以直接：
-
-![图片描述（建议填写）](图片链接)
-```
-
-上传在[仓库首页](https://github.com/pkuschool/intro)点击 Upload File，拖进去就行
-
-### 贡献规章
-
-要编辑，点击任何一篇的右上角的铅笔按钮即可编辑，在[仓库首页](https://github.com/pkuschool/intro)点击 ```Create New File``` 即可新建
+要编辑，点击任何一篇的右上角的铅笔按钮即可开始编辑，在[仓库首页](https://github.com/pkuschool/intro)点击 ```Create New File``` 即可新建
 
 新增文件时，文件名应为：
 
@@ -84,7 +75,24 @@ layout: default
 
 [我是链接显示文字，右边那个是链接指向](#)
 ```
-编辑完之后，不要忘记点下方的 Commit Changes 哦！
+
+您也可以上网查找相关资料。
+
+图片引用形式：按这里的特点，应该是：
+
+```
+![图片描述](../img/[你强行传到img文件夹的图片文件名])
+
+当然有图床的话，可以直接：
+
+![图片描述（建议填写）](图片链接)
+```
+
+上传在[仓库首页](https://github.com/pkuschool/intro)点击 Upload File，拖进去就行
+
+---
+
+编辑完之后，不要忘记点下方的 Commit Changes 保存更改哦！
 
 ## 想改页面的外观？
 

@@ -94,6 +94,8 @@ layout: default
 
 编辑完之后，不要忘记点下方的 Commit Changes 保存更改哦！
 
+PS: 更新很快，请尽快写完。
+
 ## 想改页面的外观？
 
 请围观```_layouts/default.html```，需要有一定的HTML/CSS/Materialize/Jekyll基础。

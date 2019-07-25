@@ -49,7 +49,7 @@ categories: ["2"]
 
 除此之外，你也可以向某人发送私信 / 建立更多的组 / 发投票之类的，这个入教培训的时候再论。
 
-在全公司回复报到帖报到之后，请加入[2022届练习组](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=6497935360&view=all)，等待后续安排。
+在全公司回复报到帖报到之后，请加入[2022届练习组](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=6497935360&view=all)，等待后续安排（不过不要在那里报到哦）。
 
 
 ## 关一下通知

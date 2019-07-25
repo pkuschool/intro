@@ -1,13 +1,20 @@
 ---
 
 permalink: /18/
-title: 更多的提示
+title: 更多提示 & 宣传
 description: 嗯...你在暑假可能需要做的事情
 last: ../17/
 next: ../20/
 layout: default
 categories: ["2"]
 ---
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+  });
+</script>
 
 - 建议在暑假摸索一下 Office 365 的整体使用、多平台 与 共享协作机制，这个系统开学是要用的。有什么疑问/不会的操作请发邮件问 SubIT。这是一个各产品间互相结合的的体系。
 - 请设置好 Outlook，教务后续会发通知。
@@ -45,9 +52,13 @@ categories: ["2"]
 
 <!-- 然而性价比并不怎么好，味道请自行评判 -->
 
-充值窗口 ￥50 起充，支持微信与现金，仅工作日中午用餐时间开放
+充值窗口 ￥50 起充（建议每次充值至少￥100，大概能支持一周），支持微信与现金，仅工作日（周一到周五）中午用餐时间开放
 
 如需投诉，请在 Yammer 抄送“食堂”
+
+---
+
+PS: 不想吃食堂的饭？没问题！开学后就能中午走出校门到外面吃饭了！（具体请见出入校规定，仅西门可出校）
 
 ## 还有各部门！
 
@@ -56,3 +67,15 @@ categories: ["2"]
 教务、物业、食堂等部门均已在 Yammer 上建立账号。
 
 如果不确定该找谁，请抄送“问题君”。
+
+---
+
+## 技术交流
+
+北大附中是一个技术大佬云集的地方——
+
+别急，先不要说自己技术很菜，你也许走在向技术大佬前进的路上呢！
+
+不论你的兴趣点在哪个编程语言上，都欢迎感兴趣的同学加入北大附中21/22届技术交流群！
+
+<img src="../img/techdiscuss.png" class="materialboxed" height="300">

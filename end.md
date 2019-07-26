@@ -15,6 +15,10 @@ layout: default
 
 祝各位新生暑假快乐，军训愉快，入教顺利，选课不掉课！！！学长学姐们都超nice的！！！
 
+不过，在离开之前，要不要顺便填个简短的反馈问卷呢？
+
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUMVdKS0RVSEM0RExQOFozRU9GMElLUVhYMC4u" class="btn teal white-text">新生指南反馈问卷 (Forms)</a>
+
 ## 致谢
 
 感谢 SubIT 社团为此指南的的辛勤付出；

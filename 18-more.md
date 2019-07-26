@@ -28,8 +28,6 @@ categories: ["2"]
 
 ## SubIT
 
-对，还要*强行*宣传一下 SubIT 社团！
-
 我们是2018年12月建立的技术支持社团，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，官网是 [pkuschool.github.io/SubIT](https://pkuschool.github.io/SubIT)。
 
 有什么 Office 365 方面的疑问可以随时发邮件 / Yammer 抄送寻问我们。
@@ -56,17 +54,20 @@ categories: ["2"]
 
 如需投诉，请在 Yammer 抄送“食堂”
 
----
 
 PS: 不想吃食堂的饭？没问题！开学后就能中午走出校门到外面吃饭了！（具体请见出入校规定，仅西门可出校）
 
-## 还有各部门！
+===
+
+## 学校各部门联系方式
 
 和部门进行沟通 / 投诉的最好方式——Yammer 抄送。
 
-教务、物业、食堂等部门均已在 Yammer 上建立账号。
+教务、物业、食堂等部门均已在 Yammer 上建立账号。有任何相关事务，请从 Yammer 上私信或抄送他们。
 
 如果不确定该找谁，请抄送“问题君”。
+
+另外关于各部门的电话联系方式，请参阅[学生手册](http://www.pkuschool.edu.cn/shouce/lianxi.html)。
 
 ---
 

@@ -49,7 +49,7 @@ categories: ["2"]
 
 ## 红砖
 
-红砖是属于北大附中艺术中心的一个学生社团，运营着北大附中目前最大的在线图片库网站**红砖图库**,网址是[https://hong.zuggr.com/](https://hong.zuggr.com/)（请使用电脑或者Pad访问红砖图库以获得最佳体验）。
+红砖是属于北大附中艺术中心的一个学生社团，运营着北大附中目前最大的在线图片库网站**红砖图库**，网址是[https://hong.zuggr.com/](https://hong.zuggr.com/)（请使用电脑或者Pad访问红砖图库以获得最佳体验）。
 
 红砖图库现在有：
 - 总数超过六千张关于附中的优质摄影作品；
@@ -61,45 +61,51 @@ categories: ["2"]
 <div class="slider">
     <ul class="slides">
       <li>
-        <img src="../img/hong_stc.jpeg"> 
-        <div class="caption left-align">
+        <img src="../img/hong_stc.jpeg">
+        <div class="caption center-align">
           <h3>来自红砖，作者盛天成</h3>
         </div>
       </li>
       <li>
-        <img src="../img/hong_zxc.jpeg"> 
-        <div class="caption left-align">
-          <h3>来自红砖，作者周笑晨</h3>
+        <img src="../img/hong_zxc.jpeg">
+        <div class="caption right-align" style="margin-top: 210px;text-align: right">
+          <h3>来自红砖，</h3>
+          <h5 class="light grey-text text-lighten-3">作者周笑晨</h5>
         </div>
       </li>
       <li>
-        <img src="../img/hong_fdw.jpeg"> 
-        <div class="caption left-align">
-          <h3>来自红砖，作者范大卫</h3>
+        <img src="../img/hong_fdw.jpeg">
+        <div class="caption left-align" style="margin-left: -20px !important">
+          <h3>来自红砖，</h3>
+          <h5 class="light grey-text text-lighten-3">作者范大卫</h5>
         </div>
       </li>
       <li>
-        <img src="../img/hong_xhd.jpeg"> 
+        <img src="../img/hong_xhd.jpeg">
         <div class="caption left-align">
-          <h3>来自红砖，作者熊浩迪</h3>
+          <h3>来自红砖，</h3>
+          <h5 class="light grey-text text-lighten-3">作者熊浩迪</h5>
         </div>
       </li>
       <li>
-        <img src="../img/hong_zjn.jpeg"> 
+        <img src="../img/hong_zjn.jpeg">
         <div class="caption left-align">
-          <h3>来自红砖，作者赵嘉宁</h3>
+          <h3>来自红砖，</h3>
+          <h5 class="light grey-text text-lighten-3">作者赵嘉宁</h5>
         </div>
       </li>
       <li>
-        <img src="../img/hong_qyx.jpeg"> 
+        <img src="../img/hong_qyx.jpeg">
         <div class="caption left-align">
-          <h3>来自红砖，作者钱昱熹</h3>
+          <h3>来自红砖，</h3>
+          <h5 class="light grey-text text-lighten-3">作者钱昱熹</h5>
         </div>
       </li>
       <li>
-        <img src="../img/hong_wxz.jpeg"> 
-        <div class="caption left-align">
-          <h3>来自红砖，作者王雪铮</h3>
+        <img src="../img/hong_wxz.jpeg">
+        <div class="caption left-align"  style="margin-top: 210px">
+          <h3>来自红砖，</h3>
+          <h5 class="light grey-text text-lighten-3">作者王雪铮</h5>
         </div>
       </li>
     </ul>

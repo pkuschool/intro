@@ -57,7 +57,8 @@ categories: ["2"]
 
 - [行知学院](https://bdfz.sharepoint.com/sites/xn--48sz67d5hlgjn)
 - [元培学院](https://bdfz.sharepoint.com/sites/xn--2017-un8fn96ao4fpt6k)
-- [博雅学院](https://bdfz.sharepoint.com/sites/boya2015)
+- [博雅学院](https://www.yuque.com/by)
+
 
 这些平台未来也可从 SharePoint 首页访问。
 

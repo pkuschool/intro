@@ -25,6 +25,8 @@ layout: default
 
 <!-- 我夸我自己 -->
 
+感谢[红砖社团](https://hong.zuggr.com/)、[Ourscraft 社团](http://ourscraft.sxl.cn/)提供图片。
+
 感谢 HTML, CSS 标准的构建者与 Materialize, Vue.js, Jekyll 的开发者们让这个网站变为可能。
 
 感谢2022届同学们耐心的将这个教程看完；

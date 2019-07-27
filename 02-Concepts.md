@@ -151,6 +151,10 @@ categories: ["1"]
 
 万人坑——体育馆综合馆，段考的主要举办地点
 
+<img src="https://hong.zuggr.com/image/view/cache/5422" title="来自红砖，作者 刘语辰" width="50%">
+
+<span style="color: #bbbbbb;font-size: 10px">来自红砖，作者 刘语辰</span>
+
 ## 毕业相关
 
 本部高考方向的学生将经历两年的**高中部**生活，修够学分后进入**预科部**，向高考冲刺；

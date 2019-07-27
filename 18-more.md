@@ -63,43 +63,43 @@ categories: ["2"]
 <div class="slider">
     <ul class="slides">
       <li>
-        <img src="../img/hong_stc.jpeg"> <!-- random image -->
+        <img src="../img/hong_stc.jpeg"> 
         <div class="caption left-align">
           <h3>来自红砖，作者盛天成</h3>
         </div>
       </li>
       <li>
-        <img src="../img/hong_zxc.jpeg"> <!-- random image -->
+        <img src="../img/hong_zxc.jpeg"> 
         <div class="caption left-align">
           <h3>来自红砖，作者周笑晨</h3>
         </div>
       </li>
       <li>
-        <img src="../img/hong_fdw.jpeg"> <!-- random image -->
+        <img src="../img/hong_fdw.jpeg"> 
         <div class="caption left-align">
           <h3>来自红砖，作者范大卫</h3>
         </div>
       </li>
       <li>
-        <img src="../img/hong_xhd.jpeg"> <!-- random image -->
+        <img src="../img/hong_xhd.jpeg"> 
         <div class="caption left-align">
           <h3>来自红砖，作者熊浩迪</h3>
         </div>
       </li>
       <li>
-        <img src="../img/hong_zjn.jpeg"> <!-- random image -->
+        <img src="../img/hong_zjn.jpeg"> 
         <div class="caption left-align">
           <h3>来自红砖，作者赵嘉宁</h3>
         </div>
       </li>
       <li>
-        <img src="../img/hong_qyx.jpeg"> <!-- random image -->
+        <img src="../img/hong_qyx.jpeg"> 
         <div class="caption left-align">
           <h3>来自红砖，作者钱昱熹</h3>
         </div>
       </li>
       <li>
-        <img src="../img/hong_wxz.jpeg"> <!-- random image -->
+        <img src="../img/hong_wxz.jpeg"> 
         <div class="caption left-align">
           <h3>来自红砖，作者王雪铮</h3>
         </div>

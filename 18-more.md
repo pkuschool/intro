@@ -95,7 +95,7 @@ categories: ["2"]
         </div>
       </li>
       <li>
-        <img src="/img/hong_qyx.jpeg">
+        <img src="../img/hong_qyx.jpeg">
         <div class="caption left-align">
           <h3>来自红砖，</h3>
           <h5 class="light grey-text text-lighten-3">作者钱昱熹</h5>

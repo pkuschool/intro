@@ -116,7 +116,7 @@ categories: ["2"]
 
 <img src="../img/hong_discuss.jpeg" class="materialboxed" height="300">
 
-另附：红砖社团暑期推送 [附中摄影的99个角落 | 红砖新生指南](https://mp.weixin.qq.com/s/B-IR99htQ9x7FBUTqXHYEw)
+另附：红砖社团暑期推送 [附中摄影的99个角落 红砖新生指南](https://mp.weixin.qq.com/s/B-IR99htQ9x7FBUTqXHYEw)
 
 
 

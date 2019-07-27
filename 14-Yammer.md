@@ -38,25 +38,27 @@ categories: ["2"]
 这些是几个比较常用的组：
 
 - 全公司：全校都能看见的地方，做宣传很合适；但请不要刻意刷屏。
-- [高中部通知](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=10989755&view=all)：主要发送高中部各部门以及学校其它部门给高中学生的通知。强烈建议加入。
+- **[高中部通知]**(https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=10989755&view=all)：主要发送高中部各部门以及学校其它部门给高中学生的通知。**强烈建议加入。**
 
-这些是一些休闲娱乐的地方：
+这些是一些休闲娱乐聊天的地方：
 
 - [脑子有坑](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=13288384)：如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。
 - [吃可爱多长大的老师们💗](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=16802124)：大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～
 - [zqsg不好吗](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=15977127)：总体是一个爱豆安利板块\(//∇//)\
-- ...
+- 以及更多，等你发现。
 
-除此之外，你也可以向某人发送私信 / 建立更多的组 / 发投票之类的，这个入教培训的时候再论。
+如你所见，这就是一个校内社区。
+
+除此之外，你也可以向某人发送私信 / 建立更多的组 / 发投票 / 表扬别人，这个入教培训的时候再论。
 
 在全公司回复报到帖报到之后，请加入[2022届练习组](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=6497935360&view=all)，等待后续安排（不过不要在那里报到哦）。
 
 
-## 关一下通知
+## 关一下通知？
 
-有时候，Yammer 发来的电子邮件还是很烦（*并且有时候甚至能让你忽略重要通知*）的。只要您确保您能及时查看相关信息，就可以前往 Yammer 设置（近左上角那个齿轮 > 编辑设置） > [通知](https://www.yammer.com/i.pkuschool.edu.cn/account/notifications?from=profile_settings_nav#) 关掉电子邮件通知。
+有时候，Yammer 发来的电子邮件还是很烦（*并且有时候甚至能让你忽略重要通知*）的。**只要您确保您能及时查看相关信息**，就可以前往 Yammer 设置（近左上角那个齿轮 > 编辑设置） > [通知](https://www.yammer.com/i.pkuschool.edu.cn/account/notifications?from=profile_settings_nav#) 关掉电子邮件通知。
 
-您其实可以直接通过电子邮件回复相关信息，但是不建议这么做（主要原因是发完之后大家都能看见你的邮件签名，并且可能回复错...）
+您其实可以直接通过回复 Yammer 发送的电子邮件回复相关信息，但是不建议这么做（主要原因是发完之后大家都能看见你的邮件签名，并且可能回复错......）
 
 
 ## 随时随地收发消息

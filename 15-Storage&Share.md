@@ -19,7 +19,7 @@ categories: ["2"]
     - [官网下载（需要梯子）](https://onedrive.live.com/about/zh-cn/download/)
     - [太平洋电脑网分流](https://dl.pconline.com.cn/download/355248-1.html)
   - macOS 可以在 App Store 中搜索 "OneDrive" 下载
-- **强烈建议**：在手机上的各大应用商店搜索安装 “OneDrive”、“SharePoint”
+- 从手机上的各大应用商店搜索安装 “OneDrive”、“SharePoint”
   - SharePoint 安卓版也是不太可能搜到，所以：
 
 <a href="../Android/" class=" btn-large red darken-2" target="_android">请前往 Android 版应用分流</a>
@@ -49,8 +49,9 @@ categories: ["2"]
 这就涉及到权限问题了。这是一个大坑，可能不会做教程。
 
 只需要知道：
-- 标记为“公开”的组理论来讲谁都能加入
+- 标记为“公开”的组默认来讲谁都能加入，但不一定所有人都能看。
 - 反之，标记为“专用组”则默认无法公开访问，加入需要通过，通过后才可有相关权限。
+- 在此之外各种的权限也可以以网站所有者权限手动规定。有兴趣可以去试一试。
 
 ### 一些重要的课程平台
 

@@ -12,7 +12,7 @@ categories: ["2"]
 
 ## 准备工作
 
-请返回 OneDrive 网页版，**从网页版**尝试打开你在上一个教程之中上传/新建的文档（Word, PowerPoint, Excel均可）。如果还没有进行，也可以在 Office 365 首页点击加号新建一个。）
+请返回 OneDrive 网页版，**从网页版**尝试打开你在上一个教程之中 在 OneDrive 中上传/新建的文档（Word, PowerPoint, Excel均可）。如果还没有进行，也可以在 Office 365 首页点击加号新建一个。）
 
 ## 哇！
 

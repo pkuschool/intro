@@ -12,11 +12,9 @@ categories: ["2"]
 <script>
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
+    var elems2 = document.querySelectorAll('.slider');
     var instances = M.Materialbox.init(elems);
-  });
-    document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, options);
+    var instances2 = M.Slider.init(elems2);
   });
 
 </script>
@@ -105,7 +103,7 @@ categories: ["2"]
         </div>
       </li>
     </ul>
-  </div>
+</div>
 
 红砖对所有在校师生与附中校友免费开放，注册账号并登录后，你可以：
 - 无限制浏览图库中所有图片；

@@ -31,13 +31,11 @@ categories: ["1"]
       <li>
         <img src="https://s2.ax1x.com/2019/07/28/eQEREV.png"> <!-- random image -->
         <div class="caption right-align">
-          <h3 class="black-text">室外空间</h3>
         </div>
       </li>
       <li>
         <img src="https://s2.ax1x.com/2019/07/28/eQEf4U.png"> <!-- random image -->
         <div class="caption right-align">
-          <h3>俯视校园</h3>
         </div>
       </li>
       <li>

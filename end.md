@@ -19,6 +19,11 @@ layout: default
 
 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUMVdKS0RVSEM0RExQOFozRU9GMElLUVhYMC4u" class="btn teal white-text">新生指南反馈问卷 (Forms)</a>
 
+<!--
+想知道新生填写了什么吗？看这里！
+https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUMVdKS0RVSEM0RExQOFozRU9GMElLUVhYMC4u%26Token%3D58a2eb5ed5ee4dfca4ca021c03c65ab1
+-->
+
 ## 致谢
 
 感谢 [各位贡献者](https://github.com/pkuschool/intro/graphs/contributors) 为此指南的的辛勤付出；
@@ -29,4 +34,4 @@ layout: default
 
 感谢2022届同学们耐心的将这个教程看完；
 
-感谢2020届华琦琦同学在去年的新生指南中提供的参考；
+感谢2020届华琦琦同学在去年的新生指南中提供的参考。

@@ -19,7 +19,7 @@ categories: ["1"]
 
 - [希悦校园](https://bdfz.seiue.com)：课程管理系统，负责选课、查课、登成绩等
 - [Office 365](https://office.com)：在线系统，离开它活不了，绝大多数课程都与其有关（并且非常有关）
-- [单点登录](bdfz-cas.pkuschool.edu.cn)：拿自己的学号密码登录，可以从此进入悦实践等。一个导航。
+- [单点登录](http://bdfz-cas.pkuschool.edu.cn)：拿自己的学号密码登录，可以从此进入悦实践等。一个导航。
   - 悦实践：申报与记录校内活动时长
 - **[学生、课程手册](http://www.pkuschool.edu.cn/shouce/xiaoli_01.html)**：涉及到校内的各种规则，请**务必**仔细阅读，之后 Rookie 系统也要用到。**除此之外你也能找到学校相关部门的电话号码。**
 

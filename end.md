@@ -21,9 +21,7 @@ layout: default
 
 ## 致谢
 
-感谢 SubIT 社团为此指南的的辛勤付出；
-
-<!-- 我夸我自己 -->
+感谢 [各位贡献者](https://github.com/pkuschool/intro/graphs/contributors) 为此指南的的辛勤付出；
 
 感谢[红砖社团](https://hong.zuggr.com/)、[Ourscraft 社团](http://ourscraft.sxl.cn/)提供图片。
 

@@ -41,18 +41,17 @@ categories: ["1"]
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/28/eQEgH0.jpg"> <!-- random image -->
+        <img src="https://s2.ax1x.com/2019/07/28/eQJmDK.png"> <!-- random image -->
         <div class="caption right-align">
-          <h3>老校门·复刻版</h3>
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/28/eQEWNT.jpg"> <!-- random image -->
+        <img src="https://s2.ax1x.com/2019/07/28/eQJnHO.png"> <!-- random image -->
         <div class="caption center-align">
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/28/eQE4CF.jpg"> <!-- random image -->
+        <img src="https://s2.ax1x.com/2019/07/28/eQJKED.png"> <!-- random image -->
         <div class="caption right-align">
           <h3>长廊</h3>
         </div>

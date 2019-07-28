@@ -51,7 +51,6 @@ categories: ["1"]
       <li>
         <img src="https://s2.ax1x.com/2019/07/28/eQJKED.png"> <!-- random image -->
         <div class="caption right-align">
-          <h3>长廊</h3>
         </div>
       </li>
     </ul>

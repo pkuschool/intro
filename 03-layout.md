@@ -20,7 +20,7 @@ categories: ["1"]
 
 </script>
 
-一张图：
+一张图：（本图来自学生手册，不一定准确，敬请谅解。）
 
 <img src="http://www.pkuschool.edu.cn/shouce/images/contain_half.jpg" style="width: 100%" class=" materialboxed">
 

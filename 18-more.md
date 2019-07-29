@@ -123,7 +123,7 @@ categories: ["2"]
 另附 红砖社团暑期推送：
 
 - **[附中摄影的99个角落 红砖新生指南](https://mp.weixin.qq.com/s/B-IR99htQ9x7FBUTqXHYEw)**
-- [20年前的附中人，有多不一样？| 红砖回忆计划](https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q)
+- [20年前的附中人，有多不一样？\| 红砖回忆计划](https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q)
 
 
 

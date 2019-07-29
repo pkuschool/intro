@@ -31,7 +31,7 @@ categories: ["2"]
 - Office Mobile
 - Word, PowerPoint, Excel（建议使用）
 
-如果在应用商店中找不到，请 <a href="../Android/" class=" btn red darken-2 white-text" target="_android">前往 Android 版应用分流</a>
+如果在应用商店中找不到，请 <a href="../Android/" class=" btn red darken-2 white-text" target="_android">前往 Android 版应用下载区域</a>
 
 不建议使用 WPS。
 

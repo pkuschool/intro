@@ -16,7 +16,7 @@ categories: ["1"]
     var elems2 = document.querySelectorAll('.slider');
     var instances = M.Materialbox.init(elems);
     var instances2 = M.Slider.init(elems2,{
-      height: 550
+      height: 500
     });
   });
 

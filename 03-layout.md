@@ -22,6 +22,8 @@ categories: ["1"]
 
 </script>
 
+> ℹ 由于本页图片较多，加载速度可能较慢，请稍等片刻。敬请谅解。
+
 一张图：（本图来自学生手册，不一定准确，敬请谅解。）
 
 <img src="http://www.pkuschool.edu.cn/shouce/images/contain_half.jpg" style="width: 100%" class=" materialboxed">
@@ -41,17 +43,17 @@ categories: ["1"]
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/28/eQJmDK.png"> <!-- random image -->
+        <img src="https://s2.ax1x.com/2019/07/29/e8wO7d.png"> <!-- random image -->
         <div class="caption right-align">
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/28/eQJnHO.png"> <!-- random image -->
+        <img src="https://s2.ax1x.com/2019/07/29/e8wvtI.png"> <!-- random image -->
         <div class="caption center-align">
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/28/eQJKED.png"> <!-- random image -->
+        <img src="https://s2.ax1x.com/2019/07/29/e8wjAA.png"> <!-- random image -->
         <div class="caption right-align">
         </div>
       </li>

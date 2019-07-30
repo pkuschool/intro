@@ -127,5 +127,6 @@ categories: ["2"]
 - **[附中摄影的99个角落 红砖新生指南](https://mp.weixin.qq.com/s/B-IR99htQ9x7FBUTqXHYEw)**
 - [20年前的附中人，有多不一样？\| 红砖回忆计划](https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q)
 
+===
 
-
+看到这里你已经看完 2/3 的内容啦！后面是一些其它的事情（比如食堂什么的），十分轻松愉快哦 ;-)

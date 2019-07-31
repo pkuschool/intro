@@ -80,6 +80,10 @@ categories: ["1"]
 
 下面一段有些长，可能也略难懂，如果感兴趣可以看一看；不感兴趣请直接转到页面底端。
 
+有关推荐的机型，请从此链接跳转到知乎，看看别人的推荐吧：
+
+<a href="https://zhuanlan.zhihu.com/p/74132830" class=" btn blue darken-1 white-text">转到型号推荐</a>
+
 <a href="#小结" class=" btn red darken-3 white-text">转到页面底端</a>
 
 ### 各参数的意义
@@ -172,8 +176,4 @@ categories: ["1"]
 
 ## 小结
 
-电脑购买指南就到这里了。
-
-如需更多机型推荐，请移步：**[墨鱼的文章（知乎）](https://zhuanlan.zhihu.com/p/74132830)**。
-
-如有其他问题，请咨询<subit@i.pkuschool.edu.cn>。
+电脑购买指南就到这里了。如有其他问题，请咨询<subit@i.pkuschool.edu.cn>。

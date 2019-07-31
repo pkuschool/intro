@@ -19,6 +19,10 @@ categories: ["1"]
   });
 </script>
 
+<div class="card-panel red darken-2 white-text">
+    <p style="font-size: 20px">⚠ 本网站由学生社团撰写，不代表官方观点。执行任何操作即视为您知晓这点。</p>
+</div>
+
 ## 学院与书院
 
 学院：提供不同种类课程的实体（如：博雅学院、行知学院、道尔顿学院）

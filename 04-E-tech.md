@@ -82,7 +82,7 @@ categories: ["1"]
 
 有关推荐的机型，请从此链接跳转到知乎，看看别人的推荐吧：
 
-<a href="https://zhuanlan.zhihu.com/p/74132830" class=" btn blue darken-1 white-text">转到型号推荐</a>
+<a href="https://zhuanlan.zhihu.com/p/74132830" class=" btn blue darken-1 white-text" target="_zhihu">转到型号推荐</a>
 
 <a href="#小结" class=" btn red darken-3 white-text">转到页面底端</a>
 

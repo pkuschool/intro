@@ -38,6 +38,6 @@ layout: default
 请尽量不要将内容一带而过，否则您可能丢失部分的步骤。
 
 <div class="card-panel red darken-2 white-text">
-    <p style="font-size: 30px">⚠ 本网站由学生社团撰写，不代表官方观点。点击任何按钮即视为您知晓这点。</p>
+    <p style="font-size: 20px">⚠ 本网站由学生社团撰写，不代表官方观点。点击任何按钮即视为您知晓这点。</p>
 </div>
 

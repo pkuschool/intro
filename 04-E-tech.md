@@ -194,7 +194,7 @@ categories: ["1"]
 
 忌：只有一种接口，即 USB Type-C（如果你想买 MacBook 系列的，那大多是只有 USB Type-C 接口，就必须需要转接头）
 
-<img src="http://bbs.raindi.net/data/attachment/forum/201711/29/211712m860gl0xeg0xlvpv.jpg"  class="materialboxed">
+<img src="http://bbs.raindi.net/data/attachment/forum/201711/29/211712m860gl0xeg0xlvpv.jpg"  class="materialboxed" width="60%">
 
 【校内加分项】有 [Mini DisplayPort](https://baike.baidu.com/item/mini%20displayport/9751237) 接口的电脑，可以直接接投影仪
 

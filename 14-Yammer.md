@@ -53,6 +53,10 @@ categories: ["2"]
 
 在全公司回复报到帖报到之后，请加入[2022届练习组](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=6497935360&view=all)，等待后续安排（不过不要在那里报到哦）。
 
+## 语言问题
+
+有时候您可能会遇到打开之后语言变成英文的问题。您可以直接进入 Yammer 设置关闭。设置位于：近左上角小齿轮 > 编辑设置 > 首选项（或者最后一个）。如果不想找的话，请走 [传送门](https://www.yammer.com/i.pkuschool.edu.cn/#/account/display_options?from=profile_settings_nav) 。
+
 
 ## 关一下通知？
 

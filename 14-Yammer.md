@@ -55,15 +55,9 @@ categories: ["2"]
 
 ## 语言问题
 
-有时候您可能会遇到打开之后语言变成英文的问题。您可以直接进入 Yammer 设置关闭。设置位于：近左上角小齿轮 > 编辑设置 > 首选项（或者最后一个）。如果不想找的话，请走 [传送门](https://www.yammer.com/i.pkuschool.edu.cn/#/account/display_options?from=profile_settings_nav) 。
+如果你的 Yammer 显示语言是英文，请看：
 
-
-## 关一下通知？
-
-有时候，Yammer 发来的电子邮件还是很烦（*并且有时候甚至能让你忽略重要通知*）的。**只要您确保您能及时查看相关信息**，就可以前往 Yammer 设置（近左上角那个齿轮 > 编辑设置） > [通知](https://www.yammer.com/i.pkuschool.edu.cn/account/notifications?from=profile_settings_nav#) 关掉电子邮件通知。
-
-您其实可以直接通过回复 Yammer 发送的电子邮件回复相关信息，但是不建议这么做（主要原因是发完之后大家都能看见你的邮件签名，并且可能回复错......）
-
+<a href="https://mp.weixin.qq.com/s/dRhU3NNrcArtGjMNssx4gw" class="blue darken-1 white-text">教程 | Yammer语言切换</a>
 
 ## 随时随地收发消息
 

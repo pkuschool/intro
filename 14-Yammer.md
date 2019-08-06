@@ -57,7 +57,7 @@ categories: ["2"]
 
 如果你的 Yammer 显示语言是英文，请看：
 
-<a href="https://mp.weixin.qq.com/s/dRhU3NNrcArtGjMNssx4gw" class="blue darken-1 white-text">教程 | Yammer语言切换</a>
+<a href="https://mp.weixin.qq.com/s/dRhU3NNrcArtGjMNssx4gw" class="btn blue darken-1 white-text">教程 | Yammer语言切换</a>
 
 ## 随时随地收发消息
 

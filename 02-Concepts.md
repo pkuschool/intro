@@ -19,9 +19,10 @@ categories: ["1"]
   });
 </script>
 
-<div class="card-panel red darken-2 white-text">
-    <p style="font-size: 20px">⚠ 本网站由学生社团撰写，不代表官方观点。执行任何操作即视为您知晓这点。</p>
-</div>
+<div class="card-panel yellow red-text">
+    <span style="font-size: 60px">⚠</span>
+    <span style="font-size: 20px">本网站由学生社团撰写，不代表官方观点。执行任何操作即视为您知晓这点。</span>
+</span></div>
 
 ## 学院与书院
 

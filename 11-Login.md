@@ -34,7 +34,7 @@ categories: ["2"]
 
 <div class="card-panel red yellow-text">
     <span style="font-size: 45px">⚠</span>
-    <span style="font-size: 16px">如您不绑定手机号，<strong>将无法在忘记密码时自行重置密码！！！！</strong>此时需要联系 SubIT 进行重置。
+    <span style="font-size: 16px">如您不绑定手机号，<strong>将无法在忘记密码时自行重置密码！！！！</strong>如不设置则需要联系 SubIT 进行重置。
 </span></div>
 
 手机号建议填一个常用手机号（学校不会泄露您的手机号信息，也不会无缘无故发送短信）。

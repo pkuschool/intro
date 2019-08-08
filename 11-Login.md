@@ -20,8 +20,8 @@ categories: ["2"]
 请点击页面中间那个大大的“登录”按钮，然后先输入纸条上的邮箱，在点继续后输入纸条上的密码。
 
 <div class="card-panel blue white-text">
-    <span style="font-size: 60px">信息</span>
-    <span style="font-size: 20px">您的用户名可能在名字全拼后面包含数字，请务必不要忽略。</span>
+    <span style="font-size: 45px">ℹ</span>
+    <span style="font-size: 16px">您的用户名可能在名字全拼后面包含数字，请务必不要忽略。</span>
 </div>
 
 
@@ -33,8 +33,8 @@ categories: ["2"]
 - 未来需要用此手机号重置密码
 
 <div class="card-panel red yellow-text">
-    <span style="font-size: 60px">⚠</span>
-    <span style="font-size: 20px">如您不绑定手机号，<strong>将无法在忘记密码时自行重置密码！！！！</strong>此时需要联系 SubIT 进行重置。
+    <span style="font-size: 45px">⚠</span>
+    <span style="font-size: 16px">如您不绑定手机号，<strong>将无法在忘记密码时自行重置密码！！！！</strong>此时需要联系 SubIT 进行重置。
 </span></div>
 
 手机号建议填一个常用手机号（学校不会泄露您的手机号信息，也不会无缘无故发送短信）。

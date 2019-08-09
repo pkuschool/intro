@@ -17,12 +17,12 @@ categories: ["1"]
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
   });
+  M.toast({
+    html: '<span>本网站由学生社团撰写，不代表官方观点。<br>本网站使用 Google Analytics 来记录您的浏览以<br>进行极其基础的数据分析，不会记录您的个人信息。</span><a class="btn-flat toast-action right" onclick="M.Toast.dismissAll()">好的</a>',
+    displayLength: 150000,
+    activationPercent: 2
+  })
 </script>
-
-<div class="card-panel yellow red-text">
-    <span style="font-size: 60px">⚠</span>
-    <span style="font-size: 20px">本网站由学生社团撰写，不代表官方观点。执行任何操作即视为您知晓这点。</span>
-</span></div>
 
 ## 学院与书院
 

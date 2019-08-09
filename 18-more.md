@@ -47,7 +47,7 @@ categories: ["2"]
 
 不论你的兴趣点在哪个编程语言上，都欢迎感兴趣的同学加入北大附中21/22届技术交流群！
 
-<img src="../img/techdiscuss.jpg" class="materialboxed" height="300">
+<img src="../img/techdiscuss.png" class="materialboxed" height="300">
 
 ## 红砖
 

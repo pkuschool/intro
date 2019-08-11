@@ -26,7 +26,7 @@ categories: ["1"]
 - [Office 365 \| office.com](https://office.com)：在线系统，~~离开它活不了~~，绝大多数课程都与其有关（并且非常有关）。稍后会详细介绍。
 - [单点登录 \| bdfz-cas.pkuschool.edu.cn](http://bdfz-cas.pkuschool.edu.cn)：拿自己的学号（选书院后才有）和密码登录，可以从此进入悦实践等。一个导航。
   - 悦实践：申报与记录校内活动时长
-- **[学生、课程手册](http://www.pkuschool.edu.cn/shouce/xiaoli_01.html)**：涉及到校内的各种规则，请**务必**仔细阅读，之后 Rookie 系统也要用到。**除此之外你也能找到学校相关部门的电话号码。**
+- **[学生、课程手册](http://handbook.pkuschool.edu.cn/index.html)**：涉及到校内的各种规则，请**务必**仔细阅读，之后 Rookie 系统也要用到。**除此之外你也能找到学校相关部门的电话号码。**
 
 （请务必仔细看完以上内容再继续）
 

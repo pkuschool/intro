@@ -26,7 +26,7 @@ categories: ["1"]
 
 一张图：（本图来自学生手册，不一定准确，敬请谅解。）
 
-<img src="http://www.pkuschool.edu.cn/shouce/images/contain_half.jpg" style="width: 100%" class=" materialboxed">
+<img src="https://handbook.pkuschool.edu.cn/assets/images/gallery/dt1.png" style="width: 100%" class=" materialboxed">
 
 这张图看起来非常的单调，不如就欣赏一下 [Ourscraft 社团](http://ourscraft.sxl.cn)建造的虚拟校园来脑补一下吧~
 

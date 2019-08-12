@@ -24,7 +24,7 @@ categories: ["1"]
 
 > ℹ 由于本页图片较多，加载速度可能较慢，请稍等片刻。敬请谅解。
 
-一张图：（本图来自学生手册，不一定准确，敬请谅解。）
+一张图：（本图来自学生手册。点击可以缩放到全屏大小。）
 
 <img src="http://handbook.pkuschool.edu.cn/assets/images/gallery/dt1.png" style="width: 100%" class=" materialboxed">
 

@@ -31,14 +31,16 @@ categories: ["2"]
 
 ## 开始吧！
 
+当前暂无23届报到帖、练习组，如果新生在访问时这段文字还存在，请邮件联系 SubIT 催促我们发一个。
+
 从头开始，先在[ > 全公司里写着2022届的报到帖 < ](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
 
 <a href="https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304" class=" btn-large red darken-2 white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2022届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
 
-这些是几个比较常用的组：
+这些是比较常用的组：
 
 - 全公司：全校都能看见的地方，做宣传很合适；但请不要刻意刷屏。
-- **[高中部通知](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=10989755&view=all)**：主要发送高中部各部门以及学校其它部门给高中学生的通知。**强烈建议加入。**
+<!-- - **[高中部通知](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=10989755&view=all)**：主要发送高中部各部门以及学校其它部门给高中学生的通知。**强烈建议加入。** -->
 
 这些是一些休闲娱乐聊天的地方：
 
@@ -65,7 +67,7 @@ Yammer 也有移动版应用！
 
 iOS版可以直接去 App Store 搜索下载；安卓版国内软件平台一般不提供，可以前往应用汇[下载](http://share.appchina.com/app/com.yammer.v1)。
 
-
+<!--
 ## 桌面客户端
 
 体验与网页版相似，可下可不下。
@@ -79,4 +81,4 @@ iOS版可以直接去 App Store 搜索下载；安卓版国内软件平台一般
 
 ### macOS 10.9+
 
-[下载](https://go.microsoft.com/fwlink/p/?linkid=858590)
+[下载](https://go.microsoft.com/fwlink/p/?linkid=858590) -->

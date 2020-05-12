@@ -26,12 +26,9 @@ categories: ["2"]
 
 ## 那么手机平板呢？
 
-您可以到应用商店搜索下载以下两个选项中的其中一套：
+您可以到应用商店搜索下载应用：
 
-- Office Mobile
 - Word, PowerPoint, Excel（建议使用）
-
-如果在应用商店中找不到，请 <a href="../Android/" class=" btn red darken-2 white-text" target="_android">前往 Android 版应用下载区域</a>
 
 不建议使用 WPS。
 
@@ -41,10 +38,10 @@ categories: ["2"]
 
 学校的许可证并没有包含桌面版客户端。如果计算机上没有出厂预装的 Office 应用，建议购买 Office 365 （家庭版一年498￥）来解决，而非购买 Office 2019。正版是一种习惯。
 
-## 和我之前的 Office 365 家庭版/个人版有什么区别？
+## 学校这个“教育版”和我之前的 Office 365 家庭版/个人版有什么区别？
 
 - 无需梯子就能上 OneDrive 网页版
-- 全新的网页版应用
+- 主要为校内访问
 - 更好的分享链接与在线多人协作
 - 新增：Teams, Yammer, SharePoint...
 

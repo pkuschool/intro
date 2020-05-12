@@ -94,6 +94,13 @@
         .no-padding{
             padding: 0 0;
         }
+        .card-panel.flex-center{
+            display: flex;
+            align-items: center;
+        }
+        .card-panel.flex-center>:first-child{
+            margin-right: 12px;
+        }
     </style>
 
 
@@ -115,7 +122,7 @@
             <div class="right hide-on-small-and-down" style="margin-right: 13px">
                 <a href="{{ site.url }}" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
-                <a href="{{ site.url }}/chapters/" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                <a href="{{ site.url }}chapters/" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
                 {% if page.last == "none" %}
                 <a href="./{{ page.last }}" class="btn white black-text navbtn disabled tooltipped" id="last"

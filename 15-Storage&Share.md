@@ -16,8 +16,7 @@ categories: ["2"]
 - 确保 OneDrive 客户端可用
   - Windows 10 已经预装 OneDrive，可以直接打开使用。
   - 如果之前被您卸载了，您可以用以下方式下载：
-    - [官网下载（需要梯子）](https://onedrive.live.com/about/zh-cn/download/)
-    - [太平洋电脑网分流](https://dl.pconline.com.cn/download/355248-1.html)
+    - [官网下载](https://go.microsoft.com/fwlink/p/?LinkID=2121808&clcid=0x804&culture=zh-cn&country=CN)
   - macOS 可以在 App Store 中搜索 "OneDrive" 下载
 - 从手机上的各大应用商店搜索安装 “OneDrive”、“SharePoint”
   - SharePoint 安卓版也是不太可能搜到，所以：
@@ -44,24 +43,20 @@ categories: ["2"]
 
 各种课程的课程信息、需要的各种文件都能在这里找到；同时也能从这里进入相关联的 Yammer 组进行讨论。
 
-### 为什么有些搜不到？
+<!-- ### 为什么有些搜不到？
 
 这就涉及到权限问题了。这是一个大坑，可能不会做教程。
 
 只需要知道：
 - 标记为“公开”的组默认来讲谁都能加入，但不一定所有人都能看。
 - 反之，标记为“专用组”则默认无法公开访问，加入需要通过，通过后才可有相关权限。
-- 在此之外各种的权限也可以以网站所有者权限手动规定。有兴趣可以去试一试。
+- 在此之外各种的权限也可以以网站所有者权限手动规定。有兴趣可以去试一试。 -->
 
-### 一些重要的课程平台
+### 一些重要的课程平台，可以提前进入查看相关的课程说明
 
 - [行知学院](https://bdfz.sharepoint.com/sites/xn--48sz67d5hlgjn)
 - [元培学院](https://bdfz.sharepoint.com/sites/xn--2017-un8fn96ao4fpt6k)
 - [博雅学院](https://www.yuque.com/by)
 
-
 这些平台未来也可从 SharePoint 首页访问。
 
-### 客户端
-
-SharePoint 有移动版客户端，但没有桌面客户端。

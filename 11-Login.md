@@ -13,15 +13,15 @@ categories: ["2"]
 
 对于外校：请先退出原学校的 O365 账号并登录学校发的账号（请注意二者不通用），然后直接跳转到 [Yammer 教程]({{site.url}}13/) 区域。
 
-对于衔接班：请忽略这一章的教程。你们已经有账号（并且肯定也熟悉了），也无需什么其他操作。请点击右上方那个“目录”按钮，从目录跳转到第三章
+对于衔接班：如果已经熟悉 Office 365 教育版的使用，请点击右上方那个“目录”按钮，从目录跳转到第三章
 
 ## 登录
 
 请点击页面中间那个大大的“登录”按钮，然后先输入纸条上的邮箱，在点继续后输入纸条上的密码。
 
-<div class="card-panel blue white-text">
-    <span style="font-size: 45px">ℹ</span>
-    <span style="font-size: 16px">您的用户名可能在名字全拼后面包含数字，请务必不要忽略。</span>
+<div class="card-panel flex-center">
+    <span style="font-size: 30px">ℹ</span>
+    <span style="font-size: 18px">您的用户名可能在名字全拼后面包含数字，请务必不要忽略。</span>
 </div>
 
 
@@ -32,14 +32,14 @@ categories: ["2"]
 - 账号验证会需要发送验证短信/打验证电话
 - 未来需要用此手机号重置密码
 
-<div class="card-panel red yellow-text">
-    <span style="font-size: 45px">⚠</span>
-    <span style="font-size: 16px">如您不绑定手机号，<strong>将无法在忘记密码时自行重置密码！！！！</strong>如不设置则需要联系 SubIT 进行重置。
-</span></div>
+<!-- <div class="card-panel red yellow-text flex-center">
+    <span style="font-size: 30px">⚠</span>
+    <span style="font-size: 18px">如您不绑定手机号，<strong>将无法在忘记密码时自行重置密码！！！！</strong>如不设置则需要联系 SubIT 进行重置。
+</span></div> -->
 
 手机号建议填一个常用手机号（学校不会泄露您的手机号信息，也不会无缘无故发送短信）。
 
-如果将来有变更，请联系 SubIT 及其社员更改
+如果将来有变更，请查看 [教程文章](https://mp.weixin.qq.com/s/dkEssxnH1e2M8w38x8sB2Q) 自助更改。
 
 而密码，请使用强密码 **（需要：大写字母，小写字母，数字，否则无法通过；请不要使用形如“123456”的弱密码）** ，并 **记住此密码** 方便未来使用。
 

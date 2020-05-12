@@ -18,7 +18,7 @@ categories: ["1"]
     var instances = M.Materialbox.init(elems);
   });
   M.toast({
-    html: '<span>本网站由学生社团撰写，不代表官方观点。<br>本网站使用 Google Analytics 来记录您的浏览以<br>进行极其基础的数据分析，不会记录您的个人信息。</span><a class="btn-flat toast-action right" onclick="M.Toast.dismissAll()">好的</a>',
+    html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" onclick="M.Toast.dismissAll()">好的</a>',
     displayLength: 150000,
     activationPercent: 2
   })

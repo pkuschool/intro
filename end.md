@@ -11,10 +11,10 @@ layout: default
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var sector_span=document.querySelector("#sector");
+        var sector_div=document.querySelector("#sector");
         var time=new Date().getFullYear();
         time+=3;
-        sector_span.innerHTML=time;
+        sector_div.innerHTML=time;
     });
 </script>
 
@@ -41,6 +41,6 @@ https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVK
 
 感谢 HTML, CSS 标准的构建者与 Materialize, Vue.js, Jekyll 的开发者们让这个网站变为可能。
 
-感谢<span id="sector"></span>届同学们耐心的将这个教程看完；
+感谢<div id="sector"></div>届同学们耐心的将这个教程看完；
 
 感谢2020届华琦琦同学在去年的新生指南中提供的参考。

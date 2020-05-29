@@ -10,10 +10,12 @@ layout: default
 ---
 
 <script>
-    var sector_span=document.querySelector("#sector");
-    var time=new Date().getFullYear();
-    time+=3;
-    sector_span.innerHTML=time;
+    document.addEventListener('DOMContentLoaded', function() {
+        var sector_span=document.querySelector("#sector");
+        var time=new Date().getFullYear();
+        time+=3;
+        sector_span.innerHTML=time;
+    });
 </script>
 
 ## 你看完啦！

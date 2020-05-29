@@ -25,8 +25,8 @@ categories: ["2"]
 
 如果出现了性暗示、惊悚内容，相关帖子会被删除或进入“争议贴讨论区”供评审；如确实触犯可能会被短时间禁言。
 
-如果你发现了帖子不符合规定，可以点击右上角的按钮，随后在弹出菜单内向我们举报。
-![yammer举报示例](./img/yammer-report.png)
+如果你发现了帖子不符合规定，可以点击右上角的按钮，随后在弹出菜单内向我们举报。  
+<img src="../img/../Intro/img/yammer-report.png" width="375"  class=" materialboxed">
 
 
 

@@ -41,6 +41,6 @@ https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVK
 
 感谢 HTML, CSS 标准的构建者与 Materialize, Vue.js, Jekyll 的开发者们让这个网站变为可能。
 
-感谢<span id="sector"><span>届同学们耐心的将这个教程看完；
+感谢<span id="sector"></span>届同学们耐心的将这个教程看完；
 
 感谢2020届华琦琦同学在去年的新生指南中提供的参考。

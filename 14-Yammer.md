@@ -9,6 +9,13 @@ layout: default
 categories: ["2"]
 ---
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+  });
+</script>
+
 请进入 Office 365 首页，找到“Yammer”，进入。（如果在首页上找不到，可以进入“浏览所有应用”查找）
 
 ## 守则...

@@ -24,7 +24,7 @@ categories: ["1"]
 这个可能是很多人都会关心的事情，既然不禁止手机和电脑，那我能不能在学校随便玩电子游戏呢？
 
 <div class="card-panel flex-center">
-    <i style="font-size: 30px;color:#B71C1C;" class="material-icons">warning</i>
+    <i style="font-size: 30px;color:#B71C1C;" class="material-icons">error_outline</i>
     <span style="font-size: 18px;color:#B71C1C;">不可以,你需要遵守学校的相关规定。</span>
 </div>
 

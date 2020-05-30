@@ -154,15 +154,27 @@
         <div class="divider"></div><br><br>
         {% if page.notitle != true %}
         {% if page.next == "none" %}
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.tooltipped');
-                var instances = M.Tooltip.init(elems);
-            });
-        </script>
-        <a href="./" class="btn grey darken-3 tooltipped" data-position="right" data-tooltip="暂时没有下一页了，敬请期待！"
-            onclick="return false;">
-            <i class="material-icons right">clear</i>没有下一页</a>
+            {% if page.permalink != "/chapters/" %}
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var elems = document.querySelectorAll('.tooltipped');
+                    var instances = M.Tooltip.init(elems);
+                });
+            </script>
+            <a href="./" class="btn grey darken-3 tooltipped" data-position="right" data-tooltip="暂时没有下一页了，敬请期待！"
+                onclick="return false;">
+                <i class="material-icons right">clear</i>没有下一页</a>
+            {% else %}
+                <script>
+                    function back_to_reading(){
+                        history.back(-1);
+                    }
+                </script>
+                <button onclick="back_to_reading()" class="btn  red darken-3 white-text" >
+                    <i class="material-icons right" style="width: 15px;">arrow_backward</i>
+                    继续阅读
+                </button>
+            {% endif %}
         {% else %}
         <a href="./{{page.next}}" class="btn  red darken-3 ">
             <i class="material-icons right">arrow_forward</i>下一页</a>

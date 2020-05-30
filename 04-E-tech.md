@@ -49,7 +49,7 @@ categories: ["1"]
 
 至少这次不要吝啬为自己选择一个好用的笔记本电脑。以下是笔记本电脑简略购买指南。
 
-<script> document.addEventListener('DOMContentLoaded', function() { var elems = document.querySelectorAll('.materialboxed'); var instances = M.Materialbox.init(elems); }); M.toast({ html: '以下部分可选阅读，非必须项。好的', displayLength: 150000, activationPercent: 2 }) </script>
+error_outline 以下部分可选阅读，可直接跳过。不代表学校观点。
 
 <!-- *（当然，要学会自控哦！* -->
 

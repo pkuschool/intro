@@ -45,12 +45,11 @@ categories: ["1"]
 
 > 在北大附中，不带电脑，你活不下去的。<img src="https://s2.ax1x.com/2019/07/28/eQVA58.jpg" width="40" title="玩笑归玩笑，生存倒是没问题的。但是会遇到各种坑。">
 
-~~以下部分可选阅读~~  
-
 有一台好电脑，会对心情有一定的提升，不会为卡顿问题而困扰；当然，这个时候你可能需要入手一台。
 
 至少这次不要吝啬为自己选择一个好用的笔记本电脑。以下是笔记本电脑简略购买指南。
 
+<script> document.addEventListener('DOMContentLoaded', function() { var elems = document.querySelectorAll('.materialboxed'); var instances = M.Materialbox.init(elems); }); M.toast({ html: '以下部分可选阅读，非必须项。好的', displayLength: 150000, activationPercent: 2 }) </script>
 
 <!-- *（当然，要学会自控哦！* -->
 

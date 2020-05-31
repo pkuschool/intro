@@ -29,7 +29,7 @@ categories: ["2"]
 
 ## 开始同步
 
-请从 Office 365 首页打开 “OneDrive”。这是属于你的云盘，有5TB（5120GB）的容量，非常安全，不会有类似百度云的审查，也可以随意分享里面的文件。
+请从 Office 365 首页打开 “OneDrive”。这是属于你的云盘，有5TB（5120GB）的容量，非常安全，不会有类似百度云的审查，也可以随意分享里面的文件给任何人，(请参考[此教程](https://support.office.com/zh-cn/article/共享-OneDrive-文件和文件夹-9fcc2f7d-de0c-4cec-93b0-a82024800c07))
 
 如果你已经安装好桌面客户端，可以直接点击页面上部的“同步”，唤起 OneDrive，登录即可。设置完成之后，OneDrive将能在资源管理器内轻松的访问，相关文件也会自动同步。（如果不会同步请参考[此教程](https://mp.weixin.qq.com/s/ni0CiGEJ7ciPGKkWb1dpYg)）
 

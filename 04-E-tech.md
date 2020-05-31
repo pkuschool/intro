@@ -51,7 +51,7 @@ categories: ["1"]
 
 <div class="card-panel flex-center">
     <i style="font-size: 30px;color:#B71C1C;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;color:#B71C1C;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="https://pkuschool.github.io/intro/05/" class=" btn red darken-1 white-text">下一页</a></span>
+    <span style="font-size: 18px;color:#B71C1C;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="https://pkuschool.github.io/intro/05/" class=" btn red darken-1 white-text">跳过</a></span>
 </div>
 
 <!-- *（当然，要学会自控哦！* -->
@@ -113,8 +113,8 @@ categories: ["1"]
 
 <a href="https://zhuanlan.zhihu.com/p/102224874" class=" btn blue darken-1 white-text" target="_zhihu">转到选购指南</a>
 
->#### **【校内加分项】**  
->&nbsp;有 [Mini DisplayPort](https://baike.baidu.com/item/mini%20displayport/9751237) 或 [HDMI](https://baike.baidu.com/item/HDMI) 接口的电脑，可以直接连接教室投影仪。  
+>#### **投影相关**  
+>&nbsp;有 [Mini DisplayPort](https://baike.baidu.com/item/mini%20displayport/9751237) 或 [HDMI](https://baike.baidu.com/item/HDMI) 接口的电脑，可以直接以物理方式连接教室投影仪。**不过西楼现在已经支持无线投屏啦，有线只是备用，用这些接口会更方便一些。**
 
 <span style="font-size:1.5em;">看自己需求决定，不要盲目跟随。<span>
 

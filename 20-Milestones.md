@@ -9,6 +9,15 @@ layout: default
 categories: ["3"]
 ---
 
+<script>
+  document.addEventListener('DOMContentLoaded',function(){
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/20/");
+    }
+  });
+</script>
+
 以下暑假安排为去年的安排，**仅供参考**。实际时间请以学校公告为准。
 
 |时间|安排|

@@ -9,6 +9,15 @@ layout: default
 categories: ["3"]
 ---
 
+<script>
+  document.addEventListener('DOMContentLoaded',function(){
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/23/")
+    }
+  });
+</script>
+
 ## 学校各部门联系方式
 
 和部门进行沟通 / 投诉的最好方式——Yammer 抄送。

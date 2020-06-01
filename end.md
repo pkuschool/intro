@@ -15,6 +15,11 @@ layout: default
         var time=new Date().getFullYear();
         time+=3;
         sector_span.innerHTML=time;
+        
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/99/");
+    }
     });
 </script>
 

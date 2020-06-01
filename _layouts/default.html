@@ -120,7 +120,7 @@
             <span class="flow-text hide-on-small-and-down"
                 style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
             <div class="right hide-on-small-and-down" style="margin-right: 13px">
-                <a href="{{ site.url }}" class="btn white black-text navbtn tooltipped" data-position="bottom"
+                <a onclick="localStorage.setItem('step','');" href="{{ site.url }}" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
                 <a href="{{ site.url }}chapters/" class="btn white black-text navbtn tooltipped" data-position="bottom"
                     data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>

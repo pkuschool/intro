@@ -9,6 +9,15 @@ layout: default
 categories: ["2"]
 ---
 
+<script>
+  document.addEventListener('DOMContentLoaded',function(){
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/13/");
+    }
+  });
+</script>
+
 请准备好：
 
 - 你刚刚设置的密码

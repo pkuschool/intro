@@ -9,6 +9,15 @@ layout: default
 categories: ["3"]
 ---
 
+<script>
+  document.addEventListener('DOMContentLoaded',function(){
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/22/");
+    }
+  });
+</script>
+
 ## 食堂
 
 我们的食堂是可以自选的！

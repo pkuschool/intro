@@ -17,6 +17,11 @@ categories: ["1"]
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
+    
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/04/");
+    }
   });
 </script>
 

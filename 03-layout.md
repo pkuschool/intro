@@ -18,6 +18,11 @@ categories: ["1"]
     var instances2 = M.Slider.init(elems2,{
       height: 500
     });
+    
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/03/");
+    }
   });
 
 </script>

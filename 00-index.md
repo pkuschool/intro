@@ -9,6 +9,24 @@ author:
 layout: default
 ---
 
+<script>
+  document.addEventListener('DOMContentLoaded',function(){
+    if (typeof(Storage) !== "undefined")
+    {
+      var now_step=localStorage.getItem("step");
+      if(now_step!=""&&now_step!=null&&now_step!=undefined)
+      {
+        M.toast({
+            html: '<div style="text-align: left;"><span>是否返回上次阅读进度&nbsp;？</span><br/><a class="btn-flat toast-action left" onclick="M.Toast.dismissAll()">关闭</a><a class="btn-flat toast-action left" onclick="window.location='+now_step+'">返回阅读进度</a></div>',
+            displayLength: 150000,
+            activationPercent: 2
+        });
+        localStorage.setItem("step",'');
+      }
+    }
+  });
+</script>
+
 <img src="http://bdfz-cas.pkuschool.edu.cn/assets/login-1a72e4feef0ed4ad47183208b8d0a0aa.png" width="200" align="middle">
 
 首先欢迎各位同学来到北大附中！

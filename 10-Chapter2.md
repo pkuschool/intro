@@ -8,6 +8,15 @@ last: ../04/
 layout: default
 categories: ["2"]
 ---
+<script>
+  document.addEventListener('DOMContentLoaded',function(){
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/10/");
+    }
+  });
+</script>
+
 
 感谢你看完了第一章（共三章），我们从这里开始，要学习一下学校使用的 Office 365 的基础啦！
 

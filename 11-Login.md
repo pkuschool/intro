@@ -9,6 +9,15 @@ layout: default
 categories: ["2"]
 ---
 
+<script>
+  document.addEventListener('DOMContentLoaded',function(){
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/11/");
+    }
+  });
+</script>
+
 ## 之前有学校的 Office 365 账号怎么办？
 
 对于**外校**：请先退出原学校的 O365 账号并登录学校发的账号（请注意二者不通用），然后直接跳转到 [Yammer 教程]({{site.url}}13/) 区域。

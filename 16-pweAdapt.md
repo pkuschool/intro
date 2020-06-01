@@ -10,6 +10,15 @@ categories: ["2"]
 ---
 <!-- 本文主要讨论 PowerPoint, Excel, Word 在新环境下的适配问题。文件名有点难懂，抱歉。 -->
 
+<script>
+  document.addEventListener('DOMContentLoaded',function(){
+    if (typeof(Storage) !== "undefined")
+    {
+      localStorage.setItem("step", "/16/");
+    }
+  });
+</script>
+
 ## 准备工作
 
 请返回 OneDrive 网页版，**从网页版**尝试打开你在上一个教程之中 在 OneDrive 中上传/新建的文档（Word, PowerPoint, Excel均可）。如果还没有进行，也可以在 Office 365 首页点击加号新建一个。）

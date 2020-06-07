@@ -144,6 +144,12 @@
             backdrop-filter: blur(10px);
         }
 
+        .toast {
+            background: rgb(50 50 50 / 0.9);
+            backdrop-filter: blur(10px);
+            box-shadow: none;
+        }
+
         @media screen and (max-width: 600px) {
             #page-title {
                 font-size: 23px;
@@ -177,7 +183,6 @@
                 {% unless page.next == "none" %}
                 <a href="{{site.baseurl}}/{{ page.next }}" class="z-depth-1 navbtn tooltipped red darken-4 white-text" id="nxt-btn" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: -1.5px;">arrow_forward</i></a>
                 {% endunless %}
-                {{site.baseurl}}
             </div>
         </nav>
     </div>

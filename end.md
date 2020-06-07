@@ -3,7 +3,7 @@
 permalink: /99/
 title: 完事了
 description: 教程就这么结束了
-last: ../21/
+last: "21"
 next: "none"
 categories: ["2019"]
 layout: default
@@ -15,7 +15,7 @@ layout: default
         var time=new Date().getFullYear();
         time+=3;
         sector_span.innerHTML=time;
-        
+
     if (typeof(Storage) !== "undefined")
     {
       localStorage.setItem("step", "/99/");

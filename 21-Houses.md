@@ -3,8 +3,8 @@
 title: 书院制
 description: BDFZer 不可或缺的一部分
 permalink: /21/
-next: ../22/
-last: ../20/
+next: "22"
+last: "20"
 layout: default
 author:
   - 刘语辰

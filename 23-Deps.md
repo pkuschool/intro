@@ -3,8 +3,8 @@
 title: 各部门联系方式
 description:
 permalink: /23/
-next: ../99/
-last: ../22/
+next: "99"
+last: "22"
 layout: default
 categories: ["3"]
 ---

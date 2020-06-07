@@ -3,8 +3,8 @@
 permalink: /10/
 title: 第二章
 description: Office 365 使用
-next: ../11/
-last: ../04/
+next: "11"
+last: "05"
 layout: default
 categories: ["2"]
 ---

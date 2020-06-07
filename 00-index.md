@@ -3,7 +3,7 @@
 permalink: /
 title: 欢迎来到北大附中
 last: "none"
-next: ./02
+next: "02"
 author:
     - 刘语辰
 layout: default

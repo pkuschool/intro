@@ -3,8 +3,8 @@
 title: Yammer
 description: 交流社区、课程组
 permalink: /14/
-next: ../15/
-last: ../13/
+next: "15"
+last: "13"
 layout: default
 categories: ["2"]
 ---
@@ -13,7 +13,7 @@ categories: ["2"]
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
-    
+
     if (typeof(Storage) !== "undefined")
     {
       localStorage.setItem("step", "/14/");
@@ -37,7 +37,7 @@ categories: ["2"]
 
 如果出现了性暗示、惊悚内容，相关帖子会被删除或进入“争议贴讨论区”供评审；如确实触犯可能会被短时间禁言。
 
-如果你发现了帖子不符合规定，可以点击右上角的按钮，随后在弹出菜单内向我们举报。  
+如果你发现了帖子不符合规定，可以点击右上角的按钮，随后在弹出菜单内向我们举报。
 <img src="../img/yammer-report.png" width="375"  class=" materialboxed">
 
 

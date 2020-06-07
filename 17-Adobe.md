@@ -3,8 +3,8 @@
 permalink: /17/
 title: Adobe
 description: 简单插一句，正经教程马上回来
-last: ../16/
-next: ../18/
+last: "16"
+next: "18"
 layout: default
 categories: ["2"]
 ---

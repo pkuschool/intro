@@ -3,8 +3,8 @@
 permalink: /16/
 title: 传统三件套
 description: Word, PowerPoint, Excel
-last: ../15/
-next: ../17/
+last: "15"
+next: "17"
 layout: default
 categories: ["2"]
 ---

@@ -3,8 +3,8 @@
 permalink: /15/
 title: 云存储与分享
 description: OneDrive & SharePoint
-last: ../14/
-next: ../16/
+last: "14"
+next: "16"
 layout: default
 categories: ["2"]
 ---

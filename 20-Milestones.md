@@ -3,8 +3,8 @@
 permalink: /20/
 title: 第三章：暑期安排
 description:
-last: ../18/
-next: ../21/
+last: "18"
+next: "21"
 layout: default
 categories: ["3"]
 ---

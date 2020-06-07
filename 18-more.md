@@ -3,8 +3,8 @@
 permalink: /18/
 title: 更多提示 & 宣传
 description:
-last: ../17/
-next: ../20/
+last: "17"
+next: "20"
 layout: default
 categories: ["2"]
 ---
@@ -17,7 +17,7 @@ categories: ["2"]
     var instances2 = M.Slider.init(elems2,{
       height: 500
     });
-    
+
     if (typeof(Storage) !== "undefined")
     {
       localStorage.setItem("step", "/18/");
@@ -134,6 +134,7 @@ categories: ["2"]
 - **[附中摄影的99个角落 红砖新生指南](https://mp.weixin.qq.com/s/B-IR99htQ9x7FBUTqXHYEw)**
 - [20年前的附中人，有多不一样？\| 红砖回忆计划](https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q)
 
-===
+----
+
 
 看到这里你已经看完 2/3 的内容啦！后面是一些其它的事情（比如食堂什么的），十分轻松愉快哦 ;-)

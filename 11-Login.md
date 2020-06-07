@@ -3,8 +3,8 @@
 permalink: /11/
 title: 首次登录
 description: 万事之前，皆需登录
-next: ../12/
-last: ../10/
+next: "12"
+last: "10"
 layout: default
 categories: ["2"]
 ---

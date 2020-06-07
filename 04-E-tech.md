@@ -3,8 +3,8 @@
 title: 网络与电子设备
 description: 要用到的重要的东西...
 permalink: /04/
-next: ../05/
-last: ../03/
+next: "05"
+last: "03"
 layout: default
 author:
   - 刘语辰
@@ -17,7 +17,7 @@ categories: ["1"]
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
-    
+
     if (typeof(Storage) !== "undefined")
     {
       localStorage.setItem("step", "/04/");
@@ -36,7 +36,7 @@ categories: ["1"]
 - **[学生手册](http://handbook.pkuschool.edu.cn/index.html)****[课程手册](https://pkuschool.yuque.com/books/share/0189695d-997f-4176-ba0b-503a6d986796#)**：涉及到校内的各种规则，请**务必**仔细阅读，之后 Rookie 系统也要用到。**除此之外你也能找到学校相关部门的电话号码。**
 
 **（请务必仔细看完以上内容再继续）**
- 
+
 1：Office 365已于2020年4月更名为Microsoft 365，但为了保持叙述的连贯性和尊重现有用语习惯，以下的内容中可能仍然采用「Office 365」的名称，如果没有特别声明，以下的全部内容中「O365」「M365」「365」均指代Microsoft 365。*
 
 ## 然后，关于电子产品的使用
@@ -121,7 +121,7 @@ categories: ["1"]
 
 <a href="https://zhuanlan.zhihu.com/p/102224874" class=" btn blue darken-1 white-text" target="_zhihu">转到选购指南</a>
 
->#### **投影相关**  
+>#### **投影相关**
 >&nbsp;有 [Mini DisplayPort](https://baike.baidu.com/item/mini%20displayport/9751237) 或 [HDMI](https://baike.baidu.com/item/HDMI) 接口的电脑，可以直接以物理方式连接教室投影仪。**不过西楼现在已经支持无线投屏啦，有线只是备用，用这些接口会更方便一些。**
 
 <span style="font-size:1.5em;">看自己需求决定，不要盲目跟随。<span>

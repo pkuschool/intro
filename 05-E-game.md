@@ -3,8 +3,8 @@
 title: 电子游戏
 description: 你必须要知道的...
 permalink: /05/
-next: ../10/
-last: ../04/
+next: "10"
+last: "04"
 layout: default
 author:
   - 何天阳
@@ -14,7 +14,7 @@ categories: ["1"]
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
-    
+
     if (typeof(Storage) !== "undefined")
     {
       localStorage.setItem("step", "/05/");
@@ -34,8 +34,8 @@ categories: ["1"]
 </div>
 
 ## 细则
-具体来说，你**只能**在**体育馆一层，食堂，宿舍以及其他头顶没有天花板的地方**玩电子游戏。  
-在游玩的过程中，你还需要注意不能影响到他人的学习和休息。  
+具体来说，你**只能**在**体育馆一层，食堂，宿舍以及其他头顶没有天花板的地方**玩电子游戏。
+在游玩的过程中，你还需要注意不能影响到他人的学习和休息。
 
 
 

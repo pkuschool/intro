@@ -3,8 +3,8 @@
 permalink: /03/
 title: 校内简图
 description: 校园里有哪些地方？
-next: ../04/
-last: ../02/
+next: "04"
+last: "02"
 layout: default
 author:
     - 刘语辰
@@ -18,7 +18,7 @@ categories: ["1"]
     var instances2 = M.Slider.init(elems2,{
       height: 500
     });
-    
+
     if (typeof(Storage) !== "undefined")
     {
       localStorage.setItem("step", "/03/");

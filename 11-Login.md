@@ -31,7 +31,7 @@ categories: ["2"]
 <div class="card-panel flex-center">
     <i style="font-size: 30px;color:#B71C1C;" class="material-icons">info_outline</i>
     <span style="font-size: 18px;color:#B71C1C;">您的用户名可能在名字全拼后面包含数字，请务必不要忽略。</span>
-    <span style="font-size: 13px;color:#B71C1C;">&nbsp;这意味着之前已经有同姓名全拼的同学注册过了。</span>
+    <span style="font-size: 13px;color:#B71C1C;" class="hide-on-small">&nbsp;这意味着之前已经有同姓名全拼的同学注册过了。</span>
 </div>
 
 

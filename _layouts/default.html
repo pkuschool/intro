@@ -155,6 +155,11 @@
                 font-size: 23px;
             }
         }
+        @supports not ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))){
+            #top-div{
+                background-color: white !important;
+            }
+        }
     </style>
 
 
@@ -168,7 +173,7 @@
 
 <body>
     {% if page.notitle != true %}
-    <div class=" red-text text-darken-4 z-depth-1" style="position: sticky; top:0px;z-index: 9;background: rgba(247, 204, 201, 0.58);backdrop-filter: blur(10px);">
+    <div class=" red-text text-darken-4 z-depth-1" id="top-div" style="position: sticky; top:0px;z-index: 9;background: rgba(247, 204, 201, 0.58);-webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);">
         <nav class=" container transparent z-depth-0 red-text text-darken-4" style="width: 100%;padding-bottom: 0px; height: fit-content;">
             <span id="page-title">{{ page.title }}</span>
             <span class="flow-text hide-on-small-and-down" style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
@@ -202,7 +207,7 @@
         {% endif %}
         {% endif %}
         <!-- <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p> -->
-        <a href="https://github.com/pkuschool/intro" class="btn black" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;text-transform: none;">
+        <a href="https://github.com/pkuschool/intro" class="btn black hide-on-small-and-down" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;text-transform: none;">
             <span style="vertical-align: middle;">GitHub Repo</span>
         </a>
 

@@ -58,8 +58,8 @@ categories: ["1"]
 至少这次不要吝啬为自己选择一个好用的笔记本电脑。以下是笔记本电脑简略购买指南。
 
 <div class="card-panel flex-center">
-    <i style="font-size: 30px;color:#B71C1C;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;color:#B71C1C;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="https://pkuschool.github.io/intro/05/" class=" btn red darken-1 white-text" title="吐槽：右上角也有下一页按钮可以用，当然点我也行">跳过</a></span>
+    <i style="font-size: 30px;color:#383838;" class="material-icons">error_outline</i>
+    <span style="font-size: 18px;color:#383838 ;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="https://pkuschool.github.io/intro/05/" class=" btn darken-1 white-text" style="background-color:#26a69a;" title="吐槽：右上角也有下一页按钮可以用，当然点我也行">跳过</a></span>
 </div>
 
 <!-- *（当然，要学会自控哦！* -->

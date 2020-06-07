@@ -30,14 +30,14 @@ categories: ["1"]
 北大附中目前在线上教学方面已经耕耘很深，用到了一些解决方案，**这些都很重要，建议进行收藏**。
 
 - [希悦校园 \| bdfz.seiue.com](https://bdfz.seiue.com)：课程管理系统，负责选课、查课、登成绩等（当前可能未对新生，具体请等候通知）
-- [Office 365<sup>*</sup> \| office.com](https://office.com)：在线系统，~~离开它活不了~~，绝大多数课程都与其有关（并且非常有关）。稍后会详细介绍。
+- [Office 365<sup>1</sup> \| office.com](https://office.com)：在线系统，~~离开它活不了~~，绝大多数课程都与其有关（并且非常有关）。稍后会详细介绍。
 - [单点登录 \| bdfz-cas.pkuschool.edu.cn](http://bdfz-cas.pkuschool.edu.cn)：拿自己的学号（选书院后才有）和密码登录，可以从此进入希悦等。一个导航。
 - [语雀 \| yuque.com](https://www.yuque.com)： 一个在线文档编辑器，如**公共说理**等课程都会使用此平台，也用于申请文凭。需要使用时会发送通知，**内有加入北大附中空间的邀请链接**，请注意查收。
 - **[学生手册](http://handbook.pkuschool.edu.cn/index.html)****[课程手册](https://pkuschool.yuque.com/books/share/0189695d-997f-4176-ba0b-503a6d986796#)**：涉及到校内的各种规则，请**务必**仔细阅读，之后 Rookie 系统也要用到。**除此之外你也能找到学校相关部门的电话号码。**
 
 **（请务必仔细看完以上内容再继续）**
  
- <sup>*</sup>: *Office 365已于2020年4月更名为Microsoft 365，但为了保持叙述的连贯性和尊重现有用语习惯，以下的内容中可能仍然采用「Office 365」的名称，如果没有特别声明，以下的全部内容中「O365」「M365」「365」均指代Microsoft 365。*
+1：Office 365已于2020年4月更名为Microsoft 365，但为了保持叙述的连贯性和尊重现有用语习惯，以下的内容中可能仍然采用「Office 365」的名称，如果没有特别声明，以下的全部内容中「O365」「M365」「365」均指代Microsoft 365。*
 
 ## 然后，关于电子产品的使用
 
@@ -59,7 +59,7 @@ categories: ["1"]
 
 <div class="card-panel flex-center">
     <i style="font-size: 30px;color:#B71C1C;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;color:#B71C1C;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="https://pkuschool.github.io/intro/05/" class=" btn red darken-1 white-text">跳过</a></span>
+    <span style="font-size: 18px;color:#B71C1C;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="https://pkuschool.github.io/intro/05/" class=" btn red darken-1 white-text" title="吐槽：右上角也有下一页按钮可以用，当然点我也行">跳过</a></span>
 </div>
 
 <!-- *（当然，要学会自控哦！* -->

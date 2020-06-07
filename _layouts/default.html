@@ -15,6 +15,10 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, '思源黑体 SC', 'Microsoft Yahei UI', sans-serif
         }
 
+        html {
+            background-color: #eee;
+        }
+
         code,
         kbd,
         samp {
@@ -51,8 +55,8 @@
             font-weight: bolder !important;
         }
 
-        navbtn {
-            margin-left: 5px;
+        .navbtn {
+            margin-left: 2px;
         }
 
         h1 {
@@ -71,15 +75,17 @@
             font-size: 1.4em !important
         }
 
-        p{
+        p {
             line-height: 1.6em;
             font-size: 16px;
         }
-        #main-section>ul>li{
+
+        #main-section>ul>li {
             line-height: 1.6em;
             font-size: 16px;
         }
-        #main-section>il{
+
+        #main-section>il {
             line-height: 1.6em;
             font-size: 16px;
         }
@@ -88,24 +94,66 @@
             background-color: #00000071
         }
 
-        .notopmargin{
+        .notopmargin {
             margin-top: 0;
         }
-        .no-padding{
+
+        .no-padding {
             padding: 0 0;
         }
-        .card-panel.flex-center{
+
+        .card-panel.flex-center {
             display: flex;
             align-items: center;
         }
-        .card-panel.flex-center>:first-child{
+
+        .card-panel.flex-center>:first-child {
             margin-right: 12px;
+        }
+
+        #page-title {
+            font-size: 30px;
+            margin-left: 15px;
+            /* font-weight: lighter */
+        }
+
+        #nxt-btn,
+        #nxt-btn-sec {
+            height: 45px;
+            width: 45px;
+            box-sizing: border-box;
+            line-height: 45px;
+            /* padding: 0 16px; */
+            text-align: center;
+            text-transform: uppercase;
+            vertical-align: middle;
+            -webkit-tap-highlight-color: transparent;
+            display: inline-block;
+            border: 1.5px white solid;
+            border-radius: 100px;
+            background-color: white;
+        }
+
+        .nav-sidebtn {
+            padding: 0 10px;
+        }
+
+        .material-tooltip {
+            padding: 10px 12px;
+            background-color: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+        }
+
+        @media screen and (max-width: 600px) {
+            #page-title {
+                font-size: 23px;
+            }
         }
     </style>
 
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.tooltipped');
             var instances = M.Tooltip.init(elems);
         });
@@ -114,34 +162,22 @@
 
 <body>
     {% if page.notitle != true %}
-    <div class=" red darken-4 white-text z-depth-2" style="position: sticky; top:0px;z-index: 9">
-        <nav class=" container  red darken-4 z-depth-0" style="width: 100%;height: 75px;padding-top: 5px">
-            <span style="font-size: 35px;margin-left: 15px;font-weight: lighter">{{ page.title }}</span>
-            <span class="flow-text hide-on-small-and-down"
-                style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
-            <div class="right hide-on-small-and-down" style="margin-right: 13px">
-                <a onclick="localStorage.setItem('step','');" href="{{ site.url }}" class="btn white black-text navbtn tooltipped" data-position="bottom"
-                    data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
-                <a href="{{ site.url }}chapters/" class="btn white black-text navbtn tooltipped" data-position="bottom"
-                    data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
-                {% if page.last == "none" %}
-                <a href="./{{ page.last }}" class="btn white black-text navbtn disabled tooltipped" id="last"
-                    data-position="bottom" data-tooltip="上一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_back</i></a>
-                {% else %}
-                <a href="./{{ page.last }}" class="btn white black-text navbtn tooltipped" id="last"
-                    data-position="bottom" data-tooltip="上一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_back</i></a>
-                {% endif %}
-                {% if page.next == "none" %}
-                <a href="./{{ page.next }}" class="btn white black-text navbtn disabled tooltipped" id="next"
-                    data-position="bottom" data-tooltip="下一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_forward</i></a>
-                {% else %}
-                <a href="./{{ page.next }}" class="btn white black-text navbtn tooltipped" id="next"
-                    data-position="bottom" data-tooltip="下一页"><i class="material-icons"
-                        style="line-height: inherit !important">arrow_forward</i></a>
-                {% endif %}
+    <div class=" red-text text-darken-4 z-depth-1" style="position: sticky; top:0px;z-index: 9;background: rgba(247, 204, 201, 0.58);backdrop-filter: blur(10px);">
+        <nav class=" container transparent z-depth-0 red-text text-darken-4" style="width: 100%;padding-bottom: 0px; height: fit-content;">
+            <span id="page-title">{{ page.title }}</span>
+            <span class="flow-text hide-on-small-and-down" style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
+            <div class="right" style="margin-right: 13px">
+                <a onclick="localStorage.setItem('step','');" href="{{ site.url }}" class="btn-flat nav-sidebtn transparent red-text text-darken-4 waves-effect navbtn tooltipped hide-on-small-and-down" data-position="bottom" data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
+                {% unless page.last == "none" %}
+                <a href="{{site.baseurl}}/{{ page.last }}" class="btn-flat nav-sidebtn transparent red-text text-darken-4 navbtn tooltipped hide-on-small-and-down" id="last" data-position="bottom" data-tooltip="上一页"><i class="material-icons" style="line-height: inherit !important">arrow_back</i></a>
+                {% endunless %}
+                {%unless page.ispages %}
+                <a href="{{site.baseurl}}/chapters/" class="btn-flat nav-sidebtn transparent red-text text-darken-4 navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
+                {%endunless%}
+                {% unless page.next == "none" %}
+                <a href="{{site.baseurl}}/{{ page.next }}" class="z-depth-1 navbtn tooltipped red darken-4 white-text" id="nxt-btn" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: -1.5px;">arrow_forward</i></a>
+                {% endunless %}
+                {{site.baseurl}}
             </div>
         </nav>
     </div>
@@ -151,36 +187,20 @@
     </div>
 
     <footer class="container">
-        <div class="divider"></div><br><br>
+        <div class="divider" style="margin-bottom: 15px;"></div>
         {% if page.notitle != true %}
         {% if page.next == "none" %}
-            {% if page.permalink != "/chapters/" %}
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    var elems = document.querySelectorAll('.tooltipped');
-                    var instances = M.Tooltip.init(elems);
-                });
-            </script>
-            <a href="./" class="btn grey darken-3 tooltipped" data-position="right" data-tooltip="暂时没有下一页了，敬请期待！"
-                onclick="return false;">
-                <i class="material-icons right">clear</i>没有下一页</a>
-            {% else %}
-                <script>
-                    function back_to_reading(){
-                        history.back(-1);
-                    }
-                </script>
-                <button onclick="back_to_reading()" class="btn  red darken-3 white-text" >
-                    <i class="material-icons right" style="width: 15px;">arrow_backward</i>
-                    继续阅读
-                </button>
-            {% endif %}
         {% else %}
-        <a href="./{{page.next}}" class="btn  red darken-3 ">
-            <i class="material-icons right">arrow_forward</i>下一页</a>
+        <a href="{{site.baseurl}}/{{ page.next }}" class="btn red darken-3 right" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;">
+            <span style="vertical-align: middle;">下一页</span>
+            <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
         {% endif %}
         {% endif %}
-        <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p>
+        <!-- <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p> -->
+        <a href="https://github.com/pkuschool/intro" class="btn black" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;text-transform: none;">
+            <span style="vertical-align: middle;">GitHub Repo</span>
+        </a>
+
         <p class=" grey-text text-lighten-3">此版本更新于：{{site.time | date: "%Y/%m/%d, %H:%M:%S (%Z)"}}</p>
     </footer>
 </body>

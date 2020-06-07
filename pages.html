@@ -7,15 +7,25 @@ last: "none"
 next: "none"
 layout: default
 ifshow: -1
+ispages: true
 categories: ["1"]
 ---
 
-<h2>请选择章节</h2>
+<!-- <h2>请选择章节</h2> -->
+<script>
+    function back_to_reading() {
+        history.back(-1);
+    }
+</script>
+<button onclick="back_to_reading()" class="btn-flat red darken-3 white-text" style="margin-bottom: 25px;">
+    <i class="material-icons left" style="width: 15px;">arrow_backward</i>
+    返回
+</button>
 {% for chapter in site.data.chapters %}
-<div class="card-panel grey lighten-2 black-text z-depth-1 hoverable waves-ripple waves-effect col s12" style="padding: 12px;width: 100%" onclick="window.open('../{{chapter.url}}', '_self')">
-    <a href="../{{chapter.url}}" class=" black-text">
-        <span style="font-size: 24px;margin-left: 15px;font-weight: lighter">{{ chapter.name }}</span>
-        <span class="flow-text hide-on-small-and-down"
+<div class="card-panel grey lighten-3 black-text z-depth-0 waves-ripple waves-effect col s12 m4" style="padding: 12px;width: 100%; border-left: 5px #B71C1C solid;border-radius: 0px;" onclick="window.open('../{{chapter.url}}', '_self')">
+    <a href="{{site.baseurl}}/{{chapter.url}}" class=" black-text">
+        <span style="font-size: 26px;margin-left: 12px;">{{ chapter.name }}</span>
+        <span class="flow-text"
             style="font-size: 15px;margin-left: 5px;">{{ chapter.description }}</span>
     </a>
 </div>

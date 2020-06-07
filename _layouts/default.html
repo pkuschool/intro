@@ -191,7 +191,7 @@
 
 <body>
     {% if page.notitle != true %}
-    <div class=" red-text text-darken-4 z-depth-1" id="top-div" style="position: sticky; top:0px;z-index: 9;background: rgba(247, 204, 201, 0.58);-webkit-backdrop-filter: blur(20px);backdrop-filter: blur(20px);">
+    <div class="text-darken-4 z-depth-1" id="top-div" style="color:#383838;position: sticky; top:0px;z-index: 9;background: rgb(227,227,227,27%);-webkit-backdrop-filter: blur(20px);backdrop-filter: blur(20px);">
         <nav class=" container transparent z-depth-0 red-text text-darken-4" style="width: 100%;padding-bottom: 0px; height: fit-content;">
             <span id="page-title">{{ page.title }}</span>
             <span id="page-subtitle" class="flow-text hide-on-small-and-down" style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
@@ -204,7 +204,7 @@
                 <a href="{{site.baseurl}}/chapters/" class="btn-flat nav-sidebtn transparent  navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
                 {%endunless%}
                 {% unless page.next == "none" %}
-                <a href="{{site.baseurl}}/{{ page.next }}" class="z-depth-1 navbtn tooltipped red darken-4 white-text waves-ripple" id="nxt-btn" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: -1.1px;">arrow_forward</i></a>
+                <a href="{{site.baseurl}}/{{ page.next }}" class="z-depth-1 navbtn tooltipped darken-4 white-text waves-ripple" id="nxt-btn" style="background-color: #26a69a;" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: -1.1px;">arrow_forward</i></a>
                 {% endunless %}
             </div>
         </nav>
@@ -219,7 +219,7 @@
         {% if page.notitle != true %}
         {% if page.next == "none" %}
         {% else %}
-        <a href="{{site.baseurl}}/{{ page.next }}" class="btn red darken-3 right" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;">
+        <a href="{{site.baseurl}}/{{ page.next }}" class="btn darken-3 right" id="nxt-btn-sec" style="background-color: #26a69a;width: fit-content;display: flex; align-items: center;padding: 0 16px;">
             <span style="vertical-align: middle;">下一页</span>
             <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
         {% endif %}

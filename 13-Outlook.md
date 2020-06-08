@@ -44,7 +44,7 @@ categories: ["2"]
 
 如搜不到或看到了去年的指南下载了豌豆荚上的版本，请：
 
-<a href="../Android/" class=" btn-large red darken-2" target="_android">前往 Android 版应用下载区域</a>
+<a href="../Android/" class=" pill-btn white-text accent" target="_android">前往 Android 版应用下载区域</a>
 
 ## 关于同步关系
 

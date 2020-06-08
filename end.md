@@ -31,7 +31,7 @@ layout: default
 
 不过，在离开之前，要不要顺便填个简短的反馈问卷呢？
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUMVdKS0RVSEM0RExQOFozRU9GMElLUVhYMC4u" class="btn teal white-text">新生指南反馈问卷 (Forms)</a>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUMVdKS0RVSEM0RExQOFozRU9GMElLUVhYMC4u" class="pill-btn teal white-text">新生指南反馈问卷 (Forms)</a>
 
 <!--
 想知道新生填写了什么吗？看这里！

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='shortcut icon' type='image/x-icon' href='/intro/favicon.png' />
+    <link rel='shortcut icon' type='image/x-icon' href='{{site.baseurl}}/favicon.png' />
     <title>{{ page.title | default: site.deftitle | default: site.github.repository_name }} | {{site.title}}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
@@ -18,8 +18,9 @@
         html {
             background-color: #eee;
         }
-        *{
-            --accent:#26a69a;
+
+        * {
+            --accent: #26a69a;
         }
 
         code,
@@ -129,7 +130,7 @@
             line-height: calc(45px - 4px);
             /* padding: 0 16px; */
             text-align: center;
-            text-transform: uppercase;
+            text-transform: capitalize;
             vertical-align: middle;
             -webkit-tap-highlight-color: transparent;
             display: inline-block;
@@ -137,7 +138,8 @@
             border-radius: 100px;
             background-color: white;
         }
-        .pill-btn[normal]{
+
+        .pill-btn:not([special]) {
             padding: 0 16px;
         }
 
@@ -152,15 +154,17 @@
         }
 
         .toast {
-            background: rgba(50,50,50,0.8);
+            background: rgba(50, 50, 50, 0.8);
             backdrop-filter: blur(10px);
             box-shadow: none;
         }
-        .accent{
+
+        .accent {
             background-color: var(--accent) !important;
         }
-        .accent-text{
-            color: var(--accent) !important
+
+        .accent-text {
+            color: #00796b !important
         }
 
         @media screen and (max-width: 600px) {
@@ -168,28 +172,35 @@
                 font-size: 23px;
             }
         }
-        @supports not ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))){
-            #top-div{
+
+        @supports not ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))) {
+            #top-div {
                 /* background-color: #f3dad9 !important; */
                 background-color: white !important;
             }
         }
-        @media (prefers-color-scheme: dark){
-            html{
+
+        @media (prefers-color-scheme: dark) {
+            html {
                 color: rgba(255, 255, 255, 0.8);
                 background-color: black;
             }
+
             a.nav-sidebtn,
             span#page-title,
-            span#page-subtitle{
+            span#page-subtitle {
                 color: white !important;
                 text-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.49);
             }
-            .card-panel{
-                filter: hue-rotate(180deg) invert();
+
+            .card-panel {
+                /* filter: hue-rotate(180deg) invert(); */
 
             }
-            code, kbd, samp{
+
+            code,
+            kbd,
+            samp {
                 background-color: rgb(66, 66, 66);
             }
         }
@@ -219,7 +230,7 @@
                 <a href="{{site.baseurl}}/chapters/" class="btn-flat nav-sidebtn transparent waves-effect  navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
                 {%endunless%}
                 {% unless page.next == "none" %}
-                <a href="{{site.baseurl}}/{{ page.next }}" class="z-depth-1 navbtn tooltipped waves-effect darken-4 white-text waves-ripple accent" id="nxt-btn" style="width: 45px;" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: 0px;">arrow_forward</i></a>
+                <a href="{{site.baseurl}}/{{ page.next }}" special class="z-depth-1 navbtn tooltipped waves-effect darken-4 white-text waves-ripple accent" id="nxt-btn" style="width: 45px;" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: 0px;">arrow_forward</i></a>
                 {% endunless %}
             </div>
         </nav>
@@ -244,7 +255,7 @@
             <span style="vertical-align: middle;">GitHub Repo</span>
         </a>
 
-        <p class=" grey-text text-lighten-3">此版本更新于：{{site.time | date: "%Y/%m/%d, %H:%M:%S (%Z)"}}</p>
+        <p style="color: gray;">此版本更新于：{{site.time | date: "%Y/%m/%d, %H:%M:%S (%Z)"}} | 环境：{{jekyll.environment}}</p>
     </footer>
 </body>
 

@@ -30,7 +30,7 @@ categories: ["2"]
 - 从手机上的各大应用商店搜索安装 “OneDrive”、“SharePoint”
   - SharePoint 安卓版也是不太可能搜到，所以：
 
-<a href="../Android/" class=" btn-large red darken-2" target="_android">请前往 Android 版应用下载区域</a>
+<a href="../Android/" class="pill-btn red darken-2 white-text" target="_android">请前往 Android 版应用下载区域</a>
 
 ## 那...里面的数据在我毕业之后会怎么样呢？
 

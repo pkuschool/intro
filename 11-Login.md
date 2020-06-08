@@ -28,10 +28,10 @@ categories: ["2"]
 
 请点击页面中间那个大大的“登录”按钮，然后先输入纸条上的邮箱，在点继续后输入纸条上的密码。
 
-<div class="card-panel flex-center">
-    <i style="font-size: 30px;color:#B71C1C;" class="material-icons">info_outline</i>
-    <span style="font-size: 18px;color:#B71C1C;">您的用户名可能在名字全拼后面包含数字，请务必不要忽略。</span>
-    <span style="font-size: 13px;color:#B71C1C;" class="hide-on-small-and-down">&nbsp;这意味着之前已经有同姓名全拼的同学注册过了。</span>
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">info_outline</i>
+    <span style="font-size: 18px;">您的用户名可能在名字全拼后面包含数字，请务必不要忽略。这意味着之前已经有同姓名全拼的同学注册过了。</span>
+    <!-- <span style="font-size: 13px;" class="hide-on-small-and-down">&nbsp;</span> -->
 </div>
 
 
@@ -53,9 +53,9 @@ categories: ["2"]
 
 而密码，请使用强密码 **（需要同时出现：大写字母、小写字母、数字，否则无法通过；请不要使用形如“123456”的弱密码）** ，并 **记住此密码** 方便未来使用。
 
-<div class="card-panel flex-center">
-    <i style="font-size: 30px;color:#B71C1C;" class="material-icons">notifications_active</i>
-    <span style="font-size: 18px;color:#B71C1C;">你知道吗？曾经有人因为不知道这点设置了几十次密码还没过</span>
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">notifications_active</i>
+    <span style="font-size: 18px;">你知道吗？曾经有人因为不知道这点设置了几十次密码还没过</span>
 </div>
 
 登录成功后请查看下一页。

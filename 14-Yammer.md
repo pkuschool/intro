@@ -52,7 +52,7 @@ categories: ["2"]
 
 从头开始，先在[ > 全公司里写着2022届的报到帖 < ](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
 
-<a href="https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304" class=" btn-large red darken-2 white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2022届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
+<a href="https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2022届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
 
 这些是比较常用的组：
 
@@ -76,7 +76,7 @@ categories: ["2"]
 
 如果你的 Yammer 显示语言是英文，请看：
 
-<a href="https://mp.weixin.qq.com/s/dRhU3NNrcArtGjMNssx4gw" class="btn blue darken-1 white-text">教程 | Yammer语言切换</a>
+<a href="https://mp.weixin.qq.com/s/dRhU3NNrcArtGjMNssx4gw" class="pill-btn blue darken-1 white-text">教程 | Yammer语言切换</a>
 
 ## 随时随地收发消息
 

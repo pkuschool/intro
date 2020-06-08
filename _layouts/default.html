@@ -176,7 +176,14 @@
         @supports not ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))) {
             #top-div {
                 /* background-color: #f3dad9 !important; */
-                background-color: white !important;
+                background-color: rgba(255, 255, 255, 0.76) !important;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                #top-div {
+                /* background-color: #f3dad9 !important; */
+                background-color: rgba(49, 49, 49, 0.76) !important;
+                }
             }
         }
 
@@ -251,12 +258,18 @@
         {% endif %}
         {% endif %}
         <!-- <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p> -->
-        <a href="https://github.com/pkuschool/intro" class="btn black hide-on-small-and-down" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;text-transform: none;">
+        <a href="https://github.com/pkuschool/intro" class="btn black hide-on-small-and-down" id="nxt-btn-sec" style="width:-moz-fit-content;width: fit-content;display: flex; align-items: center;padding: 0 16px;text-transform: none;">
             <span style="vertical-align: middle;">GitHub Repo</span>
         </a>
 
         <p style="color: gray;">此版本更新于：{{site.time | date: "%Y/%m/%d, %H:%M:%S (%Z)"}} | 环境：{{jekyll.environment}}</p>
     </footer>
+    <script>
+        if(navigator.userAgent.indexOf('Trident') != -1){
+            alert('本网站不支持 IE，我们将带您到 Edge 的正式版下载网页。')
+            window.open('https://www.microsoft.com/zh-cn/edge', '_self')
+        }
+    </script>
 </body>
 
 

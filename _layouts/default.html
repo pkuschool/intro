@@ -18,6 +18,9 @@
         html {
             background-color: #eee;
         }
+        *{
+            --accent:#26a69a;
+        }
 
         code,
         kbd,
@@ -114,24 +117,28 @@
         #page-title {
             font-size: 30px;
             margin-left: 15px;
-            /* font-weight: lighter */
+            font-weight: bold;
         }
 
         #nxt-btn,
-        #nxt-btn-sec {
+        #nxt-btn-sec,
+        .pill-btn {
             height: 45px;
-            width: 45px;
+            /* width: 45px; */
             box-sizing: border-box;
-            line-height: 45px;
+            line-height: calc(45px - 4px);
             /* padding: 0 16px; */
             text-align: center;
             text-transform: uppercase;
             vertical-align: middle;
             -webkit-tap-highlight-color: transparent;
             display: inline-block;
-            border: 2.2px white solid;
+            border: 2.4px white solid;
             border-radius: 100px;
             background-color: white;
+        }
+        .pill-btn[normal]{
+            padding: 0 16px;
         }
 
         .nav-sidebtn {
@@ -149,6 +156,12 @@
             backdrop-filter: blur(10px);
             box-shadow: none;
         }
+        .accent{
+            background-color: var(--accent) !important;
+        }
+        .accent-text{
+            color: var(--accent) !important
+        }
 
         @media screen and (max-width: 600px) {
             #page-title {
@@ -157,7 +170,8 @@
         }
         @supports not ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))){
             #top-div{
-                background-color: #f3dad9 !important;
+                /* background-color: #f3dad9 !important; */
+                background-color: white !important;
             }
         }
         @media (prefers-color-scheme: dark){
@@ -169,6 +183,7 @@
             span#page-title,
             span#page-subtitle{
                 color: white !important;
+                text-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.49);
             }
             .card-panel{
                 filter: hue-rotate(180deg) invert();
@@ -191,20 +206,20 @@
 
 <body>
     {% if page.notitle != true %}
-    <div class="text-darken-4 z-depth-1" id="top-div" style="color:#383838;position: sticky; top:0px;z-index: 9;background: rgb(227,227,227,27%);-webkit-backdrop-filter: blur(20px);backdrop-filter: blur(20px);">
-        <nav class=" container transparent z-depth-0 red-text text-darken-4" style="width: 100%;padding-bottom: 0px; height: fit-content;">
+    <div class="text-darken-4 z-depth-1" id="top-div" style="color:#383838;position: sticky; top:0px;z-index: 9;background: rgba(227,227,227,0.5);-webkit-backdrop-filter: blur(20px);backdrop-filter: blur(20px);">
+        <nav class=" container transparent z-depth-0" style="color: #00796b;width: 100%;padding-bottom: 0px; height: fit-content;">
             <span id="page-title">{{ page.title }}</span>
             <span id="page-subtitle" class="flow-text hide-on-small-and-down" style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
-            <div class="right red-text text-darken-4" style="margin-right: 13px">
+            <div class="right " style="margin-right: 13px">
                 <a onclick="localStorage.setItem('step','');" href="{{ site.url }}" class="btn-flat nav-sidebtn transparent waves-effect navbtn tooltipped hide-on-small-and-down" data-position="bottom" data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
                 {% unless page.last == "none" %}
-                <a href="{{site.baseurl}}/{{ page.last }}" class="btn-flat nav-sidebtn transparent navbtn tooltipped hide-on-small-and-down" id="last" data-position="bottom" data-tooltip="上一页"><i class="material-icons" style="line-height: inherit !important">arrow_back</i></a>
+                <a href="{{site.baseurl}}/{{ page.last }}" class="btn-flat nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down" id="last" data-position="bottom" data-tooltip="上一页"><i class="material-icons" style="line-height: inherit !important">arrow_back</i></a>
                 {% endunless %}
                 {%unless page.ispages %}
-                <a href="{{site.baseurl}}/chapters/" class="btn-flat nav-sidebtn transparent  navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
+                <a href="{{site.baseurl}}/chapters/" class="btn-flat nav-sidebtn transparent waves-effect  navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
                 {%endunless%}
                 {% unless page.next == "none" %}
-                <a href="{{site.baseurl}}/{{ page.next }}" class="z-depth-1 navbtn tooltipped darken-4 white-text waves-ripple" id="nxt-btn" style="background-color: #26a69a;" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: -1.1px;">arrow_forward</i></a>
+                <a href="{{site.baseurl}}/{{ page.next }}" class="z-depth-1 navbtn tooltipped waves-effect darken-4 white-text waves-ripple accent" id="nxt-btn" style="width: 45px;" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: 0px;">arrow_forward</i></a>
                 {% endunless %}
             </div>
         </nav>
@@ -219,7 +234,7 @@
         {% if page.notitle != true %}
         {% if page.next == "none" %}
         {% else %}
-        <a href="{{site.baseurl}}/{{ page.next }}" class="btn darken-3 right" id="nxt-btn-sec" style="background-color: #26a69a;width: fit-content;display: flex; align-items: center;padding: 0 16px;">
+        <a href="{{site.baseurl}}/{{ page.next }}" class="btn darken-3 right accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;">
             <span style="vertical-align: middle;">下一页</span>
             <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
         {% endif %}

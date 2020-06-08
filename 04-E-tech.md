@@ -59,7 +59,7 @@ categories: ["1"]
 
 <div class="card-panel flex-center">
     <i style="font-size: 30px;color:#383838;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;color:#383838 ;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="https://pkuschool.github.io/intro/05/" class=" btn darken-1 white-text" style="background-color:#26a69a;" title="吐槽：右上角也有下一页按钮可以用，当然点我也行">跳过</a></span>
+    <span style="font-size: 18px;color:#383838 ;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="https://pkuschool.github.io/intro/05/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="吐槽：右上角也有下一页按钮可以用，当然点我也行">跳过</a></span>
 </div>
 
 <!-- *（当然，要学会自控哦！* -->
@@ -119,7 +119,7 @@ categories: ["1"]
 
 关于如何选购，请参考这篇文章：
 
-<a href="https://zhuanlan.zhihu.com/p/102224874" class=" btn blue darken-1 white-text" target="_zhihu">转到选购指南</a>
+<a href="https://zhuanlan.zhihu.com/p/102224874" normal class=" pill-btn blue darken-1 z-depth-1 white-text" target="_zhihu">转到选购指南</a>
 
 >#### **投影相关**
 >&nbsp;有 [Mini DisplayPort](https://baike.baidu.com/item/mini%20displayport/9751237) 或 [HDMI](https://baike.baidu.com/item/HDMI) 接口的电脑，可以直接以物理方式连接教室投影仪。**不过西楼现在已经支持无线投屏啦，有线只是备用，用这些接口会更方便一些。**

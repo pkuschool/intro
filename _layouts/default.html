@@ -17,6 +17,7 @@
 
         html {
             background-color: #eee;
+            transform: matrix3d(0,0,0,0);
         }
 
         * {
@@ -137,6 +138,7 @@
             border: 2.4px white solid;
             border-radius: 100px;
             background-color: white;
+            cursor: pointer;
         }
 
         .pill-btn:not([special]) {
@@ -166,6 +168,21 @@
         .accent-text {
             color: #00796b !important
         }
+        #materialbox-overlay, .modal-overlay{
+            background-color: rgba(41, 41, 41, 0.8);
+            backdrop-filter: brightness(0.75) blur(10px);
+            /* opacity: 1 !important; */
+        }
+        .slider .indicators .indicator-item.active{
+            background-color: var(--accent);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        }
+        .slider .indicators .indicator-item{
+            width: 32px;
+            border-radius: 32px;
+            transition: background-color .2s, box-shadow .2s;
+            background-color: rgba(128, 128, 128, 0.369);
+        }
 
         @media screen and (max-width: 600px) {
             #page-title {
@@ -177,6 +194,9 @@
             #top-div {
                 /* background-color: #f3dad9 !important; */
                 background-color: rgba(255, 255, 255, 0.76) !important;
+            }
+            #materialbox-overlay, .modal-overlay{
+                background-color: rgba(68, 68, 68, 0.85);
             }
 
             @media (prefers-color-scheme: dark) {
@@ -202,13 +222,28 @@
 
             .card-panel {
                 /* filter: hue-rotate(180deg) invert(); */
-
+                background-color: rgb(19, 19, 19);
+                border: 2.4px solid rgb(78, 78, 78);
+                box-shadow: none;
+                color: var(--accent) !important
             }
 
             code,
             kbd,
             samp {
                 background-color: rgb(66, 66, 66);
+            }
+            #bottom-lastpage{
+                color: var(--accent) !important;
+                background-color: rgb(19, 19, 19) !important;
+            }
+            .modal,.modal>.modal-footer{
+                background-color: rgb(54, 54, 54);
+                color: rgba(255, 255, 255, 0.8);
+            }
+            #index-close{
+                color: white;
+
             }
         }
     </style>
@@ -218,6 +253,10 @@
         document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.tooltipped');
             var instances = M.Tooltip.init(elems);
+            var ModalElems = document.querySelectorAll('.modal');
+            var ModalInstances = M.Modal.init(ModalElems, {
+                opacity: 1
+            });
         });
     </script>
 </head>
@@ -234,7 +273,7 @@
                 <a href="{{site.baseurl}}/{{ page.last }}" class="btn-flat nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down" id="last" data-position="bottom" data-tooltip="上一页"><i class="material-icons" style="line-height: inherit !important">arrow_back</i></a>
                 {% endunless %}
                 {%unless page.ispages %}
-                <a href="{{site.baseurl}}/chapters/" class="btn-flat nav-sidebtn transparent waves-effect  navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
+                <a href="#index-modal" class="btn-flat modal-trigger nav-sidebtn transparent waves-effect  navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
                 {%endunless%}
                 {% unless page.next == "none" %}
                 <a href="{{site.baseurl}}/{{ page.next }}" special class="z-depth-1 navbtn tooltipped waves-effect darken-4 white-text waves-ripple accent" id="nxt-btn" style="width: 45px;" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: 0px;">arrow_forward</i></a>
@@ -250,20 +289,42 @@
     <footer class="container">
         <div class="divider" style="margin-bottom: 15px;"></div>
         {% if page.notitle != true %}
+        <div style="display: flex; align-items: center;">
+        {% unless page.last == "none" %}
+        <a href="{{site.baseurl}}/{{ page.last }}" id="bottom-lastpage" class="pill-btn white nav-sidebtn accent-text navbtn waves-effect" style="display: inline-flex;" ><i class="material-icons" style="line-height: inherit !important">arrow_back</i>上一页</a>
+        {% endunless %}
         {% if page.next == "none" %}
         {% else %}
-        <a href="{{site.baseurl}}/{{ page.next }}" class="btn darken-3 right accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;">
+        <a href="{{site.baseurl}}/{{ page.next }}" class="pill-btn white-text darken-3 right accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;margin-left: auto;">
             <span style="vertical-align: middle;">下一页</span>
             <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
         {% endif %}
+        </div>
         {% endif %}
         <!-- <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p> -->
-        <a href="https://github.com/pkuschool/intro" class="btn black hide-on-small-and-down" id="nxt-btn-sec" style="width:-moz-fit-content;width: fit-content;display: flex; align-items: center;padding: 0 16px;text-transform: none;">
+        <!-- <a href="https://github.com/pkuschool/intro" class="btn black hide-on-small-and-down" id="nxt-btn-sec" style="width:-moz-fit-content;width: fit-content;display: flex; align-items: center;padding: 0 16px;text-transform: none;">
             <span style="vertical-align: middle;">GitHub Repo</span>
-        </a>
+        </a> -->
 
         <p style="color: gray;">此版本更新于：{{site.time | date: "%Y/%m/%d, %H:%M:%S (%Z)"}} | 环境：{{jekyll.environment}}</p>
+        <p style="color: gray;vertical-align: middle;"><a href="https://github.com/pkuschool/intro" style="vertical-align: middle;">🔗 本项目的 GitHub 仓库</a> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/pkuschool/intro?color=%2326a69a&label=%E8%B4%A1%E7%8C%AE%E8%80%85%E6%95%B0%E9%87%8F" style="vertical-align: middle;"></p>
     </footer>
+    <div id="index-modal" class="modal">
+        <div class="modal-content">
+            <h1>章节选择</h1>
+            {% for chapter in site.data.chapters %}
+            <div class="card-panel grey lighten-2 black-text z-depth-0 waves-ripple waves-effect col s12 m4" style="padding: 12px;width: 100%; border-left: 5px var(--accent) solid;border-radius: 0px;" onclick="window.open('../{{chapter.url}}', '_self')">
+                <a href="{{site.baseurl}}/{{chapter.url}}" class=" black-text">
+                    <span style="font-size: 26px;margin-left: 12px;">{{ chapter.name }}</span>
+                    <span class="flow-text" style="font-size: 15px;margin-left: 5px;">{{ chapter.description }}</span>
+                </a>
+            </div>
+            {%endfor%}
+        </div>
+        <div class="modal-footer">
+            <a href="#!" id="index-close" class="modal-close waves-effect btn-flat">关闭</a>
+        </div>
+    </div>
     <script>
         if(navigator.userAgent.indexOf('Trident') != -1){
             alert('本网站不支持 IE，我们将带您到 Edge 的正式版下载网页。')

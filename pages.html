@@ -8,25 +8,28 @@ next: "none"
 layout: default
 ifshow: -1
 ispages: true
+notitle: true
 categories: ["1"]
 ---
 
+<!-- OBSOLETE Don't edit -->
 <!-- <h2>请选择章节</h2> -->
 <script>
     function back_to_reading() {
         history.back(-1);
     }
 </script>
-<button onclick="back_to_reading()" class="btn-flat red darken-2 white-text" style="margin-bottom: 25px;">
+<button onclick="back_to_reading()" class="pill-btn accent white-text" style="margin-bottom: 5px;display: flex; align-items: center;">
     <i class="material-icons left" style="width: 15px;">arrow_backward</i>
     返回
 </button>
+<h1>章节选择</h1>
 {% for chapter in site.data.chapters %}
 <div class="card-panel grey lighten-2 black-text z-depth-0 waves-ripple waves-effect col s12 m4" style="padding: 12px;width: 100%; border-left: 5px #B71C1C solid;border-radius: 0px;" onclick="window.open('../{{chapter.url}}', '_self')">
     <a href="{{site.baseurl}}/{{chapter.url}}" class=" black-text">
         <span style="font-size: 26px;margin-left: 12px;">{{ chapter.name }}</span>
-        <span class="flow-text"
-            style="font-size: 15px;margin-left: 5px;">{{ chapter.description }}</span>
+        <span class="flow-text" style="font-size: 15px;margin-left: 5px;">{{ chapter.description }}</span>
     </a>
 </div>
 {%endfor%}
+<!-- <a href="https://github.com/pkuschool/intro" class="pill-btn nav-sidebtn black white-text navbtn waves-effect tooltipped" style="text-transform: none;" data-position="bottom" data-tooltip="pkuschool/intro">GitHub 仓库</a> -->

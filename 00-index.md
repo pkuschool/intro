@@ -54,3 +54,8 @@ layout: default
 **请不要使用手机或 iPad 浏览，这样后续步骤将难以进行。**
 
 请尽量不要将内容一带而过，否则您可能丢失部分的步骤。
+
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">error_outline</i>
+    <span style="font-size: 18px;">本站点正在修订中，内容仅供预览。</span>
+</div>

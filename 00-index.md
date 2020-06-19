@@ -2,6 +2,7 @@
 
 permalink: /
 title: 欢迎来到北大附中
+description: 🎉🎉🎉
 last: "none"
 next: "02"
 author:
@@ -59,3 +60,7 @@ layout: default
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
     <span style="font-size: 18px;">本站点正在修订中，内容仅供预览。</span>
 </div>
+
+### 这个新生指南怎么看？
+
+简单：如果没有其他指示，看完并理解一页然后前往下一页；如果有，建议自己去做（尤其是第二部分）

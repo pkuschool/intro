@@ -2,7 +2,7 @@
 
 permalink: /99/
 title: 完事了
-description: 教程就这么结束了
+description: The End.
 last: "21"
 next: "none"
 categories: ["2019"]
@@ -37,6 +37,19 @@ layout: default
 想知道新生填写了什么吗？看这里！
 https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUMVdKS0RVSEM0RExQOFozRU9GMElLUVhYMC4u%26Token%3D58a2eb5ed5ee4dfca4ca021c03c65ab1
 -->
+
+## 制作人员名单
+
+### 2019 年
+
+- 主体文案：刘语辰、沈俊阳、杨咏诺、朱文鹤、陈叙传
+- 界面设计：刘语辰
+- 纠错：孙玉磊
+
+### 2020 年
+
+- 主题文案：刘语辰、何天阳、高幸、沈俊阳、吴欣桐、张景行
+- 界面设计：刘语辰、何天阳
 
 ## 致谢
 

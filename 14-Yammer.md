@@ -1,7 +1,7 @@
 ---
 
 title: Yammer
-description: 交流社区、课程组
+description: 交流社区与课程组。好一个讨论场景！
 permalink: /14/
 next: "15"
 last: "13"

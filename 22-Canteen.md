@@ -1,7 +1,7 @@
 ---
 
 title: 食堂
-description:
+description: 由[数据删除]公司代理。
 permalink: /22/
 next: "23"
 last: "21"

@@ -183,6 +183,9 @@
             transition: background-color .2s, box-shadow .2s;
             background-color: rgba(128, 128, 128, 0.369);
         }
+        blockquote{
+            border-left-color: var(--accent);
+        }
 
         @media screen and (max-width: 600px) {
             #page-title {
@@ -276,7 +279,7 @@
                 <a href="#index-modal" class="btn-flat modal-trigger nav-sidebtn transparent waves-effect  navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
                 {%endunless%}
                 {% unless page.next == "none" %}
-                <a href="{{site.baseurl}}/{{ page.next }}" special class="z-depth-1 navbtn tooltipped waves-effect darken-4 white-text waves-ripple accent" id="nxt-btn" style="width: 45px;" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important; font-size: 26px;margin-top: 0px;">arrow_forward</i></a>
+                <a href="{{site.baseurl}}/{{ page.next }}" class="btn-flat nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down" id="next" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important">arrow_forward</i></a>
                 {% endunless %}
             </div>
         </nav>

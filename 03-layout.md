@@ -2,7 +2,7 @@
 
 permalink: /03/
 title: 校内简图
-description: 校园里有哪些地方？
+description: 附中虽小五脏俱全（指占地大小）
 next: "04"
 last: "02"
 layout: default
@@ -31,7 +31,7 @@ categories: ["1"]
 
 一张图：（本图来自学生手册。点击可以缩放到全屏大小。）
 
-<img src="http://handbook.pkuschool.edu.cn/assets/images/gallery/dt1.png" style="width: 100%" class=" materialboxed">
+<img src="http://handbook.pkuschool.edu.cn/assets/images/gallery/dt1.png" style="width: 50%; min-width: 300px" class=" materialboxed">
 
 这张图看起来非常的单调，不如就欣赏一下 [Ourscraft 社团](http://ourscraft.sxl.cn)建造的虚拟校园来脑补一下吧~
 

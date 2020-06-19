@@ -1,8 +1,8 @@
 ---
 
 permalink: /15/
-title: 云存储与分享
-description: OneDrive & SharePoint
+title: 团队与文档库
+description: Teams & SharePoint
 last: "14"
 next: "16"
 layout: default
@@ -18,7 +18,7 @@ categories: ["2"]
   });
 </script>
 
-## 准备工作
+<!-- ## 准备工作
 
 虽然并不必要，我们还是强烈建议您做以下准备：
 
@@ -42,11 +42,11 @@ categories: ["2"]
 
 如果你已经安装好桌面客户端，可以直接点击页面上部的“同步”，唤起 OneDrive，登录即可。设置完成之后，OneDrive将能在资源管理器内轻松的访问，相关文件也会自动同步。（如果不会同步请参考[此教程](https://mp.weixin.qq.com/s/ni0CiGEJ7ciPGKkWb1dpYg)）
 
-不管你有没有设置同步客户端，您已经可以进行任何网盘都能进行的的常规操作了。比如，上传/新建一个 Word 文档试试？
+不管你有没有设置同步客户端，您已经可以进行任何网盘都能进行的的常规操作了。比如，上传/新建一个 Word 文档试试？ -->
 
 ## SharePoint
 
-让我们再次回到 Office 365 主页，这次进入 SharePoint。
+让我们再次回到 Office 365 主页，看一下 SharePoint 的图标。
 
 ### 这里有什么用途？
 

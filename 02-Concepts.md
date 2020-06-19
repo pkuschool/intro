@@ -2,7 +2,7 @@
 
 permalink: /02/
 title: 重要概念
-description: 较为简练，不很完全
+description: 所以说BDFZ有哪里特殊了？
 next: "03"
 last: ""
 layout: default
@@ -22,7 +22,7 @@ categories: ["1"]
     }
   });
   M.toast({
-    html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" onclick="M.Toast.dismissAll()">好的</a>',
+    html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold" onclick="M.Toast.dismissAll()">知道了</a>',
     displayLength: 150000,
     activationPercent: 2
   });
@@ -51,6 +51,7 @@ categories: ["1"]
 |   文化   |   班级文化   | 书院色/书院logo等书院文化 |
 
 ### 书院活动室
+
 > 书院活动室是学校提供给书院学生的生活空间和文化创设及传承的公共空间。
 
 每个书院拥有自己的书院活动室，该书院学生平时可以前去休息或自习，但许遵循[自习管理条例](http://handbook.pkuschool.edu.cn/s6.8.html)
@@ -171,6 +172,7 @@ categories: ["1"]
 带圈的课程，如果为60分钟则是文化课程，90分钟则为艺体技。此位置主要安排艺体技。
 
 ### 自习
+
 在学科课位(平时第1,2,4,5节课)的自习，需要到指定教室自习，**记录考勤**。
 
 活动课位(周一到周五的第3节课)的自习，不予考勤记录。你可以选择在学校提供的场所自习或自主安排活动。
@@ -201,7 +203,7 @@ categories: ["1"]
 
 *建议收藏，后期查询自己学分时会经常进行比对*
 
----
+----
 
 这些概念都很重要，如果需要进一步的解释，建议询问书院招新的学长学姐们。
 

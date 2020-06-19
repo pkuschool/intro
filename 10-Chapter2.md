@@ -1,8 +1,8 @@
 ---
 
 permalink: /10/
-title: 第二章
-description: Office 365 使用
+title: 第二章：Office 365
+description: 可能是你从未见过的新东西
 next: "11"
 last: "05"
 layout: default
@@ -32,7 +32,9 @@ categories: ["2"]
 - ```Ctrl(Command) + N``` 开一个新窗口，贴到右面
 - 拿上有相关账号密码的纸条
 - 右面的窗口打开 ```portal.office.com```
-- 强烈建议 **关注“BDFZ博雅星球”微信公众号**
+- 强烈建议 **关注“BDFZ博雅星球”微信公众号**（扫下面那个二维码）
+
+<img src="https://pkuschool.github.io/SubIT/src/boya-logo.jpg" class="materialboxed" width="150" height="150">
 <!-- - 感兴趣的话也可以关注一下 “微软 Office 365” 公众号，查看更多技巧 -->
 
 这些准备事项完成之后，让我们开始吧！

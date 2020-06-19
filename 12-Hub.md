@@ -4,7 +4,7 @@ title: 主页与个人信息
 permalink: /12/
 next: "13"
 last: "13"
-description: 基础设置
+description: “谁不想设置一个亮眼的头像呢？”“我！”
 layout: default
 categories: ["2"]
 ---

@@ -2,7 +2,7 @@
 
 permalink: /20/
 title: 第三章：暑期安排
-description:
+description: 我们放假前写的这个可不能未卜先知
 last: "18"
 next: "21"
 layout: default

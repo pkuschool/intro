@@ -2,7 +2,7 @@
 
 permalink: /17/
 title: Adobe
-description: 简单插一句，正经教程马上回来
+description: 啊，那个思杰X克丁...学校的不用考虑这些。
 last: "16"
 next: "18"
 layout: default

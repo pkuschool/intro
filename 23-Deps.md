@@ -1,7 +1,7 @@
 ---
 
 title: 各部门联系方式
-description:
+description: 知道起码比需要的时候现问好很多
 permalink: /23/
 next: "99"
 last: "22"

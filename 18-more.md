@@ -2,7 +2,7 @@
 
 permalink: /18/
 title: 更多提示 & 宣传
-description:
+description: 虽然是广告，但是值得你一看
 last: "17"
 next: "20"
 layout: default
@@ -123,16 +123,17 @@ categories: ["2"]
 - 无限制浏览图库中所有图片；
 - 无限制下载图库中所有图片；
 - 在经过规范引用后，以非商业用途使用图片。
+
 <!--失效已过，封印
 如果你想了解附中、结识热爱摄影的小伙伴，或者你想加入红砖社团与我们一起运营图库、策划活动，快扫描下面的二维码入群吧！现在入群即可获得红砖图库账号，提前浏览六千多张属于附中的图片记忆。
 
 <img src="../img/hong_discuss.jpeg" class="materialboxed" height="300">
--->
+
 
 另附 红砖社团暑期推送：
 
 - **[附中摄影的99个角落 红砖新生指南](https://mp.weixin.qq.com/s/B-IR99htQ9x7FBUTqXHYEw)**
-- [20年前的附中人，有多不一样？\| 红砖回忆计划](https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q)
+- [20年前的附中人，有多不一样？\| 红砖回忆计划](https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q)-->
 
 ----
 

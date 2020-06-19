@@ -1,7 +1,7 @@
 ---
 
 title: 电子游戏
-description: 你必须要知道的...
+description: 老头滚动条、踢牙老奶奶... 等等我为什么在玩翻译梗
 permalink: /05/
 next: "10"
 last: "04"
@@ -30,7 +30,7 @@ categories: ["1"]
 
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">不可以,你需要遵守学校的相关规定。</span>
+    <span style="font-size: 18px;">当然不可以，你需要遵守学校的相关规定（如下）。</span>
 </div>
 
 ## 细则

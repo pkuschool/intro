@@ -17,7 +17,7 @@
 
         html {
             background-color: #eee;
-            transform: matrix3d(0,0,0,0);
+            transform: matrix3d(0, 0, 0, 0);
         }
 
         * {
@@ -122,6 +122,13 @@
             font-weight: bold;
         }
 
+        a.nav-sidebtn,
+        span#page-title,
+        span#page-subtitle {
+            /* color: white !important; */
+            text-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.2);
+        }
+
         #nxt-btn,
         #nxt-btn-sec,
         .pill-btn {
@@ -168,22 +175,27 @@
         .accent-text {
             color: #00796b !important
         }
-        #materialbox-overlay, .modal-overlay{
+
+        #materialbox-overlay,
+        .modal-overlay {
             background-color: rgba(41, 41, 41, 0.8);
             backdrop-filter: brightness(0.75) blur(10px);
             /* opacity: 1 !important; */
         }
-        .slider .indicators .indicator-item.active{
+
+        .slider .indicators .indicator-item.active {
             background-color: var(--accent);
             box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
         }
-        .slider .indicators .indicator-item{
+
+        .slider .indicators .indicator-item {
             width: 32px;
             border-radius: 32px;
             transition: background-color .2s, box-shadow .2s;
             background-color: rgba(128, 128, 128, 0.369);
         }
-        blockquote{
+
+        blockquote {
             border-left-color: var(--accent);
         }
 
@@ -198,14 +210,16 @@
                 /* background-color: #f3dad9 !important; */
                 background-color: rgba(255, 255, 255, 0.76) !important;
             }
-            #materialbox-overlay, .modal-overlay{
+
+            #materialbox-overlay,
+            .modal-overlay {
                 background-color: rgba(68, 68, 68, 0.85);
             }
 
             @media (prefers-color-scheme: dark) {
                 #top-div {
-                /* background-color: #f3dad9 !important; */
-                background-color: rgba(49, 49, 49, 0.76) !important;
+                    /* background-color: #f3dad9 !important; */
+                    background-color: rgba(49, 49, 49, 0.76) !important;
                 }
             }
         }
@@ -236,15 +250,19 @@
             samp {
                 background-color: rgb(66, 66, 66);
             }
-            #bottom-lastpage{
+
+            #bottom-lastpage {
                 color: var(--accent) !important;
                 background-color: rgb(19, 19, 19) !important;
             }
-            .modal,.modal>.modal-footer{
+
+            .modal,
+            .modal>.modal-footer {
                 background-color: rgb(54, 54, 54);
                 color: rgba(255, 255, 255, 0.8);
             }
-            #index-close{
+
+            #index-close {
                 color: white;
 
             }
@@ -293,15 +311,15 @@
         <div class="divider" style="margin-bottom: 15px;"></div>
         {% if page.notitle != true %}
         <div style="display: flex; align-items: center;">
-        {% unless page.last == "none" %}
-        <a href="{{site.baseurl}}/{{ page.last }}" id="bottom-lastpage" class="pill-btn white nav-sidebtn accent-text navbtn waves-effect" style="display: inline-flex;" ><i class="material-icons" style="line-height: inherit !important">arrow_back</i>上一页</a>
-        {% endunless %}
-        {% if page.next == "none" %}
-        {% else %}
-        <a href="{{site.baseurl}}/{{ page.next }}" class="pill-btn white-text darken-3 right accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;margin-left: auto;">
-            <span style="vertical-align: middle;">下一页</span>
-            <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
-        {% endif %}
+            {% unless page.last == "none" %}
+            <a href="{{site.baseurl}}/{{ page.last }}" id="bottom-lastpage" class="pill-btn white nav-sidebtn accent-text navbtn waves-effect" style="display: inline-flex;"><i class="material-icons" style="line-height: inherit !important">arrow_back</i>上一页</a>
+            {% endunless %}
+            {% if page.next == "none" %}
+            {% else %}
+            <a href="{{site.baseurl}}/{{ page.next }}" class="pill-btn white-text darken-3 right accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;margin-left: auto;">
+                <span style="vertical-align: middle;">下一页</span>
+                <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
+            {% endif %}
         </div>
         {% endif %}
         <!-- <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p> -->
@@ -329,7 +347,7 @@
         </div>
     </div>
     <script>
-        if(navigator.userAgent.indexOf('Trident') != -1){
+        if (navigator.userAgent.indexOf('Trident') != -1) {
             alert('本网站不支持 IE，我们将带您到 Edge 的正式版下载网页。')
             window.open('https://www.microsoft.com/zh-cn/edge', '_self')
         }

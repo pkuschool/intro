@@ -334,7 +334,7 @@
         <div class="modal-content">
             <h1>章节选择</h1>
             {% for chapter in site.data.chapters %}
-            <div class="card-panel grey lighten-2 black-text z-depth-0 waves-ripple waves-effect col s12 m4" style="padding: 12px;width: 100%; border-left: 5px var(--accent) solid;border-radius: 0px;" onclick="window.open('../{{chapter.url}}', '_self')">
+            <div class="card-panel grey lighten-2 black-text z-depth-0 waves-ripple waves-effect col s12 m4" style="padding: 12px;width: 100%; border-left: 5px var(--accent) solid;border-radius: 0px;" onclick="window.open('{{site.baseurl}}/{{chapter.url}}', '_self')">
                 <a href="{{site.baseurl}}/{{chapter.url}}" class=" black-text">
                     <span style="font-size: 26px;margin-left: 12px;">{{ chapter.name }}</span>
                     <span class="flow-text" style="font-size: 15px;margin-left: 5px;">{{ chapter.description }}</span>

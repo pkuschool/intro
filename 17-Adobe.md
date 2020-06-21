@@ -9,14 +9,6 @@ layout: default
 categories: ["2"]
 ---
 
-<script>
-  document.addEventListener('DOMContentLoaded',function(){
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/17/");
-    }
-  });
-</script>
 
 北大附中有正版 Adobe 软件下载渠道，只需在学校网络环境下激活即可在此机器上使用（每过3年左右需要补丁重新激活）。下载没有位置限制，在校外也可下载。这下无需盗版了。
 

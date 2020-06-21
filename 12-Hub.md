@@ -9,15 +9,6 @@ layout: default
 categories: ["2"]
 ---
 
-<script>
-  document.addEventListener('DOMContentLoaded',function(){
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/12/");
-    }
-  });
-</script>
-
 看起来你已经第一次登录完了，目前你看见的应该是 Office 365 系统的主页。
 
 正中间是应用列表，加号可以新建一个文档（稍后再论）。“所有应用”可以显示一个所有包含应用的列表。

@@ -12,14 +12,6 @@ author:
 categories: ["3"]
 ---
 
-<script>
-  document.addEventListener('DOMContentLoaded',function(){
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/21/");
-    }
-  });
-</script>
 
 ## 选书院，有什么意义？
 

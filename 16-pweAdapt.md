@@ -10,14 +10,6 @@ categories: ["2"]
 ---
 <!-- 本文主要讨论 PowerPoint, Excel, Word 在新环境下的适配问题。文件名有点难懂，抱歉。 -->
 
-<script>
-  document.addEventListener('DOMContentLoaded',function(){
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/16/");
-    }
-  });
-</script>
 
 <!-- ## 准备工作 -->
 

@@ -14,10 +14,6 @@ categories: ["2"]
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
 
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/14/");
-    }
   });
 </script>
 

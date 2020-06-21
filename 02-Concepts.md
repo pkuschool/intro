@@ -12,14 +12,10 @@ author:
 categories: ["1"]
 ---
 
-<script>
+<script>/
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/02/");
-    }
   });
   M.toast({
     html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold" onclick="M.Toast.dismissAll()">知道了</a>',

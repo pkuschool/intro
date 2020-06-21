@@ -8,15 +8,6 @@ last: "05"
 layout: default
 categories: ["2"]
 ---
-<script>
-  document.addEventListener('DOMContentLoaded',function(){
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/10/");
-    }
-  });
-</script>
-
 
 感谢你看完了第一章（共三章），我们从这里开始，要学习一下学校使用的 Office 365 的基础啦！
 
@@ -40,3 +31,8 @@ categories: ["2"]
 这些准备事项完成之后，让我们开始吧！
 
 > 友情提示：请家长务必不要代劳，成长是一个不断告别的过程，知您不舍，且目送吧……
+
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">error_outline</i>
+    <span style="font-size: 18px;">如果你是衔接班同学，请点击这里，而不是下一页，我们有衔接班特供内容。     <a href="https://pkuschool.github.io/intro/11A/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="吐槽：右上角也有下一页按钮可以用，当然点我也行">我是衔接班小朋友！</a></span>
+</div>

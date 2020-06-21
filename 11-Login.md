@@ -9,14 +9,6 @@ layout: default
 categories: ["2"]
 ---
 
-<script>
-  document.addEventListener('DOMContentLoaded',function(){
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/11/");
-    }
-  });
-</script>
 
 ## 之前有其他的学校 Office 365 账号怎么办？
 

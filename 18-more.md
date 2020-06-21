@@ -18,10 +18,6 @@ categories: ["2"]
       height: 500
     });
 
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/18/");
-    }
   });
 
 </script>

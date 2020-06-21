@@ -9,15 +9,6 @@ layout: default
 categories: ["2"]
 ---
 
-<script>
-  document.addEventListener('DOMContentLoaded',function(){
-    if (typeof(Storage) !== "undefined")
-    {
-      localStorage.setItem("step", "/15/");
-    }
-  });
-</script>
-
 <!-- ## 准备工作
 
 虽然并不必要，我们还是强烈建议您做以下准备：

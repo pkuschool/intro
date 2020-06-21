@@ -3,7 +3,7 @@
 title: 主页与个人信息
 permalink: /12/
 next: "13"
-last: "13"
+last: "11"
 description: “谁不想设置一个亮眼的头像呢？”“我！”
 layout: default
 categories: ["2"]

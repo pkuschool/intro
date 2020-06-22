@@ -217,7 +217,7 @@ categories: ["1"]
       transform: translateX(0)
     }
     to{
-      transform: translateX(-60%)
+      transform: translateX(-30%)
     }
   }
 

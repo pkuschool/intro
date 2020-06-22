@@ -55,7 +55,7 @@ categories: ["1"]
 
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="https://pkuschool.github.io/intro/05/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="吐槽：右上角也有下一页按钮可以用，当然点我也行">跳过</a></span>
+    <span style="font-size: 18px;">以下部分可选阅读，可直接跳过。不代表学校观点。     <a href="{{site.baseurl}}/05/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="吐槽：右上角也有下一页按钮可以用，当然点我也行">跳过</a></span>
 </div>
 
 <!-- *（当然，要学会自控哦！* -->

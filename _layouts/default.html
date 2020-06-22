@@ -199,6 +199,11 @@
             border-left-color: var(--accent);
         }
 
+        *::selection{
+            background-color: rgba(38, 166, 153, 0.8);
+            color: white;
+        }
+
         @media screen and (max-width: 600px) {
             #page-title {
                 font-size: 23px;
@@ -228,6 +233,9 @@
             html {
                 color: rgba(255, 255, 255, 0.8);
                 background-color: black;
+            }
+            *::selection{
+                background: rgba(38, 166, 153, 0.6) !important;
             }
 
             a.nav-sidebtn,

@@ -34,5 +34,5 @@ categories: ["2"]
 
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">如果你是衔接班同学，请点击这里，而不是下一页，我们有衔接班特供内容。     <a href="https://pkuschool.github.io/intro/11A/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">我是衔接班小朋友！</a></span>
+    <span style="font-size: 18px;">如果你是衔接班同学，请点击这里，而不是下一页，我们有衔接班特供内容。     <a href="{{site.baseurl}}/11A/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">我是衔接班小朋友！</a></span>
 </div>

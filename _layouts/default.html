@@ -199,6 +199,11 @@
             border-left-color: var(--accent);
         }
 
+        *::selection{
+            background-color: rgba(38, 166, 153, 0.8);
+            color: white;
+        }
+
         @media screen and (max-width: 600px) {
             #page-title {
                 font-size: 23px;
@@ -228,6 +233,9 @@
             html {
                 color: rgba(255, 255, 255, 0.8);
                 background-color: black;
+            }
+            *::selection{
+                background: rgba(38, 166, 153, 0.6) !important;
             }
 
             a.nav-sidebtn,
@@ -310,16 +318,19 @@
     <footer class="container">
         <div class="divider" style="margin-bottom: 15px;"></div>
         {% if page.notitle != true %}
-        <div style="display: flex; align-items: center;">
+        <div style="display: flex; align-items: center;justify-content: space-between;">
             {% unless page.last == "none" %}
             <a href="{{site.baseurl}}/{{ page.last }}" id="bottom-lastpage" class="pill-btn white nav-sidebtn accent-text navbtn waves-effect" style="display: inline-flex;"><i class="material-icons" style="line-height: inherit !important">arrow_back</i>上一页</a>
             {% endunless %}
-            {% if page.next == "none" %}
-            {% else %}
-            <a href="{{site.baseurl}}/{{ page.next }}" class="pill-btn white-text darken-3 right accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;margin-left: auto;">
-                <span style="vertical-align: middle;">下一页</span>
-                <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
-            {% endif %}
+            <div style="display: flex;align-items: center;margin-left: auto;">
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUOVUzTjdYU1pLVlE4WEdXSVIzWkZINTBZOS4u" target="_blank" style="margin: 0 8px;">内容纠错</a>
+                <!-- https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUOVUzTjdYU1pLVlE4WEdXSVIzWkZINTBZOS4u%26Token%3D79f7b80eed00465582c715306ae9de9f -->
+                {% unless page.next == "none" %}
+                <a href="{{site.baseurl}}/{{ page.next }}" class="pill-btn white-text darken-3 accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;margin-left: auto;">
+                    <span style="vertical-align: middle;">下一页</span>
+                    <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
+                    {% endunless %}
+                </div>
         </div>
         {% endif %}
         <!-- <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p> -->

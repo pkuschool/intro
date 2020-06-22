@@ -52,7 +52,7 @@ categories: ["2"]
 
 许多老师&教务喜欢通过邮件反馈任务，建议熟练使用Outlook邮箱
 
-老师邮箱通常为xxx@pkuschool.edu.cn【xxx为教师姓名全拼】【邮箱为@pkuschool.edu.cn——请自行区别和学生邮箱的差别（前置没有i.）】
+老师邮箱通常为xxx@pkuschool.edu.cn【xxx为教师姓名全拼】【邮箱为@pkuschool.edu.cn——请自行区别和学生邮箱的差别(前置没有i.)】
 
 ### 附2：部分常用邮箱
 

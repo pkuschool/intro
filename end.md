@@ -3,7 +3,7 @@
 permalink: /99/
 title: 完事了
 description: The End.
-last: "21"
+last: "23"
 next: "none"
 categories: ["2019"]
 layout: default

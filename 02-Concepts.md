@@ -18,7 +18,8 @@ categories: ["1"]
     var instances = M.Materialbox.init(elems);
     var elems2 = document.querySelectorAll('.slider');
     var instances2 = M.Slider.init(elems2,{
-      height: 600
+      // height: (window.innerHeight*0.3 + window.innerWidth*0.2)
+      height: calculatedGallerySize
     });
   });
   M.toast({
@@ -191,24 +192,44 @@ categories: ["1"]
     <ul class="slides">
       <li>
         <img src="https://hong.zuggr.com/image/view/cache/5422">
-        <div class="caption center-align" style="margin-top: 5px;margin-left:-50px;text-align: left">
+        <div class="caption center-align" >
           <h3>来自红砖，作者 刘语辰</h3>
         </div>
       </li>
       <li>
         <img src="../img/keng2.jpg">
-        <div class="caption right-align" style="margin-top: 100px;text-align: right">
-          <h5 class="light grey-text text-lighten-3">作者朱文鹤</h5>
+        <div class="caption center-align" >
+          <h5 class="white-text">作者 朱文鹤</h5>
         </div>
       </li>
-      <li>
+      <li id="special">
         <img src="../img/keng3.png">
-        <div class="caption left-align" style="margin-left: -20px !important">
-          <h5 class="light grey-text text-lighten-3">作者姚天佾</h5>
+        <div class="caption center-align">
+          <h5 class="white-text">作者 姚天佾·刘语辰</h5>
         </div>
       </li>
     </ul>
 </div>
+
+<style>
+  @keyframes scrolling{
+    from{
+      transform: translateX(0)
+    }
+    to{
+      transform: translateX(-60%)
+    }
+  }
+
+  li#special>img{
+    background-size: contain;
+    background-position: left center;
+    background-repeat: repeat-x;
+    animation: scrolling 12s infinite linear;
+    width: 300vw;
+  }
+</style>
+
 <!-- <img src="https://hong.zuggr.com/image/view/cache/5422" title="来自红砖，作者 刘语辰" width="50%"> -->
 
 <!-- <span style="color: #bbbbbb;font-size: 10px">来自红砖，作者 刘语辰</span> -->

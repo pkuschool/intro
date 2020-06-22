@@ -12,10 +12,14 @@ author:
 categories: ["1"]
 ---
 
-<script>/
+<script>
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
+    var elems2 = document.querySelectorAll('.slider');
+    var instances2 = M.Slider.init(elems2,{
+      height: 600
+    });
   });
   M.toast({
     html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold" onclick="M.Toast.dismissAll()">知道了</a>',
@@ -183,9 +187,31 @@ categories: ["1"]
 
 万人坑——体育馆综合馆，段考的主要举办地点
 
-<img src="https://hong.zuggr.com/image/view/cache/5422" title="来自红砖，作者 刘语辰" width="50%">
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://hong.zuggr.com/image/view/cache/5422">
+        <div class="caption center-align" style="margin-top: 5px;margin-left:-50px;text-align: left">
+          <h3>来自红砖，作者 刘语辰</h3>
+        </div>
+      </li>
+      <li>
+        <img src="../img/keng2.jpg">
+        <div class="caption right-align" style="margin-top: 100px;text-align: right">
+          <h5 class="light grey-text text-lighten-3">作者朱文鹤</h5>
+        </div>
+      </li>
+      <li>
+        <img src="../img/keng3.png">
+        <div class="caption left-align" style="margin-left: -20px !important">
+          <h5 class="light grey-text text-lighten-3">作者姚天佾</h5>
+        </div>
+      </li>
+    </ul>
+</div>
+<!-- <img src="https://hong.zuggr.com/image/view/cache/5422" title="来自红砖，作者 刘语辰" width="50%"> -->
 
-<span style="color: #bbbbbb;font-size: 10px">来自红砖，作者 刘语辰</span>
+<!-- <span style="color: #bbbbbb;font-size: 10px">来自红砖，作者 刘语辰</span> -->
 
 ## 毕业相关
 

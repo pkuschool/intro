@@ -40,21 +40,26 @@ categories: ["2"]
 
 ## 关于同步关系
 
-每个客户端/web都直接与exchange服务器进行云端同步，客户端间不互相同步。这意味着你只有联网才能收邮件~~（废话）~~
+每个客户端/web都直接与exchange服务器进行云端同步，客户端间不互相同步。这意味着你只有联网才能收邮件~~（废话）~~  
 
-<br></br>
-*·附1：*
 
-*许多老师&教务喜欢通过邮件反馈任务，建议熟练使用Outlook邮箱*
 
-*老师邮箱通常为xxx@pkuschool.edu.cn【xxx为教师姓名全拼】【邮箱为@pkuschool.edu.cn——请自行区别和学生邮箱的差别（前置没有i.）】*
+---
 
-***附2：部分常用邮箱***
+## 小提示
 
-***教务 <jiaowu@i.pkuschool.edu.cn>***
+### 附1：有关通知
 
-***教导处 <jiaodao@i.pkuschool.edu.cn>***
+许多老师&教务喜欢通过邮件反馈任务，建议熟练使用Outlook邮箱
 
-***成长与实践体验中心 <chengzhang@i.pkuschool.edu.cn>***
+老师邮箱通常为xxx@pkuschool.edu.cn【xxx为教师姓名全拼】【邮箱为@pkuschool.edu.cn——请自行区别和学生邮箱的差别（前置没有i.）】
 
-***SubIT <subit@i.pkuschool.edu.cn>***
+### 附2：部分常用邮箱
+
+**教务 <jiaowu@i.pkuschool.edu.cn>**
+
+**教导处 <jiaodao@i.pkuschool.edu.cn>**
+
+**成长与实践体验中心 <chengzhang@i.pkuschool.edu.cn>**
+
+**SubIT <subit@i.pkuschool.edu.cn>**

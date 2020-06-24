@@ -21,25 +21,30 @@ categories: ["2"]
 
 虽然功能有点受限，但是网页版对于基础的操作还是没有问题的。
 
-可以进行[共享以及在线多人协同编辑](https://mp.weixin.qq.com/s/j9dvph-Jw_KYpdKWjkYKQg)（~~妈妈再也不用担心小组群里互传不同版本使人劳累了~~），以及从 SharePoint 复制文件。这个入学教育的时候再论。
+可以进行[共享以及在线多人协同编辑](https://mp.weixin.qq.com/s/j9dvph-Jw_KYpdKWjkYKQg) （~~妈妈再也不用担心小组群里互传不同版本使人劳累了~~）
 
 ## 那么手机平板呢？
 
 您可以到应用商店搜索下载应用：
 
-- Word, PowerPoint, Excel（建议使用）
+ **Microsoft Office**
+- [iOS用户点我](https://apps.apple.com/cn/app/microsoft-office/id541164041)
+- [Android用户点我](https://www.coolapk.com/apk/com.microsoft.office.officehubrow)
 
 **不建议使用 WPS。**
 
 ## 等等，这样我就能免费获得正版桌面版 Office 了？
 
-并没有，学校的免费授权（教育版 A1）并不包括桌面版。如果需要购买可以在微软商店（microsoftstore.com.cn）订购。
+并没有，学校分配账号属于A1教育版，只有移动端与网页端授权（但是这意味着只要学校还和微软合作，你就可以无限白嫖移动版和onedrive）。
+
+如果需要购买桌面版可以在微软商店（microsoftstore.com.cn）订购。
 
 ## 学校这个“教育版”和我之前的 Office 365 家庭版/个人版有什么区别？
 
 - 无需梯子就能上 OneDrive 网页版
 - 更好的分享链接与在线多人协作
 - 新增：Teams, Yammer, SharePoint...
+- ~~不用自己交钱~~
 
 ## 和之前的 Office 传统版本 有什么区别？
 

@@ -203,7 +203,7 @@ categories: ["1"]
         </div>
       </li>
       <li id="special">
-        <img src="https://s1.ax1x.com/2020/06/22/NJ1gQs.png">
+        <img src="https://s1.ax1x.com/2020/06/24/NdnFzQ.jpg">
         <div class="caption center-align">
           <h5 class="white-text">作者 姚天佾·刘语辰</h5>
         </div>
@@ -251,7 +251,5 @@ categories: ["1"]
 这些概念都很重要，如果需要进一步的解释，建议询问书院招新的学长学姐们。
 
 <div class="hide"><!-- Caching Images-->
-  <img src="https://s2.ax1x.com/2019/07/28/eQEREV.png" width="0" height="0">
-  <img src="https://s2.ax1x.com/2019/07/28/eQEf4U.png" width="0" height="0">
-  <img src="https://s2.ax1x.com/2019/07/29/e8wO7d.png" width="0" height="0">
+  <img src="https://s1.ax1x.com/2020/06/24/NdMgT1.jpg" width="0" height="0">
 </div>

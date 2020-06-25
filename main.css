@@ -231,7 +231,7 @@ blockquote {
         background-color: black;
     }
     #top-div{
-        background: rgba(80, 80, 80, 0.502)
+        background: rgba(80, 80, 80, 0.502) !important;
     }
     *::selection {
         background: rgba(38, 166, 153, 0.6) !important;

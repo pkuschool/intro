@@ -57,9 +57,9 @@ categories: ["2"]
 
 这些是一些休闲娱乐聊天的地方：
 
-- [脑子有坑](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=13288384)：如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。
-- [吃可爱多长大的老师们💗](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=16802124)：大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～
-- [zqsg不好吗](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=15977127)：总体是一个爱豆安利板块\(//∇//)\
+- [脑子有坑](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMzI4ODM4NCJ9/all)：如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。
+- [吃可爱多长大的老师们💗](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNjgwMjEyNCJ9/all)：大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～
+- [zqsg不好吗](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNTk3NzEyNyJ9/all)：总体是一个爱豆安利板块\(//∇//)\
 - 以及更多，等你发现。
 
 如你所见，这就是一个校内社区。

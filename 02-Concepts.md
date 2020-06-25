@@ -23,7 +23,7 @@ categories: ["1"]
     });
   });
   M.toast({
-    html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold" onclick="M.Toast.dismissAll()">知道了</a>',
+    html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold;" onclick="M.Toast.dismissAll()">知道了</a>',
     displayLength: 150000,
     activationPercent: 2
   });
@@ -38,7 +38,7 @@ categories: ["1"]
 
 ### 特色
 
-|  对比项  |    班级制    |          书院制           |
+|  对比项  |    班级制    |    书院制（北大附中）        |
 | :------: | :----------: | :-----------------------: |
 |  成员数  |    约60人    |          约150人          |
 | 组建方式 |   学校安排   |    书院学长与新生双选     |
@@ -174,7 +174,7 @@ categories: ["1"]
 
 ### 自习
 
-在学科课位(平时第1,2,4,5节课)的自习，需要到指定教室自习，**记录考勤**。
+**疫情期间**，在学科课位(平时第1,2,4,5节课)的自习，需要到指定教室自习，**记录考勤**。
 
 活动课位(周一到周五的第3节课)的自习，不予考勤记录。你可以选择在学校提供的场所自习或自主安排活动。
 

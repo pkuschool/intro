@@ -4,271 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='shortcut icon' type='image/x-icon' href='{{site.baseurl}}/favicon.png' />
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.png' />
     <title>{{ page.title | default: site.deftitle | default: site.github.repository_name }} | {{site.title}}</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, '思源黑体 SC', 'Microsoft Yahei UI', sans-serif
-        }
-
-        html {
-            background-color: #eee;
-            transform: matrix3d(0, 0, 0, 0);
-        }
-
-        * {
-            --accent: #26a69a;
-        }
-
-        code,
-        kbd,
-        samp {
-            font-family: Fira Code, Consolas, '等距更纱黑体 SC', monospace !important;
-            background-color: #e6e5e5;
-            margin-left: 3px;
-            margin-right: 3px;
-            padding-left: 5px;
-            padding-right: 5px;
-            border-radius: 3px;
-            /* border-color: black; */
-            /* border-bottom: groove; */
-        }
-
-        pre.highlight {
-            background-color: #e6e5e5;
-            border-radius: 5px;
-            padding: 5px 5px;
-            border-bottom: outset;
-        }
-
-        li {
-            list-style-type: circle !important;
-            margin-left: 20px !important;
-        }
-
-        .slides>li {
-            list-style-type: none !important;
-            margin-left: 0px !important;
-        }
-
-
-        strong {
-            font-weight: bolder !important;
-        }
-
-        .navbtn {
-            margin-left: 2px;
-        }
-
-        h1 {
-            font-size: 2.5em !important
-        }
-
-        h2 {
-            font-size: 2em !important
-        }
-
-        h3 {
-            font-size: 1.67em !important
-        }
-
-        h4 {
-            font-size: 1.4em !important
-        }
-
-        p {
-            line-height: 1.6em;
-            font-size: 16px;
-        }
-
-        #main-section>ul>li {
-            line-height: 1.6em;
-            font-size: 16px;
-        }
-
-        #main-section>il {
-            line-height: 1.6em;
-            font-size: 16px;
-        }
-
-        .black-transparent {
-            background-color: #00000071
-        }
-
-        .notopmargin {
-            margin-top: 0;
-        }
-
-        .no-padding {
-            padding: 0 0;
-        }
-
-        .card-panel.flex-center {
-            display: flex;
-            align-items: center;
-        }
-
-        .card-panel.flex-center>:first-child {
-            margin-right: 12px;
-        }
-
-        #page-title {
-            font-size: 30px;
-            margin-left: 15px;
-            font-weight: 500;
-        }
-
-        a.nav-sidebtn,
-        span#page-title,
-        span#page-subtitle {
-            /* color: white !important; */
-            text-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.2);
-        }
-
-        #nxt-btn,
-        #nxt-btn-sec,
-        .pill-btn {
-            height: 45px;
-            /* width: 45px; */
-            box-sizing: border-box;
-            line-height: calc(45px - 4px);
-            /* padding: 0 16px; */
-            text-align: center;
-            text-transform: capitalize;
-            vertical-align: middle;
-            -webkit-tap-highlight-color: transparent;
-            display: inline-block;
-            border: 2.4px white solid;
-            border-radius: 100px;
-            background-color: white;
-            cursor: pointer;
-        }
-
-        .pill-btn:not([special]) {
-            padding: 0 16px;
-        }
-
-        .nav-sidebtn {
-            padding: 0 10px;
-        }
-
-        .material-tooltip {
-            padding: 10px 12px;
-            background-color: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(10px);
-        }
-
-        .toast {
-            background: rgba(50, 50, 50, 0.8);
-            backdrop-filter: blur(10px);
-            box-shadow: none;
-        }
-
-        .accent {
-            background-color: var(--accent) !important;
-        }
-
-        .accent-text {
-            color: #00796b !important
-        }
-
-        #materialbox-overlay,
-        .modal-overlay {
-            background-color: rgba(41, 41, 41, 0.8);
-            backdrop-filter: brightness(0.75) blur(5px);
-            /* opacity: 1 !important; */
-        }
-
-        .slider .indicators .indicator-item.active {
-            background-color: var(--accent);
-            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-        }
-
-        .slider .indicators .indicator-item {
-            width: 32px;
-            border-radius: 32px;
-            transition: background-color .2s, box-shadow .2s;
-            background-color: rgba(128, 128, 128, 0.369);
-        }
-
-        blockquote {
-            border-left-color: var(--accent);
-        }
-
-        @media screen and (max-width: 600px) {
-            #page-title {
-                font-size: 23px;
-            }
-        }
-
-        @supports not ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))) {
-            #top-div {
-                /* background-color: #f3dad9 !important; */
-                background-color: rgb(255, 255, 255) !important;
-            }
-
-            #materialbox-overlay,
-            .modal-overlay {
-                background-color: rgba(68, 68, 68, 0.85);
-            }
-
-            @media (prefers-color-scheme: dark) {
-                #top-div {
-                    /* background-color: #f3dad9 !important; */
-                    background-color: rgba(49, 49, 49, 0.89) !important;
-                }
-            }
-        }
-
-        @media (prefers-color-scheme: dark) {
-            html {
-                color: rgba(255, 255, 255, 0.8);
-                background-color: black;
-            }
-
-            a.nav-sidebtn,
-            span#page-title,
-            span#page-subtitle {
-                color: white !important;
-                text-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.49);
-            }
-
-            .card-panel {
-                /* filter: hue-rotate(180deg) invert(); */
-                background-color: rgb(19, 19, 19);
-                border: 2.4px solid rgb(78, 78, 78);
-                box-shadow: none;
-                color: var(--accent) !important
-            }
-
-            code,
-            kbd,
-            samp {
-                background-color: rgb(66, 66, 66);
-            }
-
-            #bottom-lastpage {
-                color: var(--accent) !important;
-                background-color: rgb(19, 19, 19) !important;
-            }
-
-            .modal,
-            .modal>.modal-footer {
-                background-color: rgb(54, 54, 54);
-                color: rgba(255, 255, 255, 0.8);
-            }
-
-            #index-close {
-                color: white;
-
-            }
-        }
-    </style>
-
+    <link href="https://cdn.bootcdn.net/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" importance="high">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css" importance="high">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="/main.css">
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -279,6 +21,8 @@
                 opacity: 1
             });
         });
+        const windowMaxSize = Math.max(window.innerHeight, window.innerWidth)
+        var calculatedGallerySize = windowMaxSize * 0.4
     </script>
 </head>
 
@@ -289,15 +33,16 @@
             <span id="page-title">{{ page.title }}</span>
             <span id="page-subtitle" class="flow-text hide-on-small-and-down" style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
             <div class="right accent-text" style="margin-right: 13px">
-                <a onclick="localStorage.setItem('step','');" href="{{ site.url }}" class="btn-flat accent-text nav-sidebtn transparent waves-effect navbtn tooltipped hide-on-small-and-down" data-position="bottom" data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
+                <a onclick="localStorage.setItem('step','');" href="/" class="btn-flat accent-text nav-sidebtn transparent waves-effect navbtn tooltipped hide-on-small-and-down" data-position="bottom" data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
                 {% unless page.last == "none" %}
-                <a href="{{site.baseurl}}/{{ page.last }}" class="btn-flat accent-text nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down" id="last" data-position="bottom" data-tooltip="上一页"><i class="material-icons" style="line-height: inherit !important">arrow_back</i></a>
+                <a href="/{{ page.last }}" class="btn-flat accent-text nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down" id="last" data-position="bottom" data-tooltip="上一页"><i class="material-icons" style="line-height: inherit !important">arrow_back</i></a>
                 {% endunless %}
                 {%unless page.ispages %}
                 <a href="#index-modal" class="btn-flat accent-text modal-trigger nav-sidebtn transparent waves-effect  navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
                 {%endunless%}
                 {% unless page.next == "none" %}
-                <a href="{{site.baseurl}}/{{ page.next }}" class="btn-flat accent-text nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down" id="next" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important">arrow_forward</i></a>
+                <a href="/{{ page.next }}" class="btn-flat accent-text nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down" id="next" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important">arrow_forward</i></a>
+                <link rel="prerender" href="/{{ page.next }}">
                 {% endunless %}
             </div>
         </nav>
@@ -310,16 +55,19 @@
     <footer class="container">
         <div class="divider" style="margin-bottom: 15px;"></div>
         {% if page.notitle != true %}
-        <div style="display: flex; align-items: center;">
+        <div style="display: flex; align-items: center;justify-content: space-between;">
             {% unless page.last == "none" %}
-            <a href="{{site.baseurl}}/{{ page.last }}" id="bottom-lastpage" class="pill-btn white nav-sidebtn accent-text navbtn waves-effect" style="display: inline-flex;"><i class="material-icons" style="line-height: inherit !important">arrow_back</i>上一页</a>
+            <a href="/{{ page.last }}" id="bottom-lastpage" class="pill-btn white nav-sidebtn accent-text navbtn waves-effect" style="display: inline-flex;"><i class="material-icons" style="line-height: inherit !important">arrow_back</i>上一页</a>
             {% endunless %}
-            {% if page.next == "none" %}
-            {% else %}
-            <a href="{{site.baseurl}}/{{ page.next }}" class="pill-btn white-text darken-3 right accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;margin-left: auto;">
-                <span style="vertical-align: middle;">下一页</span>
-                <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
-            {% endif %}
+            <div style="display: flex;align-items: center;margin-left: auto;">
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUOVUzTjdYU1pLVlE4WEdXSVIzWkZINTBZOS4u" target="_blank" style="margin: 0 8px;">内容纠错</a>
+                <!-- https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUOVUzTjdYU1pLVlE4WEdXSVIzWkZINTBZOS4u%26Token%3D79f7b80eed00465582c715306ae9de9f -->
+                {% unless page.next == "none" %}
+                <a href="/{{ page.next }}" class="pill-btn white-text darken-3 accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;margin-left: auto;">
+                    <span style="vertical-align: middle;">下一页</span>
+                    <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
+                    {% endunless %}
+                </div>
         </div>
         {% endif %}
         <!-- <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p> -->
@@ -334,8 +82,8 @@
         <div class="modal-content">
             <h1>章节选择</h1>
             {% for chapter in site.data.chapters %}
-            <div class="card-panel grey lighten-2 black-text z-depth-0 waves-ripple waves-effect col s12 m4" style="padding: 12px;width: 100%; border-left: 5px var(--accent) solid;border-radius: 0px;" onclick="window.open('{{site.baseurl}}/{{chapter.url}}', '_self')">
-                <a href="{{site.baseurl}}/{{chapter.url}}" class=" black-text">
+            <div class="card-panel grey lighten-2 black-text z-depth-0 waves-ripple waves-effect col s12 m4" style="padding: 12px;width: 100%; border-left: 5px var(--accent) solid;border-radius: 0px;" onclick="window.open('/{{chapter.url}}', '_self')">
+                <a href="/{{chapter.url}}" class=" black-text">
                     <span style="font-size: 26px;margin-left: 12px;">{{ chapter.name }}</span>
                     <span class="flow-text" style="font-size: 15px;margin-left: 5px;">{{ chapter.description }}</span>
                 </a>

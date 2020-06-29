@@ -15,7 +15,7 @@ categories: ["2"]
 
 有任何问题，请邮件~~骚扰~~ <subit@i.pkuschool.edu.cn>
 
-此教程假定您是在电脑上操作的，如果您在 iPad、手机以及其他移动设备上操作，请在笔记本电脑（台式电脑也可以，但你需要额外配置环境）上操作。
+**此教程假定您是在电脑上操作的**，如果您还在 iPad、手机以及其他移动设备上操作，请在笔记本电脑（台式电脑也可以，但你需要额外配置环境）上操作。
 
 好的，现在请先做以下的事情：
 
@@ -34,5 +34,5 @@ categories: ["2"]
 
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">如果你是衔接班同学，请点击这里，而不是下一页，我们有衔接班特供内容。     <a href="https://pkuschool.github.io/intro/11A/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">我是衔接班小朋友！</a></span>
+    <span style="font-size: 18px;">如果你是衔接班同学，请点击这里，而不是下一页，我们有衔接班特供内容。     <a href="/11A/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">我是衔接班小朋友！</a></span>
 </div>

@@ -16,7 +16,7 @@ categories: ["1"]
     var elems2 = document.querySelectorAll('.slider');
     var instances = M.Materialbox.init(elems);
     var instances2 = M.Slider.init(elems2,{
-      height: 500
+      height: calculatedGallerySize
     });
 
   });
@@ -34,29 +34,30 @@ categories: ["1"]
 <div class="slider">
     <ul class="slides">
       <li>
-        <img src="https://s2.ax1x.com/2019/07/28/eQEREV.png"> <!-- random image -->
+        <img src="https://s1.ax1x.com/2020/06/24/NdMgT1.jpg"> <!-- random image -->
         <div class="caption right-align">
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/28/eQEf4U.png"> <!-- random image -->
+        <img src="https://s1.ax1x.com/2020/06/24/NdM6m9.jpg"> <!-- random image -->
         <div class="caption right-align">
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/29/e8wO7d.png"> <!-- random image -->
+        <img src="https://s1.ax1x.com/2020/06/24/NdMRFx.jpg"> <!-- random image -->
         <div class="caption right-align">
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/29/e8wvtI.png"> <!-- random image -->
+        <img src="https://s1.ax1x.com/2020/06/24/NdMWY6.jpg"> <!-- random image -->
         <div class="caption center-align">
         </div>
       </li>
       <li>
-        <img src="https://s2.ax1x.com/2019/07/29/e8wjAA.png"> <!-- random image -->
+        <img src="https://s1.ax1x.com/2020/06/24/NdMcwR.jpg"> <!-- random image -->
         <div class="caption right-align">
         </div>
       </li>
     </ul>
   </div>
+

@@ -10,13 +10,26 @@ author:
 categories: ["1"]
 ---
 
-各位衔接班学生，如果你认为这里的内容自己好像看过或者熟悉，并放心大胆地打算一口气跳过去的话，请**停下你罪恶的双手**，仔细地看一看吧。因为衔接班几乎没有使用过o365等内容，重温一下总是好的。
+各位衔接班学生，如果你认为这里的内容自己好像看过或者熟悉，并放心大胆地打算一口气跳过去的话，请 **停下你罪恶的双手** ，仔细地看一看吧。因为衔接班几乎没有使用过 O365 等内容，重温一下总是好的。
 
-## Office365
+## Office  365
 
-还记不记得很久很久以前，衔接班入学的时候，你拥有了一个Office365的账号，还记得密码(或者存在浏览器里了)吗？
+还记不记得很久很久以前，衔接班入学的时候，你拿到了一个 Office 365 的账号，还记得密码(或者存在浏览器里了)吗？
 
-> 你可以在 <https://portal.office.com> 试图登录
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">info_outline</i>
+    <span style="font-size: 18px;">你可以在 https://portal.office.com 试图登录。
+    <a href="https://portal.office.com" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">点我</a>
+    </span>
+</div>
+
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">info_outline</i>
+    <span style="font-size: 18px;">可以找一找那张带有账号密码的纸/通知还在不在
+    </span>
+</div>
+
+<!-- > 你可以在 <https://portal.office.com> 试图登录 -->
 
 是的，我们在高中会大范围地使用它，请务必仔细看一看之后的说明。
 
@@ -24,13 +37,17 @@ categories: ["1"]
 
 ### 如果你只是忘记了密码
 
-请点击登录页面下方的“忘记了密码”，来利用先前绑定的诸如手机号等信息重置它。
+请点击登录页面下方的“忘记了密码”，来利用先前绑定的诸如手机号等信息重置它（如果你绑了的话）。
 
 ### 如果你连账号都忘了
 
 一般人的账号是形如 `zhangsan@i.pkuschool.edu.cn` 的，其中前面的为姓名全拼，你可以先试试这个进行登录。
 
 否则，如果你的名字全拼与其他人相同，你的账号将会变成类似 `zhangsan3@i.pkuschool.edu.cn` 的东西，其中后面跟的是一个正整数，一般这个数字不会超过5，**请自己从小到大试**。
+
+### 如果你压根就没有登过账号
+
+请去找之前说过的那张纸。
 
 ### 如果上述方法不行
 

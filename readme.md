@@ -19,7 +19,6 @@ layout: default
 
 - 第一章 欢迎 （欢迎一下，介绍一些基本概念，框架已经搭好了；号码首位为0）
 - 第二章 O365 （SubIT 会写的基础使用手把手教程，欢迎提出意见；号码首位为1）
-- ~~第三章 大家说 （学长学姐们想对新生说什么？书院想一步到位直接晒出二维码？号码首位为2）~~
 - 第三章 后续安排
 
 ## 设计理念
@@ -31,7 +30,7 @@ layout: default
 
 ## 加入编辑
 
-首先你需要（注册）一个 GitHub 账号，然后访问 [https://github.com/orgs/pkuschool/sso](https://github.com/orgs/pkuschool/sso) 进入 pkuschool 组织，最后回到此库。
+首先你需要（注册）一个 GitHub 账号，然后通过与管理员 PY 进入 pkuschool 组织，最后回到此库。
 
 凡是在此组织内的人，均可编辑。
 
@@ -87,12 +86,12 @@ layout: default
 图片引用形式：按这里的特点，应该是：
 
 ```
-![图片描述](../img/[你强行传到img文件夹的图片文件名])
-
 当然有图床的话，可以直接：
 
 ![图片描述（建议填写）](图片链接)
 ```
+
+除非涉及版权因素，请使用图床（如 <imgchr.com>，并确保图片大小不超过 500 kB。建议转换为jpg然后压缩。
 
 上传在[仓库首页](https://github.com/pkuschool/intro)点击 Upload File，拖进去就行
 

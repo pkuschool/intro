@@ -12,13 +12,18 @@ author:
 categories: ["1"]
 ---
 
-<script>/
+<script>
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
+    var elems2 = document.querySelectorAll('.slider');
+    var instances2 = M.Slider.init(elems2,{
+      // height: (window.innerHeight*0.3 + window.innerWidth*0.2)
+      height: calculatedGallerySize
+    });
   });
   M.toast({
-    html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold" onclick="M.Toast.dismissAll()">知道了</a>',
+    html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold;" onclick="M.Toast.dismissAll()">知道了</a>',
     displayLength: 150000,
     activationPercent: 2
   });
@@ -33,7 +38,7 @@ categories: ["1"]
 
 ### 特色
 
-|  对比项  |    班级制    |          书院制           |
+|  对比项  |    班级制    |    书院制（北大附中）        |
 | :------: | :----------: | :-----------------------: |
 |  成员数  |    约60人    |          约150人          |
 | 组建方式 |   学校安排   |    书院学长与新生双选     |
@@ -50,7 +55,7 @@ categories: ["1"]
 
 > 书院活动室是学校提供给书院学生的生活空间和文化创设及传承的公共空间。
 
-每个书院拥有自己的书院活动室，该书院学生平时可以前去休息或自习，但许遵循[自习管理条例](http://handbook.pkuschool.edu.cn/s6.8.html)
+每个书院拥有自己的书院活动室，该书院学生平时可以前去休息或自习，但须遵循[自习管理条例](http://handbook.pkuschool.edu.cn/s6.8.html)
 
 
 ## 社团与俱乐部
@@ -169,7 +174,7 @@ categories: ["1"]
 
 ### 自习
 
-在学科课位(平时第1,2,4,5节课)的自习，需要到指定教室自习，**记录考勤**。
+**疫情期间**，在学科课位(平时第1,2,4,5节课)的自习，需要到指定教室自习，**记录考勤**。
 
 活动课位(周一到周五的第3节课)的自习，不予考勤记录。你可以选择在学校提供的场所自习或自主安排活动。
 
@@ -183,9 +188,51 @@ categories: ["1"]
 
 万人坑——体育馆综合馆，段考的主要举办地点
 
-<img src="https://hong.zuggr.com/image/view/cache/5422" title="来自红砖，作者 刘语辰" width="50%">
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://hong.zuggr.com/image/view/cache/5422">
+        <div class="caption center-align" >
+          <h3>来自红砖，作者 刘语辰</h3>
+        </div>
+      </li>
+      <li>
+        <img src="https://s1.ax1x.com/2020/06/22/NJ16zj.jpg">
+        <div class="caption center-align" >
+          <h5 class="white-text">作者 朱文鹤</h5>
+        </div>
+      </li>
+      <li id="special">
+        <img src="https://s1.ax1x.com/2020/06/24/NdnFzQ.jpg">
+        <div class="caption center-align">
+          <h5 class="white-text">作者 姚天佾·刘语辰</h5>
+        </div>
+      </li>
+    </ul>
+</div>
 
-<span style="color: #bbbbbb;font-size: 10px">来自红砖，作者 刘语辰</span>
+<style>
+  @keyframes scrolling{
+    from{
+      transform: translateX(0)
+    }
+    to{
+      transform: translateX(-30%)
+    }
+  }
+
+  li#special>img{
+    background-size: contain;
+    background-position: left center;
+    background-repeat: repeat-x;
+    animation: scrolling 12s infinite linear;
+    width: 300vw;
+  }
+</style>
+
+<!-- <img src="https://hong.zuggr.com/image/view/cache/5422" title="来自红砖，作者 刘语辰" width="50%"> -->
+
+<!-- <span style="color: #bbbbbb;font-size: 10px">来自红砖，作者 刘语辰</span> -->
 
 ## 毕业相关
 
@@ -204,7 +251,5 @@ categories: ["1"]
 这些概念都很重要，如果需要进一步的解释，建议询问书院招新的学长学姐们。
 
 <div class="hide"><!-- Caching Images-->
-  <img src="https://s2.ax1x.com/2019/07/28/eQEREV.png" width="0" height="0">
-  <img src="https://s2.ax1x.com/2019/07/28/eQEf4U.png" width="0" height="0">
-  <img src="https://s2.ax1x.com/2019/07/29/e8wO7d.png" width="0" height="0">
+  <img src="https://s1.ax1x.com/2020/06/24/NdMgT1.jpg" width="0" height="0">
 </div>

@@ -22,7 +22,7 @@ categories: ["2"]
 
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">info_outline</i>
-    <span style="font-size: 18px;">您的用户名可能在名字全拼后面包含数字，请务必不要忽略。这意味着之前已经有同姓名全拼的同学注册过了。</span>
+    <span style="font-size: 18px;">您的用户名可能在名字全拼后面包含数字，请务必不要忽略。这意味着之前已经有同姓名全拼的同学了。</span>
     <!-- <span style="font-size: 13px;" class="hide-on-small-and-down">&nbsp;</span> -->
 </div>
 

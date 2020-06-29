@@ -20,6 +20,11 @@
             var ModalInstances = M.Modal.init(ModalElems, {
                 opacity: 1
             });
+            document.querySelectorAll('a').forEach((item)=>{
+                if(item.classList.length==0){
+                    item.target = '_blank'
+                }
+            })
         });
         const windowMaxSize = Math.max(window.innerHeight, window.innerWidth)
         var calculatedGallerySize = windowMaxSize * 0.4

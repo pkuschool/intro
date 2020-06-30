@@ -87,6 +87,4 @@ categories: ["2"]
 
 ## 加入北大附中空间
 
-点击链接[加入空间]()加入
-
-~~目前还没加，看到的提醒我去要邀请链接...~~
+点击链接[加入空间](https://pkuschool.yuque.com/r/organizations/pkuschool/join?token=mpRrMR8MnHd3Qkjk#)加入

@@ -1,8 +1,8 @@
 ---
 
 permalink: /17/
-title: Adobe&yuque
-description: 啊，那个思杰X克丁...学校的不用考虑这些。
+title: Adobe&语雀
+description: Adobe部分选读，语雀部分还是..都看一下吧
 last: "16"
 next: "18"
 layout: default

@@ -33,8 +33,6 @@ categories: ["2"]
 
 点击链接[语雀注册页面](https://www.yuque.com/register) 进入，使用手机号与验证码快速注册。
 
-**注意**：请以**真实姓名**注册语雀，以防以后任课教师分辨不出你的身份。
-
 注册完成后点击左上角的语雀logo回到主页，你应该会看到如下界面。
 
 ![N5w4eA.md.png](https://s1.ax1x.com/2020/06/30/N5w4eA.md.png)
@@ -90,3 +88,10 @@ categories: ["2"]
 ## 加入北大附中空间
 
 点击链接[加入空间](https://pkuschool.yuque.com/r/organizations/pkuschool/join?token=mpRrMR8MnHd3Qkjk#)加入
+
+### 更改空间内昵称
+
+1. 进入`北大附中`空间
+2. 将鼠标移到右上角的头像，点击弹出列表的`账户设置`
+3. 更改昵称为真实姓名（不然以后你的老师可能因为找不到你的账户不给你分）
+4. 点击`更新信息`完成修改

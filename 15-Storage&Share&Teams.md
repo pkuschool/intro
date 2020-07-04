@@ -6,7 +6,7 @@ description: SharePoint & Teams
 last: "14"
 next: "16"
 layout: default
-categories: ["2"]
+categories: ["3"]
 ---
 <!-- ## 准备工作
 

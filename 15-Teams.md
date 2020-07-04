@@ -7,8 +7,8 @@ next: "15“
 last: "14”
 author:
     - 高幸
-    - [假装有另一位作者]
 layout: default
+
 ---
 
 ## Teams 是做什么的？

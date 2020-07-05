@@ -85,7 +85,7 @@ categories: ["3"]
 
 ## 下载好客户端之后，就让我们开始吧！
 
-<img src="/Users/gaoxing/Desktop/Teams.png">
+<img src="intro/img/Teams.png">
 
 如图，这里以运行在 macOS 11.0Beta 上的 Teams 客户端为例，打开客户端，你便可以看到最左侧的边栏中有一列按钮。一般而言，它们的名称即对应了该部分的功能。
 
@@ -98,7 +98,7 @@ categories: ["3"]
 
 这里以 SubIT（本「新生指南」的策划者）的某团队为例。
 
-<img src="/Users/gaoxing/Desktop/Teams_2.png">
+<img src="/intro/img/Teams_2.png">
 
 可以看到，「团队」「频道」和「选项卡」都可以被轻易地找到。值得注意的是，在「频道」一列的最下方，你可以找到**被隐藏的频道并取消隐藏**，如果你找不到某些文件，请不要忘记查找被隐藏的频道。
 

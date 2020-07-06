@@ -26,8 +26,8 @@ categories: ["2"]
 - 请设置好 Outlook，教务后续会发通知。
 - 关于 Teams：
   - **此软件以后必定会用到**
-  - 请在[这里](https://teams.microsoft.com/downloads)下载客户端。
-  - 手机客户端可以前往[分流](https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU)下载。
+  - 请在[这里](https://teams.microsoft.com/downloads)下载桌面客户端。
+  - 手机客户端可以前往[分流](https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU)下载，**也可以直接在手机的应用商店获取**。
 - 关于 OneNote：
   - Windows 10 用户可以前往 Microsoft Store 下载 UWP 版。
 - 关于 Microsoft To-Do（一个待办事项软件）：

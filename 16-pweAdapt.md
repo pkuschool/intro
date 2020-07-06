@@ -28,14 +28,14 @@ categories: ["2"]
 您可以到应用商店搜索下载应用：
 
  **Microsoft Office**
-- [iOS用户点我](https://apps.apple.com/cn/app/microsoft-office/id541164041)
-- [Android用户点我](https://www.coolapk.com/apk/com.microsoft.office.officehubrow)
+- [iOS用户点我](https://apps.apple.com/cn/app/microsoft-office/id541164041)（可以在 App Store 搜索 Microsoft Office）
+- [Android用户点我](https://www.coolapk.com/apk/com.microsoft.office.officehubrow)（可以扫描页面中二维码获取）
 
 **不建议使用 WPS。**
 
 ## 等等，这样我就能免费获得正版桌面版 Office 了？
 
-并没有，学校分配账号属于A1教育版，只有移动端与网页端授权（但是这意味着只要学校还和微软合作，你就可以无限白嫖移动版和onedrive）。
+并没有，学校分配账号属于A1教育版，只有移动端与网页端授权（但是这意味着只要学校还和微软合作，你就可以无限白嫖移动版和OneDrive）。
 
 如果需要购买桌面版可以在微软商店（microsoftstore.com.cn）订购。
 

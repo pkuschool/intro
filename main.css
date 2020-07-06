@@ -50,13 +50,17 @@ strong {
 .navbtn {
     margin-left: 2px;
 }
+img{
+    max-width: 100%;
+}
 
 h1 {
     font-size: 2.5em !important
 }
 
 h2 {
-    font-size: 2em !important
+    font-size: 2em !important;
+    line-height: 1.5em
 }
 
 h3 {
@@ -200,6 +204,19 @@ blockquote {
     -ms-word-break: keep-all;
 }
 
+summary{
+    background-color: rgba(128, 128, 128, 0.15);
+    padding: 8px 12px;
+    border: 2.4px rgba(255, 255, 255, 0.15) solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color .25s
+}
+summary:focus{
+    outline: none;
+    border: 2.4px var(--accent) solid;
+}
+
 @media screen and (max-width: 600px) {
     #page-title {
         font-size: 23px;
@@ -269,7 +286,7 @@ blockquote {
         color: rgba(255, 255, 255, 0.8);
     }
 
-    #index-close {
+    #index-close, .know-that {
         color: white;
 
     }

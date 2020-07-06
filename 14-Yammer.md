@@ -36,6 +36,12 @@ categories: ["2"]
 如果你发现了帖子不符合规定，可以点击右上角的按钮，随后在弹出菜单内向我们举报。
 <img src="https://s1.ax1x.com/2020/07/06/UFSalD.png" width="600"  class=" materialboxed">
 
+在[《Yammer 社区管理规则与处理规范》](https://www.yuque.com/docs/share/609a58ab-3f0d-4d30-a45d-907ae6d3606d?#)的规定中，社区管理员将尽最大可能地以最小工作量工作，并且其职权范围将会得到充分的限制，以最大限度地保证每个人的自由发言。我们尊重每一种独特的声音。
+
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">error_outline</i>
+    <span style="font-size: 18px;">截至 2020年6月，《Yammer 社区管理规则与处理规范》草案目前仍在意见征求阶段，尚未正式实施。</span>
+</div>
 
 
 **只要不触犯这些禁令，在这里做任何其他的事情都没有问题。**

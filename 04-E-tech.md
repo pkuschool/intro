@@ -19,6 +19,15 @@ categories: ["1"]
     var instances = M.Materialbox.init(elems);
 
   });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+    var elems2 = document.querySelectorAll('.slider');
+    var instances2 = M.Slider.init(elems2,{
+      // height: (window.innerHeight*0.3 + window.innerWidth*0.2)
+      height: calculatedGallerySize
+    });
+  });
    M.toast({
     html: '<span><strong>请确保你已经知晓</strong>：本节中《笔记本简略购买指南》部分仅作为你在判断相应电子设备可用性或购买更新设备过程之参考，不代表学校官方立场。本指南不具有任何暗示性或推销性之内容。目前为止，在校期间对于使用任何款式及类型之电子设备均无限制，但请尽量保证携带<strong>至少一台可用的设备</strong>。继续查看本指南即意味着你已经充分了解自身需求及预算水平，并知晓不理性之购买可能造成的一切后果。若你无法确定自身需求及预算水平，请在开学经实际场景体验后再做选择。请根据实际需求购买，谨慎选择，理性适度消费。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold;" onclick="M.Toast.dismissAll()">我已知晓</a>',
     displayLength: 150000,

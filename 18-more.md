@@ -24,17 +24,14 @@ categories: ["2"]
 
 - 建议在暑假摸索一下 Office 365 的整体使用，这个系统开学是要用的。有什么疑问/不会的操作请发邮件问 SubIT。这是一个各产品间互相结合的的体系。
 - 请设置好 Outlook，教务后续会发通知。
-- 关于 Teams：
-  - **此软件以后必定会用到**
-  - 请在[这里](https://teams.microsoft.com/downloads)下载桌面客户端。
-  - 手机客户端可以前往[分流](https://bdfz.sharepoint.com/:f:/s/PublicDatabase/EspN9dhqSghAm8iNsuhaDzQBdwO-3UHNVJJUsBaVkloKhA?e=xGZhOU)下载，**也可以直接在手机的应用商店获取**。
 - 关于 OneNote：
+  - 一款强大的笔记应用
   - Windows 10 用户可以前往 Microsoft Store 下载 UWP 版。
   - macOS 用户可以在 Mac App Store中找到 OneNote，iOS同理。
   - Android 用户请在各大应用商店搜索“OneNote”下载。
   - 你也可以在[这里](https://www.microsoft.com/zh-cn/microsoft-365/onenote/digital-note-taking-app?rtc=1)获取移动版应用。
 - 关于 Microsoft To-Do（一个待办事项软件）：
-  - 可在各大应用商店搜索“To-Do”下载。
+  - 可在各大应用商店搜索“To-Do”下载，相当好用。可与奇妙清单绑定。
 
 ## SubIT
 

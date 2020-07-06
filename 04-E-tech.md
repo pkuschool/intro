@@ -105,6 +105,11 @@ categories: ["1"]
 
 #### 机型推荐
 
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">error_outline</i>
+  <span style="font-size: 18px;"><strong>注意</strong> 请确保你已经知晓：本<i>笔记本电脑简略购买指南</i>仅作为你在判断相应电子设备可用性或购买更新设备过程之参考，不代表学校官方立场。本指南不具有任何暗示性或推销性之内容。目前为止，在校期间对于使用任何款式及类型之电子设备均无限制，但请尽量保证携带<strong>至少一台可用的设备</strong>。继续查看本指南即意味着你已经充分了解自身需求及预算水平，并知晓不理性之购买可能造成的一切后果。若你无法确定自身需求及预算水平，请在开学经实际场景体验后再做选择。请根据实际需求购买，谨慎选择，理性适度消费。</span>
+</div>
+
 <a href="#modal-mach" class="pill-btn accent modal-trigger white-text">点击查看机型推荐</a>
 
 <div id="modal-mach" class="modal">

@@ -201,8 +201,9 @@ categories: ["1"]
 
     <h4>投影相关</h4>
 
+    <blockquote>
     <p>有 <a href="https://baike.baidu.com/item/mini%20displayport/9751237">Mini DP</a> 或 <a href="https://baike.baidu.com/item/HDMI">HDMI</a> 接口的电脑，可以直接以物理方式连接教室投影仪。不过西楼现在已经支持无线投屏啦，有线只是备用，用这些接口会更方便一些。</p>
-
+    </blockquote>
     <span style="font-size:1.5em;">看自己需求决定，不要盲目跟随。</span>
 
     <h3>小结</h3>

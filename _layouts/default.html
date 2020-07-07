@@ -6,22 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.png' />
     <title>{{ page.title | default: site.deftitle | default: site.github.repository_name }} | {{site.title}}</title>
-    <link href="https://cdn.bootcdn.net/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" importance="high">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css" importance="high">
+    <link href="https://cdn.bootcdn.net/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet"
+        importance="high">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css"
+        importance="high">
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="/main.css">
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.tooltipped');
             var instances = M.Tooltip.init(elems);
             var ModalElems = document.querySelectorAll('.modal');
             var ModalInstances = M.Modal.init(ModalElems, {
                 opacity: 1
             });
-            document.querySelectorAll('a').forEach((item)=>{
-                if(item.classList.length==0){
+            document.querySelectorAll('a').forEach((item) => {
+                if (item.classList.length == 0) {
                     item.target = '_blank'
                 }
             })
@@ -29,24 +31,50 @@
         const windowMaxSize = Math.max(window.innerHeight, window.innerWidth)
         var calculatedGallerySize = windowMaxSize * 0.4
     </script>
+    <!-- 百度统计 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?b41bbfdba39bc335cdb074874425f66b";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
 </head>
 
 <body>
     {% if page.notitle != true %}
-    <div class="text-darken-4 z-depth-1" id="top-div" style="color:#383838;position: sticky; top:0px;z-index: 9;background: rgba(255, 255, 255, 0.502);-webkit-backdrop-filter: blur(20px);backdrop-filter: blur(20px);/* border-top: 3px solid var(--accent);*/">
-        <nav class=" container transparent z-depth-0" style="color: black;width: 100%;padding-bottom: 0px; height: fit-content;">
+    <div class="text-darken-4 z-depth-1" id="top-div"
+        style="color:#383838;position: sticky; top:0px;z-index: 9;background: rgba(255, 255, 255, 0.502);-webkit-backdrop-filter: blur(20px);backdrop-filter: blur(20px);/* border-top: 3px solid var(--accent);*/">
+        <nav class=" container transparent z-depth-0"
+            style="color: black;width: 100%;padding-bottom: 0px; height: fit-content;">
             <span id="page-title">{{ page.title }}</span>
-            <span id="page-subtitle" class="flow-text hide-on-small-and-down" style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
+            <span id="page-subtitle" class="flow-text hide-on-small-and-down"
+                style="font-size: 16px;margin-left: 5px;">{{ page.description }}</span>
             <div class="right accent-text" style="margin-right: 13px">
-                <a onclick="localStorage.setItem('step','');" href="/" class="btn-flat accent-text nav-sidebtn transparent waves-effect navbtn tooltipped hide-on-small-and-down" data-position="bottom" data-tooltip="从头开始"><i class="material-icons" style="line-height: inherit !important">home</i></a>
+                <a onclick="localStorage.setItem('step','');" href="/"
+                    class="btn-flat accent-text nav-sidebtn transparent waves-effect navbtn tooltipped hide-on-small-and-down"
+                    data-position="bottom" data-tooltip="从头开始"><i class="material-icons"
+                        style="line-height: inherit !important">home</i></a>
                 {% unless page.last == "none" %}
-                <a href="/{{ page.last }}" class="btn-flat accent-text nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down" id="last" data-position="bottom" data-tooltip="上一页"><i class="material-icons" style="line-height: inherit !important">arrow_back</i></a>
+                <a href="/{{ page.last }}"
+                    class="btn-flat accent-text nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down"
+                    id="last" data-position="bottom" data-tooltip="上一页"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_back</i></a>
                 {% endunless %}
                 {%unless page.ispages %}
-                <a href="#index-modal" class="btn-flat accent-text modal-trigger nav-sidebtn transparent waves-effect  navbtn tooltipped" data-position="bottom" data-tooltip="目录"><i class="material-icons" style="line-height: inherit !important">list</i></a>
+                <a href="#index-modal"
+                    class="btn-flat accent-text modal-trigger nav-sidebtn transparent waves-effect  navbtn tooltipped"
+                    data-position="bottom" data-tooltip="目录"><i class="material-icons"
+                        style="line-height: inherit !important">list</i></a>
                 {%endunless%}
                 {% unless page.next == "none" %}
-                <a href="/{{ page.next }}" class="btn-flat accent-text nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down" id="next" data-position="bottom" data-tooltip="下一页"><i class="material-icons" style="line-height: inherit !important">arrow_forward</i></a>
+                <a href="/{{ page.next }}"
+                    class="btn-flat accent-text nav-sidebtn transparent navbtn waves-effect tooltipped hide-on-small-and-down"
+                    id="next" data-position="bottom" data-tooltip="下一页"><i class="material-icons"
+                        style="line-height: inherit !important">arrow_forward</i></a>
                 <link rel="prerender" href="/{{ page.next }}">
                 {% endunless %}
             </div>
@@ -62,17 +90,22 @@
         {% if page.notitle != true %}
         <div style="display: flex; align-items: center;justify-content: space-between;">
             {% unless page.last == "none" %}
-            <a href="/{{ page.last }}" id="bottom-lastpage" class="pill-btn white nav-sidebtn accent-text navbtn waves-effect" style="display: inline-flex;"><i class="material-icons" style="line-height: inherit !important">arrow_back</i>上一页</a>
+            <a href="/{{ page.last }}" id="bottom-lastpage"
+                class="pill-btn white nav-sidebtn accent-text navbtn waves-effect" style="display: inline-flex;"><i
+                    class="material-icons" style="line-height: inherit !important">arrow_back</i>上一页</a>
             {% endunless %}
             <div style="display: flex;align-items: center;margin-left: auto;">
-                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUOVUzTjdYU1pLVlE4WEdXSVIzWkZINTBZOS4u" target="_blank" style="margin: 0 8px;">内容纠错</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUOVUzTjdYU1pLVlE4WEdXSVIzWkZINTBZOS4u"
+                    target="_blank" style="margin: 0 8px;">内容纠错</a>
                 <!-- https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUOVUzTjdYU1pLVlE4WEdXSVIzWkZINTBZOS4u%26Token%3D79f7b80eed00465582c715306ae9de9f -->
                 {% unless page.next == "none" %}
-                <a href="/{{ page.next }}" class="pill-btn white-text darken-3 accent" id="nxt-btn-sec" style="width: fit-content;display: flex; align-items: center;padding: 0 16px;margin-left: auto;">
+                <a href="/{{ page.next }}" class="pill-btn white-text darken-3 accent" id="nxt-btn-sec"
+                    style="width: fit-content;display: flex; align-items: center;padding: 0 16px;margin-left: auto;">
                     <span style="vertical-align: middle;">下一页</span>
-                    <i class="material-icons" style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
-                    {% endunless %}
-                </div>
+                    <i class="material-icons"
+                        style="line-height: inherit !important;margin-left: 10px;">arrow_forward</i></a>
+                {% endunless %}
+            </div>
         </div>
         {% endif %}
         <!-- <p>本项目在 <a href="https://github.com/pkuschool/intro">GitHub</a> 上开源运营，一起来做贡献吧！</p> -->
@@ -81,13 +114,18 @@
         </a> -->
 
         <p style="color: gray;">此版本更新于：{{site.time | date: "%Y/%m/%d, %H:%M:%S (%Z)"}} | 环境：{{jekyll.environment}}</p>
-        <p style="color: gray;vertical-align: middle;"><a href="https://github.com/pkuschool/intro" style="vertical-align: middle;">🔗 本项目的 GitHub 仓库</a> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/pkuschool/intro?color=%2326a69a&label=%E8%B4%A1%E7%8C%AE%E8%80%85%E6%95%B0%E9%87%8F" style="vertical-align: middle;"></p>
+        <p style="color: gray;vertical-align: middle;"><a href="https://github.com/pkuschool/intro"
+                style="vertical-align: middle;">🔗 本项目的 GitHub 仓库</a> <img alt="GitHub contributors"
+                src="https://img.shields.io/github/contributors/pkuschool/intro?color=%2326a69a&label=%E8%B4%A1%E7%8C%AE%E8%80%85%E6%95%B0%E9%87%8F"
+                style="vertical-align: middle;"></p>
     </footer>
     <div id="index-modal" class="modal">
         <div class="modal-content">
             <h1>章节选择</h1>
             {% for chapter in site.data.chapters %}
-            <div class="card-panel grey lighten-2 black-text z-depth-0 waves-ripple waves-effect col s12 m4" style="padding: 12px;width: 100%; border-left: 5px var(--accent) solid;border-radius: 0px;" onclick="window.open('/{{chapter.url}}', '_self')">
+            <div class="card-panel grey lighten-2 black-text z-depth-0 waves-ripple waves-effect col s12 m4"
+                style="padding: 12px;width: 100%; border-left: 5px var(--accent) solid;border-radius: 0px;"
+                onclick="window.open('/{{chapter.url}}', '_self')">
                 <a href="/{{chapter.url}}" class=" black-text">
                     <span style="font-size: 26px;margin-left: 12px;">{{ chapter.name }}</span>
                     <span class="flow-text" style="font-size: 15px;margin-left: 5px;">{{ chapter.description }}</span>

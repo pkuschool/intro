@@ -52,7 +52,10 @@ layout: default
 
 我们强烈建议使用 PC 端（实际上更建议使用自己的笔记本电脑 / 二合一设备访问），Chrome 内核的浏览器继续查看此导览。
 
-## 请不要使用手机或 iPad 浏览，这样后续步骤将难以进行。
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">error_outline</i>
+    <span style="font-size: 18px;">请尽可能避免使用手机或 iPad 浏览，这样后续步骤将难以进行。</span>
+</div>
 
 请尽量不要将内容一带而过，否则您可能丢失部分的步骤。
 

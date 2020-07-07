@@ -210,6 +210,22 @@ details[open]>summary{
     background-color: rgba(38, 166, 153, 0.2);
     /* color: white; */
 }
+details>summary::before {
+    transform-origin: center center;
+    transition: .3s transform;
+    content: "▶";
+    margin-right: 5px;
+    line-height: 1em;
+    display: inline-block;
+    transform: scale(0.9);
+}
+details>summary::-webkit-details-marker {
+    display: none;
+}
+details[open]>summary::before {
+    transform: rotate(90deg) scale(1)
+}
+
 
 /* details[open]{
     border-bottom: 4px solid var(--accent);
@@ -225,10 +241,15 @@ summary{
     border-radius: 5px;
     cursor: pointer;
     transition: border-color .25s, background-color .25s;
+    appearance: none;
+    list-style-type: none;
 }
 summary:focus{
     outline: none;
     border: 2.4px var(--accent) solid;
+}
+details{
+    transition: .25s all;
 }
 
 @media screen and (max-width: 600px) {

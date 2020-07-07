@@ -99,7 +99,7 @@ categories: ["1"]
 
 
 <details>
-    <summary id="read-recom" style="font-size: 25px;">点我展开/隐藏选购指南</summary>
+    <summary id="read-recom" style="font-size: 20px;">点我展开/隐藏选购指南</summary>
 
 
     <script>

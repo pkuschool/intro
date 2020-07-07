@@ -204,13 +204,27 @@ blockquote {
     -ms-word-break: keep-all;
 }
 
+details[open]>summary{
+    /* position: sticky;
+    top: 60px; */
+    background-color: rgba(38, 166, 153, 0.2);
+    /* color: white; */
+}
+
+/* details[open]{
+    border-bottom: 4px solid var(--accent);
+    border-left: 2px solid var(--accent);
+    padding-left: 10px;
+    border-radius: 5px 0 10px 10px;
+} */
+
 summary{
     background-color: rgba(128, 128, 128, 0.15);
     padding: 8px 12px;
     border: 2.4px rgba(255, 255, 255, 0.15) solid;
     border-radius: 5px;
     cursor: pointer;
-    transition: border-color .25s
+    transition: border-color .25s, background-color .25s;
 }
 summary:focus{
     outline: none;

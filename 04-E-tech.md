@@ -17,7 +17,7 @@ categories: ["1"]
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
-
+    document.querySelector('#tool_btn').click();
   });
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
@@ -28,12 +28,34 @@ categories: ["1"]
       height: calculatedGallerySize
     });
   });
-   M.toast({
-    html: '<span><strong>请确保你已经知晓</strong>：本节中《笔记本简略购买指南》部分仅作为你在判断相应电子设备可用性或购买更新设备过程之参考，不代表学校官方立场。本指南不具有任何暗示性或推销性之内容。目前为止，在校期间对于使用任何款式及类型之电子设备均无限制，但请尽量保证携带<strong>至少一台可用的设备</strong>。继续查看本指南即意味着你已经充分了解自身需求及预算水平，并知晓不理性之购买可能造成的一切后果。若你无法确定自身需求及预算水平，请在开学经实际场景体验后再做选择。请根据实际需求购买，谨慎选择，理性适度消费。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold;" onclick="M.Toast.dismissAll()">我已知晓</a>',
-    displayLength: 150000,
-    activationPercent: 2
-  });
+  //  M.toast({
+  //   html: '<span><strong>请确保你已经知晓</strong>：本节中《笔记本简略购买指南》部分仅作为你在判断相应电子设备可用性或购买更新设备过程之参考，不代表学校官方立场。本指南不具有任何暗示性或推销性之内容。目前为止，在校期间对于使用任何款式及类型之电子设备均无限制，但请尽量保证携带<strong>至少一台可用的设备</strong>。继续查看本指南即意味着你已经充分了解自身需求及预算水平，并知晓不理性之购买可能造成的一切后果。若你无法确定自身需求及预算水平，请在开学经实际场景体验后再做选择。请根据实际需求购买，谨慎选择，理性适度消费。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold;" onclick="M.Toast.dismissAll()">我已知晓</a>',
+  //   displayLength: 150000,
+  //   activationPercent: 2
+  // });
 </script>
+
+
+<a href="#modal-mach" class="modal-trigger" id="tool_btn" style="display:none !important;"></a>
+<div id="modal-mach" class="modal">
+  <div class="modal-content">
+    <h2 style="text-align:center">免责声明</h2>
+    <h3>请确保你已经知晓</h3>
+    <ul>
+    <li>本节中《笔记本简略购买指南》部分仅作为你在判断相应电子设备可用性或购买更新设备过程之参考，不代表学校官方立场。</li>
+    <li>本指南不具有任何暗示性或推销性之内容。</li>
+    <li>目前为止，在校期间对于使用任何款式及类型之电子设备均无限制，但请尽量保证携带<strong>至少一台可用的设备</strong>。</li>
+    <li>继续查看本指南即意味着你已经充分了解自身需求及预算水平，并知晓不理性之购买可能造成的一切后果。</li>
+    <li>若你无法确定自身需求及预算水平，请在开学经实际场景体验后再做选择。</li>
+    <li>请根据实际需求购买，谨慎选择，理性适度消费。</li>
+    </ul>
+  </div>
+  <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat know-that">知道了</a>
+    </div>
+</div>
+
+
 
 ## 重要的网站
 

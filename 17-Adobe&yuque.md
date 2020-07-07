@@ -15,7 +15,7 @@ categories: ["2"]
 
 <a href="https://pkuschool.github.io/adobedl/" class="pill-btn green darken-3 white-text" target="_blank">北大附中 Adobe 下载中心</a>
 
-相关软件版本为 CC 2018，故部分较新系统（如最新的 macOS）可能无法使用
+相关软件版本为 CC 2018，故部分较新系统（如<ruby>最新的 macOS<rt>Catalina 及以上</rt></ruby>）可能无法使用
 
 欢迎前端大佬来相关 [GitHub 仓库](https://github.com/pkuschool/adobedl) 完善这个 Adobe 下载页面！
 

@@ -84,10 +84,10 @@ layout: default
 
 请尽量不要将内容一带而过，否则您可能丢失部分的步骤。
 
-<div class="card-panel flex-center accent-text">
+<!-- <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
     <span style="font-size: 18px;">本站点正在修订中，内容仅供预览。</span>
-</div>
+</div> -->
 
 ### 这个新生指南怎么看？
 

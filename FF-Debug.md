@@ -16,7 +16,16 @@ categories: ["Debug"]
         setInterval(function(){
             timeZone.innerHTML=new Date();
         },1000);
-        document.querySelector('#platform').innerHTML=navigator.platform
+        document.querySelector('#platform').innerHTML=navigator.platform;
+        var languages=navigator.languages;
+        for(var i=0;i<languages.length;i++)
+        {
+            var newlang=document.createElement("li");
+            newlang.innerHTML="第"+(i+1)+"语言: "+languages[i];
+            document.querySelector('#lang').appendChild(newlang);
+        }
+        document.querySelector('#memory').innerHTML=navigator.deviceMemory+"GB";
+        document.querySelector('#touchpoint').innerHTML=navigator.maxTouchPoints;
     }); 
 </script>
 
@@ -28,3 +37,13 @@ categories: ["Debug"]
 
 ### 平台
 <code id="platform"></code>
+
+### 语言
+<ul id="lang">
+</ul>
+
+### 内存
+<code id="memory"></code>
+
+### 多点触控
+<p>最大触控点: <code id="touchpoint"></code></p>

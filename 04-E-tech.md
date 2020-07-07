@@ -77,11 +77,11 @@ categories: ["1"]
 
 <!-- *（当然，要学会自控哦！* -->
 
-<div id="modal-warn" class="modal">
+<div id="modal-warn" class="modal modal-fixed-footer">
     <div class="modal-content">
         <h2>笔记本电脑简略购买指南免责声明</h2>
         <h3>请确保你已经知晓</h3>
-        <ul style="line-height: 2em;font-size: 16px;">
+        <ul style="line-height: 2em;">
             <li>您可以跳过购买指南部分，但如果您不清楚电脑的基础选购方式和参数，我们依旧建议您阅读此指南。</li>
             <li>本节中《笔记本简略购买指南》部分仅作为你在判断相应电子设备可用性或购买更新设备过程之参考，不代表学校官方立场</li>
             <li>本指南不具有任何暗示性或推销性之内容。</li>

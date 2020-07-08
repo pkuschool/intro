@@ -15,6 +15,13 @@ author:
 categories: ["3"]
 ---
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+  });
+</script>
+
 > 本页依据[北大附中书院篇（学生版）](https://www.yuque.com/preview/yuque/0/2020/pdf/398767/1586928079957-d30d0cfd-5239-41c8-a2f9-2068e936d0b0.pdf) 编写
 
 ## 书院，是什么？
@@ -26,8 +33,7 @@ categories: ["3"]
 
 ## 八大书院
 
-> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 大学之道，在明明德，在**亲民**，在止于**至善**。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣。  
-> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 古之欲明**明德**于天下者，先治其国，欲治其国者，先齐其家；欲齐其家者，先修其身；欲修其身者，先正其心；欲正其心者，先诚其意；欲诚其意者，先致其知，**致知**在**格物**。物格而后知至，知至而后**意诚**，意诚而后**心正**，心正而后身修，身修而后家齐，家齐而后国治，国治而后天下平。自天子以至于庶人，壹是皆以修身为本。其本乱而末治者，否矣。其所厚者薄，而其所薄者厚，未之有也。此谓知本，此谓知之至也。 **——《礼记·大学》**
+ <img class="materialboxed" width="100%" src="https://s1.ax1x.com/2020/07/08/UZ4P29.png">
 
 书院的名字取自 **《大学》**，并授予**橙、黄、绿、青、蓝、紫、灰、**黑八种颜色为代表色  
 分别是

@@ -50,7 +50,8 @@ strong {
 .navbtn {
     margin-left: 2px;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -63,8 +64,8 @@ h2 {
     line-height: 1.5em
 }
 
-[hidden]{
-    display:none !important;
+[hidden] {
+    display: none !important;
 }
 
 h3 {
@@ -111,8 +112,8 @@ p {
     margin-right: 12px;
 }
 
-.align-center{
-    display:flex;
+.align-center {
+    display: flex;
     align-items: center;
     justify-content: flex-start;
 }
@@ -210,17 +211,18 @@ blockquote {
     text-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.49);
 }
 
-.toast-action{
+.toast-action {
     word-break: keep-all;
     -ms-word-break: keep-all;
 }
 
-details[open]>summary{
+details[open]>summary {
     /* position: sticky;
     top: 60px; */
     background-color: rgba(38, 166, 153, 0.2);
     /* color: white; */
 }
+
 details>summary::before {
     transform-origin: center center;
     transition: .3s transform;
@@ -230,9 +232,11 @@ details>summary::before {
     display: inline-block;
     transform: scale(0.9);
 }
+
 details>summary::-webkit-details-marker {
     display: none;
 }
+
 details[open]>summary::before {
     transform: rotate(90deg) scale(1)
 }
@@ -245,7 +249,7 @@ details[open]>summary::before {
     border-radius: 5px 0 10px 10px;
 } */
 
-summary{
+summary {
     background-color: rgba(128, 128, 128, 0.15);
     padding: 8px 12px;
     border: 2.4px rgba(255, 255, 255, 0.15) solid;
@@ -255,11 +259,13 @@ summary{
     appearance: none;
     list-style-type: none;
 }
-summary:focus{
+
+summary:focus {
     outline: none;
     border: 2.4px var(--accent) solid;
 }
-details{
+
+details {
     transition: .25s all;
 }
 
@@ -268,6 +274,15 @@ details{
         font-size: 23px;
     }
 }
+
+@media screen and (min-width: 730px) {
+    .old-style {
+        writing-mode: tb-rl;
+        max-height: 200px;
+        font-family: serif;
+    }
+}
+
 
 @supports not ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))) {
     #top-div {
@@ -294,13 +309,14 @@ details{
         background-color: black;
     }
 
-    .dk-t{
+    .dk-t {
         color: rgba(255, 255, 255, 0.8);
     }
 
-    #top-div{
+    #top-div {
         background: rgba(80, 80, 80, 0.502) !important;
     }
+
     *::selection {
         background: rgba(38, 166, 153, 0.6) !important;
     }
@@ -337,7 +353,8 @@ details{
         color: rgba(255, 255, 255, 0.8);
     }
 
-    #index-close, .know-that {
+    #index-close,
+    .know-that {
         color: white;
 
     }

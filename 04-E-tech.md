@@ -106,15 +106,14 @@ categories: ["1"]
         document.querySelector('#read-recom').onclick = () => {
             let instance = M.Modal.getInstance(document.querySelector('#modal-warn'));
             let now = new Date();
-            if (!localStorage.agreed || localStorage.agreed == "false" || (now - (new Date(localStorage.time)) > 86400000)) {
-                localStorage.time = now;
+            if (!localStorage.time || (now - (new Date(localStorage.time)) > 86400000)) {
+                // localStorage.time = now;
                 instance.open()
                 return false;
             }
         }
 
         function setAgreedFlag() {
-            localStorage.agreed = true
             localStorage.time = new Date();
             document.querySelector('#read-recom').click()
         }

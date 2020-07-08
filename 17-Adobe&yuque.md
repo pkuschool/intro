@@ -9,6 +9,15 @@ layout: default
 categories: ["2"]
 ---
 
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+    let agentStr=navigator.userAgent;
+    if(/Mac OS X 10[._ ]?15/.test(navigator.userAgent)||
+        /Mac OS X 11/.test(agentStr)){
+        document.querySelector('#osx-hint').removeAttribute('hidden');
+    }
+ });
+</script>
 # 关于Adobe
 
 北大附中有正版 Adobe 软件下载渠道，只需在学校网络环境下激活即可在此机器上使用（每过3年左右需要补丁重新激活）。下载没有位置限制，在校外也可下载。这下无需盗版了。
@@ -16,6 +25,11 @@ categories: ["2"]
 <a href="https://pkuschool.github.io/adobedl/" class="pill-btn green darken-3 white-text" target="_blank">北大附中 Adobe 下载中心</a>
 
 相关软件版本为 CC 2018，故部分较新系统（如<ruby>最新的 macOS<rt>Catalina 及以上</rt></ruby>）可能无法使用
+
+<div id="osx-hint" class="card-panel flex-center accent-text" hidden>
+    <i style="font-size: 30px;" class="material-icons">error_outline</i>
+    <span style="font-size: 18px;">是的，这意味着您所使用的 Mac OS 并不能运行这一套软件</span>
+</div>
 
 欢迎前端大佬来相关 [GitHub 仓库](https://github.com/pkuschool/adobedl) 完善这个 Adobe 下载页面！
 

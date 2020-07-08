@@ -128,7 +128,7 @@ categories: ["1"]
     <div class="card-panel flex-center accent-text">
         <i id="pwr-icon" style="font-size: 30px;" class="material-icons">battery_unknown</i>
         <span style="font-size: 18px;">看看你的电池有多少电量吧！
-            <meter id="pwr-meter" low="20" high="80" style="zoom: 1.5;"></meter>
+            <meter id="pwr-meter" low="0.2" high="0.8" optimum="0.80001" style="zoom: 1.5;"></meter>
             <span id="pwr-text"></span>
         </span>
     </div>
@@ -141,7 +141,13 @@ categories: ["1"]
             if (e.level == 1) {
                 document.querySelector('#pwr-icon').innerHTML = (e.charging ? "battery_charging_full" : 'battery_full')
             } else {
-                document.querySelector('#pwr-icon').innerHTML = (e.charging ? "battery_charging" : 'battery_std')
+                if(e.level < 0.2 && !e.charging){
+                    document.querySelector('#pwr-icon').style.color = 'red'
+                    document.querySelector('#pwr-icon').innerHTML = 'battery_alert'
+                }else{
+                    document.querySelector('#pwr-icon').style.color = 'inherit'
+                    document.querySelector('#pwr-icon').innerHTML = (e.charging ? "battery_charging" : 'battery_std')
+                }
             }
         })
         }

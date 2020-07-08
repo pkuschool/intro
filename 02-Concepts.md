@@ -227,6 +227,8 @@ categories: ["1"]
     background-repeat: repeat-x;
     animation: scrolling 12s infinite linear;
     width: 300vw;
+    max-width: 300vw;
+
   }
 </style>
 

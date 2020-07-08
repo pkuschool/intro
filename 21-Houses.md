@@ -29,14 +29,14 @@ categories: ["3"]
 
 书院的名字取自 **《大学》**，并授予**橙、黄、绿、青、蓝、紫、灰、**黑八种颜色为代表色
 - 分别为
-  - <strong><span style="color:#faa309;">格物</span></strong>
-  - <strong><span style="color:#f7ed00;">致知</span></strong>
-  - <strong><span style="color:#4cc01f;">诚意</span></strong>
-  - <strong><span style="color:#1fbabf;">正心</span></strong>
-  - <strong><span style="color:#332b9a;">明德</span></strong>
-  - <strong><span style="color:#ae23c8;">至善</span></strong>
-  - <strong><span style="color:#797979;">新民</span></strong>
-  - <strong><span style="color:#000000;">熙敬</span></strong>
+  - <strong><span class="z-depth-1" style="border-radius:5px;padding:0.2px 5px;color:black;background-color:#faa309;">格物</span></strong>
+  - <strong><span class="z-depth-1" style="border-radius:5px;padding:0.2px 5px;color:black;background-color:#f7ed00;">致知</span></strong>
+  - <strong><span class="z-depth-1" style="border-radius:5px;padding:0.2px 5px;color:black;background-color:#4cc01f;">诚意</span></strong>
+  - <strong><span class="z-depth-1" style="border-radius:5px;padding:0.2px 5px;color:white;background-color:#1fbabf;">正心</span></strong>
+  - <strong><span class="z-depth-1" style="border-radius:5px;padding:0.2px 5px;color:white;background-color:#332b9a;">明德</span></strong>
+  - <strong><span class="z-depth-1" style="border-radius:5px;padding:0.2px 5px;color:white;background-color:#ae23c8;">至善</span></strong>
+  - <strong><span class="z-depth-1" style="border-radius:5px;padding:0.2px 5px;color:white;background-color:#797979;">新民</span></strong>
+  - <strong><span class="z-depth-1" style="border-radius:5px;padding:0.2px 5px;color:white;background-color:#000000;">熙敬</span></strong>
 
 >排名不分先后，按原所属单元顺序排序。
 

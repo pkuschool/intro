@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
 <div id="osx-hint" class="card-panel flex-center accent-text" hidden>
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">是的，这意味着您所使用的 Mac OS 并不能运行这一套软件</span>
+    <span style="font-size: 18px;">根据您浏览器提供的信息，您所使用的 MacOS 并不能运行这一套软件</span>
 </div>
 
 欢迎前端大佬来相关 [GitHub 仓库](https://github.com/pkuschool/adobedl) 完善这个 Adobe 下载页面！

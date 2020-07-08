@@ -130,7 +130,7 @@ categories: ["Debug"]
 
 </script>
 
-<div class="align-center border"><input id="pwd" oninput="chkPassword()" type="text" style="padding:0px 5px; width:300px; " placeholder="输入你的密码" /><i id="status" class="material-icons" style="color:#e23037">warning</i></div>
+<div class="align-center"><input id="pwd" class="dk-t" oninput="chkPassword()" type="text" style="padding:0px 5px; width:300px; " placeholder="输入你的密码" /><i id="status" class="material-icons" style="color:#e23037">warning</i></div>
 <!-- 
 right:#4caf50 verified_user
 wrong:#e23037 warning

@@ -28,7 +28,31 @@ layout: default
   });
 </script> -->
 
-<img src="http://bdfz-cas.pkuschool.edu.cn/assets/login-1a72e4feef0ed4ad47183208b8d0a0aa.png" width="200" align="middle">
+<script>
+  function IsPC() {
+   var userAgentInfo = navigator.userAgent;
+   var Agents = ["Android", "iPhone",
+      "SymbianOS", "Windows Phone",
+      "iPad", "iPod"];
+   var flag = true;
+   for (var v = 0; v < Agents.length; v++) {
+      if (userAgentInfo.indexOf(Agents[v]) > 0) {
+         flag = false;
+         break;
+      }
+   }
+   return flag;
+}
+
+ document.addEventListener('DOMContentLoaded',function(){
+   if(!IsPC())
+   {
+     document.querySelector('#mobile-hint').removeAttribute('hidden');
+   }
+ });
+</script>
+
+<img src="http://bdfz-cas.pkuschool.edu.cn/assets/login-1a72e4feef0ed4ad47183208b8d0a0aa.png" width="200">
 
 首先欢迎各位同学来到北大附中！
 
@@ -52,14 +76,18 @@ layout: default
 
 我们强烈建议使用 PC 端（实际上更建议使用自己的笔记本电脑 / 二合一设备访问），Chrome 内核的浏览器继续查看此导览。
 
-## 请不要使用手机或 iPad 浏览，这样后续步骤将难以进行。
+
+<div id="mobile-hint" class="card-panel flex-center accent-text" hidden>
+    <i style="font-size: 30px;" class="material-icons">perm_device_information</i>
+    <span style="font-size: 18px;">请尽可能避免使用手机或 iPad 浏览，这样后续步骤将难以进行。</span>
+</div>
 
 请尽量不要将内容一带而过，否则您可能丢失部分的步骤。
 
-<div class="card-panel flex-center accent-text">
+<!-- <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
     <span style="font-size: 18px;">本站点正在修订中，内容仅供预览。</span>
-</div>
+</div> -->
 
 ### 这个新生指南怎么看？
 

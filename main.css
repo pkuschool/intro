@@ -63,6 +63,10 @@ h2 {
     line-height: 1.5em
 }
 
+[hidden]{
+    display:none !important;
+}
+
 h3 {
     font-size: 1.67em !important
 }

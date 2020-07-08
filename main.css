@@ -111,6 +111,13 @@ p {
     margin-right: 12px;
 }
 
+.align-center{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
 #page-title {
     font-size: 30px;
     margin-left: 15px;

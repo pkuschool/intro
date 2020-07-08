@@ -99,23 +99,24 @@ categories: ["1"]
 
 
 <details>
-    <summary id="read-recom" style="font-size: 20px;">点我展开/隐藏选购指南</summary>
+    <summary id="read-recom" style="font-size: 20px;padding: 12px 16px;">点我展开/隐藏选购指南</summary>
 
 
     <script>
         document.querySelector('#read-recom').onclick = () => {
             let instance = M.Modal.getInstance(document.querySelector('#modal-warn'));
-            let now=new Date();
-            if (!localStorage.agreed || localStorage.agreed == "false"||(now-(new Date(localStorage.time))>86400000)) {
-                localStorage.time=now;
+            let now = new Date();
+            if (!localStorage.agreed || localStorage.agreed == "false" || (now - (new Date(localStorage.time)) > 86400000)) {
+                localStorage.time = now;
                 instance.open()
                 return false;
             }
         }
-        function setAgreedFlag(){
-          localStorage.agreed = true
-          localStorage.time=new Date();
-          document.querySelector('#read-recom').click()
+
+        function setAgreedFlag() {
+            localStorage.agreed = true
+            localStorage.time = new Date();
+            document.querySelector('#read-recom').click()
         }
     </script>
 
@@ -124,7 +125,31 @@ categories: ["1"]
 
     <p>简而言之，可以这么测试：充满电之后拔掉电源（电池当然得有），对你的电脑进行中度的使用，开启多个浏览器标签（比方说B站、Office、微博一块打开多个标签页），打开不同的应用，也可以随便写一些文案；如果这时电脑使用已经出现一些问题（如开始卡顿），或使用不到2小时就进入省电模式（20%）就建议更换。</p>
 
-
+    <div class="card-panel flex-center accent-text">
+        <i id="pwr-icon" style="font-size: 30px;" class="material-icons">battery_unknown</i>
+        <span style="font-size: 18px;">看看你的电池有多少电量吧！
+            <meter id="pwr-meter" low="20" high="80" style="zoom: 1.5;"></meter>
+            <span id="pwr-text"></span>
+        </span>
+    </div>
+    <script>
+        function updateBatteryMeter(){
+        navigator.getBattery().then((e) => {
+            console.log(e)
+            document.querySelector('#pwr-meter').value = e.level
+            document.querySelector('#pwr-text').innerHTML = (e.level * 100) + "%"
+            if (e.level == 1) {
+                document.querySelector('#pwr-icon').innerHTML = (e.charging ? "battery_charging_full" : 'battery_full')
+            } else {
+                document.querySelector('#pwr-icon').innerHTML = (e.charging ? "battery_charging" : 'battery_std')
+            }
+        })
+        }
+        updateBatteryMeter()
+        setInterval(()=>{
+            updateBatteryMeter()
+        }, 30000)
+    </script>
 
     <details>
         <summary>更加理论而言，就是这样（较为硬核，点击展开）</summary>
@@ -169,34 +194,22 @@ categories: ["1"]
 
     <h4>机型推荐</h4>
 
-
-
-    <a href="#modal-mach" class="pill-btn accent modal-trigger white-text">点击查看机型推荐</a>
-
-    <div id="modal-mach" class="modal">
-        <div class="modal-content">
-            <h4>机型推荐</h4>
-            <p>以下是一些 Windows 阵营笔记本推荐 <strong>（贵的不一定好，请综合自身需求谨慎考虑；请务必不要把这个列表当作唯一的可选项）</strong>：</p>
-            <ul>
-                <li>华为：近两年的 MagicBook 系列</li>
-                <li>联想：X1 系列 / 小新系列</li>
-                <li>微软：Surface Pro / Laptop / Book</li>
-                <li>戴尔：XPS 13</li>
-                <li>惠普：部分系列</li>
-                <li>小米：小米笔记本 / Redmibook</li>
-                <li>以及更多的我们没提到的，却很好的笔记本。</li>
-            </ul>
-            <p>以下是关于选购 macOS 笔记本的建议：</p>
-            <i>请注意，macOS 并不是人人易用，建议到实体店试用，若习惯苹果系统可忽视</i>
-            <ul>
-                <li>MacBook Air 2019（以前版本不推荐新入手）</li>
-                <li>MacBook Pro 较新款（若无重度需求，可选择Air）</li>
-            </ul>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat know-that">知道了</a>
-        </div>
-    </div>
+    <p>以下是一些 Windows 阵营笔记本推荐 <strong>（贵的不一定好，请综合自身需求谨慎考虑；请务必不要把这个列表当作唯一的可选项）</strong>：</p>
+    <ul>
+        <li>华为：近两年的 MagicBook 系列</li>
+        <li>联想：X1 系列 / 小新系列</li>
+        <li>微软：Surface Pro / Laptop / Book</li>
+        <li>戴尔：XPS 13</li>
+        <li>惠普：部分系列</li>
+        <li>小米：小米笔记本 / Redmibook</li>
+        <li>以及更多的我们没提到的，却很好的笔记本。</li>
+    </ul>
+    <p>以下是关于选购 macOS 笔记本的建议：</p>
+    <i>请注意，macOS 并不是人人易用，建议到实体店试用，若习惯苹果系统可忽视</i>
+    <ul>
+        <li>MacBook Air 2019（以前版本不推荐新入手）</li>
+        <li>MacBook Pro 较新款（若无重度需求，可选择Air）</li>
+    </ul>
 
     <p>关于如何选购，请参考这篇文章：</p>
 
@@ -205,7 +218,7 @@ categories: ["1"]
     <h4>投影相关</h4>
 
     <blockquote>
-    <p>有 <a href="https://baike.baidu.com/item/mini%20displayport/9751237">Mini DP</a> 或 <a href="https://baike.baidu.com/item/HDMI">HDMI</a> 接口的电脑，可以直接以物理方式连接教室投影仪。不过西楼现在已经支持无线投屏啦，有线只是备用，用这些接口会更方便一些。</p>
+        <p>有 <a href="https://baike.baidu.com/item/mini%20displayport/9751237">Mini DP</a> 或 <a href="https://baike.baidu.com/item/HDMI">HDMI</a> 接口的电脑，可以直接以物理方式连接教室投影仪。不过西楼现在已经支持无线投屏啦，有线只是备用，用这些接口会更方便一些。</p>
     </blockquote>
     <span style="font-size:1.5em;">看自己需求决定，不要盲目跟随。</span>
 
@@ -214,4 +227,3 @@ categories: ["1"]
     <p>电脑购买指南就到这里了。如有其他问题，请咨询<a href="subit@i.pkuschool.edu.cn">subit@i.pkuschool.edu.cn</a>。</p>
 
 </details>
-

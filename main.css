@@ -111,6 +111,13 @@ p {
     margin-right: 12px;
 }
 
+.align-center{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
 #page-title {
     font-size: 30px;
     margin-left: 15px;
@@ -286,6 +293,11 @@ details{
         color: rgba(255, 255, 255, 0.8);
         background-color: black;
     }
+
+    .dk-t{
+        color: rgba(255, 255, 255, 0.8);
+    }
+
     #top-div{
         background: rgba(80, 80, 80, 0.502) !important;
     }

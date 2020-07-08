@@ -99,3 +99,39 @@ categories: ["Debug"]
 ### JAVA
 
 <p>是否启用JAVA: <code id="javaEnable"></code></p>
+
+### 密码检测
+
+<script>
+
+    var f=false
+    function chkPassword(){
+        var value=document.querySelector('#pwd').value;
+        var icon_el=document.querySelector('#status');
+        var pattern=/(?=^.{8,}$)((?=.*\d+))(?![.\n])(?=.*[A-Z]+)(?=.*[a-z])(?=.*[`~!@#$%^&*\(\);:'".>,<\/?|\|\\]*).*$/;
+        if(value=="123456"&&!f)
+        {
+            f=true;
+            setTimeout(function(){
+                alert("你知道吗,123456是最常用的密码之一。大约每139个密码中就有一个是123456")
+            },500);
+        }
+        if(value.search(pattern)!=-1)
+        {
+            icon_el.style.color="#4caf50";
+            icon_el.innerHTML="verified_user";
+        }
+        else
+        {
+            icon_el.style.color="#e23037";
+            icon_el.innerHTML="warning";
+        }
+    }
+
+</script>
+
+<div class="align-center"><input id="pwd" class="dk-t" oninput="chkPassword()" type="text" style="padding:0px 5px; width:300px; " placeholder="输入你的密码" /><i id="status" class="material-icons" style="color:#e23037">warning</i></div>
+<!-- 
+right:#4caf50 verified_user
+wrong:#e23037 warning
+ -->

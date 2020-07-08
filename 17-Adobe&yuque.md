@@ -88,9 +88,12 @@ categories: ["2"]
 
 ## 加入北大附中空间
 
-<a href="https://pkuschool.yuque.com/r/organizations/pkuschool/join?token=mpRrMR8MnHd3Qkjk#" class="pill-btn green darken-3 white-text" target="_blank">点我加入，请务必不要忘记</a>
+<a href="https://bdfz-my.sharepoint.com/:w:/g/personal/subit_i_pkuschool_edu_cn/EUas9VOBgZtCsfauDHHN3C8BcSwrvTrj_LHkxGAhmnbBwQ?e=LLtt3m" class="pill-btn green darken-3 white-text" target="_blank">点我加入，请务必不要忘记</a>
 
-加入空间后请更改空间昵称。
+**由于这个指南是直接发布在互联网的，我们需要你登录O365来确保你是北大附中的学生。**  
+当然如果你之前登录过那就不用再次登录了
+
+加入空间后请**更改空间昵称**。
 
 ### 更改空间内昵称
 

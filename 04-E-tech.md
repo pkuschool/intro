@@ -154,7 +154,7 @@ categories: ["1"]
                     document.querySelector('#pwr-icon').innerHTML = 'battery_alert'
                 }else{
                     document.querySelector('#pwr-icon').style.color = 'inherit'
-                    document.querySelector('#pwr-icon').innerHTML = (e.charging ? "battery_charging" : 'battery_std')
+                    document.querySelector('#pwr-icon').innerHTML = (e.charging ? "battery_charging_full" : 'battery_std')
                 }
             }
             },500)

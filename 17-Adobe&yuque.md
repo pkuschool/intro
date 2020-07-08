@@ -11,9 +11,7 @@ categories: ["2"]
 
 <script>
 document.addEventListener('DOMContentLoaded',function(){
-    let agentStr=navigator.userAgent;
-    if(/Mac OS X 10[._ ]?15/.test(navigator.userAgent)||
-        /Mac OS X 11/.test(agentStr)){
+    if(/Mac OS X 10[._ ]?1[56]?/.test(navigator.userAgent)){
         document.querySelector('#osx-hint').removeAttribute('hidden');
     }
  });

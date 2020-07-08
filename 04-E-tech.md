@@ -133,9 +133,17 @@ categories: ["1"]
         </span>
     </div>
     <script>
-        function updateBatteryMeter(){
         navigator.getBattery().then((e) => {
-            console.log(e)
+            e.onchargingchange =()=>{updateBatteryMeter(e)}
+            e.onlevelchange =()=>{updateBatteryMeter(e)}
+            updateBatteryMeter(e)
+        }).catch((reason)=>{
+            console.log(reason)
+            document.querySelector('#pwr-text').innerHTML = "很抱歉我们读不出来"
+            document.querySelector('#pwr-meter').style.display = 'none'
+        })
+        function updateBatteryMeter(e){
+            setTimeout(()=>{
             document.querySelector('#pwr-meter').value = e.level
             document.querySelector('#pwr-text').innerHTML = (e.level * 100) + "%"
             if (e.level == 1) {
@@ -149,12 +157,8 @@ categories: ["1"]
                     document.querySelector('#pwr-icon').innerHTML = (e.charging ? "battery_charging" : 'battery_std')
                 }
             }
-        })
+            },500)
         }
-        updateBatteryMeter()
-        setInterval(()=>{
-            updateBatteryMeter()
-        }, 30000)
     </script>
 
     <details>

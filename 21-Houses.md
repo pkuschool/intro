@@ -34,7 +34,7 @@ categories: ["3"]
 <div style="display:grid;grid-template-columns: repeat(auto-fill,70px);grid-template-rows: repeat(auto-fill,50px)">
 <strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:black; background-color:#faa309; ">格物</span></strong>
 <strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:black; background-color:#f7ed00; ">致知</span></strong>
-<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:black; background-color:#4cc01f; ">诚意</span></strong>
+<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#4cc01f; ">诚意</span></strong>
 <strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#1fbabf; ">正心</span></strong>
 <strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#332b9a; ">明德</span></strong>
 <strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#ae23c8; ">至善</span></strong>

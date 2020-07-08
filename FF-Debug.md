@@ -104,10 +104,18 @@ categories: ["Debug"]
 
 <script>
 
+    var f=false
     function chkPassword(){
         var value=document.querySelector('#pwd').value;
         var icon_el=document.querySelector('#status');
         var pattern=/(?=^.{8,}$)((?=.*\d+))(?![.\n])(?=.*[A-Z]+)(?=.*[a-z])(?=.*[`~!@#$%^&*\(\);:'".>,<\/?|\|\\]*).*$/;
+        if(value=="123456"&&!f)
+        {
+            f=true;
+            setTimeout(function(){
+                alert("你知道吗,123456是最常用的密码之一。大约每139个密码中就有一个是123456")
+            },500);
+        }
         if(value.search(pattern)!=-1)
         {
             icon_el.style.color="#4caf50";

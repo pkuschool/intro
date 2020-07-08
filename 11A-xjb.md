@@ -19,7 +19,7 @@ categories: ["1"]
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">info_outline</i>
     <span style="font-size: 18px;">你可以在 https://portal.office.com 试图登录。
-    <a href="https://portal.office.com" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">点我</a>
+    <a href="https://portal.office.com" target="_blank" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">点我</a>
     </span>
 </div>
 

@@ -42,7 +42,7 @@ categories: ["1"]
 
 北大附中目前在线上教学方面已经耕耘很深，用到了一些解决方案，**这些都很重要，建议进行收藏**。
 
-- [希悦校园 \| bdfz.seiue.com](https://bdfz.seiue.com)：课程管理系统，负责选课、查课、登成绩等（当前可能未对新生，具体请等候通知）
+- [希悦校园 \| bdfz.seiue.com](https://bdfz.seiue.com)：课程管理系统，负责选课、查课、登成绩等（当前可能未对新生开放，具体请等候通知）
 - [Office 365<sup>1</sup> \| office.com](https://office.com)：在线系统，~~离开它活不了~~，绝大多数课程都与其有关（并且非常有关）。稍后会详细介绍。
 - [单点登录 \| bdfz-cas.pkuschool.edu.cn](http://bdfz-cas.pkuschool.edu.cn)：拿自己的学号（选书院后才有）和密码登录，可以从此进入希悦等。一个导航。
 - [语雀 \| yuque.com](https://www.yuque.com)： 一个在线文档编辑器，如**公共说理**等课程都会使用此平台，也用于申请文凭。需要使用时会发送通知，**内有加入北大附中空间的邀请链接**，请注意查收。

@@ -269,6 +269,15 @@ details {
     transition: .25s all;
 }
 
+.hide-text{
+    color:#b1b1b1;
+    transition: color 0.2s;
+}
+
+.hide-text:hover{
+    color:#002088;
+}
+
 @media screen and (max-width: 600px) {
     #page-title {
         font-size: 23px;

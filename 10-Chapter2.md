@@ -9,6 +9,13 @@ layout: default
 categories: ["2"]
 ---
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+  });
+</script>
+
 感谢你看完了第一章（共三章），我们从这里开始，要学习一下学校使用的 Office 365 的基础啦！
 
 整体不难，即使现在学不会，入学教育（大概8月末）也会有一次专门的培训的！

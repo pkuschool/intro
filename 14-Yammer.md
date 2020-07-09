@@ -50,11 +50,11 @@ categories: ["2"]
 
 ## 开始吧！
 
-当前暂无23届报到帖、练习组，如果新生在访问时这段文字还存在，请邮件联系 SubIT 催促我们发一个。
+当前暂无23届报到帖、练习组，如果新生在访问时这段文字还存在，请邮件联系 SubIT 催促我们发一个。（帖子暂时不在全公司）
 
-从头开始，先在[ > 全公司里写着2022届的报到帖 < ](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
+从头开始，先在[ > 全公司里写着2023届的报到帖 < ](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
 
-<a target="_blank" href="https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2022届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
+<a target="_blank" href="https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2023届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
 
 这些是比较常用的组：
 
@@ -72,7 +72,7 @@ categories: ["2"]
 
 除此之外，你也可以向某人发送私信 / 建立更多的组 / 发投票 / 表扬别人，这个入教培训的时候再论。
 
-在全公司回复报到帖报到之后，请加入[2022届练习组](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=6497935360&view=all)，等待后续安排（不过不要在那里报到哦）。
+在全公司回复报到帖报到之后，请加入[2023届练习组](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIzMzQ2NjYzMDE0NCJ9/all)，等待后续安排（不过不要在那里报到哦）。
 
 ## 语言问题
 

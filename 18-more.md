@@ -33,7 +33,10 @@ categories: ["2"]
 - 关于 Microsoft To-Do（一个待办事项软件）：
   - 可在各大应用商店搜索“To-Do”下载，相当好用。可与奇妙清单绑定。
 
+-----
+
 ## SubIT
+<img height="60" style="background-color:#0071d4;padding:5px 10px;border-radius:5px;" src="../img/subit.svg"/>
 
 我们是2018年12月建立的技术支持社团，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，官网是 [pkuschool.github.io/SubIT](https://pkuschool.github.io/SubIT)。
 
@@ -51,7 +54,11 @@ categories: ["2"]
 
 <img src="../img/techdiscuss.png" class="materialboxed" height="300"> -->
 
+-----
+
 ## 红砖
+
+<img height="60" style="background-color:#ea5662;padding:5px 10px;border-radius:5px;" src="https://brick-1255766843.cos.ap-beijing.myqcloud.com/asset/logo.png" >
 
 红砖是属于北大附中艺术中心的一个学生社团，运营着北大附中目前最大的在线图片库网站**红砖图库**，网址是[https://hong.zuggr.com/](https://hong.zuggr.com/)（请使用电脑或者Pad访问红砖图库以获得最佳体验）。
 

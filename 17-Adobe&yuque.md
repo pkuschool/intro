@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function(){
 </script>
 
 # 关于Adobe
+<img height="60" src="https://s1.ax1x.com/2020/07/10/UuLLlt.png"/>
 
 北大附中有正版 Adobe 软件下载渠道，只需在学校网络环境下激活即可在此机器上使用（每过3年左右需要补丁重新激活）。下载没有位置限制，在校外也可下载。这下无需盗版了。
 
@@ -38,7 +39,11 @@ document.addEventListener('DOMContentLoaded', function(){
 
 欢迎前端大佬来相关 [GitHub 仓库](https://github.com/pkuschool/adobedl) 完善这个 Adobe 下载页面！
 
-# 关于语雀
+-----
+
+# <img height="50" src="../img/yuque.svg"/> 关于语雀
+
+
 
 具体说明详见[语雀使用手册](https://www.yuque.com/yuque/help)
 

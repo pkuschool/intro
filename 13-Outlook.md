@@ -17,6 +17,8 @@ categories: ["2"]
 
 准备好后，从 Office 365 首页进入“Outlook”，完成初始设置。
 
+如果你不知道哪个是Outlook,他的图标长这样：<img width="40" src="../img/outlook.svg">
+
 ## 提示
 
 此邮箱将会接受各种其他邮件，也会做为你的日常邮箱使用并且会长期保存。

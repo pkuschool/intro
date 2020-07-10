@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 不管你有没有设置同步客户端，您已经可以进行任何网盘都能进行的的常规操作了。比如，上传/新建一个 Word 文档试试？ -->
 
-## OneDrive
+## <img width="40" src="../img/onedrive.svg"> OneDrive
 
 回到 Office 365 主页，看一下 OneDrive 的图标（可以考虑点进去）。
 
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 您也可以进入 OneDrive 界面并点击同步将各种文件夹同步到本地（可选择部分同步），方便随时访问。
 
-## SharePoint
+## <img width="40" src="../img/sharepoint.svg"> SharePoint
 
 让我们再次回到 Office 365 主页，看一下 SharePoint 的图标。
 
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 这些平台未来也可从 SharePoint 首页访问。
 
-## Teams
+## <img width="40" src="../img/teams.ico"> Teams
 
 ### Teams 是做什么的？
 
@@ -131,4 +131,17 @@ Teams 是一个非常重要且实用的工具！它将陪伴你度过两年或�
 
 之后你也可以随时返回新生指南查看本节的使用技巧，同时你可以将这里的 [*Teams 官方帮助与学习指南*](https://support.microsoft.com/zh-cn/teams?ui=zh-cn&rs=zh-cn&ad=cn)收藏或加入阅读列表以便之后查看。
 
+## 还有一件事...
 
+你可以提前加入团队 **2023届练习组**，当然入教的时候在加入也是没问题的。
+
+点击左侧团队，然后单机右上角（或者左下角）的加入团队，使用团队代码加入团队
+
+<div id="mobile-hint" class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">code</i>
+    <span style="font-size: 18px;">团队代码：<strong>q08qyhb</strong> </span>
+</div>
+
+把这串代码复制进去，点击**加入团队**就可以了
+
+你可以在**常规频道**中聊聊天

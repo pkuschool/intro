@@ -19,6 +19,8 @@ categories: ["2"]
 
 请进入 Office 365 首页，找到“Yammer”，进入。（如果在首页上找不到，可以进入“浏览所有应用”查找）
 
+同样的，Yammer的图标长这样：<img width="40" src="../img/yammer.svg">
+
 ## 守则...
 
 北大附中 Yammer 社区的使用规则很简单：

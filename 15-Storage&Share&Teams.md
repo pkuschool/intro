@@ -133,9 +133,15 @@ Teams 是一个非常重要且实用的工具！它将陪伴你度过两年或�
 
 ## 还有一件事...
 
-你可以提前加入团队 **2023届练习组**，当然入教的时候在加入也是没问题的。
+你可以提前加入团队 **2023届练习组**，当然入教的时候再加入也是没问题的。
 
 点击左侧团队，然后单机右上角（或者左下角）的加入团队，使用团队代码加入团队
+
+如图
+
+<img src="https://s1.ax1x.com/2020/07/10/UKGA0I.png" width="800" class="materialboxed">
+
+
 
 <div id="mobile-hint" class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">code</i>

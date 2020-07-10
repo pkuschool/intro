@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 不管你有没有设置同步客户端，您已经可以进行任何网盘都能进行的的常规操作了。比如，上传/新建一个 Word 文档试试？ -->
 
-## <img width="40" src="../img/onedrive.svg"> OneDrive
+## <img style="margin-bottom:-10px" width="40" src="../img/onedrive.svg"> OneDrive
 
 回到 Office 365 主页，看一下 OneDrive 的图标（可以考虑点进去）。
 
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 您也可以进入 OneDrive 界面并点击同步将各种文件夹同步到本地（可选择部分同步），方便随时访问。
 
-## <img width="40" src="../img/sharepoint.svg"> SharePoint
+## <img style="margin-bottom:-10px" width="40" src="../img/sharepoint.svg"> SharePoint
 
 让我们再次回到 Office 365 主页，看一下 SharePoint 的图标。
 
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 这些平台未来也可从 SharePoint 首页访问。
 
-## <img width="40" src="../img/teams.ico"> Teams
+## <img style="margin-bottom:-10px" width="40" src="../img/teams.ico"> Teams
 
 ### Teams 是做什么的？
 
@@ -140,8 +140,6 @@ Teams 是一个非常重要且实用的工具！它将陪伴你度过两年或�
 如图
 
 <img src="https://s1.ax1x.com/2020/07/10/UKGA0I.png" width="800" class="materialboxed">
-
-
 
 <div id="mobile-hint" class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">code</i>

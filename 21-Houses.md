@@ -37,7 +37,7 @@ categories: ["3"]
 
 书院的名字取自 **《大学》**，并授予**橙、黄、绿、青、蓝、紫、灰、**黑八种颜色为代表色  
 
-分别是（点击可以查看书院相关网站）
+分别是**（点击可以查看书院相关网站）**
 <div style="display:grid;grid-template-columns: repeat(auto-fill,70px);grid-template-rows: repeat(auto-fill,50px)">
 <strong><span onclick='window.open("http:\/\/www.pkuschool.edu.cn/xz/xz_1/")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:black; background-color:#faa309; ">格物</span></strong>
 <strong><span onclick='window.open("http:\/\/www.pkuschool.edu.cn/xz/xz_2/")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:black; background-color:#f7ed00; ">致知</span></strong>

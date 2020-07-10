@@ -36,16 +36,17 @@ categories: ["3"]
  <img class="materialboxed" width="100%" src="https://s1.ax1x.com/2020/07/08/UZ4P29.png">
 
 书院的名字取自 **《大学》**，并授予**橙、黄、绿、青、蓝、紫、灰、**黑八种颜色为代表色  
-分别是
+
+分别是（点击可以查看书院相关网站）
 <div style="display:grid;grid-template-columns: repeat(auto-fill,70px);grid-template-rows: repeat(auto-fill,50px)">
-<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:black; background-color:#faa309; ">格物</span></strong>
-<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:black; background-color:#f7ed00; ">致知</span></strong>
-<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#4cc01f; ">诚意</span></strong>
-<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#1fbabf; ">正心</span></strong>
-<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#332b9a; ">明德</span></strong>
-<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#ae23c8; ">至善</span></strong>
-<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#797979; ">新民</span></strong>
-<strong><span class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#000000; ">熙敬</span></strong>
+<strong><span onclick='window.open("http:\/\/www.pkuschool.edu.cn/xz/xz_1/")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:black; background-color:#faa309; ">格物</span></strong>
+<strong><span onclick='window.open("http:\/\/www.pkuschool.edu.cn/xz/xz_2/")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:black; background-color:#f7ed00; ">致知</span></strong>
+<strong><span onclick='window.open("https:\/\/mp.weixin.qq.com/s?__biz=MzA5NTgwMzUyNg==&mid=2650031720&idx=1&sn=0cc96757a64edf724903f7e64534f066&chksm=88b92781bfceae976b22a56f84a231165ea68c5de322d10b0a4cdc947d83426a24d1dbdcecbc&mpshare=1&scene=1&srcid=0710iIUKV7qqrquETQAYXEgS&sharer_sharetime=1594360819011&sharer_shareid=bdd57aee8113ba856282f0bc3ac49091&key=c623f5f4f6f248f32095d62e43c6c23a79601b127d8f6a0a19cc23fbe60698f8173aed624d842d33245c8c5b19a6875b5857fb58e1f23bd64300776e2195a30dc7ae91487233cffee41f7966b4a44d65&ascene=1&uin=MTgxMjE4MjQzOQ%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=A25Mtdoc1joXoU1v43e86jQ%3D&pass_ticket=n%2FCpenkhnkZOlQn7s8ZYGFapNZBuLsN40epCqC%2FMvIXo5I6UxqEruvot693jsafg")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#4cc01f; ">诚意</span></strong>
+<strong><span onclick='window.open("https:\/\/zhengxinhouse.github.io/")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#1fbabf; ">正心</span></strong>
+<strong><span onclick='window.open("http:\/\/www.pkuschool.edu.cn/yp/yp_5/")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#332b9a; ">明德</span></strong>
+<strong><span onclick='window.open("http:\/\/www.pkuschool.edu.cn/by/by_6/")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#ae23c8; ">至善</span></strong>
+<strong><span onclick='window.open("http:\/\/www.pkuschool.edu.cn/ded/ded_7/")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#797979; ">新民</span></strong>
+<strong><span onclick='window.open("http:\/\/www.pkuschool.edu.cn/xz/xj_8/")' class="z-depth-1" style="zoom:1.1;border-radius:5px; padding:6px 8px; color:white; background-color:#000000; ">熙敬</span></strong>
 </div>
 
 > 排名不分先后，按原所属单元顺序排序。

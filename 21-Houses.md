@@ -33,7 +33,7 @@ categories: ["3"]
 
 ## 八大书院
 
- <img class="materialboxed" width="100%" src="https://s1.ax1x.com/2020/07/08/UZ4P29.png">
+ <img class="materialboxed" width="70%" src="https://s1.ax1x.com/2020/07/08/UZ4P29.png">
 
 书院的名字取自 **《大学》**，并授予**橙、黄、绿、青、蓝、紫、灰、**黑八种颜色为代表色  
 

@@ -54,9 +54,9 @@ categories: ["2"]
 
 当前暂无23届报到帖、练习组，如果新生在访问时这段文字还存在，请邮件联系 SubIT 催促我们发一个。（帖子暂时不在全公司）
 
-从头开始，先在[ > 全公司里写着2023届的报到帖 < ](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
+从头开始，先在[ > 全公司里写着2023届的报到帖 < ](https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiNzYwMTAwNTU0NTc5OTY4In0)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
 
-<a target="_blank" href="https://www.yammer.com/i.pkuschool.edu.cn/#/threads/show?threadId=236654923874304" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2023届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
+<a target="_blank" href="https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiNzYwMTAwNTU0NTc5OTY4In0" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2023届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
 
 这些是比较常用的组：
 

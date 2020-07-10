@@ -269,13 +269,21 @@ details {
     transition: .25s all;
 }
 
-.hide-text{
-    color:#b1b1b1;
+.hide-text {
+    color: #b1b1b1;
     transition: color 0.2s;
 }
 
-.hide-text:hover{
-    color:#002088;
+.hide-text:hover {
+    color: #002088;
+}
+
+.z-depth-1 {
+    transition: box-shadow 0.2s;
+}
+
+.z-depth-1:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 600px) {

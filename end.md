@@ -21,6 +21,8 @@ layout: default
 
 ## 你看完啦！
 
+<img height="150" src="https://s1.ax1x.com/2020/07/10/UujUSA.png"/>
+
 你看完了这个教程，估计已经对北大附中有了一定的了解；不过，有些特意留着没说，留一些悬念等着你之后发现吧。
 
 祝各位新生暑假快乐，军训愉快，入教顺利，选课不掉课！！！学长学姐们都超nice的！！！
@@ -52,7 +54,7 @@ https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVK
 
 感谢 [各位贡献者](https://github.com/pkuschool/intro/graphs/contributors) 为此指南的的辛勤付出；
 
-感谢[红砖社团](https://hong.zuggr.com/)、[Ourscraft 社团](http://ourscraft.sxl.cn/)提供图片。
+感谢[红砖社团](https://hong.zuggr.com/)、[Ourscraft 社团](http://ourscraft.sxl.cn/)、[Rookie系统](http://rookie.pkuschool.edu.cn/)提供图片。
 
 感谢 HTML, CSS 标准的构建者与 Materialize, Vue.js, Jekyll 的开发者们让这个网站变为可能。
 

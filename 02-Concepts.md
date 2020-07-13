@@ -60,9 +60,9 @@ categories: ["1"]
 
 ## 社团与俱乐部
 
-社团：（来自学生手册，点击以放大。）
+社团：
 
-<img src="http://handbook.pkuschool.edu.cn/assets/images/gallery/shetuan.png" width="60%" class="materialboxed">
+<img src="https://s1.ax1x.com/2020/07/13/UYAndP.png" width="60%" class="materialboxed">
 
 俱乐部：以课程形式存在，提供专业系统的课程，一般以学期 / 学年为单位开课。
 

@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 - [行知学院](https://bdfz.sharepoint.com/sites/xn--48sz67d5hlgjn)
 - [元培学院](https://bdfz.sharepoint.com/sites/xn--2017-un8fn96ao4fpt6k)
-- [博雅学院](https://www.yuque.com/by)
+- [博雅学院](https://pkuschool.yuque.com/books/share/f14d7d7d-6fbf-42c6-9468-afac1249ca32?#)
 
 这些平台未来也可从 SharePoint 首页访问。
 

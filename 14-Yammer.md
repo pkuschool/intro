@@ -62,7 +62,7 @@ categories: ["2"]
 - 全公司：全校都能看见的地方，做宣传很合适；但请不要刻意刷屏。
 <!-- - **[高中部通知](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=10989755&view=all)**：主要发送高中部各部门以及学校其它部门给高中学生的通知。**强烈建议加入。** -->
 
-这些是一些休闲娱乐聊天的地方：
+这些是一些休闲娱乐聊天的地方，你可以在遵守规则的情况下自由发帖：
 
 - [脑子有坑](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMzI4ODM4NCJ9/all)：如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。
 - [吃可爱多长大的老师们💗](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNjgwMjEyNCJ9/all)：大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～

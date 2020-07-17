@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', function(){
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
 
- }); 
+ });
 </script>
 
-# 关于Adobe
-<img height="60" src="https://s1.ax1x.com/2020/07/10/UuLLlt.png"/>
+# <img height="60" style="margin-right: -65px" src="https://s1.ax1x.com/2020/07/10/UuLLlt.png"/> 关于Adobe
+
 
 北大附中有正版 Adobe 软件下载渠道，只需在学校网络环境下激活即可在此机器上使用（每过3年左右需要补丁重新激活）。下载没有位置限制，在校外也可下载。这下无需盗版了。
 
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <a href="https://bdfz-my.sharepoint.com/:w:/g/personal/subit_i_pkuschool_edu_cn/EUas9VOBgZtCsfauDHHN3C8BcSwrvTrj_LHkxGAhmnbBwQ?e=LLtt3m" class="pill-btn green darken-3 white-text" target="_blank">点我加入，请务必不要忘记</a>
 
-**由于这个指南是直接发布在互联网的，我们需要你登录O365来确保你是北大附中的学生。**  
+**由于这个指南是直接发布在互联网的，我们需要你登录O365来确保你是北大附中的学生。**
 当然如果你之前登录过那就不用再次登录了
 
 加入空间后请**更改空间昵称**。

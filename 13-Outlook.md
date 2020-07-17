@@ -17,7 +17,7 @@ categories: ["2"]
 
 准备好后，从 Office 365 首页进入“Outlook”，完成初始设置。
 
-如果你不知道哪个是Outlook,他的图标长这样：<img width="40" src="../img/outlook.svg">
+如果你不知道哪个是Outlook，他的图标长这样：<img width="40" src="../img/outlook.svg">
 
 ## 提示
 

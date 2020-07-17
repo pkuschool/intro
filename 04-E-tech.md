@@ -127,7 +127,7 @@ categories: ["1"]
     <div class="card-panel flex-center accent-text">
         <i id="pwr-icon" style="font-size: 30px;" class="material-icons">battery_unknown</i>
         <span style="font-size: 18px;">看看你的电池有多少电量吧！
-            <meter id="pwr-meter" low="0.2" high="0.8" optimum="0.80001" style="zoom: 1.5;"></meter>
+            <meter id="pwr-meter" low="0.2" high="0.6" optimum="0.60001" style="zoom: 1.5;"></meter>
             <span id="pwr-text"></span>
         </span>
     </div>

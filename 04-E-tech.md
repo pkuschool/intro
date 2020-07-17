@@ -46,7 +46,8 @@ categories: ["1"]
 - [Office 365<sup>1</sup> \| office.com](https://office.com)：在线系统，~~离开它活不了~~，绝大多数课程都与其有关（并且非常有关）。稍后会详细介绍。
 - [单点登录 \| bdfz-cas.pkuschool.edu.cn](http://bdfz-cas.pkuschool.edu.cn)：拿自己的学号（选书院后才有）和密码登录，可以从此进入希悦等。一个导航。
 - [语雀 \| yuque.com](https://www.yuque.com)： 一个在线文档编辑器，如**公共说理**等课程都会使用此平台，也用于申请文凭。需要使用时会发送通知，**内有加入北大附中空间的邀请链接**，请注意查收。
-- **[学生手册](http://handbook.pkuschool.edu.cn/index.html)****[课程手册](https://pkuschool.yuque.com/books/share/0189695d-997f-4176-ba0b-503a6d986796#)**：涉及到校内的各种规则，请**务必**仔细阅读，之后 Rookie 系统也要用到。**除此之外你也能找到学校相关部门的电话号码。**
+- **[学生手册](http://handbook.pkuschool.edu.cn/index.html)**：涉及到校内的各种规则，请**务必**仔细阅读，之后 Rookie 系统也要用到。**除此之外你也能找到学校相关部门的电话号码。**
+- **[课程手册](https://pkuschool.yuque.com/books/share/0189695d-997f-4176-ba0b-503a6d986796#)**：各种课程相关的信息，关于学分、课程简介等，建议查看。
 
 **（请务必仔细看完以上内容再继续）**
 

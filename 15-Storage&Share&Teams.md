@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 - [行知学院](https://bdfz.sharepoint.com/sites/xn--48sz67d5hlgjn)
 - [元培学院](https://bdfz.sharepoint.com/sites/xn--2017-un8fn96ao4fpt6k)
-- [博雅学院](https://www.yuque.com/by)
+- [博雅学院](https://pkuschool.yuque.com/books/share/f14d7d7d-6fbf-42c6-9468-afac1249ca32?#)
 
 这些平台未来也可从 SharePoint 首页访问。
 
@@ -135,7 +135,7 @@ Teams 是一个非常重要且实用的工具！它将陪伴你度过两年或�
 
 你可以提前加入团队 **2023届练习组**，当然入教的时候再加入也是没问题的。
 
-点击左侧团队，然后单机右上角（或者左下角）的加入团队，使用团队代码加入团队
+点击左侧团队，然后点击右上角（或者左下角）的加入团队，使用团队代码加入团队
 
 如图
 

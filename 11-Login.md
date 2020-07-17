@@ -53,7 +53,7 @@ categories: ["2"]
 ### 小测试
 你可以在下方的输入框中测试你的密码是否符合要求
 #### 此功能安全吗
-> **我们不会记录你的密码**；此功能完全基于JavaScript实现，这是一个客户端脚本语言，即所有计算都由你的电脑执行。这意味着，此网页一旦在浏览器里加载完毕后，就再没有其他任何数据需要从服务器上读取了，即不会再与服务器连接，当然也不会取得你电脑里任何信息了。如果你想确认一下，可以在此网页加载完毕后，关闭网络连接，一切都将继续工作。  
+> **我们不会记录你的密码**；此功能完全基于JavaScript实现，这是一个客户端脚本语言，即所有计算都由你的电脑执行。这意味着，此网页一旦在浏览器里加载完毕后，就再没有其他任何数据需要从服务器上读取了，即不会再与服务器连接，当然也不会取得你电脑里任何信息了。如果你想确认一下，可以在此网页加载完毕后，关闭网络连接，一切都将继续工作。
 
 <script>
 
@@ -76,13 +76,13 @@ categories: ["2"]
         }
         else
         {
-            icon_el.style.color="#e23037";
+            icon_el.style.color=(!!value.length)?"#e23037":"transparent";
             icon_el.innerHTML="warning";
         }
     }
 
 </script>
 
-<div class="align-center"><strong>密码测试：</strong><input id="pwd" class="dk-t" oninput="chkPassword()" type="text" style="padding:0px 5px; width:300px; " placeholder="输入你的密码" /><i id="status" class="material-icons" style="color:#e23037">warning</i></div>
+<div class="align-center"><strong>密码测试：</strong><input id="pwd" class="dk-t" oninput="chkPassword()" type="text" style="padding:0px 5px; width:300px; " placeholder="输入你的密码" /><i id="status" class="material-icons" style="color:transperent">warning</i></div>
 
 登录成功后请查看下一页。

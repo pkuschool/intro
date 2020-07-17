@@ -10,19 +10,23 @@ categories: ["3"]
 ---
 
 
-以下暑假安排为去年的安排，**仅供参考**。实际时间请以学校公告为准。
+
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">error_outline</i>
+    <span style="font-size: 18px;">以下暑假安排为去年的安排，<strong>仅供参考</strong>。实际时间请以学校公告为准。<br>如果学校给出了安排，我们会进行更新。</span>
+</div>
 
 |时间|安排|
 |:-:|:-:|
 |7月底-8月初|新生接到录取通知书，并确认邮箱。|
 |8月1日-6日|缴纳学费，具体见邮件通知。具体请见：[相关通知](https://mp.weixin.qq.com/s/RH3QZBsXkV4-CvVa0zi8gw)|
-|8月10日|学生在新生入学登录系统[Rookie](http://rookie.pkuschool.edu.cn)上注册、完善个人资料、学习入学相关资料。正式开通时间及方式邮件通知。|
+|8月10日|学生在新生入学登录系统[Rookie](http://rookie.pkuschool.edu.cn)上注册、完善个人资料、学习入学相关资料。<br>正式开通时间及方式邮件通知。|
 |8月11日-13日|学生进行课程学习，提交问题，并核实问题是否被驳回。|
 |8月12日-14日|学生网上申请书院|
 |8月15日|学校协调书院录取并发布录取结果（通过Rookie系统查看）。|
 |8月16日|语文、英语，在线测试，具体见Rookie通知。|
 |8月17日|上午：数学、物理入学测试。<br>下午：体育艺术技术高水平俱乐部招新。<br>具体见Rookie通知与[相关通知](https://mp.weixin.qq.com/s/RH3QZBsXkV4-CvVa0zi8gw)。|
-|8月18日|9：00新生报到，上交资料，申请住宿的学生提交《住宿申请表》。学生乘车赴军训基地军训。|
+|8月18日|9：00新生报到，上交资料，申请住宿的学生提交《住宿申请表》。<br>学生乘车赴军训基地军训。|
 |8月18日-24日|军训。具体请见：[军训安排](https://mp.weixin.qq.com/s/aQjZXijWHzBXvLM8fu6NNg)|
 |8月24日|上午：军训汇报。<br>下午：返校回家休息。|
 |8月25日|在家修整。|

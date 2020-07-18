@@ -62,12 +62,60 @@ categories: ["2"]
 - 全公司：全校都能看见的地方，做宣传很合适；但请不要刻意刷屏。
 <!-- - **[高中部通知](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=10989755&view=all)**：主要发送高中部各部门以及学校其它部门给高中学生的通知。**强烈建议加入。** -->
 
-这些是一些休闲娱乐聊天的地方，你可以在遵守规则的情况下自由发帖：
+这些是一些休闲娱乐聊天的地方，且**欢迎大家加入并在遵守规则的情况下自由发帖**：
 
-- [脑子有坑](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMzI4ODM4NCJ9/all)：如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。
+<style>
+  .p12{
+    padding: 18px;
+    height: 250px;
+  }
+  @media screen and (max-width: 600px){
+    .p12{
+      height: fit-content
+    }
+  }
+  .card-title{
+    margin: 5px 0 8px
+  }
+  /* .group-card{
+    height: 300px;
+  } */
+  </style>
+<div class="row">
+      <div class="col s12 m6 xl3 group-card">
+        <div class="card-panel p12">
+          <h4 class="card-title">脑子有坑</h4>
+          <p>如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。</p>
+          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMzI4ODM4NCJ9/all" class="pill-btn accent white-text" target="_blank">前往查看</a>
+        </div>
+      </div>
+      <div class="col s12 m6 xl3 group-card">
+        <div class="card-panel p12">
+          <h4 class="card-title">吃可爱多长大的老师们💗</h4>
+          <p>大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～</p>
+          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNjgwMjEyNCJ9/all" class="pill-btn accent white-text" target="_blank">前往查看</a>
+        </div>
+      </div>
+      <div class="col s12 m6 xl3 group-card">
+        <div class="card-panel p12">
+          <h4 class="card-title">zqsg不好吗</h4>
+          <p>如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。</p>
+          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNTk3NzEyNyJ9/all" class="pill-btn accent white-text" target="_blank">前往查看</a>
+        </div>
+      </div>
+      <div class="col s12 m6 xl3 group-card">
+        <div class="card-panel p12">
+          <h4 class="card-title">还有更多等待你发现</h4>
+          <p></p>
+          <a href="https://www.yammer.com/i.pkuschool.edu.cn/#/groups" class="pill-btn accent white-text" target="_blank">前往查看</a>
+        </div>
+      </div>
+    </div>
+
+<!-- - [脑子有坑](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMzI4ODM4NCJ9/all)：如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。
 - [吃可爱多长大的老师们💗](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNjgwMjEyNCJ9/all)：大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～
 - [zqsg不好吗](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNTk3NzEyNyJ9/all)：总体是一个爱豆安利板块\(//∇//)\
-- 以及更多，等你发现。
+- 以及更多，等你发现。 -->
 
 如你所见，这就是一个校内社区。
 

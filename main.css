@@ -149,6 +149,7 @@ span#page-subtitle {
     border-radius: 100px;
     background-color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .pill-btn:not([special]) {
@@ -377,5 +378,10 @@ details {
     }
     tr {
         border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    #nxt-btn,
+    #nxt-btn-sec,
+    .pill-btn{
+        border-color: rgb(48, 52, 54);
     }
 }

@@ -99,7 +99,7 @@ categories: ["2"]
       <div class="col s12 m6 xl3 group-card">
         <div class="card-panel p12">
           <h4 class="card-title">zqsg不好吗</h4>
-          <p>如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。</p>
+          <p>总体是一个爱豆安利板块\(//∇//)\<br>此组属于非活动状态</p>
           <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNTk3NzEyNyJ9/all" class="pill-btn accent white-text" target="_blank">前往查看</a>
         </div>
       </div>

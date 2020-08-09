@@ -107,7 +107,8 @@ categories: ["1"]
         document.querySelector('#read-recom').onclick = () => {
             let instance = M.Modal.getInstance(document.querySelector('#modal-warn'));
             let now = new Date();
-            if (!localStorage.time || (now - (new Date(localStorage.time)) > 86400000)) {
+            let lsTime = parseInt(localStorage.time)
+            if (!localStorage.time || (now - (new Date(lsTime)) > 86400000)) {
                 // localStorage.time = now;
                 instance.open()
                 return false;

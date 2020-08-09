@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function(){
  });
 </script>
 
-# <img height="60" style="margin-right: -65px" src="https://s1.ax1x.com/2020/07/10/UuLLlt.png"/> 关于Adobe
+# <img height="60" style="margin-right: -65px;clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%)" src="https://s1.ax1x.com/2020/07/10/UuLLlt.png"/> 关于Adobe
 
 
 北大附中有正版 Adobe 软件下载渠道，只需在学校网络环境下激活即可在此机器上使用（每过3年左右需要补丁重新激活）。下载没有位置限制，在校外也可下载。这下无需盗版了。

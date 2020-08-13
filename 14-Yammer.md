@@ -80,35 +80,48 @@ categories: ["2"]
   /* .group-card{
     height: 300px;
   } */
+  .card-intro{
+    height: 160px;
+  }
+  .link-btn{
+    float:right;
+  }
   </style>
 <div class="row">
       <div class="col s12 m6 xl3 group-card">
         <div class="card-panel p12">
+        <div class="card-intro">
           <h4 class="card-title">脑子有坑</h4>
           <p>如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。</p>
-          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMzI4ODM4NCJ9/all" class="pill-btn accent white-text" target="_blank">前往查看</a>
+        </div>
+          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMzI4ODM4NCJ9/all" class="link-btn pill-btn accent white-text" target="_blank">前往查看</a>
         </div>
       </div>
       <div class="col s12 m6 xl3 group-card">
         <div class="card-panel p12">
+        <div class="card-intro">
           <h4 class="card-title">吃可爱多长大的老师们💗</h4>
           <p>大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～</p>
-          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNjgwMjEyNCJ9/all" class="pill-btn accent white-text" target="_blank">前往查看</a>
+        </div>
+          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNjgwMjEyNCJ9/all" class="link-btn pill-btn accent white-text" target="_blank">前往查看</a>
         </div>
       </div>
       <div class="col s12 m6 xl3 group-card">
         <div class="card-panel p12">
+        <div class="card-intro">
           <h4 class="card-title">zqsg不好吗</h4>
           <p>总体是一个爱豆安利板块\(//∇//)\<br>此组属于非活动状态</p>
-          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNTk3NzEyNyJ9/all" class="pill-btn accent white-text" target="_blank">前往查看</a>
+         </div> 
+          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNTk3NzEyNyJ9/all" class="link-btn pill-btn accent white-text" target="_blank">前往查看</a>
         </div>
       </div>
       <div class="col s12 m6 xl3 group-card">
         <div class="card-panel p12">
+        <div class="card-intro">
           <h4 class="card-title">还有更多等待你发现</h4>
           <p></p>
-          <a href="https://www.yammer.com/i.pkuschool.edu.cn/#/groups" class="pill-btn accent white-text" target="_blank">前往查看</a>
         </div>
+          <a href="https://www.yammer.com/i.pkuschool.edu.cn/#/groups" class="link-btn pill-btn accent white-text" target="_blank">前往查看</a>
       </div>
     </div>
 

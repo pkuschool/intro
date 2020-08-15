@@ -129,6 +129,8 @@ categories: ["2"]
 
 <a target="_blank" href="https://mp.weixin.qq.com/s/dRhU3NNrcArtGjMNssx4gw" class="pill-btn blue darken-1 white-text">教程 | Yammer语言切换</a>
 
+由于 Yammer 的版本更新，设置已经在 右上角小齿轮 > 设置 (settings) 里了。
+
 ## 随时随地收发消息
 
 Yammer 也有移动版应用！

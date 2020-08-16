@@ -111,7 +111,7 @@ categories: ["2"]
         <div class="card-intro">
           <h4 class="card-title">zqsg不好吗</h4>
           <p>总体是一个爱豆安利板块\(//∇//)\<br>此组属于非活动状态</p>
-         </div> 
+         </div>
           <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNTk3NzEyNyJ9/all" class="link-btn pill-btn accent white-text" target="_blank">前往查看</a>
         </div>
       </div>
@@ -124,7 +124,7 @@ categories: ["2"]
           <a href="https://www.yammer.com/i.pkuschool.edu.cn/#/groups" class="link-btn pill-btn accent white-text" target="_blank">前往查看</a>
       </div>
     </div>
-
+</div>
 <!-- - [脑子有坑](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMzI4ODM4NCJ9/all)：如小组名字所示。欢迎脑子有坑填不满的小伙伴加入我们。
 - [吃可爱多长大的老师们💗](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNjgwMjEyNCJ9/all)：大家有没有超喜欢的老师啊～ 用老师的名字建楼，把可爱之处都列在下面吧～
 - [zqsg不好吗](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNTk3NzEyNyJ9/all)：总体是一个爱豆安利板块\(//∇//)\
@@ -141,6 +141,8 @@ categories: ["2"]
 如果你的 Yammer 显示语言是英文，请看：
 
 <a target="_blank" href="https://mp.weixin.qq.com/s/dRhU3NNrcArtGjMNssx4gw" class="pill-btn blue darken-1 white-text">教程 | Yammer语言切换</a>
+
+由于 Yammer 的版本更新，设置已经在 右上角小齿轮 > 设置 (settings) 里了。
 
 ## 随时随地收发消息
 

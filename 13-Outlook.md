@@ -52,9 +52,14 @@ categories: ["2"]
 老师邮箱通常为 `xxx@pkuschool.edu.cn`【xxx为教师姓名全拼】，有些老师喜欢不带 `i` 的邮箱，具体以老师提供的为准。
 
 ## 附2：部分常用邮箱
+### 相关邮箱 
 
-- 教务 <jiaowu@i.pkuschool.edu.cn>
-- 教导处 <jiaodao@i.pkuschool.edu.cn>
-- 成长与实践体验中心 <chengzhang@i.pkuschool.edu.cn>
-- SubIT <subit@i.pkuschool.edu.cn>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems);
+        // document.querySelector('#tool_btn').click();
+    });
+</script>
 
+<img class="materialboxed" src="https://s1.ax1x.com/2020/08/17/dmS8TP.png"/>

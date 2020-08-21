@@ -138,7 +138,7 @@ categories: ["2"]
 - [20年前的附中人，有多不一样？\| 红砖回忆计划](https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q)-->
 
 ## 小虎
-<img src='https://s1.ax1x.com/2020/08/21/dtxnaV.jpg' class="materialboxed" height="300"/>
+<img src='https://s1.ax1x.com/2020/08/21/dtxnaV.jpg' class="materialboxed" width="300"/>
 XiaoHu.ai是一个学生运营的智能交互机器人项目，为学校的所有学生提供服务。
 
 在关注小虎后，用户可通过语音/文字问答来实现快捷的无界面交互。

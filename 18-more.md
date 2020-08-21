@@ -137,6 +137,17 @@ categories: ["2"]
 - **[附中摄影的99个角落 红砖新生指南](https://mp.weixin.qq.com/s/A4oXnfkOIPSZx2nEyRaFDA)**
 - [20年前的附中人，有多不一样？\| 红砖回忆计划](https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q)-->
 
+## 小虎
+XiaoHu.ai是一个学生运营的智能交互机器人项目，为学校的所有学生提供服务。
+
+在关注小虎后，用户可通过语音/文字问答来实现快捷的无界面交互。
+
+绑定学号后，你可以通过XiaoHu查询课表/成绩/作业等信息
+
+具体的使用教程可查看[这里](https://mp.weixin.qq.com/s/8ruisk7rmM_X2Ao7c_xCaA)及往期更新推送
+
+
+
 ----
 
 

@@ -129,7 +129,7 @@ categories: ["2"]
 
 如果你想了解附中、结识热爱摄影的小伙伴，或者你想加入红砖社团与我们一起运营图库、策划活动，快扫描下面的二维码入群吧！现在入群即可获得红砖图库账号，提前浏览六千多张属于附中的图片记忆。
 
-<img src='https://ftp.bmp.ovh/imgs/2020/08/c57e6916f2ab6f5c.jpg' class="materialboxed" height="300"/>
+<img src='https://ftp.bmp.ovh/imgs/2020/08/d9ee00c00c80675e.jpg' class="materialboxed" height="300"/>
 
 
 另附 红砖社团暑期推送：

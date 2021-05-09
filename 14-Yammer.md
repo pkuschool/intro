@@ -40,6 +40,8 @@ categories: ["2"]
 
 在[《Yammer 社区管理规则与处理规范》](https://www.yuque.com/docs/share/609a58ab-3f0d-4d30-a45d-907ae6d3606d?#)的规定中，社区管理员将尽最大可能地以最小工作量工作，并且其职权范围将会得到充分的限制，以最大限度地保证每个人的自由发言。我们尊重每一种独特的声音。
 
+
+#替换
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
     <span style="font-size: 18px;">截至 2020年6月，《Yammer 社区管理规则与处理规范》草案目前仍在意见征求阶段，尚未正式实施。</span>
@@ -52,14 +54,20 @@ categories: ["2"]
 
 ## 开始吧！
 
+#替换
 
-从头开始，先在[ > 全公司里写着2023届的报到帖 < ](https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiNzYwMTAwNTU0NTc5OTY4In0)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
 
-<a target="_blank" href="https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiNzYwMTAwNTU0NTc5OTY4In0" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2023届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
+从头开始，先在[ > 全公司里写着2024届的报到帖 < ](https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiNzYwMTAwNTU0NTc5OTY4In0)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
 
-这些是比较常用的组：
+<a target="_blank" href="https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiNzYwMTAwNTU0NTc5OTY4In0" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2024届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
 
-- 全公司：全校都能看见的地方，做宣传很合适；但请不要刻意刷屏。
+这些是比较常用的组，你们在加入Yammer社区时会被自动加入：
+
+- 全公司(All shcool)：全校都能看见的地方，做大型活动宣传很合适；但请不要刻意刷屏。
+- 校园管理问题：反馈各项校园管理问题，及对学校的各项日常事务提出意见或建议。学校相关部门承诺会及时查收并予以答复。
+- 失物招领&寻物启事：~~字面意思~~ 各项寻物启事及失物招领
+- 课程学习：讨论各项学习和课程问题
+- 大泥湾蓄水池：各项休闲、娱乐性讨论和灌水。你也可以在这里进行小型活动宣传或投票及评选应援。
 <!-- - **[高中部通知](https://www.yammer.com/i.pkuschool.edu.cn/#/threads/inGroup?type=in_group&feedId=10989755&view=all)**：主要发送高中部各部门以及学校其它部门给高中学生的通知。**强烈建议加入。** -->
 
 这些是一些休闲娱乐聊天的地方，且**欢迎大家加入并在遵守规则的情况下自由发帖**：
@@ -109,10 +117,10 @@ categories: ["2"]
       <div class="col s12 m6 xl3 group-card">
         <div class="card-panel p12">
         <div class="card-intro">
-          <h4 class="card-title">zqsg不好吗</h4>
-          <p>总体是一个爱豆安利板块\(//∇//)\<br>此组属于非活动状态</p>
+          <h4 class="card-title">思宇阁</h4>
+          <p>行知政治教师张志豪老师创建的社区，在这里，想象另一种生活的可能性</p>
          </div>
-          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNTk3NzEyNyJ9/all" class="link-btn pill-btn accent white-text" target="_blank">前往查看</a>
+          <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxNzc3Mjg4NCJ9/new" class="link-btn pill-btn accent white-text" target="_blank">前往查看</a>
         </div>
       </div>
       <div class="col s12 m6 xl3 group-card">
@@ -134,7 +142,8 @@ categories: ["2"]
 
 除此之外，你也可以向某人发送私信 / 建立更多的组 / 发投票 / 表扬别人，这个入教培训的时候再论。
 
-在全公司回复报到帖报到之后，请加入[2023届练习组](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIzMzQ2NjYzMDE0NCJ9/all)，等待后续安排（不过不要在那里报到哦）。
+#替换
+在全公司回复报到帖报到之后，请加入[2024届练习组](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIzMzQ2NjYzMDE0NCJ9/all)，等待后续安排（不过不要在那里报到哦）。
 
 ## 语言问题
 

@@ -9,6 +9,7 @@ layout: default
 author:
     - 学生手册
     - 刘语辰
+    - 张子健
 categories: ["1"]
 ---
 
@@ -40,7 +41,7 @@ categories: ["1"]
 
 |  对比项  |    班级制    |    书院制（北大附中）        |
 | :------: | :----------: | :-----------------------: |
-|  成员数  |    约60人    |          约150人          |
+|  成员数  |    约60人    |          约200人          |
 | 组建方式 |   学校安排   |    书院学长与新生双选     |
 | 学生年级 |   同一年级   |     高一高二混龄      |
 | 发展方向 |    不区分    |   出国/高考隶属不同书院   |
@@ -118,11 +119,11 @@ categories: ["1"]
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">8：00-9：00</td>
+<td style="text-align:center">8：00-9：00（周一7：50）</td>
 <td style="text-align:center">1</td>
 <td style="text-align:center">5</td>
 <td style="text-align:center">4</td>
-<td style="text-align:center">6</td>
+<td style="text-align:center">2</td>
 <td style="text-align:center">3</td>
 </tr>
 <tr>
@@ -130,11 +131,11 @@ categories: ["1"]
 <td style="text-align:center">2</td>
 <td style="text-align:center">6</td>
 <td style="text-align:center">3</td>
-<td style="text-align:center">5</td>
+<td style="text-align:center">1</td>
 <td style="text-align:center">4</td>
 </tr>
 <tr>
-<td style="text-align:center">10：20-11：20/50</td>
+<td style="text-align:center">10：30-12：00</td>
 <td style="text-align:center">⑥</td>
 <td style="text-align:center">④</td>
 <td style="text-align:center">⑤</td>
@@ -145,20 +146,20 @@ categories: ["1"]
 <td style="text-align:center">13：30-14：30</td>
 <td style="text-align:center">3</td>
 <td style="text-align:center">2</td>
+<td style="text-align:center">6</td>
 <td style="text-align:center"></td>
-<td style="text-align:center">1</td>
 <td style="text-align:center">5</td>
 </tr>
 <tr>
 <td style="text-align:center">14：40-15：40</td>
 <td style="text-align:center">4</td>
 <td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
 <td style="text-align:center"></td>
-<td style="text-align:center">2</td>
 <td style="text-align:center">6</td>
 </tr>
 <tr>
-<td style="text-align:center">15：50-16：50/17:20</td>
+<td style="text-align:center">16：00-17:30</td>
 <td style="text-align:center">⑤</td>
 <td style="text-align:center">③</td>
 <td style="text-align:center">⑥</td>
@@ -168,9 +169,9 @@ categories: ["1"]
 </tbody>
 </table>
 
-周三下午一般作为自习、活动 或者是 议事会与校会，不会安排常规的课程（部分体育课除外）。
+周四下午一般作为自习、活动 或者是 议事会与校会，不会安排常规的课程（部分体育课除外）。
 
-带圈的课程，如果为60分钟则是文化课程，90分钟则为艺体技。此位置主要安排艺体技。
+带圈的课程，为艺体技课程，时长90分钟。如果你这一节没有课的话你需要参加自习。详情参见[自习管理条例](http://handbook.pkuschool.edu.cn/s6.8.html)
 
 ### 自习
 

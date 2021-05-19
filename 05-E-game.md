@@ -3,7 +3,7 @@
 title: 电子游戏
 description: 老头滚动条、踢牙老奶奶... 等等我为什么在玩翻译梗
 permalink: /05/
-next: "10"
+next: "30"
 last: "04"
 layout: default
 author:

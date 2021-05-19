@@ -242,6 +242,9 @@ details[open]>summary::before {
     transform: rotate(90deg) scale(1)
 }
 
+.modal.open {
+    top: 5% !important;
+}
 
 /* details[open]{
     border-bottom: 4px solid var(--accent);
@@ -321,6 +324,7 @@ details {
     }
 }
 
+
 @media (prefers-color-scheme: dark) {
     html {
         color: rgba(255, 255, 255, 0.8);
@@ -376,12 +380,14 @@ details {
         color: white;
 
     }
+
     tr {
         border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     }
+
     #nxt-btn,
     #nxt-btn-sec,
-    .pill-btn{
+    .pill-btn {
         border-color: rgb(48, 52, 54);
     }
 }

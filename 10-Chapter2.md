@@ -41,7 +41,10 @@ categories: ["2"]
 
 > 友情提示：请家长务必不要代劳，成长是一个不断告别的过程，知您不舍，且目送吧……
 
-<div class="card-panel flex-center accent-text">
-    <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">如果你是衔接班同学，请点击这里，而不是下一页，我们有衔接班特供内容。     <a href="/11A/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">我是衔接班小朋友！</a></span>
-</div>
+[comment]: <> (<div class="card-panel flex-center accent-text">)
+
+[comment]: <> (    <i style="font-size: 30px;" class="material-icons">error_outline</i>)
+
+[comment]: <> (    <span style="font-size: 18px;">如果你是衔接班同学，请点击这里，而不是下一页，我们有衔接班特供内容。     <a href="/11A/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">我是衔接班小朋友！</a></span>)
+
+[comment]: <> (</div>)

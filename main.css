@@ -391,3 +391,8 @@ details {
         border-color: rgb(48, 52, 54);
     }
 }
+
+#SideBySideElement{
+    width:45%;
+    display:inline-block;
+}

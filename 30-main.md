@@ -5,11 +5,12 @@ description: 一个你又爱又恨的系统，尤其喜欢咕咕咕🕊
 permalink: /30/
 next: "31"
 last: "05"
-layout: default
+layout: default 
 author:
-- 何天阳
-- 张子健
+    - 何天阳
+    - 张子健 
 categories: ["1"]
+
 ---
 <script>
   function IsPC() {
@@ -36,8 +37,7 @@ categories: ["1"]
   });
 </script>
 
-在北大附中，我们使用一个叫做“希悦”的系统来将进行诸如课程管理、作业提交等事务
-那么，什么是希悦？
+在北大附中，我们使用一个叫做“希悦”的系统来将进行诸如课程管理、作业提交等事务 那么，什么是希悦？
 
 <div class="card-panel flex-center accent-text">
   <i style="font-size: 30px;" class="material-icons">info_outline</i>
@@ -76,7 +76,7 @@ categories: ["1"]
 > **应用中心**，在这里，你可以预约场馆，创建活动，请假<br>
 
 <br>
-页面的下半部分是课表，你可以在这里查看你的课表。  
+页面的下半部分是**课表**，你可以在这里查看你的课表。  
 <br>
 在页面的中间上部是代办，老师通常会在这里留作业，发小组任务。  
 如果您不想错过作业导致过评爆炸的话，请**务必经常查看**，至少一天一次。  
@@ -85,16 +85,19 @@ categories: ["1"]
 ![希悦任务](https://z3.ax1x.com/2021/05/19/g5wEQI.png)
 <br>
 这里有对代办的具体要求，请**务必仔细查看**。  
-此外，右侧有一个讨论区，你可以在这里和老师以及全班同学讨论。但老师不一定会查看。
+此外，右侧有一个讨论区，你可以在这里和老师以及全班同学讨论。但老师不一定会查看。  
+<br>
 
-<div>
-  <img src="" alt="">
+
+
+在导航栏中点击课程模块，任意选择一门课程，你就可以看到这个页面。
+
+<div style="text-align:center">
+	<div id="SideBySideElement"><img src="https://z3.ax1x.com/2021/05/19/g5wFWd.png" alt=""></div>
+  
+	<div id="SideBySideElement"><img src="https://z3.ax1x.com/2021/05/19/g5wASA.png" alt=""></div>
 </div>
+在这里，你可以查看有关这个课程的全部信息。这里有你的成绩，包括已经发布的和还未发布的；这里也有你的老师留过的所有任务，方便你一起查看。
 
 
 
-https://z3.ax1x.com/2021/05/19/g5wFWd.png
-https://z3.ax1x.com/2021/05/19/g5wPFe.png
-https://z3.ax1x.com/2021/05/19/g5wASA.png
-
-https://z3.ax1x.com/2021/05/19/g5wiJH.png

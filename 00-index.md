@@ -1,10 +1,10 @@
 ---
 
-permalink: /
+permalink: /00/
 title: 欢迎来到北大附中
 description: 🎉🎉🎉
 last: "none"
-next: "02"
+next: "01"
 author:
     - 刘语辰
 layout: default

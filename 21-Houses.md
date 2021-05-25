@@ -35,12 +35,11 @@ categories: ["3"]
 
 ## 九大书院
 <br>
-<div style="display:inline-block;width:60%"><img class="materialboxed"  src="https://s1.ax1x.com/2020/07/08/UZ4P29.png"></div>
-<div style="display:inline-block;width:30%"><img class="materialboxed"  src="https://z3.ax1x.com/2021/05/25/gzQhy4.jpg"></div>
-	<div ></div>
-	<div ></div>
-
-书院的名字取自 **《大学》**，并授予**橙、黄、绿、青、蓝、紫、灰、黑**八种颜色为代表色
+<div style="text-align:center">
+<div style="display:inline-block;width:65%"><img class="materialboxed"  src="https://s1.ax1x.com/2020/07/08/UZ4P29.png"></div>
+<div style="display:inline-block;width:25%"><img class="materialboxed"  src="https://z3.ax1x.com/2021/05/25/gzQhy4.jpg"></div>
+</div>
+书院的名字取自 **《大学》和《论语》**，并授予**橙、黄、绿、青、蓝、紫、灰、黑、粉**九种颜色为代表色
 
 分别是**（点击可以查看书院相关网站/介绍）**
 <div style="cursor:pointer;display:grid;grid-template-columns: repeat(auto-fill,70px);grid-template-rows: repeat(auto-fill,50px)">
@@ -56,7 +55,7 @@ categories: ["3"]
 
 > 排名不分先后，按原所属单元顺序排序。
 
-* 格物、致知、诚意、正心、明德、熙敬为高考方向书院。
+* 格物、致知、诚意、正心、明德、熙敬、弘毅为高考方向书院。
 * 至善、新民为出国方向书院。
 
 从上学年开始，出国/高考方向学生只能选择对应方向的书院。

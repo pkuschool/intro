@@ -11,6 +11,8 @@ author:
   + 刘语辰
   + 何天阳
   + 沈俊阳
+  + 张子健
+
 
 categories: ["3"]
 ---
@@ -31,9 +33,12 @@ categories: ["3"]
 * 你将和同书院的人一起做活动、参加赛事。
 * 你将和同书院的人一起搞事情，宣传、文案、推送、剪片、管理等，潜力无穷。
 
-## 八大书院
-
- <img class="materialboxed" width="70%" src="https://s1.ax1x.com/2020/07/08/UZ4P29.png">
+## 九大书院
+<br>
+<div style="display:inline-block;width:60%"><img class="materialboxed"  src="https://s1.ax1x.com/2020/07/08/UZ4P29.png"></div>
+<div style="display:inline-block;width:30%"><img class="materialboxed"  src="https://z3.ax1x.com/2021/05/25/gzQhy4.jpg"></div>
+	<div ></div>
+	<div ></div>
 
 书院的名字取自 **《大学》**，并授予**橙、黄、绿、青、蓝、紫、灰、黑**八种颜色为代表色
 

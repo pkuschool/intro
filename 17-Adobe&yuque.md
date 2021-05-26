@@ -1,8 +1,8 @@
 ---
 
 permalink: /17/
-title: Adobe&语雀
-description: Adobe部分选读，语雀部分还是.. 都看一下吧
+title: 语雀
+description: 语雀部分还是看一下吧
 last: "16"
 next: "18"
 layout: default
@@ -21,33 +21,34 @@ document.addEventListener('DOMContentLoaded', function(){
  });
 </script>
 
-# <img height="60" style="margin-right: -65px;clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%)" src="https://s1.ax1x.com/2020/07/10/UuLLlt.png"/> 关于Adobe
+[comment]: <> (# <img height="60" style="margin-right: -65px;clip-path: polygon&#40;0 0, 50% 0, 50% 100%, 0 100%&#41;" src="https://s1.ax1x.com/2020/07/10/UuLLlt.png"/> 关于Adobe)
 
-#替换
+[comment]: <> (#替换)
 
 
-北大附中有正版 Adobe 软件下载渠道，只需在学校网络环境下激活即可在此机器上使用（每过3年左右需要补丁重新激活）。下载没有位置限制，在校外也可下载。这下无需盗版了。
+[comment]: <> (北大附中有正版 Adobe 软件下载渠道，只需在学校网络环境下激活即可在此机器上使用（每过3年左右需要补丁重新激活）。下载没有位置限制，在校外也可下载。这下无需盗版了。)
 
-<a href="https://pkuschool.github.io/adobedl/" class="pill-btn green darken-3 white-text" target="_blank">北大附中 Adobe 下载中心</a>
+[comment]: <> (<a href="https://pkuschool.github.io/adobedl/" class="pill-btn green darken-3 white-text" target="_blank">北大附中 Adobe 下载中心</a>)
 
-相关软件版本为 CC 2018，故部分较新系统（如<ruby>最新的 macOS<rt>Catalina 及以上</rt></ruby>）可能无法使用
+[comment]: <> (相关软件版本为 CC 2018，故部分较新系统（如<ruby>最新的 macOS<rt>Catalina 及以上</rt></ruby>）可能无法使用)
 
-<div id="osx-hint" class="card-panel flex-center accent-text" hidden>
+[comment]: <> (<div id="osx-hint" class="card-panel flex-center accent-text" hidden>)
 
-    <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">根据您浏览器提供的信息，您所使用的 MacOS 并不能运行这一套软件</span>
+[comment]: <> (    <i style="font-size: 30px;" class="material-icons">error_outline</i>)
 
-</div>
+[comment]: <> (    <span style="font-size: 18px;">根据您浏览器提供的信息，您所使用的 MacOS 并不能运行这一套软件</span>)
 
-欢迎前端大佬来相关 [GitHub 仓库](https://github.com/pkuschool/adobedl) 完善这个 Adobe 下载页面！
+[comment]: <> (</div>)
 
------
+[comment]: <> (欢迎前端大佬来相关 [GitHub 仓库]&#40;https://github.com/pkuschool/adobedl&#41; 完善这个 Adobe 下载页面！)
+
+[comment]: <> (-----)
 
 # <img height="50" src="../img/yuque.svg"/> 关于语雀
 
 
 
-具体说明详见[语雀使用手册](https://www.yuque.com/yuque/help)
+具体说明详见[语雀使用手册](https://www.yuque.com/yuque/help)以及[语雀帮助](https://www.yuque.com/about/help)
 
 语雀主体是一个在线文本协作的平台，其中知识库就是一类文本的库，知识库下辖可以建立文档，而未指明所在知识库的文档则会建立在账户默认的知识库中。
 
@@ -121,7 +122,6 @@ document.addEventListener('DOMContentLoaded', function(){
 
 ## 加入北大附中空间
 
-#替换
 <a href="https://bdfz-my.sharepoint.com/:w:/g/personal/subit_i_pkuschool_edu_cn/EUas9VOBgZtCsfauDHHN3C8BcSwrvTrj_LHkxGAhmnbBwQ?e=LLtt3m" class="pill-btn green darken-3 white-text" target="_blank">点我加入，请务必不要忘记</a>
 
 **由于这个指南是直接发布在互联网的，我们需要你登录O365来确保你是北大附中的学生。**

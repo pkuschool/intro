@@ -8,15 +8,79 @@ last: "13"
 layout: default
 categories: ["2"]
 ---
-
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.materialboxed');
-    var instances = M.Materialbox.init(elems);
-
-  });
+	document.addEventListener('DOMContentLoaded', function () {
+	    var elems = document.querySelectorAll('img');
+	    var instances = M.Materialbox.init(elems);
+	    if (!IsPC()) {
+	      document.querySelector('#mobile-hint').removeAttribute('hidden');
+	    }
+	  });
 </script>
-
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+	    var elems = document.querySelectorAll('img');
+	    var instances = M.Materialbox.init(elems);
+	    if (!IsPC()) {
+	      document.querySelector('#mobile-hint').removeAttribute('hidden');
+	    }
+	  });
+</script>tener('DOMContentLoaded', function () {<script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+	    var elems = document.querySelectorAll('img');
+	    var instances = M.Materialbox.init(elems);
+	    if (!IsPC()) {
+	      document.querySelector('#mobile-hint').removeAttribute('hidden');
+	    }
+	  });
+</script>ment.querySelectorAll('img');    document.addEventListener('DOMContentLoaded', function() {
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+	    var elems = document.querySelectorAll('img');
+	    var instances = M.Materialbox.init(elems);
+	    if (!IsPC()) {
+	      document.querySelector('#mobile-hint').removeAttribute('hidden');
+	    }
+	  });
+</script>M.Materialbox.init(elems);    var elems = document.querySelectorAll('.materialboxed');
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+	    var elems = document.querySelectorAll('img');
+	    var instances = M.Materialbox.init(elems);
+	    if (!IsPC()) {
+	      document.querySelector('#mobile-hint').removeAttribute('hidden');
+	    }
+	  });
+</script>  var instances = M.Materialbox.init(elems);
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+	    var elems = document.querySelectorAll('img');
+	    var instances = M.Materialbox.init(elems);
+	    if (!IsPC()) {
+	      document.querySelector('#mobile-hint').removeAttribute('hidden');
+	    }
+	  });
+</script>Selector('#mobile-hint').removeAttribute('hidden');
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+	    var elems = document.querySelectorAll('img');
+	    var instances = M.Materialbox.init(elems);
+	    if (!IsPC()) {
+	      document.querySelector('#mobile-hint').removeAttribute('hidden');
+	    }
+	  });
+</script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+	    var elems = document.querySelectorAll('img');
+	    var instances = M.Materialbox.init(elems);
+	    if (!IsPC()) {
+	      document.querySelector('#mobile-hint').removeAttribute('hidden');
+	    }
+	  });
+</script>
+</script>
 请进入 Office 365 首页，找到“Yammer”，进入。（如果在首页上找不到，可以进入“浏览所有应用”查找）
 
 同样的，Yammer的图标长这样：<img width="40" src="../img/yammer.svg">
@@ -44,7 +108,7 @@ categories: ["2"]
 #替换
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">截至 2020年6月，《Yammer 社区管理规则与处理规范》草案目前仍在意见征求阶段，尚未正式实施。</span>
+    <span style="font-size: 18px;">截至 2021年6月，《Yammer 社区管理规则与处理规范》草案目前仍在意见征求阶段，尚未正式实施。</span>
 </div>
 
 
@@ -149,9 +213,13 @@ categories: ["2"]
 
 如果你的 Yammer 显示语言是英文，请看：
 
-<a target="_blank" href="https://mp.weixin.qq.com/s/dRhU3NNrcArtGjMNssx4gw" class="pill-btn blue darken-1 white-text">教程 | Yammer语言切换</a>
+<a target="_blank" href="https://support.microsoft.com/zh-cn/office/%E6%96%B0%E5%A2%9E-yammer%EF%BC%9A%E6%9B%B4%E6%94%B9%E6%88%91%E7%9A%84-yammer-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E5%92%8C%E8%AE%BE%E7%BD%AE-ab813bce-5312-4688-94ee-70018545cd3c" class="pill-btn blue darken-1 white-text">Yammer更改设置的方法</a><br />
+在这篇文章的**更改语言首选项**中，介绍了新版Yammer更改语言的方式。  
+你也可以按照下面的教程做。  
 
-由于 Yammer 的版本更新，设置已经在 右上角小齿轮 > 设置 (settings) 里了。
+![yammerlanguage1](https://z3.ax1x.com/2021/05/27/2ir0Wq.png)
+![yammerlanguage2](https://z3.ax1x.com/2021/05/27/2irwYn.png)
+
 
 ## 随时随地收发消息
 

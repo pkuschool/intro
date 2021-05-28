@@ -8,6 +8,7 @@ last: "13"
 layout: default
 categories: ["2"]
 ---
+
 <script>
 	document.addEventListener('DOMContentLoaded', function () {
 	    var elems = document.querySelectorAll('img');
@@ -16,70 +17,6 @@ categories: ["2"]
 	      document.querySelector('#mobile-hint').removeAttribute('hidden');
 	    }
 	  });
-</script>
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-	    var elems = document.querySelectorAll('img');
-	    var instances = M.Materialbox.init(elems);
-	    if (!IsPC()) {
-	      document.querySelector('#mobile-hint').removeAttribute('hidden');
-	    }
-	  });
-</script>tener('DOMContentLoaded', function () {<script>
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-	    var elems = document.querySelectorAll('img');
-	    var instances = M.Materialbox.init(elems);
-	    if (!IsPC()) {
-	      document.querySelector('#mobile-hint').removeAttribute('hidden');
-	    }
-	  });
-</script>ment.querySelectorAll('img');    document.addEventListener('DOMContentLoaded', function() {
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-	    var elems = document.querySelectorAll('img');
-	    var instances = M.Materialbox.init(elems);
-	    if (!IsPC()) {
-	      document.querySelector('#mobile-hint').removeAttribute('hidden');
-	    }
-	  });
-</script>M.Materialbox.init(elems);    var elems = document.querySelectorAll('.materialboxed');
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-	    var elems = document.querySelectorAll('img');
-	    var instances = M.Materialbox.init(elems);
-	    if (!IsPC()) {
-	      document.querySelector('#mobile-hint').removeAttribute('hidden');
-	    }
-	  });
-</script>  var instances = M.Materialbox.init(elems);
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-	    var elems = document.querySelectorAll('img');
-	    var instances = M.Materialbox.init(elems);
-	    if (!IsPC()) {
-	      document.querySelector('#mobile-hint').removeAttribute('hidden');
-	    }
-	  });
-</script>Selector('#mobile-hint').removeAttribute('hidden');
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-	    var elems = document.querySelectorAll('img');
-	    var instances = M.Materialbox.init(elems);
-	    if (!IsPC()) {
-	      document.querySelector('#mobile-hint').removeAttribute('hidden');
-	    }
-	  });
-</script>
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-	    var elems = document.querySelectorAll('img');
-	    var instances = M.Materialbox.init(elems);
-	    if (!IsPC()) {
-	      document.querySelector('#mobile-hint').removeAttribute('hidden');
-	    }
-	  });
-</script>
 </script>
 请进入 Office 365 首页，找到“Yammer”，进入。（如果在首页上找不到，可以进入“浏览所有应用”查找）
 
@@ -105,10 +42,9 @@ categories: ["2"]
 在[《Yammer 社区管理规则与处理规范》](https://www.yuque.com/docs/share/609a58ab-3f0d-4d30-a45d-907ae6d3606d?#)的规定中，社区管理员将尽最大可能地以最小工作量工作，并且其职权范围将会得到充分的限制，以最大限度地保证每个人的自由发言。我们尊重每一种独特的声音。
 
 
-#替换
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">截至 2021年6月，《Yammer 社区管理规则与处理规范》草案目前仍在意见征求阶段，尚未正式实施。</span>
+    <span style="font-size: 18px;">2021年6月，《Yammer 社区管理规则与处理规范》已正式执行。</span>
 </div>
 
 
@@ -118,16 +54,15 @@ categories: ["2"]
 
 ## 开始吧！
 
-#替换
 
 
-从头开始，先在[ > 全公司里写着2024届的报到帖 < ](https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiNzYwMTAwNTU0NTc5OTY4In0)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
+从头开始，先在[ > 全公司里写着2024届的报到帖 < ](https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTIyODQzMzg2MDcxNDQ5NiJ9?search=%E6%8A%A5%E5%88%B0&groupScope=eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI2NzE2MTg4MjYyNCJ9)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
 
 <a target="_blank" href="https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiNzYwMTAwNTU0NTc5OTY4In0" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2024届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
 
 这些是比较常用的组，你们在加入Yammer社区时会被自动加入：
 
-- 全公司(All shcool)：全校都能看见的地方，做大型活动宣传很合适；但请不要刻意刷屏。
+- **全公司(All shcool)**：全校都能看见的地方，做大型活动宣传很合适；但请不要刻意刷屏。
 - 校园管理问题：反馈各项校园管理问题，及对学校的各项日常事务提出意见或建议。学校相关部门承诺会及时查收并予以答复。
 - 失物招领&寻物启事：~~字面意思~~ 各项寻物启事及失物招领
 - 课程学习：讨论各项学习和课程问题
@@ -207,7 +142,7 @@ categories: ["2"]
 除此之外，你也可以向某人发送私信 / 建立更多的组 / 发投票 / 表扬别人，这个入教培训的时候再论。
 
 #替换
-在全公司回复报到帖报到之后，请加入[2024届练习组](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIzMzQ2NjYzMDE0NCJ9/all)，等待后续安排（不过不要在那里报到哦）。
+在全公司回复报到帖报到之后，请加入[2024届练习组](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI2NzE2MTg4MjYyNCJ9/all)，等待后续安排（不过不要在那里报到哦）。
 
 ## 语言问题
 

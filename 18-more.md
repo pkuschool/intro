@@ -38,7 +38,7 @@ categories: ["2"]
 ## SubIT
 <img height="60" style="background-color:#0071d4;padding:5px 10px;border-radius:5px;" src="../img/subit.svg"/>
 
-我们是2018年12月建立的技术支持社团，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，官网是 [pkuschool.github.io/SubIT](https://pkuschool.github.io/SubIT)。
+我们是2018年12月建立的信息技术社团，主要提供技术支持，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，官网是 [pkuschool.github.io/SubIT](https://pkuschool.github.io/SubIT)。
 
 有什么 Office 365 方面的疑问可以随时发邮件 / Yammer 抄送寻问我们。
 

@@ -145,7 +145,7 @@ Teams 是一个非常重要且实用的工具！它将陪伴你度过两年或�
 
 <div id="mobile-hint" class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">code</i>
-    <span style="font-size: 18px;">团队代码：<strong>q08qyhb</strong> </span>
+    <span style="font-size: 18px;">团队代码：<strong>vvtfuv0</strong> </span>
 </div>
 
 把这串代码复制进去，点击**加入团队**就可以了

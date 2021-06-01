@@ -52,7 +52,7 @@ https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVK
 - 特别感谢刘雁溪、陈于嘉、李鸣宇、吕彦哲为本指南进行实际体验测试反馈并给出宝贵的建议
 
 ### 2021年
-- 主体文案：何天阳、张子健、刘宇宸、
+- 主体文案：何天阳、张子健、刘宇宸
 - 界面设计：何天阳、张子健、刘宇宸
 - 信息纠错：孙玉磊
 

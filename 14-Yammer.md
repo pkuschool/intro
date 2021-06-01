@@ -141,7 +141,6 @@ categories: ["2"]
 
 除此之外，你也可以向某人发送私信 / 建立更多的组 / 发投票 / 表扬别人，这个入教培训的时候再论。
 
-#替换
 在全公司回复报到帖报到之后，请加入[2024届练习组](https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI2NzE2MTg4MjYyNCJ9/all)，等待后续安排（不过不要在那里报到哦）。
 
 ## 语言问题

@@ -9,7 +9,22 @@ author:
     - 刘语辰
 layout: default
 ---
-
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+    var elems2 = document.querySelectorAll('.slider');
+    var instances2 = M.Slider.init(elems2,{
+      // height: (window.innerHeight*0.3 + window.innerWidth*0.2)
+      height: calculatedGallerySize
+    });
+  });
+  M.toast({
+    html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold;" onclick="M.Toast.dismissAll()">知道了</a>',
+    displayLength: 150000,
+    activationPercent: 2
+  });
+</script>
 <!-- <script>
   document.addEventListener('DOMContentLoaded',function(){
     if (typeof(Storage) !== "undefined")

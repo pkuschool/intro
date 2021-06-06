@@ -57,11 +57,11 @@ categories: ["2"]
 
 <script>
 
-    var f=false
+    let f=false;
     function chkPassword(){
-        var value=document.querySelector('#pwd').value;
-        var icon_el=document.querySelector('#status');
-        var pattern=/(?=^.{8,}$)((?=.*\d+))(?![.\n])(?=.*[A-Z]+)(?=.*[a-z])(?=.*[`~!@#$%^&*\(\);:'".>,<\/?|\|\\]*).*$/;
+        const value=document.querySelector('#pwd').value;
+        const icon_el=document.querySelector('#status');
+        const pattern=/(?=^.{8,}$)((?=.*\d+))(?![.\n])(?=.*[A-Z]+)(?=.*[a-z])(?=.*[`~!@#$%^&*\(\);:'".>,<\/?|\|\\]*).*$/;
         if(value=="123456"&&!f)
         {
             f=true;

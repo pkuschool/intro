@@ -13,12 +13,12 @@ categories: ["1"]
 ---
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.materialboxed');
-    var elems2 = document.querySelectorAll('.slider');
-    var instances = M.Materialbox.init(elems);
-    var instances2 = M.Slider.init(elems2,{
-      height: calculatedGallerySize
-    });
+    const elems = document.querySelectorAll('.materialboxed');
+    const elems2 = document.querySelectorAll('.slider');
+    const instances = M.Materialbox.init(elems);
+    const instances2 = M.Slider.init(elems2,{
+          height: calculatedGallerySize
+        });
 
   });
 

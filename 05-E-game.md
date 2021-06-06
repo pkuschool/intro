@@ -13,8 +13,8 @@ categories: ["1"]
 ---
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.materialboxed');
-    var instances = M.Materialbox.init(elems);
+    const elems = document.querySelectorAll('.materialboxed');
+    const instances = M.Materialbox.init(elems);
 
   });
 </script>

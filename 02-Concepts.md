@@ -15,10 +15,10 @@ categories: ["1"]
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.materialboxed');
-    var instances = M.Materialbox.init(elems);
-    var elems2 = document.querySelectorAll('.slider');
-    var instances2 = M.Slider.init(elems2,{
+    const elems = document.querySelectorAll('.materialboxed');
+    const instances = M.Materialbox.init(elems);
+    const elems2 = document.querySelectorAll('.slider');
+    const instances2 = M.Slider.init(elems2,{
       // height: (window.innerHeight*0.3 + window.innerWidth*0.2)
       height: calculatedGallerySize
     });

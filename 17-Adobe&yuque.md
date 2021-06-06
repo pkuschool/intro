@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function(){
     if(/Mac OS X 10[._ ]1[56]/.test(navigator.userAgent)){
         document.querySelector('#osx-hint').removeAttribute('hidden');
     }
-    var elems = document.querySelectorAll('.materialboxed');
-    var instances = M.Materialbox.init(elems);
+    const elems = document.querySelectorAll('.materialboxed');
+    const instances = M.Materialbox.init(elems);
 
  });
 </script>

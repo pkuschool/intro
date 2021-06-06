@@ -14,13 +14,13 @@ categories: ["1"]
 ---
 <script>
   function IsPC() {
-    var userAgentInfo = navigator.userAgent;
-    var Agents = ["Android", "iPhone",
-      "SymbianOS", "Windows Phone",
-      "iPad", "iPod"
-    ];
-    var flag = true;
-    for (var v = 0; v < Agents.length; v++) {
+    const userAgentInfo = navigator.userAgent;
+    const Agents = ["Android", "iPhone",
+          "SymbianOS", "Windows Phone",
+          "iPad", "iPod"
+        ];
+    let flag = true;
+    for (let v = 0; v < Agents.length; v++) {
       if (userAgentInfo.indexOf(Agents[v]) > 0) {
         flag = false;
         break;
@@ -29,8 +29,8 @@ categories: ["1"]
     return flag;
   }
   document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('img');
-    var instances = M.Materialbox.init(elems);
+    const elems = document.querySelectorAll('img');
+    const instances = M.Materialbox.init(elems);
     if (!IsPC()) {
       document.querySelector('#mobile-hint').removeAttribute('hidden');
     }

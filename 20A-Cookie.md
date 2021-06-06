@@ -13,8 +13,8 @@ author:
 
 <script>
 	document.addEventListener('DOMContentLoaded', function () {
-	    var elems = document.querySelectorAll('img');
-	    var instances = M.Materialbox.init(elems);
+	    const elems = document.querySelectorAll('img');
+	    const instances = M.Materialbox.init(elems);
 	    if (!IsPC()) {
 	      document.querySelector('#mobile-hint').removeAttribute('hidden');
 	    }

@@ -13,22 +13,7 @@ author:
 categories: ["1"]
 ---
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const elems = document.querySelectorAll('.materialboxed');
-    const instances = M.Materialbox.init(elems);
-    const elems2 = document.querySelectorAll('.slider');
-    const instances2 = M.Slider.init(elems2,{
-      // height: (window.innerHeight*0.3 + window.innerWidth*0.2)
-      height: calculatedGallerySize
-    });
-  });
-  M.toast({
-    html: '<span>本网站由学生社团撰写，不代表官方观点。</span><a class="btn-flat toast-action right" style="color: var(--accent); font-weight: bold;" onclick="M.Toast.dismissAll()">知道了</a>',
-    displayLength: 150000,
-    activationPercent: 2
-  });
-</script>
+
 
 
 ## 学院与书院

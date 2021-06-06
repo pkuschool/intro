@@ -21,6 +21,15 @@ categories: ["2"]
   });
 
 </script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+	    const elems = document.querySelectorAll('img');
+	    const instances = M.Materialbox.init(elems);
+	    if (!IsPC()) {
+	      document.querySelector('#mobile-hint').removeAttribute('hidden');
+	    }
+	  });
+</script>
 
 - 建议在暑假摸索一下 Office 365 的整体使用，这个系统开学是要用的。有什么疑问/不会的操作请发邮件问 SubIT。这是一个各产品间互相结合的的体系。
 - 请设置好 Outlook，教务后续会发通知。
@@ -38,11 +47,22 @@ categories: ["2"]
 ## SubIT
 <img height="60" style="background-color:#0071d4;padding:5px 10px;border-radius:5px;" src="../img/subit.svg"/>
 
-我们是2018年12月建立的信息技术社团，主要提供技术支持，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，官网是 [pkuschool.github.io/SubIT](https://pkuschool.github.io/SubIT)。
+我们是建立于2018年12月的信息技术社团，主要负责完成各种开发任务和提供技术支持，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，官网是 [pkuschool.github.io/SubIT](https://pkuschool.github.io/SubIT)。
+  
+我们完成的项目有：社团官网、BDFinder小程序、学校学考技术报名系统及学校口述史项目官网等，更多可以在我们的官网 – 项目与成就中查看  
+<div style="text-align:center">
+	<div id="SideBySideElement"><img src="https://z3.ax1x.com/2021/06/07/2dKdCq.png" alt=""></div>
 
-有什么 Office 365 方面的疑问可以随时发邮件 / Yammer 抄送寻问我们。
+	<div id="SideBySideElement"><img src="https://z3.ax1x.com/2021/06/07/2dKGDg.png" alt=""></div>
+</div>
 
-我们也提供线下技术支持服务。您可以在联系我们预约时间后，在指定时间（当然别在假期约）前往东楼116 地下一层西部 W029 接受答疑，我们将竭诚为您服务。
+
+**我们还负责主要撰写新生指南——也就是你现在在看的这个网站。**以及对22届及之后的每一届新生在入学教育期间进行各个线上系统的使用培训。  
+
+
+在Office 365 或者其他线上系统的使用方面的疑问可以随时发邮件 / Yammer 抄送询问我们。  
+  
+我们也提供线下技术支持服务。您可以在联系我们预约时间后（当然别在假期约），在指定时间前往东楼112或地下一层西部 W029 & W030 接受答疑，我们将竭诚为您服务。
 
 <!-- ## 技术交流  //时效已过，已封印
 

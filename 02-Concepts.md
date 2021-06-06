@@ -13,7 +13,6 @@ author:
 categories: ["1"]
 ---
 
-<<<<<<< Updated upstream
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const elems = document.querySelectorAll('.materialboxed');
@@ -30,9 +29,7 @@ categories: ["1"]
     activationPercent: 2
   });
 </script>
-=======
 
->>>>>>> Stashed changes
 
 ## 学院与书院
 

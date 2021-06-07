@@ -13,7 +13,18 @@ author:
 categories: ["1"]
 ---
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const elems = document.querySelectorAll('.materialboxed');
+    const elems2 = document.querySelectorAll('.slider');
+    const instances = M.Materialbox.init(elems);
+    const instances2 = M.Slider.init(elems2,{
+          height: calculatedGallerySize
+        });
 
+  });
+
+</script>
 
 
 ## 学院与书院

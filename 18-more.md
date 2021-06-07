@@ -80,82 +80,144 @@ categories: ["2"]
 
 <img height="60" style="background-color:#ea5662;padding:5px 10px;border-radius:5px;" src="https://brick-1255766843.cos.ap-beijing.myqcloud.com/asset/logo.png" >
 
-红砖是属于北大附中艺术中心的一个学生社团，运营着北大附中目前最大的在线图片库网站**红砖图库**，网址是[https://hong.zuggr.com/](https://hong.zuggr.com/)（请使用电脑或者Pad访问红砖图库以获得最佳体验）。
+目前是北大附中艺术中心中心社团，拥有北大附中最大在线图库「红砖图库」，并运营附中艺术展厅、参与修复与整理附中历史影像，收集附中记忆。
 
-红砖图库现在有：
-- 总数超过六千张关于附中的优质摄影作品；
-- 两百余位在校生和校友在红砖；
-- 由在校学生和校友自主上传的，内容包括校园风光、近几年的四大赛事和各类活动的图片；
-- 上千张数码化的学校旧照片（很多是由以前的底片翻拍来的）。
+红砖图库现有：
+1.总数超过一万张附中上世纪六十年代至今的珍贵影像
+2.近四百位校友注册红砖
+2.近万张整理、扫描、修复并指认的附中历史影像（部分尚未上传图库）
 
+部分推送内容｜  
+[《2021.5.9 开幕｜常明 · 附中上世纪影像回顾展》](https://mp.weixin.qq.com/s/YhTSLWBJEvMmb5b_Unr9GQ)
 
-<div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="../img/hong_stc.jpeg">
-        <div class="caption center-align">
-          <h3>来自红砖，作者盛天成</h3>
-        </div>
-      </li>
-      <li>
-        <img src="../img/hong_zxc.jpeg">
-        <div class="caption right-align" style="margin-top: 210px;text-align: right">
-          <h3>来自红砖，</h3>
-          <h5 class="light grey-text text-lighten-3">作者周笑晨</h5>
-        </div>
-      </li>
-      <li>
-        <img src="../img/hong_fdw.jpeg">
-        <div class="caption left-align" style="margin-left: -20px !important">
-          <h3>来自红砖，</h3>
-          <h5 class="light grey-text text-lighten-3">作者范大卫</h5>
-        </div>
-      </li>
-      <li>
-        <img src="../img/hong_xhd.jpeg">
-        <div class="caption left-align">
-          <h3>来自红砖，</h3>
-          <h5 class="light grey-text text-lighten-3">作者熊浩迪</h5>
-        </div>
-      </li>
-      <li>
-        <img src="../img/hong_zjn.jpeg">
-        <div class="caption left-align">
-          <h3>来自红砖，</h3>
-          <h5 class="light grey-text text-lighten-3">作者赵嘉宁</h5>
-        </div>
-      </li>
-      <li>
-        <img src="../img/hong_qyx.jpeg">
-        <div class="caption left-align">
-          <h3>来自红砖，</h3>
-          <h5 class="light grey-text text-lighten-3">作者钱昱熹</h5>
-        </div>
-      </li>
-      <li>
-        <img src="../img/hong_wxz.jpeg">
-        <div class="caption left-align"  style="margin-top: 210px">
-          <h3>来自红砖，</h3>
-          <h5 class="light grey-text text-lighten-3">作者王雪铮</h5>
-        </div>
-      </li>
-    </ul>
-</div>
+[《「红砖一代」｜“红砖”诞生之初的故事》](https://mp.weixin.qq.com/s/OJf20httUv228sdJJfdw1A)  
+[《「红砖图库」10000+》](https://mp.weixin.qq.com/s/zCX8FF7ihVVyWsJxHuR3CQ)
 
-红砖对所有在校师生与附中校友免费开放，注册账号并登录后，你可以：
-- 无限制浏览图库中所有图片；
-- 无限制下载图库中所有图片；
-- 在经过规范引用后，以非商业用途使用图片。
-
-如果你想了解附中、结识热爱摄影的小伙伴，或者你想加入红砖社团与我们一起运营图库、策划活动，快扫描下面的二维码入群吧！现在入群即可获得红砖图库账号，提前浏览六千多张属于附中的图片记忆。
-
-<img src='https://ftp.bmp.ovh/imgs/2020/08/d9ee00c00c80675e.jpg' class="materialboxed" height="300"/>
+<img src="https://z3.ax1x.com/2021/06/07/2d5mc9.png">
 
 
-另附 红砖社团暑期推送：
+[comment]: <> (<div class="slider">)
 
-- **[附中摄影的99个角落 红砖新生指南](https://mp.weixin.qq.com/s/A4oXnfkOIPSZx2nEyRaFDA)**
-- [20年前的附中人，有多不一样？\| 红砖回忆计划](https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q)-->
+[comment]: <> (    <ul class="slides">)
+
+[comment]: <> (      <li>)
+
+[comment]: <> (        <img src="../img/hong_stc.jpeg">)
+
+[comment]: <> (        <div class="caption center-align">)
+
+[comment]: <> (          <h3>来自红砖，作者盛天成</h3>)
+
+[comment]: <> (        </div>)
+
+[comment]: <> (      </li>)
+
+[comment]: <> (      <li>)
+
+[comment]: <> (        <img src="../img/hong_zxc.jpeg">)
+
+[comment]: <> (        <div class="caption right-align" style="margin-top: 210px;text-align: right">)
+
+[comment]: <> (          <h3>来自红砖，</h3>)
+
+[comment]: <> (          <h5 class="light grey-text text-lighten-3">作者周笑晨</h5>)
+
+[comment]: <> (        </div>)
+
+[comment]: <> (      </li>)
+
+[comment]: <> (      <li>)
+
+[comment]: <> (        <img src="../img/hong_fdw.jpeg">)
+
+[comment]: <> (        <div class="caption left-align" style="margin-left: -20px !important">)
+
+[comment]: <> (          <h3>来自红砖，</h3>)
+
+[comment]: <> (          <h5 class="light grey-text text-lighten-3">作者范大卫</h5>)
+
+[comment]: <> (        </div>)
+
+[comment]: <> (      </li>)
+
+[comment]: <> (      <li>)
+
+[comment]: <> (        <img src="../img/hong_xhd.jpeg">)
+
+[comment]: <> (        <div class="caption left-align">)
+
+[comment]: <> (          <h3>来自红砖，</h3>)
+
+[comment]: <> (          <h5 class="light grey-text text-lighten-3">作者熊浩迪</h5>)
+
+[comment]: <> (        </div>)
+
+[comment]: <> (      </li>)
+
+[comment]: <> (      <li>)
+
+[comment]: <> (        <img src="../img/hong_zjn.jpeg">)
+
+[comment]: <> (        <div class="caption left-align">)
+
+[comment]: <> (          <h3>来自红砖，</h3>)
+
+[comment]: <> (          <h5 class="light grey-text text-lighten-3">作者赵嘉宁</h5>)
+
+[comment]: <> (        </div>)
+
+[comment]: <> (      </li>)
+
+[comment]: <> (      <li>)
+
+[comment]: <> (        <img src="../img/hong_qyx.jpeg">)
+
+[comment]: <> (        <div class="caption left-align">)
+
+[comment]: <> (          <h3>来自红砖，</h3>)
+
+[comment]: <> (          <h5 class="light grey-text text-lighten-3">作者钱昱熹</h5>)
+
+[comment]: <> (        </div>)
+
+[comment]: <> (      </li>)
+
+[comment]: <> (      <li>)
+
+[comment]: <> (        <img src="../img/hong_wxz.jpeg">)
+
+[comment]: <> (        <div class="caption left-align"  style="margin-top: 210px">)
+
+[comment]: <> (          <h3>来自红砖，</h3>)
+
+[comment]: <> (          <h5 class="light grey-text text-lighten-3">作者王雪铮</h5>)
+
+[comment]: <> (        </div>)
+
+[comment]: <> (      </li>)
+
+[comment]: <> (    </ul>)
+
+[comment]: <> (</div>)
+
+[comment]: <> (红砖对所有在校师生与附中校友免费开放，注册账号并登录后，你可以：)
+
+[comment]: <> (- 无限制浏览图库中所有图片；)
+
+[comment]: <> (- 无限制下载图库中所有图片；)
+
+[comment]: <> (- 在经过规范引用后，以非商业用途使用图片。)
+
+[comment]: <> (如果你想了解附中、结识热爱摄影的小伙伴，或者你想加入红砖社团与我们一起运营图库、策划活动，快扫描下面的二维码入群吧！现在入群即可获得红砖图库账号，提前浏览六千多张属于附中的图片记忆。)
+
+[comment]: <> (<img src='https://ftp.bmp.ovh/imgs/2020/08/d9ee00c00c80675e.jpg' class="materialboxed" height="300"/>)
+
+
+[comment]: <> (另附 红砖社团暑期推送：)
+
+[comment]: <> (- **[附中摄影的99个角落 红砖新生指南]&#40;https://mp.weixin.qq.com/s/A4oXnfkOIPSZx2nEyRaFDA&#41;**)
+
+[comment]: <> (- [20年前的附中人，有多不一样？\| 红砖回忆计划]&#40;https://mp.weixin.qq.com/s/LZDjcTIE2ApTik6jcneI9Q&#41;-->)
 
 ## 小虎
 <img src='https://s1.ax1x.com/2020/08/21/dtxnaV.jpg' class="materialboxed" width="300"/>

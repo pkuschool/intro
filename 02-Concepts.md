@@ -189,13 +189,13 @@ categories: ["1"]
 <div class="slider">
     <ul class="slides">
       <li>
-        <img src="https://hong.zuggr.com/image/view/cache/5422">
+            <img src="https://hong.zuggr.com/image/view/cache/5422">
         <div class="caption center-align" >
           <h3>来自红砖，作者 刘语辰</h3>
         </div>
       </li>
       <li>
-        <img src="https://s1.ax1x.com/2020/06/22/NJ16zj.jpg">
+            <img src="https://s1.ax1x.com/2020/06/22/NJ16zj.jpg">
         <div class="caption center-align" >
           <h5 class="white-text">作者 朱文鹤</h5>
         </div>

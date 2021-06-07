@@ -11,8 +11,8 @@ layout: default
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var sector_span=document.querySelector("#sector");
-        var time=new Date().getFullYear();
+        const sector_span=document.querySelector("#sector");
+        let time=new Date().getFullYear();
         time+=3;
         sector_span.innerHTML=time;
 
@@ -62,7 +62,7 @@ https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVK
 
 感谢[红砖社团](https://hong.zuggr.com/)、[Ourscraft 社团](http://ourscraft.sxl.cn/)、[Rookie系统](http://rookie.pkuschool.edu.cn/)提供图片。
 
-感谢 HTML, CSS 标准的构建者与 Materialize, Vue.js, Jekyll 的开发者们让这个网站变为可能。
+感谢 HTML, CSS, ES 标准的构建者与 Materialize, Jekyll 的开发者们让这个网站变为可能。
 
 感谢<span id="sector"></span>届同学们耐心的将这个教程看完；
 

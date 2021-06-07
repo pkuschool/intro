@@ -12,25 +12,25 @@ categories: ["Debug"]
 
     document.addEventListener('DOMContentLoaded',function(){
         document.querySelector('#corn').innerHTML=navigator.userAgent;
-        var timeZone=document.querySelector('#time');
+        const timeZone=document.querySelector('#time');
         timeZone.innerHTML=new Date();
         setInterval(function(){
             timeZone.innerHTML=new Date();
         },1000);
         document.querySelector('#platform').innerHTML=navigator.platform;
-        var languages=navigator.languages;
-        for(var i=0;i<languages.length;i++)
+        const languages=navigator.languages;
+        for(let i=0;i<languages.length;i++)
         {
-            var newlang=document.createElement("li");
+            const newlang=document.createElement("li");
             newlang.innerHTML="第"+(i+1)+"语言: "+languages[i];
             document.querySelector('#lang').appendChild(newlang);
         }
         document.querySelector('#memory').innerHTML=navigator.deviceMemory+"GB";
         document.querySelector('#touchpoint').innerHTML=navigator.maxTouchPoints;
-        var charging=null;
-        var chargingTime=null;
-        var dischargingTime=null;
-        var level=null;
+        let charging=null;
+        let chargingTime=null;
+        let dischargingTime=null;
+        let level=null;
         navigator.getBattery().then(function(battery) {
             charging = battery.charging;
             chargingTime = battery.chargingTime;

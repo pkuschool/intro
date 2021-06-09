@@ -4,7 +4,7 @@ permalink: /02/
 title: 重要概念
 description: 所以说BDFZ有哪里特殊了？
 next: "03"
-last: "01"
+last: ""
 layout: default
 author:
     - 学生手册

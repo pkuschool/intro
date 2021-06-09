@@ -4,9 +4,10 @@ permalink: /
 title: 欢迎来到北大附中
 description: 🎉🎉🎉
 last: "none"
-next: "01"
+next: "02"
 author:
     - 刘语辰
+    - 张子健
 layout: default
 ---
 <script>
@@ -81,13 +82,23 @@ layout: default
 
 > 并在其中表现出对自然的尊重和对他人的关爱。
 
+
 这一段校训，会在你接下来三年的高中生活中充分的体现。
 
 我们将在这一个短短的教程中尝试让你明白这里是什么、接下来该做什么，也请认真阅读。
 
 <!-- 本指南总共 10000 字左右，预计将花费你 30分钟 ~ 1小时。 -->
+### 这个新生指南怎么看？
+
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">error_outline</i>
+    <span style="font-size: 18px;">如果你是还未填报志愿的同学，请点击这里，而不是下一页，我们有给你们的特供内容。     <a href="/01/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">我是未填报志愿的小朋友！</a></span>
+</div>
+
 
 ### 在继续前，请注意...
+
+如果没有其他指示，看完并理解一页然后前往下一页；如果有，建议自己去做（尤其是三部分）
 
 我们强烈建议使用 PC 端（实际上更建议使用自己的笔记本电脑 / 二合一设备访问），Chrome 内核的浏览器继续查看此导览。
 
@@ -104,6 +115,5 @@ layout: default
     <span style="font-size: 18px;">本站点正在修订中，内容仅供预览。</span>
 </div> -->
 
-### 这个新生指南怎么看？
 
-简单：如果没有其他指示，看完并理解一页然后前往下一页；如果有，建议自己去做（尤其是三部分）
+

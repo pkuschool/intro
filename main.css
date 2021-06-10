@@ -123,6 +123,7 @@ p {
     font-size: 30px;
     margin-left: 15px;
     font-weight: 500;
+
 }
 
 a.nav-sidebtn,
@@ -130,7 +131,10 @@ span#page-title,
 span#page-subtitle {
     /* color: white !important; */
     text-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.2);
+    z-index: 30;
 }
+
+
 
 #nxt-btn,
 #nxt-btn-sec,
@@ -272,7 +276,9 @@ summary:focus {
 details {
     transition: .25s all;
 }
-
+#title-left{
+    width: fit-content;
+}
 .hide-text {
     color: #b1b1b1;
     transition: color 0.2s;
@@ -292,8 +298,34 @@ details {
 
 @media screen and (max-width: 600px) {
     #page-title {
-        font-size: 23px;
+        font-size: 25px;
     }
+    #page-subtitle{
+        display: none;
+    }
+}
+
+
+#top-div:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -10;
+    background-image: url('https://s1.ax1x.com/2020/06/24/NdMRFx.jpg');
+    background-position: center center;
+    opacity: 1;
+    transition: 0.5s all;
+}
+#top-div:not(.back-image)::after{
+    opacity: 0;
+    /* filter: blur(5px); */
+}
+#top-div.back-image,
+#top-div.back-image>nav {
+    box-shadow: none;
 }
 
 @media screen and (min-width: 730px) {
@@ -301,6 +333,17 @@ details {
         writing-mode: tb-rl;
         max-height: 200px;
         font-family: serif;
+    }
+    .super-large-title {
+        font-size: 50px !important;
+        font-weight: lighter;
+        /* margin-left: 15vw !important; */
+        /* transform:translateY(-50px); */
+        /* display: block; */
+        z-index: 1000000;
+    }
+    .super-large-title-second{
+
     }
 }
 
@@ -324,6 +367,14 @@ details {
     }
 }
 
+.back-image a.nav-sidebtn,
+.back-image span#page-title,
+.back-image span#page-subtitle {
+    color: white !important;
+    text-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.49);
+}
+
+
 
 @media (prefers-color-scheme: dark) {
     html {
@@ -336,7 +387,7 @@ details {
     }
 
     #top-div {
-        background: rgba(80, 80, 80, 0.502) !important;
+        background-color: rgba(80, 80, 80, 0.502) !important;
     }
 
     *::selection {

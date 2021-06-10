@@ -92,7 +92,7 @@ layout: default
 
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">如果你是还未填报志愿的同学，请点击这里，而不是下一页，我们有给你们的特供内容。     <a href="/01/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">我是未填报志愿的小朋友！</a></span>
+    <span style="font-size: 18px;">如果你是还未填报志愿的同学，请点击这里，而不是下一页，我们有给你们的特供内容。<br><a href="/01/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;margin-top: 5px;" title="点我！">我是未填报志愿的小朋友！</a></span>
 </div>
 
 

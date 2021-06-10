@@ -1,7 +1,7 @@
 ---
 title: 预科部
 description: 北大附中高三也是要努力的！
-permalink: /05/
+permalink: /06/
 next: "30"
 last: "05"
 layout: default

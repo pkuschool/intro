@@ -4,11 +4,11 @@ title: 第二章·希悦校园
 description: 一个你又爱又恨的系统，尤其喜欢咕咕咕🕊
 permalink: /30/
 next: "31"
-last: "05"
-layout: default 
+last: "06"
+layout: default
 author:
     - 何天阳
-    - 张子健 
+    - 张子健
 categories: ["1"]
 
 ---
@@ -76,7 +76,7 @@ categories: ["1"]
 > **应用中心**，在这里，你可以预约场馆，创建活动，请假<br>
 
 <br>
-页面的下半部分是**课表**，你可以在这里查看你的课表。  
+页面的下半部分是**课表**，你可以在这里查看你的课表。
 
 ![课表](https://z3.ax1x.com/2021/05/19/g5wPFe.png)
 <br>

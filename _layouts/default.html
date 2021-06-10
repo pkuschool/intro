@@ -146,7 +146,8 @@
             alert('本网站不支持 IE，我们将带您到 Edge 的正式版下载网页。')
             window.open('https://www.microsoft.com/zh-cn/edge', '_self')
         }
-        window.onscroll = ()=>{
+        window.onscroll = ()=>{updateTopStatus()}
+        function updateTopStatus(){
             console.log(document.documentElement.scrollTop)
             if(document.documentElement.scrollTop <= 180){
                 document.querySelector("#page-title").classList.add("super-large-title")
@@ -156,6 +157,7 @@
                 document.querySelector("#top-div").classList.remove("back-image")
             }
         }
+        updateTopStatus()
     </script>
 
 </body>

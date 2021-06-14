@@ -156,7 +156,7 @@
 
         function updateTopStatus() {
             console.log(document.documentElement.scrollTop)
-            if (document.documentElement.scrollTop <= 180) {
+            if (Math.max(document.documentElement.scrollTop, document.querySelector('body').scrollTop) <= 180) {
                 document.querySelector("#page-title").classList.add("super-large-title")
                 document.querySelector("#top-div").classList.add("back-image")
             } else {

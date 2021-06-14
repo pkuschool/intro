@@ -7,6 +7,9 @@ next: "11"
 last: "05"
 layout: default
 categories: ["2"]
+topimg: "https://i.loli.net/2021/06/14/sBrWvhYPFwlR2yA.jpg"
+topimg-author: "https://joecoltechnologies.com/office-365/"
+topimg-dark: true
 ---
 
 <script>

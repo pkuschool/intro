@@ -7,6 +7,9 @@ last: "11"
 description: “谁不想设置一个亮眼的头像呢？”“我！”
 layout: default
 categories: ["2"]
+topimg: "https://i.loli.net/2021/06/14/wOgKyoiHN5bZ8eT.jpg"
+topimg-dark: true
+topimg-pos: center center
 ---
 
 看起来你已经第一次登录完了，目前你看见的应该是 Office 365 系统的主页。
@@ -30,7 +33,7 @@ categories: ["2"]
 
 ## 我们设置一下你的头像吧！
 
-进入yammer，点击右上角用户名（也就是你的名字），再点击头像框，即可更换头像。  
+进入yammer，点击右上角用户名（也就是你的名字），再点击头像框，即可更换头像。
 它完全加载的时间可能会比较慢，如果你还无法点击第二步可以稍等片刻再试。
 
 ![](https://z3.ax1x.com/2021/05/09/gJI8iD.png)

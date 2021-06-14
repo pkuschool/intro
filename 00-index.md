@@ -9,6 +9,10 @@ author:
     - 刘语辰
     - 张子健
 layout: default
+topimg: "https://i.loli.net/2021/06/14/zuBUW9QlVeI8RaF.png"
+topimg-pos: center center
+topimg-author: Yuchen Liu
+
 ---
 <script>
   document.addEventListener('DOMContentLoaded', function() {
@@ -68,20 +72,21 @@ layout: default
  });
 </script>
 
-<img src="http://bdfz-cas.pkuschool.edu.cn/assets/login-1a72e4feef0ed4ad47183208b8d0a0aa.png" width="200">
+<!-- <img src="http://bdfz-cas.pkuschool.edu.cn/assets/login-1a72e4feef0ed4ad47183208b8d0a0aa.png" width="200"> -->
 
-首先欢迎各位同学来到北大附中！
+<p style="font-family: '思源宋体 SC', serif; font-size: 22px; ">
 
-> 北大附中致力于培养：
+<span style="font-size: 25px; font-weight: bold">北大附中致力于培养：</span><br>
 
-> 个性鲜明、充满自信、敢于负责，
+个性鲜明、充满自信、敢于负责，<br>
 
-> 具有思想力、领导力、创新力的杰出公民。
+具有思想力、领导力、创新力的杰出公民。<br>
 
-> 他们无论身在何处，都能热忱服务社会，
+他们无论身在何处，都能热忱服务社会，<br>
 
-> 并在其中表现出对自然的尊重和对他人的关爱。
+并在其中表现出对自然的尊重和对他人的关爱。<br>
 
+</p>
 
 这一段校训，会在你接下来三年的高中生活中充分的体现。
 

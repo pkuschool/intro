@@ -11,6 +11,8 @@ author:
     - 刘语辰
     - 张子健
 categories: ["1"]
+topimg: "https://i.loli.net/2021/06/14/ma62rOiNzCgRH3b.jpg"
+topimg-pos: center right
 ---
 
 <script>
@@ -188,12 +190,12 @@ categories: ["1"]
 
 <div class="slider">
     <ul class="slides">
-      <li>
+      <!-- <li>
             <img src="https://hong.zuggr.com/image/view/cache/5422">
         <div class="caption center-align" >
           <h3>来自红砖，作者 刘语辰</h3>
         </div>
-      </li>
+      </li> -->
       <li>
             <img src="https://s1.ax1x.com/2020/06/22/NJ16zj.jpg">
         <div class="caption center-align" >

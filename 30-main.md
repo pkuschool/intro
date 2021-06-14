@@ -10,6 +10,9 @@ author:
     - 何天阳
     - 张子健
 categories: ["1"]
+topimg: "http://www.seiue.com/assets/images/index/carousel-3.jpg"
+topimg-author: "seiue.com"
+topimg-dark: true
 
 ---
 <script>

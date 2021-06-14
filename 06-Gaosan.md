@@ -8,6 +8,9 @@ layout: default
 author:
   - 刘语辰
 categories: ["1"]
+topimg: "https://i.loli.net/2021/06/14/9zo8jwAObJlWu4T.jpg"
+topimg-pos: center center
+topimg-author: Yuchen Liu
 ---
 
 可能有同学之前看过那个“在北大附中上学有多XX”的热搜，里面是高中部有多么的清闲（里面甚至“连作业都没有”）。

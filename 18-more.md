@@ -7,6 +7,9 @@ last: "17"
 next: "20"
 layout: default
 categories: ["2"]
+topimg: "https://i.loli.net/2021/06/14/3dMQV2IZLkFRBaS.png"
+topimg-pos: top right
+topimg-author: Yuchen Liu
 ---
 
 <script>
@@ -48,8 +51,8 @@ categories: ["2"]
 <img height="60" style="background-color:#0071d4;padding:5px 10px;border-radius:5px;" src="../img/subit.svg"/>
 
 我们是建立于2018年12月的信息技术社团，主要负责完成各种开发任务和提供技术支持，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，官网是 [pkuschool.github.io/SubIT](https://pkuschool.github.io/SubIT)。
-  
-我们完成的项目有：社团官网、BDFinder小程序、学校学考技术报名系统及学校口述史项目官网等，更多可以在我们的官网 – 项目与成就中查看  
+
+我们完成的项目有：社团官网、BDFinder小程序、学校学考技术报名系统及学校口述史项目官网等，更多可以在我们的官网 – 项目与成就中查看
 <div style="text-align:center">
 	<div id="SideBySideElement"><img src="https://z3.ax1x.com/2021/06/07/2dKdCq.png" alt=""></div>
 
@@ -57,11 +60,11 @@ categories: ["2"]
 </div>
 
 
-**我们还负责主要撰写新生指南——也就是你现在在看的这个网站。**以及对22届及之后的每一届新生在入学教育期间进行各个线上系统的使用培训。  
+**我们还负责主要撰写新生指南——也就是你现在在看的这个网站。**以及对22届及之后的每一届新生在入学教育期间进行各个线上系统的使用培训。
 
 
-在Office 365 或者其他线上系统的使用方面的疑问可以随时发邮件 / Yammer 抄送询问我们。  
-  
+在Office 365 或者其他线上系统的使用方面的疑问可以随时发邮件 / Yammer 抄送询问我们。
+
 我们也提供线下技术支持服务。您可以在联系我们预约时间后（当然别在假期约），在指定时间前往东楼112或地下一层西部 W029 & W030 接受答疑，我们将竭诚为您服务。
 
 <!-- ## 技术交流  //时效已过，已封印
@@ -87,10 +90,10 @@ categories: ["2"]
 2.近四百位校友注册红砖
 2.近万张整理、扫描、修复并指认的附中历史影像（部分尚未上传图库）
 
-部分推送内容｜  
+部分推送内容｜
 [《2021.5.9 开幕｜常明 · 附中上世纪影像回顾展》](https://mp.weixin.qq.com/s/YhTSLWBJEvMmb5b_Unr9GQ)
 
-[《「红砖一代」｜“红砖”诞生之初的故事》](https://mp.weixin.qq.com/s/OJf20httUv228sdJJfdw1A)  
+[《「红砖一代」｜“红砖”诞生之初的故事》](https://mp.weixin.qq.com/s/OJf20httUv228sdJJfdw1A)
 [《「红砖图库」10000+》](https://mp.weixin.qq.com/s/zCX8FF7ihVVyWsJxHuR3CQ)
 
 <img src="https://z3.ax1x.com/2021/06/07/2d5mc9.png">

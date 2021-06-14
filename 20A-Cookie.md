@@ -6,10 +6,12 @@ next: "21"
 last: "20"
 layout: default
 author:
-- 张子健 
-  categories： ["1"]
+- 张子健
+categories: ["1"]
+topimg-bgc: "#911d22"
+
 ---
-> 本页图片较多，加载速度可能较慢，请稍等片刻。敬请谅解。  
+> 本页图片较多，加载速度可能较慢，请稍等片刻。敬请谅解。
 
 <script>
 	document.addEventListener('DOMContentLoaded', function () {
@@ -22,7 +24,7 @@ author:
 </script>
 **请按照图片上序号顺序依次点击**
 
-## Edge浏览器清理Cookie
+## 新版 Edge 浏览器清理Cookie
 
 ![edge1](https://z3.ax1x.com/2021/05/24/gxB8Dx.png)
 ![edge2](https://z3.ax1x.com/2021/05/24/gxBYVK.png)

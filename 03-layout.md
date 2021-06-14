@@ -10,6 +10,9 @@ author:
     - 刘语辰
     - 张子健
 categories: ["1"]
+topimg: "https://i.loli.net/2021/06/14/YMeUJwyFlB3r6ZV.jpg"
+topimg-pos: center center
+topimg-author: Yuchen Liu
 ---
 <script>
     document.addEventListener('DOMContentLoaded', function() {

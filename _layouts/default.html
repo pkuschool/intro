@@ -150,21 +150,36 @@
             alert('本网站不支持 IE，我们将带您到 Edge 的正式版下载网页。')
             window.open('https://www.microsoft.com/zh-cn/edge', '_self')
         }
+        var topScrollingToggleDeadTicks = 0
+        var topScrollingToggleDeadTicksInterval = 50
+        var topStatus = true
+        window.setInterval(()=>{
+            topScrollingToggleDeadTicks = (topScrollingToggleDeadTicks <= 0)? 0:(topScrollingToggleDeadTicks-1)
+        }, topScrollingToggleDeadTicksInterval)
+
         window.onscroll = () => {
-            updateTopStatus()
+            console.log(Math.floor(document.documentElement.scrollTop), topScrollingToggleDeadTicks)
+            if(topScrollingToggleDeadTicks == 0){
+                updateTopStatus()
+            }
         }
 
-        function updateTopStatus() {
-            console.log(document.documentElement.scrollTop)
-            if (Math.max(document.documentElement.scrollTop, document.querySelector('body').scrollTop) <= 180) {
+        function updateTopStatus(setTo) {
+            // console.log(document.documentElement.scrollTop)
+            if(topStatus != setTo){
+                topScrollingToggleDeadTicks = 10
+            }
+            if (Math.floor(Math.max(document.documentElement.scrollTop, document.querySelector('body').scrollTop)) <= 180) {
                 document.querySelector("#page-title").classList.add("super-large-title")
                 document.querySelector("#top-div").classList.add("back-image")
+                topStatus = true
             } else {
                 document.querySelector("#page-title").classList.remove("super-large-title")
                 document.querySelector("#top-div").classList.remove("back-image")
+                topStatus = false
             }
         }
-        updateTopStatus()
+        updateTopStatus(true)
     </script>
 
 </body>

@@ -26,7 +26,7 @@ topimg-author: Yuchen Liu
 </script>
 <script>
 	document.addEventListener('DOMContentLoaded', function () {
-	    const elems = document.querySelectorAll('img');
+	    const elems = document.querySelectorAll('#isimg');
 	    const instances = M.Materialbox.init(elems);
 	    if (!IsPC()) {
 	      document.querySelector('#mobile-hint').removeAttribute('hidden');
@@ -48,15 +48,15 @@ topimg-author: Yuchen Liu
 -----
 
 ## SubIT
-<img height="60" style="background-color:#0071d4;padding:5px 10px;border-radius:5px;" src="../img/subit.svg"/>
+<img id="isimg" height="60" style="background-color:#0071d4;padding:5px 10px;border-radius:5px;" src="../img/subit.svg"/>
 
 我们是建立于2018年12月的信息技术社团，主要负责完成各种开发任务和提供技术支持，下属于博雅学院。我们的邮箱是 <subit@i.pkuschool.edu.cn>，官网是 [pkuschool.github.io/SubIT](https://pkuschool.github.io/SubIT)。
 
 我们完成的项目有：社团官网、BDFinder小程序、学校学考技术报名系统及学校口述史项目官网等，更多可以在我们的官网 – 项目与成就中查看
 <div style="text-align:center">
-	<div id="SideBySideElement"><img src="https://z3.ax1x.com/2021/06/07/2dKdCq.png" alt=""></div>
+	<div id="SideBySideElement"><img id="isimg" src="https://z3.ax1x.com/2021/06/07/2dKdCq.png" alt=""></div>
 
-	<div id="SideBySideElement"><img src="https://z3.ax1x.com/2021/06/07/2dKGDg.png" alt=""></div>
+	<div id="SideBySideElement"><img id="isimg" src="https://z3.ax1x.com/2021/06/07/2dKGDg.png" alt=""></div>
 </div>
 
 
@@ -75,13 +75,13 @@ topimg-author: Yuchen Liu
 
 不论你的兴趣点在哪个编程语言上，都欢迎感兴趣的同学加入北大附中21/22届技术交流群！
 
-<img src="../img/techdiscuss.png" class="materialboxed" height="300"> -->
+<img id="isimg" src="../img/techdiscuss.png" class="materialboxed" height="300"> -->
 
 -----
 
 ## 红砖
 
-<img height="60" style="background-color:#ea5662;padding:5px 10px;border-radius:5px;" src="https://brick-1255766843.cos.ap-beijing.myqcloud.com/asset/logo.png" >
+<img id="isimg" height="60" style="background-color:#ea5662;padding:5px 10px;border-radius:5px;" src="https://brick-1255766843.cos.ap-beijing.myqcloud.com/asset/logo.png" >
 
 目前是北大附中艺术中心中心社团，拥有北大附中最大在线图库「红砖图库」，并运营附中艺术展厅、参与修复与整理附中历史影像，收集附中记忆。
 
@@ -96,7 +96,7 @@ topimg-author: Yuchen Liu
 [《「红砖一代」｜“红砖”诞生之初的故事》](https://mp.weixin.qq.com/s/OJf20httUv228sdJJfdw1A)
 [《「红砖图库」10000+》](https://mp.weixin.qq.com/s/zCX8FF7ihVVyWsJxHuR3CQ)
 
-<img src="https://z3.ax1x.com/2021/06/07/2d5mc9.png">
+<img id="isimg" src="https://z3.ax1x.com/2021/06/07/2d5mc9.png">
 
 
 [comment]: <> (<div class="slider">)
@@ -224,17 +224,44 @@ topimg-author: Yuchen Liu
 
 ## 小虎
 <img src='https://s1.ax1x.com/2020/08/21/dtxnaV.jpg' class="materialboxed" width="300"/>
-XiaoHu.ai是一个学生运营的智能交互机器人项目，为学校的所有学生提供服务。
 
-在关注小虎后，用户可通过语音/文字问答来实现快捷的无界面交互。
+<p style="text-align:center">XiaoHu.ai是北大附中学生团队自主开发的</p>
 
-绑定学号后，你可以通过XiaoHu查询课表/成绩/作业等信息
+<p style="text-align:center">人工智能管家系统</p>
 
-具体的使用教程可查看[这里](https://mp.weixin.qq.com/s/8ruisk7rmM_X2Ao7c_xCaA)及往期更新推送
+<p style="text-align:center">公众号'XiaoHu小虎'为学校的所有学生提供服务</p>
+
+<p style="text-align:center">是每一位北大附中学生的贴心学习助理</p>
+
+<p style="text-align:center">“小虎”拥有自己的性格人设，讲话风趣且幽默</p>
+
+<p style="text-align:center">2019年10月6日正式公测后</p>
+
+<p style="text-align:center">由于功能强大，性格体贴</p>
+
+<p style="text-align:center">而被称为“北大附中Siri”</p>
+
+<p style="text-align:center">小虎专注于用简单、快捷、高效的功能</p>
+
+<p style="text-align:center">来最大优化大家的学习体验</p>   
 
 
 
-----
 
+
+<div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="https://z3.ax1x.com/2021/06/15/2qh311.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="https://z3.ax1x.com/2021/06/15/2qh1pR.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="https://z3.ax1x.com/2021/06/15/2qh86x.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="https://z3.ax1x.com/2021/06/15/2qhQh9.jpg"></a>
+  </div>
+<script>
+ $('.carousel.carousel-slider').carousel();
+</script>  
+<br />
+<div class="card-panel flex-center accent-text">
+    <i style="font-size: 30px;" class="material-icons">notifications_active</i>
+    <span style="font-size: 18px;">这里的图片是可以滚动的哦</span>
+</div>
 
 看到这里你已经看完 2/3 的内容啦！后面是一些其它的事情（比如食堂什么的），十分轻松愉快哦 ;-)

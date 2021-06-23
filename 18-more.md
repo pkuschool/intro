@@ -7,7 +7,7 @@ last: "17"
 next: "20"
 layout: default
 categories: ["2"]
-topimg: "https://i.ibb.co/bvH9vgB/ad1.png"
+topimg: "https://i.loli.net/2021/06/23/OzvUepf9K4lhiDE.png"
 topimg-pos: top right
 topimg-bgc: "#0071d4"
 topimg-author: Yuchen Liu

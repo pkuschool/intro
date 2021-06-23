@@ -7,8 +7,9 @@ last: "17"
 next: "20"
 layout: default
 categories: ["2"]
-topimg: "https://i.loli.net/2021/06/14/3dMQV2IZLkFRBaS.png"
+topimg: "https://i.ibb.co/bvH9vgB/ad1.png"
 topimg-pos: top right
+topimg-bgc: "#0071d4"
 topimg-author: Yuchen Liu
 ---
 
@@ -243,7 +244,7 @@ topimg-author: Yuchen Liu
 
 <p style="text-align:center">小虎专注于用简单、快捷、高效的功能</p>
 
-<p style="text-align:center">来最大优化大家的学习体验</p>   
+<p style="text-align:center">来最大优化大家的学习体验</p>
 
 
 
@@ -256,12 +257,17 @@ topimg-author: Yuchen Liu
     <a class="carousel-item" href="#four!"><img src="https://z3.ax1x.com/2021/06/15/2qhQh9.jpg"></a>
   </div>
 <script>
- $('.carousel.carousel-slider').carousel();
-</script>  
+ $('.carousel.carousel-slider').carousel({indicators: true});
+</script>
 <br />
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">notifications_active</i>
     <span style="font-size: 18px;">这里的图片是可以滚动的哦</span>
 </div>
+<style>
+  .indicators{
+    filter: brightness(0.5)
+  }
+  </style>
 
-看到这里你已经看完 2/3 的内容啦！后面是一些其它的事情（比如食堂什么的），十分轻松愉快哦 ;-)
+看到这里你已经看完 3/4 的内容啦！后面是一些其它的事情（比如食堂什么的），十分轻松愉快哦 ;-)

@@ -7,6 +7,8 @@ last: "18"
 next: "21"
 layout: default
 categories: ["3"]
+topimg: "https://i.loli.net/2021/06/23/kTQjGpYRIaoelZ1.jpg"
+topimg-author: Yuchen Liu
 ---
 
 
@@ -38,7 +40,6 @@ categories: ["3"]
 ## Tips
 
 - **疫情相关**：
-  - 军训虽然取消了但是一定会补的！
   - 若继续进行线上课程，北大附中使用的线上教学平台为ClassIn，可从「希悦 - 首页 - 云课堂(ClassIn) - 打开云课堂（Classin）」进入。**注意学校大概不会给你发 Classin 账号密码，这是你唯一的登录方式。**
   - 辅助线上课程的平台包括Office365、希悦及部分教师指定APP，建议提前熟悉相关操作
 - **关于入学系统Rookie**：
@@ -53,15 +54,15 @@ categories: ["3"]
   - 军训和入学教育时，每个书院都需要准备一个节目，会在活动的最后进行演出。
 - **关于选课**：
   - 选课时请提前做好规划，并做好选不上掉课的心理准备。
-  - 不过因为去年选课制度被削弱，在主科上不会出现这种问题了，你会和同书院的小伙伴们同班。  
-	
+  - 不过因为去年选课制度被削弱，在主科上不会出现这种问题了，你会和同书院的小伙伴们同班。
+
 ## 关于cookie
 
 - 网站为了辨别用户身份，进行Session跟踪而储存在用户本地终端上的数据（通常经过加密），由用户客户端计算机暂时或永久保存的信息。
 - 删除cookie后你可能会从登录状态登出，之后需要重新登录，建议你用浏览器保存密码，可以免于重复输入账号密码。
 ### 如何删除？
-我们为两种比较常见的浏览器edge和chrome制作了删除cookie的教程，你只要根据下面的图片做就可以了。  
- 
+我们为两种比较常见的浏览器edge和chrome制作了删除cookie的教程，你只要根据下面的图片做就可以了。
+
 
 <div class="card-panel flex-center accent-text">
 
@@ -69,7 +70,7 @@ categories: ["3"]
 
     <span style="font-size: 18px;">如果你是这两种浏览器，请点击这里，而不是下一页     <a href="/20A/" normal class="pill-btn z-depth-1 white-text" style="background-color:#26a69a;" title="点我！">点我！</a></span>
 
-</div>  
+</div>
 
 如果你不是这两种浏览器也不要着急，你可以在搜索引擎中输入```你的浏览器名称+清理cookie```即可。
 

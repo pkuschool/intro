@@ -7,6 +7,10 @@ last: "16"
 next: "18"
 layout: default
 categories: ["2"]
+topimg: https://i.loli.net/2021/06/23/x7nFMbBqdwgCEDr.png
+topimg-pos: center center
+topimg-dark: true
+# topimg-size: contain
 ---
 
 <script>
@@ -44,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 [comment]: <> (-----)
 
-# <img height="50" src="../img/yuque.svg"/> 关于语雀
+# 关于语雀
 
 
 

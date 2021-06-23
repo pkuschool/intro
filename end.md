@@ -7,6 +7,8 @@ last: "23"
 next: "none"
 categories: ["2019"]
 layout: default
+topimg: "https://i.loli.net/2021/06/23/FwDKC7XqYEoz9V4.png"
+topimg-pos: center center
 ---
 
 <script>
@@ -21,7 +23,7 @@ layout: default
 
 ## 你看完啦！
 
-<img height="150" src="https://s1.ax1x.com/2020/07/10/UujUSA.png"/>
+<!-- <img height="150" src="https://s1.ax1x.com/2020/07/10/UujUSA.png"/> -->
 
 你看完了这个教程，估计已经对北大附中有了一定的了解；不过，有些特意留着没说，留一些悬念等着你之后发现吧。
 
@@ -53,7 +55,8 @@ https://forms.office.com/Pages/DesignPage.aspx?fragment=FormId%3DdvGcSe515EmAwVK
 
 ### 2021年
 - 主体文案：何天阳、张子健、刘宇宸
-- 界面设计：何天阳、张子健、刘宇宸
+- 界面设计：何天阳、张子健、刘宇宸、刘语辰
+- 摄影：刘语辰
 - 信息纠错：孙玉磊
 
 ## 致谢

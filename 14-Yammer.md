@@ -7,6 +7,10 @@ next: "15"
 last: "13"
 layout: default
 categories: ["2"]
+topimg: "https://i.loli.net/2021/06/23/RJqfhsgk2Ed8xpn.png"
+topimg-author: Microsoft Corporation
+topimg-pos: center center
+# topimg-size: contains
 ---
 
 <script>
@@ -148,8 +152,8 @@ categories: ["2"]
 如果你的 Yammer 显示语言是英文，请看：
 
 <a target="_blank" href="https://support.microsoft.com/zh-cn/office/%E6%96%B0%E5%A2%9E-yammer%EF%BC%9A%E6%9B%B4%E6%94%B9%E6%88%91%E7%9A%84-yammer-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E5%92%8C%E8%AE%BE%E7%BD%AE-ab813bce-5312-4688-94ee-70018545cd3c" class="pill-btn blue darken-1 white-text">Yammer更改设置的方法</a><br />
-在这篇文章的**更改语言首选项**中，介绍了新版Yammer更改语言的方式。  
-你也可以按照下面的教程做。  
+在这篇文章的**更改语言首选项**中，介绍了新版Yammer更改语言的方式。
+你也可以按照下面的教程做。
 
 ![yammerlanguage1](https://z3.ax1x.com/2021/05/27/2ir0Wq.png)
 ![yammerlanguage2](https://z3.ax1x.com/2021/05/27/2irwYn.png)

@@ -10,7 +10,7 @@ author:
   - 何天阳
   - 张子健
 categories: ["1"]
-topimg-bgc: "#4583FF"
+topimg-bgc: "#2D57E9"
 ---
 <script>
 	document.addEventListener('DOMContentLoaded', function () {

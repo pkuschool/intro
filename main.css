@@ -1,5 +1,5 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, '思源黑体 SC', 'Microsoft Yahei UI', sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display','Source Han Sans SC', 'Microsoft Yahei UI', sans-serif
 }
 
 html {
@@ -188,6 +188,7 @@ span#page-subtitle {
 .modal-overlay {
     background-color: rgba(41, 41, 41, 0.8);
     backdrop-filter: brightness(0.75) blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     /* opacity: 1 !important; */
 }
 
@@ -341,6 +342,7 @@ details {
         /* transform:translateY(-50px); */
         /* display: block; */
         z-index: 1000000;
+        letter-spacing: 5px;
     }
     .super-large-title-second{
 

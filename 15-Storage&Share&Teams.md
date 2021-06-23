@@ -1,12 +1,15 @@
 ---
 
 permalink: /15/
-title: 文档库与 Teams
+title: 文档库与Teams
 description: SharePoint & Teams
 last: "14"
 next: "16"
 layout: default
 categories: ["3"]
+topimg: https://i.loli.net/2021/06/23/IpOJH83WPSlC9n4.png
+topimg-pos: center center
+# topimg-size: contain
 ---
 
 <script>

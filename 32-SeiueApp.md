@@ -10,7 +10,8 @@ author:
   - 何天阳
   - 张子健
 categories: ["1"]
-topimg-bgc: "#4583FF"
+# topimg: https://i.loli.net/2021/06/23/lG6EdIVAbk2KM9L.jpg
+topimg-bgc: "#2D57E9"
 ---
 <script>
 	document.addEventListener('DOMContentLoaded', function () {

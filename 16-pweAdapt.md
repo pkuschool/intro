@@ -7,6 +7,8 @@ last: "15"
 next: "17"
 layout: default
 categories: ["2"]
+topimg: https://i.loli.net/2021/06/23/QzLrGMUwCX7vyDH.jpg
+topimg-size: contain
 ---
 <!-- 本文主要讨论 PowerPoint, Excel, Word 在新环境下的适配问题。文件名有点难懂，抱歉。 -->
 

@@ -13,6 +13,12 @@ author:
 - 高幸
 - 张子健
 categories: ["1"]
+topimg: https://i.loli.net/2021/06/23/di9qwFa1IOmkSVj.png
+topimg-pos: center center
+topimg-dark: true
+topimg-author: "深信服科技股份有限公司"
+
+# topimg-size: contain
 ---
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -62,7 +68,7 @@ categories: ["1"]
 在日常写文案（尤其是写作课）、上课的很多情况、技术课程、访问 O365 等用途下是必需品。学校也有公共 WiFi 网络可供使用。
 
 
-**关于手机的使用** ，理论上，你不应该带手机进入校园。但是，如果有需求，学校、家长、学生可以签订一个三方契约，学生需遵守相关规定。  
+**关于手机的使用** ，理论上，你不应该带手机进入校园。但是，如果有需求，学校、家长、学生可以签订一个三方契约，学生需遵守相关规定。
 你不能在校园里使用手机打游戏，在课堂上除非负责教师允许否则也不得使用。
 <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>

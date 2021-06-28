@@ -42,7 +42,6 @@ topimg-dark: true
 
 这些准备事项完成之后，让我们开始吧！
 
-> 友情提示：请家长务必不要代劳，成长是一个不断告别的过程，知您不舍，且目送吧……
 
 [comment]: <> (<div class="card-panel flex-center accent-text">)
 

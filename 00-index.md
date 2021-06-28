@@ -115,6 +115,9 @@ topimg-author: Yuchen Liu
 
 请尽量不要将内容一带而过，否则您可能丢失部分的步骤。
 
+
+<p style="font-size: 25px; font-weight: bold;">友情提示：请家长务必不要代劳，成长是一个不断告别的过程，知您不舍，且目送吧……
+</p>
 <!-- <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
     <span style="font-size: 18px;">本站点正在修订中，内容仅供预览。</span>

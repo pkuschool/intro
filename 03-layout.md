@@ -31,7 +31,7 @@ topimg-author: Yuchen Liu
 
 一张图：（本图来自学生手册。点击可以缩放到全屏大小。）
 
-<img src="http://handbook.pkuschool.edu.cn/assets/images/gallery/dt1.jpg" style="width: 50%; min-width: 300px" class=" materialboxed">
+<img src="https://i.loli.net/2021/06/28/SmZvbXCa2OcAUor.png" style="width: 50%; min-width: 300px" class=" materialboxed">
 
 这张图看起来非常的单调，不如就欣赏一下 [Ourscraft 社团](http://ourscraft.sxl.cn)建造的虚拟校园来脑补一下吧~
 
@@ -42,21 +42,21 @@ topimg-author: Yuchen Liu
         <div class="caption right-align">
         </div>
       </li>
-      <li>
-        <img src="https://s1.ax1x.com/2020/06/24/NdM6m9.jpg"> <!-- random image -->
+      <!-- <li>
+        <img src="https://s1.ax1x.com/2020/06/24/NdM6m9.jpg">
         <div class="caption right-align">
         </div>
-      </li>
+      </li> -->
       <li>
         <img src="https://s1.ax1x.com/2020/06/24/NdMRFx.jpg"> <!-- random image -->
         <div class="caption right-align">
         </div>
       </li>
-      <li>
-        <img src="https://s1.ax1x.com/2020/06/24/NdMWY6.jpg"> <!-- random image -->
+      <!-- <li>
+        <img src="https://s1.ax1x.com/2020/06/24/NdMWY6.jpg">
         <div class="caption center-align">
         </div>
-      </li>
+      </li> -->
       <li>
         <img src="https://s1.ax1x.com/2020/06/24/NdMcwR.jpg"> <!-- random image -->
         <div class="caption right-align">

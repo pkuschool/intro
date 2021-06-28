@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {%if jekyll.environment == "development"%}
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon_dev.png' />
+    {%else%}
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.png' />
+    {%endif%}
     <meta name="baidu-site-verification" content="hUyIaosl7w" />
     <title>{{ page.title | default: site.deftitle | default: site.github.repository_name }} | {{site.title}}</title>
     <link href="https://cdn.bootcdn.net/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" importance="high">

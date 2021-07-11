@@ -70,10 +70,10 @@ topimg-author: "深信服科技股份有限公司"
 
 **关于手机的使用** ，理论上，你不应该带手机进入校园。但是，如果有需求，学校、家长、学生可以签订一个三方契约，学生需遵守相关规定。
 你不能在校园里使用手机打游戏，在课堂上除非负责教师允许否则也不得使用。
-<div class="card-panel flex-center accent-text">
+<!--<div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
     <span style="font-size: 18px;">截至 2021年6月，《手机管理办法》目前仍未进行听证会，尚未正式实施。</span>
-</div>
+</div>-->
 在北大附中，要学会培养 **正确、适度** 使用电子产品的良好习惯，要**加强自律，提升自我管理能力**。
 
 

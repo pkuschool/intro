@@ -11,7 +11,7 @@ author:
     - 刘语辰
     - 张子健
 categories: ["1"]
-topimg: https://i.loli.net/2021/06/23/q4RKOUN2S5ELgWx.jpg
+topimg: https://z3.ax1x.com/2021/07/14/WeVPX9.jpg
 topimg-pos: center center
 # topimg-size: contain
 ---

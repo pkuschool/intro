@@ -29,9 +29,9 @@ topimg-author: Yuchen Liu
 
 >  由于本页图片较多，加载速度可能较慢，请稍等片刻。敬请谅解。
 
-一张图：（本图来自学生手册。点击可以缩放到全屏大小。）
+一张图：（本图由学生手册中图片修改而成。点击可以缩放到全屏大小。）
 
-<img src="https://i.loli.net/2021/06/28/SmZvbXCa2OcAUor.png" style="width: 50%; min-width: 300px" class=" materialboxed">
+<img src="https://z3.ax1x.com/2021/07/14/WeVU1g.png" style="width: 50%; min-width: 300px" class=" materialboxed">
 
 这张图看起来非常的单调，不如就欣赏一下 [Ourscraft 社团](http://ourscraft.sxl.cn)建造的虚拟校园来脑补一下吧~
 

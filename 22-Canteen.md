@@ -7,7 +7,7 @@ next: "23"
 last: "21"
 layout: default
 categories: ["3"]
-topimg: "https://i.loli.net/2021/06/23/WQ16s25pbrjO8KS.jpg"
+topimg: "https://z3.ax1x.com/2021/07/14/Wemu1U.jpg"
 # topimg-dark: true
 topimg-pos: center center
 ---

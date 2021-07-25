@@ -62,7 +62,7 @@ topimg-pos: center center
 
 从头开始，先在[ > 全公司里写着2024届的报到帖 < ](https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTIyODQzMzg2MDcxNDQ5NiJ9?search=%E6%8A%A5%E5%88%B0&groupScope=eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI2NzE2MTg4MjYyNCJ9)下面回个复（而非新开帖子）吧；不妨介绍一下自己！
 
-<a target="_blank" href="https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiNzYwMTAwNTU0NTc5OTY4In0" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2024届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
+<a target="_blank" href="https://web.yammer.com/main/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMTIyODQzMzg2MDcxNDQ5NiJ9?search=%E6%8A%A5%E5%88%B0&groupScope=eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI2NzE2MTg4MjYyNCJ9" class="pill-btn accent white-text" title="作者表示：为什么有那么多人跑到去年的报到贴以及2024届练习组报到？？？我就不信这次还能有人走错，哼(￢︿￢☆)">不要走错，报到帖戳这里！！！</a>
 
 这些是比较常用的组，你们在加入Yammer社区时会被自动加入：
 

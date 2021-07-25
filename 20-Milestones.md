@@ -7,7 +7,7 @@ last: "18"
 next: "21"
 layout: default
 categories: ["3"]
-topimg: "https://i.loli.net/2021/06/23/kTQjGpYRIaoelZ1.jpg"
+topimg: "https://z3.ax1x.com/2021/07/14/WeebOH.jpg"
 topimg-author: Yuchen Liu
 ---
 

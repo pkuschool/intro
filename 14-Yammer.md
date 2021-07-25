@@ -130,7 +130,7 @@ topimg-pos: center center
         <div class="card-panel p12">
         <div class="card-intro">
           <h4 class="card-title">御踊湾电台</h4>
-          <p>“欢迎来到御踊湾电台，Welcome to the very radio of our music and heart.<br />欢迎分享，分享来自音乐的随笔和心灵。“</p>
+          <p>“欢迎来到御踊湾电台<br />欢迎分享，分享来自音乐的随笔和心灵。“</p>
          </div>
           <a href="https://web.yammer.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyOTU3MjEzNjk2MCJ9/all" class="link-btn pill-btn accent white-text" target="_blank">前往查看</a>
         </div>

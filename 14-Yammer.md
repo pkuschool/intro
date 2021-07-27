@@ -172,7 +172,7 @@ topimg-pos: center center
 
 Yammer 也有移动版应用！
 
-iOS版可以直接去 App Store 搜索下载；安卓版国内软件平台一般不提供，可以前往应用汇[下载](http://share.appchina.com/app/com.yammer.v1)。
+iOS版可以直接去 App Store 搜索下载；安卓版国内软件平台一般不提供，我们为你提供onedrive[下载](../Android/)，但不保证是最新的。
 
 <!--
 ## 桌面客户端

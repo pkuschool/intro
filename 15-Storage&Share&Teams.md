@@ -134,23 +134,25 @@ Teams 是一个非常重要且实用的工具！它将陪伴你度过两年或�
 
 之后你也可以随时返回新生指南查看本节的使用技巧，同时你可以将这里的 [*Teams 官方帮助与学习指南*](https://support.microsoft.com/zh-cn/teams?ui=zh-cn&rs=zh-cn&ad=cn)收藏或加入阅读列表以便之后查看。
 
-## 还有一件事...
+[comment]: <> (## 还有一件事...)
 
-你可以提前加入团队 **2024届练习组**，当然入教的时候再加入也是没问题的。
+[comment]: <> (你可以提前加入团队 **2024届练习组**，当然入教的时候再加入也是没问题的。)
 
-点击左侧团队，然后点击右上角（或者左下角）的加入团队，使用团队代码加入团队
+[comment]: <> (点击左侧团队，然后点击右上角（或者左下角）的加入团队，使用团队代码加入团队)
 
-如图（加入或创建团队根据设置布局不同也可能在右上角）
+[comment]: <> (如图（加入或创建团队根据设置布局不同也可能在右上角）)
 
-#替换
 
-<img src="https://s1.ax1x.com/2020/07/10/UKGA0I.png" width="800" class="materialboxed">
+[comment]: <> (<img src="https://s1.ax1x.com/2020/07/10/UKGA0I.png" width="800" class="materialboxed">)
 
-<div id="mobile-hint" class="card-panel flex-center accent-text">
-    <i style="font-size: 30px;" class="material-icons">code</i>
-    <span style="font-size: 18px;">团队代码：<strong>vvtfuv0</strong> </span>
-</div>
+[comment]: <> (<div id="mobile-hint" class="card-panel flex-center accent-text">)
 
-把这串代码复制进去，点击**加入团队**就可以了
+[comment]: <> (    <i style="font-size: 30px;" class="material-icons">code</i>)
 
-你可以在**常规频道**中聊聊天
+[comment]: <> (    <span style="font-size: 18px;">团队代码：<strong>vvtfuv0</strong> </span>)
+
+[comment]: <> (</div>)
+
+[comment]: <> (把这串代码复制进去，点击**加入团队**就可以了)
+
+[comment]: <> (你可以在**常规频道**中聊聊天)

@@ -90,7 +90,7 @@ topimg-author: Yuchen Liu
     
  <div class="card-panel flex-center accent-text">
     <i style="font-size: 30px;" class="material-icons">error_outline</i>
-    <span style="font-size: 18px;">此新生指南上次更新在 2021 年，会和学校的现状有一定的不同，目前仅作参考。</span>
+    <span style="font-size: 18px;">此新生指南现已停止更新并存档，上次更新在 2021 年，会和学校的现状有一定的不同，目前仅作参考。</span>
 </div>
 
 这一段校训，会在你接下来三年的高中生活中充分的体现。

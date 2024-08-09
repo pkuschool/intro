@@ -10,6 +10,8 @@ layout: default
 ---
 
 # 新生指南
+You May find the deployment here: [intro.suhit.org.cn](intro.subit.org.cn)
+;
 
 北大附中的新生指南。
 
